@@ -14,7 +14,7 @@ nid: '1650'
 title: Neues Team - Was nun?
 created: 1526567413
 ---
-<p><img alt="" src="/sites/netzaffe.de/files/dcruhr18/florian-latzel-neues-team-was-nun-dcruhr18-jkl.jpg" title="" width="510px"><small>©Julia Kliemann, Reinblau eG, https://twitter.com/reinblau/status/975360382188642305</small></p>
+<p><img alt="" src="/assets/images/dcruhr18/florian-latzel-neues-team-was-nun-dcruhr18-jkl.jpg" title="" width="510px"><small>©Julia Kliemann, Reinblau eG, https://twitter.com/reinblau/status/975360382188642305</small></p>
 Ich habe Sonntags im [BarCamp Track des drupalcamp.ruhr 2018](/node/1648) zu einer Session mit dem Titel ___Neues Team - Was nun? (Und was tun?)___ eingeladen.
 
 Grob umrissen habe ich das Anliegen bei der Vorstellung in etwas so: Was kann ich tun, wenn eine Gruppe von Menschen sich neu zusammenfindet um ein Team zu bilden. Einführung in das&nbsp;Phasenmodell für die Teamentwicklung nach Tuckman und Ideen für konkrete Workshop-Formate mit denen man das Teambuilding in den frühen Phasen unterstützen kann.<!--break-->
