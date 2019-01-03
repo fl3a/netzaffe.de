@@ -9,8 +9,9 @@ tags:
 - Management 3.0
 - drupalcamp.ruhr
 - Agile
-redirect_from: node/1650
 nid: '1650'
+redirect_from: /node/1650
+permalink: /neues-team-was-nun.html
 title: Neues Team - Was nun?
 created: 1526567413
 ---

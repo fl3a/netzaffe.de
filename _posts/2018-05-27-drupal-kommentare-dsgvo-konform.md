@@ -7,8 +7,8 @@ tags:
 - cron
 - "#!/bin/bash"
 nid: 1652
-redirect_from: node/1652
-permalink: drupal-kommentare-dsgvo-konform.html
+redirect_from: /node/1652
+permalink: /drupal-kommentare-dsgvo-konform.html
 title: Drupal Kommentare DSGVO-konform
 created: 1527412073
 ---
@@ -22,7 +22,7 @@ sondern setze auf die im Vergleich zu Captchas für den Benutzer weniger aufdrin
 - IP-Adressen in Kommentaren bewahre ich, aufgrund von berechtigtem Interesse 7 Tage auf, bevor ich diese mit Nullen überschreibe. 
 Dafür habe ich ein kleine Shellskript geschrieben, welches ich via Cron ausführen lasse.<!--break-->
 
-{% highlight bash linenos %}
+```bash
 !/bin/bash
 
 # Anonymise hostname, which contains the ip address
@@ -39,16 +39,16 @@ drupal_root="/var/www/virtual/fl3a/netzaffe.de"
 
 # Execute SQL update statement using Drupal's credentials via drush.
 echo $sql | drush --root=$drupal_root sql-cli
-{% endhighlight %}
+```
 
 - Das Kommentarformular wird wie alle anderen Formulare verschlüsselt via HTTPS[^4] übertragen. 
 Ich habe mir ein Zertifikat von Lets Encrypt[^5] generiert und einfach jede Anfrage auf HTTPS weitergeleitet[^6].
 Für die Weiterleitung von HTTP nach HTTPS in Drupals _.htaccess_ in der Sektion der _rewrite rules_  :
 
-{% highlight apache %}
+```apache
 RewriteCond %{HTTPS} !=on
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-{% endhighlight %}
+```
 
 - Falls ihr Drupal 6 oder 7 verwendet, muss auch noch eure _settings.php_ auf HTTPS angepasst werden: `$base_url = 'https://netzaffe.de';`.
 

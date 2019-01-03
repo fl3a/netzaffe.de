@@ -11,7 +11,7 @@ tags:
 - "<?php ?>"
 - Entwicklung
 nid: '1631'
-redirect_from: node/1631
+redirect_from: /node/1631
 permalink: /php-properties-klassenvariablen-doxygen-dokumentieren
 title: PHP Properties/Klassenvariablen in Doxygen dokumentieren
 created: 1412931876
@@ -33,7 +33,7 @@ In PHPDoc wird die folgende Notation verwendet, diese wird so auch in Drupals Co
 
 <img alt="PHP Member Data Documenation within Doxygen, PHPDoc Notation" src="/assets/images/doxygen-var-phpdoc-notation.png" width="510px"> <!--break--> 
 
-Um das gewünschte Ergebnis in Doxygen zu erzielen, <strong>muss hinter dem Typ noch redundanterweise der Name der Variablen</strong>[^7] notiert werden...
+Um das gewünschte Ergebnis in Doxygen zu erzielen, **muss hinter dem Typ noch redundanterweise der Name der Variablen**[^7] notiert werden...
 
 ```php
 /** 
