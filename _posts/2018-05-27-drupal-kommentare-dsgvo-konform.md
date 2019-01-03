@@ -22,7 +22,7 @@ sondern setze auf die im Vergleich zu Captchas für den Benutzer weniger aufdrin
 - IP-Adressen in Kommentaren bewahre ich, aufgrund von berechtigtem Interesse 7 Tage auf, bevor ich diese mit Nullen überschreibe. 
 Dafür habe ich ein kleine Shellskript geschrieben, welches ich via Cron ausführen lasse.<!--break-->
 
-{% highlight bash lineos %}
+{% highlight bash linenos %}
 !/bin/bash
 
 # Anonymise hostname, which contains the ip address
@@ -56,7 +56,7 @@ RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 *[GPDR]: General Data Protection Regulation
 *[HTTPS]: Hypertext Transfer Protocol Secure
 
-__Footnotes:__
+* * * 
 
 [^1]: [comment_notify](https://www.drupal.org/project/comment_notify)
 [^2]: [Hashcash](https://www.drupal.org/project/hashcash)

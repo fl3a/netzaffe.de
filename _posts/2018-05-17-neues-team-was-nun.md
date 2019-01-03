@@ -32,6 +32,8 @@ Wie man als (laterale) Führungskraft das Team in den jeweiligen Phasen unterst�
 
 Edit: Das Tuckman-Modell wurde nicht, wie von mir dargestellt, 1970, sondern 1977 um die Adjourning-Phase ergänzt. Mea culpa.
 
+* * *
+
 [^1]: [Phasenmodell nach Tuckman](https://de.wikipedia.org/wiki/Teambildung#Phasenmodell_nach_Tuckman)
 [^2]: [Tuckman Phasen im Kurvenverlauf](https://i0.wp.com/www.fritz.tips/wp-content/uploads/2013/03/Teamentwicklung-1024x458.png)
 [^3]: [Tuckamn Teamuhr](http://wirtrainieren.de/werkzeugkoffer/media/tuckman.jpg)
