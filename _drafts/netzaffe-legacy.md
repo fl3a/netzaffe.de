@@ -1,12 +1,16 @@
 ---
 title: "netzaffe Legacy"
 layout: book
+permalink: import
 toc: true
 ---
 
 Drupal 6 nach Jekyll
 
 ## Image node type
+
+Ich verwende noch das alte [Image Modul](), das war bis Drupal 5 auch _State of the Art_, 
+
 
 ```
 mysql> select title,nid from node where type='image' and promote=1; 
@@ -130,14 +134,18 @@ http://netzaffe.de/sites/netzaffe.de/files/doxygen-var-doxygen-notation.png
 
 ### Anpassung der img src 
 
-In Dateien ersetzen, Anpassung neue Img src:
+Der neue Pfad für die Bilder soll sich unter _assets/imgs_ befinden.
+
+Die Anpassung der _img src_ mache ich direkt in der Datenbank mit SQL REPLACE[^] neue Img src:
+
 ```
- find /<Pfad>/<Dateien> -type f -exec sed -i 's/<alter Begriff>/<neuer Begriff>/g' {} \; 
+UPDATE `node_revisions` SET `body` = REPLACE(`body`, 'src="/sites/netzaffe.de/files/"', 'src="/assets/imgs'); 
 ```
 
 ## jekyll-import
 
-
+Der Jekyll-Importer[^], der die Inhalte von Drupal6 nach Jekyll migrieren soll hatte einige Abhängigkeiten,
+laut meiner history hat es so funktioniert das _jekyll-import_ Gem zu installieren:
 
 ```
 sudo apt-get install zlib1g-dev
@@ -150,7 +158,9 @@ sudo apt-get install libpq-dev
 gem install pg
 ```
 
-Drupal 6 Importer [^]
+
+Unser Augenmerk liegt hier auf dem  **Drupal 6 Importer** [^], dieser braucht mindestens die Daten für den Datenbankzugriff,
+optional die Inhaltstypen, die migriert werden sollten.
 
 ```
 ruby -r rubygems -e 'require "jekyll-import";
@@ -165,15 +175,42 @@ ruby -r rubygems -e 'require "jekyll-import";
 
 ### Anpassung des Importers
 
+Ich habe den Jekyll-Importer für **Drupal 6** ein wenig auf meine Bedürftnisse angepasst.
+Hierzu habe ich jekyll-ímport geforked[^]
+
 #### summary
 
-#### Cats -> Tags
+Ich möchte meine Summary nicht in _Front Matter_ stehen haben, dass bläst meiner Meinung nach
+die Metadaten und somit die Markdown-Datei zu sehr auf.
+
+Jekyll soll wie Drupal den Teaser (exerpt) aus die Body ziehen, 
+hierzu möchte ich weiterhin das _Pseudotag_ `<!--break--` nutzen.
+
+1. Hierzu ist auch eine Einstellung in Jekyll´s __config_ nötig
+2. Der Importer bekommt das Statenment entfernt, indem exerpt befüllt wird.
+
+#### Tags
 
 #### permalink
 
-#### redirect_from
+#### Redirects 
+
+SELFHTML sagt dazu[^]:
+
+> In den meisten Fällen ist es allerdings vorteilhafter, eine „echte“ Weiterleitung mit HTTP-Status-Codes zu benutzen. 
+> Dies ist allerdings nur mit serverseitigen Techniken möglich, siehe etwa das Apache-Modul mod_alias. 
+
+Aus _The SEO war of redirects: 301 vs 302 vs meta-refresh tag_[^]
+
+> Use meta-refresh only if you your current hosting provider doesn't allow a 301, 
+> primarily because the W3C's Web Content Accessibility Guidelines (7.4) 
+> discourage the creation of auto-refreshing pages, 
+> since most web browsers do not allow the user to disable or control the refresh rate 
+> and secondly Spammers use a meta-refresh to refresh the page after every 5 seconds 
+> to save themselves from any type of ranking punishment.
 
 #### Layouts
+
 
 ##### blog
 
@@ -190,3 +227,5 @@ ruby -r rubygems -e 'require "jekyll-import";
 * * *
 
 [^]: [Drupal 6 -- jekyll-import](https://import.jekyllrb.com/docs/drupal6/)
+[^]: [SELFHTML: HTML/Kopfdaten/meta](https://wiki.selfhtml.org/wiki/HTML/Kopfdaten/meta)
+[^]: [The SEO war of redirects: 301 vs 302 vs meta-refresh tag](https://www.redalkemi.com/blog/post/the-seo-war-of-redirects-301-vs-302-vs-meta-refresh-tag)
