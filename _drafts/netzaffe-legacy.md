@@ -1,138 +1,80 @@
 ---
-title: "netzaffe Legacy"
+title: Migration von Drupal6 nach Jekyll
 layout: book
-permalink: import
 toc: true
 ---
 
 Drupal 6 nach Jekyll
+<!--break-->
 
-## Image node type
+## Vorbereitungen
+
+### Image node type
 
 Ich verwende noch das alte [Image Modul](), das war bis Drupal 5 auch _State of the Art_, 
 
 
+Hier die Liste von _Image Nodes_, die ich auf der Startseite beworben habe und mit umziehen möchte. 
+
 ```
 mysql> select title,nid from node where type='image' and promote=1; 
-```
-```
-+------------------------------------------------+------+
-| title                                          | nid  |
-+------------------------------------------------+------+
-| TAKE CARE                                      |  510 |
-| Design Studio Punk Deluxe                      |  332 |
-| FIBU Essen 2008                                |  558 |
-| Köln-Buchforst zur EM 2008                     |  559 |
-| Barmer Viertel - Gaststätte zur Post           |  561 |
-| Barcodetonne                                   |  567 |
-| Taxi bei BLAST                                 |  568 |
-| Montainbike-Eldorado Hahnenkamm                |  583 |
-| Jambaleia - ein Nachruf                        |  588 |
-| rtfm                                           |  724 |
-| Die Anderen                                    |  759 |
-| My last daily scrum at BerlinOnline            |  844 |
-| Lars - du Arsch                                |  848 |
-| Critical Mass Cologne 2011-03-25               | 1022 |
-| Angrillen 2012                                 | 1596 |
-| Froscon 2012 - Social Event: Die Grillschlange | 1611 |
-| Bassets BoF, DCVIE 2013                        | 1621 |
-+------------------------------------------------+------+
-```
-<!--break-->
-
-## Books nodes
 
 ```
-mysql> select distinct n.title,n.type,n.nid, b.bid, b.mlid from node n, book b where n.nid=b.nid and n.type='book' and n.status=1 and n.nid=b.bid;
+
+Da die Anzahl der Image Nodes überschaubar war, bin ich diese Liste bin ich per Hand durchgegangen,
+habe das jeweilige Orginalbild in Node-Body via Image_Tag eingebunden und habe den Typ nach _blog_ konvertiert.
+
+### Books nodes
+
+Liste der Book-Nodes der veröffentlichten Büchern auf meiner Seite:
+
 ```
-```
-+----------------------------------------------------------+------+------+------+------+
-| title                                                    | type | nid  | bid  | mlid |
-+----------------------------------------------------------+------+------+------+------+
-| Arrays in der Bash                                       | book |  691 |  691 |  606 |
-| Drupal 6 Multisiteumgebung mit PostgreSQL unter Debian 4 | book |  520 |  520 |  607 |
-| Drush - Die Drupal-Shell                                 | book |  712 |  712 |  628 |
-| GnuPG (GPG) Micro Howto                                  | book |  667 |  667 |  632 |
-| Git, Gitosis, Gitweb (the Debian way)                    | book |  978 |  978 | 1857 |
-+----------------------------------------------------------+------+------+------+------+
+SELECT distinct n.title, n.type,n.nid, b.bid, b.mlid, 
+ concat('book/export/html/', n.nid) AS export 
+  FROM node n, book b 
+ WHERE n.nid=b.nid 
+    AND n.type='book' 
+    AND n.status=1 
+    AND n.nid=b.bid;
 ```
 
-## Bilder in Nodes 
+Liste der dazugehörigen Unterseiten:
+
+```
+SELECT n.title,n.nid, b.bid, b.mlid 
+  FROM node n, book b 
+ WHERE 
+    n.nid=b.nid 
+    AND n.type='book' 
+    AND n.status=1 
+    AND b.bid 
+    IN (
+      SELECT n.nid 
+        FROM node n, book b 
+       WHERE n.nid=b.nid 
+          AND n.type='book' 
+          AND n.status=1 
+          AND n.nid=b.bid
+    ) 
+ ORDER BY b.bid;
+```
+
+### Bilder in Nodes 
 
 Bilder die im Node Body eingebunden sind:
 
-### Liste der Bilder
+**Liste der Bilder**
 
 
 ```
-var=`echo 'select r.body from fl3a.node_revisions r, fl3a.node n where n.nid = r.nid and n.promote=1;' | mysql`              
+var=`echo 'SELECT r.body FROM node_revisions r, node n WHERE n.nid = r.nid AND n.promote=1;' | mysql`              
 ```
+
 ```
 echo -e $var | sed -n 's/.*src="\([^"]*\).*/\1/p'| uniq 
 ```
 
-```
-/sites/netzaffe.de/files/postgres_cyg.gif
-/sites/netzaffe.de/files/drupal-subconference-froscon.png
-/sites/netzaffe.de/files/pictures/danksagung/mysql_100x52-64.gif
-http://netzaffe.de/sites/netzaffe.de/files/lpi-lpic2-123x150.gif
-/sites/netzaffe.de/files/floh-at-netzaffe-punkt-de.gif
-http://netzaffe.de/sites/netzaffe.de/files/gfu_02.jpg
-/sites/netzaffe.de/files/gpg.png
-/sites/netzaffe.de/files/drupal-xmas.jpg
-https://netzaffe.de/sites/netzaffe.de/files/flyer_produkt_xmas_final.jpg
-/sites/netzaffe.de/files/images/dsc00126.preview.jpg
-/sites/netzaffe.de/files/images/schneemann-berlin-und-gomez.preview.jpg
-/sites/netzaffe.de/files/images/schneemann-berlin.preview.jpg
-/sites/netzaffe.de/files/DrupalCampCologne/Betty/DrupalCampDE-Abschlussfoto500x269.jpg
-/sites/netzaffe.de/files/DrupalCampCologne/Hagen_Graf/narres-und-peter-hecker.jpg
-/sites/netzaffe.de/files/DrupalCampCologne/Robert_Happek/team-olga-nicer500x333.jpg
-http://netzaffe.de/sites/netzaffe.de/files/git-logo.png
-/sites/netzaffe.de/files/images/drupal-drush-drupalmediacamp-2009.sitepreview.jpg
-/sites/netzaffe.de/files/images/drupal-drush-drupalmediacamp-2009.sitepreview.jpg
-/sites/netzaffe.de/files/images/2010-drupaldevdays-munich-luckow-fl3a-scrum-presentation.preview.jpg
-/sites/netzaffe.de/files/images/-3.preview.jpg
-/sites/netzaffe.de/files/be-drupal.jpg
-/sites/netzaffe.de/files/dcvie/SirFiChi-und-fl3a-im-hotel-tag0.jpeg
-/sites/netzaffe.de/files/dcvie/thomas-renner-gig-im-down-under-wien.jpeg
-/sites/netzaffe.de/files/dcvie/down-under-wien.jpeg
-/sites/netzaffe.de/files/dcvie/nachhilfe-von-dereine-im-zug-tag3.jpeg
-/sites/netzaffe.de/files/dcvie/nachhilfe-von-dereine-im-zug-tag3-2.jpeg
-/sites/netzaffe.de/files/dcvie/sirfichi-im-zug-tag3.jpeg
-/sites/netzaffe.de/files/dcvie/tu-wien-besetzt.jpeg
-http://netzaffe.de/sites/netzaffe.de/files/dcvie/drush_multi-session-drupalcamp-vienna.jpeg
-http://netzaffe.de/sites/netzaffe.de/files/cssh-4-xterms.png
-/sites/netzaffe.de/files/DSC00090-500px.jpg
-/sites/netzaffe.de/files/images/2011-drupalcity-berlin-fl3a-features-plus-presentation.preview.jpg
-http://netzaffe.de/sites/netzaffe.de/files/how-much-time-i-wasted-on-facebook-2014-08-05.png
-http://netzaffe.de/sites/netzaffe.de/files/doxygen-var-doxygen-notation.png
-/sites/netzaffe.de/files/bad-code-php-vim-syntastic.png
-/sites/netzaffe.de/files/eine-einfuehrung-in-scrum-roger-pfaff-florian-latzel-drupalcamp-munic-2016-khe.jpg
-/sites/netzaffe.de/files/agile-cologne-logo-220x81.jpeg
-/sites/netzaffe.de/files/open-space-agile-cologne-2017_0.jpg
-/sites/netzaffe.de/files/project-end-retrospective-agile-cologne-2017.jpg
-/sites/netzaffe.de/files/the-me-in-all-the-we-agile-cologne-2017_0.jpg
-/sites/netzaffe.de/files/the-me-in-all-the-we-agile-cologne-2017-2.jpg
-/sites/netzaffe.de/files/agilecologne17/agile-cologne-logo-220x81.jpeg
-/sites/netzaffe.de/files/agilecologne17/open-space-agile-cologne-2017_0.jpg
-/sites/netzaffe.de/files/agilecologne17/project-end-retrospective-agile-cologne-2017.jpg
-/sites/netzaffe.de/files/agilecologne17/the-me-in-all-the-we-agile-cologne-2017_0.jpg
-/sites/netzaffe.de/files/agilecologne17/the-me-in-all-the-we-agile-cologne-2017-2.jpg
-/sites/netzaffe.de/files/haben-alle-das-session-board-fotografiert-tag2-rokr-dcruhr18.jpg
-/sites/netzaffe.de/files/michael-lenahan-and-florian-latzel-explaining-open-space-dcruhr18-rokr.jpg
-/sites/netzaffe.de/files/openspace-marketplace-day2-dcruhr18-dasjo-amazee.jpg
-/sites/netzaffe.de/files/44-sessions-at-dcruhr18-highscore-bru.jpg
-/sites/netzaffe.de/files/haben-alle-das-session-board-fotografiert-tag2-rokr-dcruhr18.jpg
-/sites/netzaffe.de/files/michael-lenahan-and-florian-latzel-explaining-open-space-dcruhr18-rokr.jpg
-/sites/netzaffe.de/files/dcruhr18/haben-alle-das-session-board-fotografiert-tag2-rokr-dcruhr18.jpg
-/sites/netzaffe.de/files/dcruhr18/michael-lenahan-and-florian-latzel-explaining-open-space-dcruhr18-rokr.jpg
-/sites/netzaffe.de/files/dcruhr18/openspace-marketplace-day2-dcruhr18-dasjo-amazee.jpg
-/sites/netzaffe.de/files/dcruhr18/44-sessions-at-dcruhr18-highscore-bru.jpg
-/sites/netzaffe.de/files/florian-latzel-neues-team-was-nun-dcruhr18-jkl.jpg
-/sites/netzaffe.de/files/dcruhr18/florian-latzel-neues-team-was-nun-dcruhr18-jkl.jpg
-```
-
-### Anpassung der img src 
+**Anpassung der img src**
 
 Der neue Pfad für die Bilder soll sich unter _assets/imgs_ befinden.
 
@@ -175,46 +117,55 @@ ruby -r rubygems -e 'require "jekyll-import";
 
 ### Anpassung des Importers
 
-Ich habe den Jekyll-Importer für **Drupal 6** ein wenig auf meine Bedürftnisse angepasst.
+Ich habe den **Jekyll-Importer für Drupal 6** ein wenig auf meine Bedürftnisse angepasst.
 Hierzu habe ich jekyll-ímport geforked[^]
-
-#### summary
-
-Ich möchte meine Summary nicht in _Front Matter_ stehen haben, dass bläst meiner Meinung nach
-die Metadaten und somit die Markdown-Datei zu sehr auf.
-
-Jekyll soll wie Drupal den Teaser (exerpt) aus die Body ziehen, 
-hierzu möchte ich weiterhin das _Pseudotag_ `<!--break--` nutzen.
-
-1. Hierzu ist auch eine Einstellung in Jekyll´s __config_ nötig
-2. Der Importer bekommt das Statenment entfernt, indem exerpt befüllt wird.
-
-#### Tags
 
 #### permalink
 
+Der eigentliche Grund, warum ich den Importer geforked habe war, dass ich meine url_aliase behalten 
+und sie als _permalink Statenment_ im _Front Matter_ nutzen möchte.
+
+Hierzu habe ich die SQL Abfrage so erweitert, dass auf _alias_ (dst aus der url_alias Tabelle) zugegriffen werden kann
+um es später _excerpt_ zuordnen zu können.
+
+
+#### summary
+
+Ich möchte meinen _Teaser_ nicht in _Front Matter_ stehen haben, dass bläst meiner Meinung nach
+die Metadaten und somit die Markdown-Datei zu sehr auf.
+
+Jekyll soll wie Drupal auch den Teaser (entspricht _excerpt_ in Jekyll) aus die Body ziehen, 
+hierzu möchte ich weiterhin das _Pseudotag_ `<!--break-->` als Begrenzer nutzen.
+
+1. Hierzu ist eine Einstellung in Jekyll´s __config_ nötig
+    ```
+    defaults:
+    -
+        values:
+        excerpt_separator: "<!--break-->"
+    ```
+2. Im Importer habe ich das Statenment entfernt, indem _excerpt_ befüllt wird.
+
+#### Tags
+
+Die Tags aus Drupal werden auf _categories_ im _Front Matter_ gemappt, vorher werden sie in Kleinbuchstaben umgewandelt.
+
+Im meiner Anpassung habe ich das `.downcase` entfernet und das Mapping findet im _Front Matter_ auf _tags_ statt.
+
 #### Redirects 
 
-SELFHTML sagt dazu[^]:
-
 > In den meisten Fällen ist es allerdings vorteilhafter, eine „echte“ Weiterleitung mit HTTP-Status-Codes zu benutzen. 
-> Dies ist allerdings nur mit serverseitigen Techniken möglich, siehe etwa das Apache-Modul mod_alias. 
+> Dies ist allerdings nur mit serverseitigen Techniken möglich, siehe etwa das Apache-Modul mod_alias. [^]
 
-Aus _The SEO war of redirects: 301 vs 302 vs meta-refresh tag_[^]
 
 > Use meta-refresh only if you your current hosting provider doesn't allow a 301, 
 > primarily because the W3C's Web Content Accessibility Guidelines (7.4) 
 > discourage the creation of auto-refreshing pages, 
 > since most web browsers do not allow the user to disable or control the refresh rate 
 > and secondly Spammers use a meta-refresh to refresh the page after every 5 seconds 
-> to save themselves from any type of ranking punishment.
+> to save themselves from any type of ranking punishment. [^]
 
 #### Layouts
-
-
-##### blog
-
-##### book
 
 ### Nacharbeiten
 
@@ -224,8 +175,19 @@ Aus _The SEO war of redirects: 301 vs 302 vs meta-refresh tag_[^]
 
 #### Markdown
 
+#### CR+LF
+
+`^M`
+
+-> dos2unix
+
 * * *
 
+
 [^]: [Drupal 6 -- jekyll-import](https://import.jekyllrb.com/docs/drupal6/)
+[^]: [Drupal 6 &mdash; jekyll-import](https://import.jekyllrb.com/docs/drupal6/)
+[^]: [jekyll-import](https://github.com/jekyll/jekyll-import)
+[^]: [fl3a/jekyll-import](https://github.com/fl3a/jekyll-import)
 [^]: [SELFHTML: HTML/Kopfdaten/meta](https://wiki.selfhtml.org/wiki/HTML/Kopfdaten/meta)
 [^]: [The SEO war of redirects: 301 vs 302 vs meta-refresh tag](https://www.redalkemi.com/blog/post/the-seo-war-of-redirects-301-vs-302-vs-meta-refresh-tag)
+[^]: [Image Module](https://www.drupal.org/project/image)
