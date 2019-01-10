@@ -14,7 +14,7 @@ Drupal 6 nach Jekyll
 Ich verwende noch das alte [Image Modul](), das war bis Drupal 5 auch _State of the Art_, 
 
 
-Hier die Liste von _Image Nodes_, die ich auf der Startseite beworben habe und mit umziehen möchte. 
+Hier die Liste von _Image Nodes_, die ich auf der Startseite beworben habe und mit umziehen möchte. <!--more-->
 
 ```
 mysql> select title,nid from node where type='image' and promote=1; 
@@ -86,8 +86,8 @@ UPDATE `node_revisions` SET `body` = REPLACE(`body`, 'src="/sites/netzaffe.de/fi
 
 ## jekyll-import
 
-Der Jekyll-Importer[^], der die Inhalte von Drupal6 nach Jekyll migrieren soll hatte einige Abhängigkeiten,
-laut meiner history hat es so funktioniert das _jekyll-import_ Gem zu installieren:
+Der Jekyll-Importer[^], der die Inhalte von Drupal6 nach Jekyll migrieren soll, hatte einige Abhängigkeiten.
+Laut meiner history hat es so funktioniert das _jekyll-import_ Gem lauffähig zu installieren:
 
 ```
 sudo apt-get install zlib1g-dev
@@ -128,6 +128,8 @@ und sie als _permalink Statenment_ im _Front Matter_ nutzen möchte.
 Hierzu habe ich die SQL Abfrage so erweitert, dass auf _alias_ (dst aus der url_alias Tabelle) zugegriffen werden kann
 um es später _excerpt_ zuordnen zu können.
 
+Die Änderungen hierfür bedinden sich im Master-Branch meines Forks.
+
 
 #### summary
 
@@ -137,13 +139,13 @@ die Metadaten und somit die Markdown-Datei zu sehr auf.
 Jekyll soll wie Drupal auch den Teaser (entspricht _excerpt_ in Jekyll) aus die Body ziehen, 
 hierzu möchte ich weiterhin das _Pseudotag_ `<!--break-->` als Begrenzer nutzen.
 
+Das zweite Statement ist nötig, aber unter Umständen spezifisch für das _Minima Theme_.
+
 1. Hierzu ist eine Einstellung in Jekyll´s __config_ nötig
-    ```
-    defaults:
-    -
-        values:
-        excerpt_separator: "<!--break-->"
-    ```
+  ```
+show_excerpts : true
+excerpt_separator   : "<!--break-->"
+  ```
 2. Im Importer habe ich das Statenment entfernt, indem _excerpt_ befüllt wird.
 
 #### Tags
