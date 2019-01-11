@@ -1,0 +1,26 @@
+---
+tags:
+- Internet
+- facebook
+nid: 1630
+permalink: "/blog/2014/08/28/facebook-tschoe-mit-oe-mit-oe.html"
+layout: blog
+title: 'Facebook: Tschö mit ö, mit ö'
+created: 1409252660
+---
+<p><img alt="Time i wasted on facebook" src="http://netzaffe.de/sites/netzaffe.de/files/how-much-time-i-wasted-on-facebook-2014-08-05.png" style="width: 510px;"></p>
+<p>Facebook wurde dieses Jahr 10 Jahr alt<fn>http://time.com/11740/facebook-10-year-anniversary-interfaces/</fn>, seit über 5 Jahren bin ich mehr oder weniger aktiv auch dabei und laut dem Tool "Facebook Time Machine: How Much Time Have You Wasted?"<fn>http://time.com/6107/how-much-time-have-you-wasted-on-facebook/</fn>&nbsp;habe ich dort, im virtuellen Leben fast 25 Tage meines reellen Lebens verprasst indem ich ausgehend von 17 Minuten Facebook-Konsum pro Tag und 1814 geposteten Dingen, die ich mit meinen 414&nbsp;"Freunden" geteilt habe. Untergegangen sein und die Statistik anheben würden wohl Kommentare, Chats bzw. Nachrichten, App-Nutzungen und die wahrscheinlich nicht gerade geringe Zeit die ich, als Alles noch so neu war mit Mafia Wars<fn>http://www.mafiawars.zynga.com/</fn>&nbsp;verballert habe. Abzüglich aber wahrscheinlich marginal in Summe, die Posts, die von Twitter nach Facebook gelangten, also ein verschwindend geringer Gewinn :D.</p>
+<h2>You have wasted</h2>
+<p>Über einen Monat Selbstdarstellung, Katzen- und Kinderfotos<fn>http://www.stern.de/digital/online/privatsphaere-im-web-eltern-stellt-keine-kinderfotos-auf-facebook-2030991.html</fn>&nbsp;<fn>http://www.mimikama.at/allgemein/fotos-von-kindern-auf-facebook/</fn>&nbsp;und bereitwilliges Befütterung der der Datenkrake mit der für sie so wichtigen Informationen um noch gezielter Product-Placements schalten zu können, Sofa-Aktionismus<fn>http://t3n.de/news/digitale-gesellschaft-initiativen-543747/</fn>&nbsp;bzw. Pseudo-Weltverbesserung via Mausklick, nervige Spieleinladungen<fn>http://i.imgur.com/DJCjb4b.jpg</fn> und wenn Facebook an seinen AGBs geschraubt hat, lächerliche Widersprüche<fn>http://www.mimikama.at/allgemein/aufklrung-zu-aufgrund-der-neuen-agbs-in-facebook-widerspreche-ich/</fn>.&nbsp;Sich darüber zu ärgern<fn>http://www.sueddeutsche.de/wissen/psychologische-studie-facebook-macht-miese-laune-1.1952410</fn>, dass man eher via Facebook als über E-Mail, SMS oder telefonisch kontaktiert wird&nbsp;und denken, dass es merkbar ist, das nach und nach alle von WKW<fn>http://www.heise.de/newsticker/meldung/Soziale-Netzwerke-RTL-schliesst-Wer-kennt-wen-zum-2-Juni-2183229.html</fn>&nbsp;in mein, damals scheinbar so elitäreres &nbsp;Facebook abgwandert sind. All das und jeden Tag wider besseren Wissens morgens als erstes bei Facebook die Timeline auf neue durchgehen, <a href="https://www.taz.de/Debatte-Narzissmus-und-Langeweile/!144636/">der Kreislauf des ewigen Blödsinns</a>.</p>
+<h2>Freunde, Menschen, verbinden&nbsp;</h2>
+<p>Im englischen heißt es auf der Facebook-Startseite</p>
+<blockquote>Connect with friends and the world around you on Facebook.</blockquote>
+<p>vs. in Deutsch</p>
+<blockquote>Facebook ermöglicht es dir, mit den Menschen in deinem Leben in Verbindung zu treten und Inhalte mit diesen zu teilen.</blockquote>
+<p>Differenziert auch &nbsp;Facebook zwischen Freund und Mensch, bzw. in dem Sinne zwischen Freund und Bekannter? Für mich sind Freunde, Achtung, bedeutungsschwangeres Wort nicht unbedingt bei Facebook und an den Fingern abzuzählen, wäre bestimmt nicht schlecht 414 Freunde zu haben. Ich stelle einfach mal zum Diskurs, dass es eigenartig ist, soviele "Verbindungen" zu haben, die im reellen Leben unter Umständen keine Bedeutung haben und nicht stattfinden.</p>
+<h2>Wohin nun?</h2>
+<p>Google+, ich habe schließlich einen Google-Account und habe dort ja auch schon bestehende Kreise und mal Dinge gepostet, bei Instagramm anmelden oder mal Diaspora ausprobieren? Hmm, ello<fn>https://ello.co/</fn> scheint gerade viel Wind als datenschutzfreundlichere Alternative zu machen,? Nein, keine Substituierung, am ehesten lasse ich mal wieder im IRC blicken und bei den "Business Social-Networks", wie XING<fn>http://www.xing.com/profile/Florian_Latzel</fn> und linkedin<fn>http://www.linkedin.com/in/florianlatzel</fn> bin ich ja bereits und werde auch, dort bleiben. Ich versuche einfach mal meinem Vorsatz, mehr draussen zu sein nachzukommen&nbsp;und das Werkzeug, mit dem ich arbeite, also den Rechner auch mal auschalten, bin ja eh genug "online". Jetzt habe ich vielleicht etwas Zeit gewonnen um meine sozialen Kontakte außerhalb der Virtualität zu pflegen. Und ja, ich werde einiges verpassen, ganz viel, bestimmt, ich werde einfach wieder einen Feedreader aktivieren und für die eher unterhaltsamen Dinge wohl auch mal Bildschirmarbeiter besuchen, damit ich auch die lustigen Grafiken und Videos nicht verpasse.</p>
+<h2>Tschö mit ö, mit ö</h2>
+<p>Facebook, es war eine tolle Zeit, viel Zeit, viel Prokrastination, viel Livestyle, darunter auch teilweise verwendbare Informationen und viel was man Dank der immer neuen Features mit Klicks statt Verstand bereits vorfiltern konnte.</p>
+<p>Ich wünsche meinen Facebookfreunden und mir, dass unser Leben irgendwann mal so aufregend ist, wie es dort dargestellt wird.</p>
+<p>Und hey, im realen Leben freue ich mich sogar über "Spieleinladungen" wie z.B. zum Frisbee spielen xD</p>
