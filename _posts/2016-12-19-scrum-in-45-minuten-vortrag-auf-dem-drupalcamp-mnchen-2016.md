@@ -10,7 +10,7 @@ tags:
 - dcmuc16
 nid: 1643
 permalink: "/scrum-in-45-minuten-drupalcamp-muenchen-2016.html"
-layout: blog
+layout: post
 title: Scrum in 45 Minuten - Vortrag auf dem Drupalcamp München 2016
 created: 1482169913
 ---

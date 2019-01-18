@@ -4,7 +4,7 @@ tags:
 - Drupal
 nid: 599
 permalink: "/blog/2008/10/08/updates-fuer-drupal-5-und-6.html"
-layout: blog
+layout: post
 title: Updates für Drupal 5 und 6
 created: 1223502919
 ---

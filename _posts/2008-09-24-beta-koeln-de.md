@@ -6,7 +6,7 @@ tags:
 - Domstadt
 nid: 516
 permalink: "/blog/2008/09/24/beta-koeln-de.html"
-layout: blog
+layout: post
 title: beta.koeln.de
 created: 1222213795
 ---

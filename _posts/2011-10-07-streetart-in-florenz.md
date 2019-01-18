@@ -6,7 +6,7 @@ tags:
 - Toskana 2011
 nid: 1277
 permalink: "/streetart-in-florenz.html"
-layout: blog
+layout: post
 title: Streetart in Florenz
 created: 1318001521
 ---

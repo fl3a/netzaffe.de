@@ -8,7 +8,7 @@ tags:
 - drupal-6.x
 nid: 1078
 permalink: "/blog/2011/06/15/drupal-6-x-drupal-7-x-scratching-the-surface-drupal-user-group-koeln-bonn.html"
-layout: blog
+layout: post
 title: Drupal 6.x, Drupal 7.x -- Scratching the surface, Drupal User Group Köln/Bonn
 created: 1308174540
 ---

@@ -9,7 +9,7 @@ tags:
 - Drupal
 nid: 991
 permalink: "/blog/2010/05/12/scrum-aus-der-praxis-drupaldevdays-2010.html"
-layout: blog
+layout: post
 title: Scrum aus der Praxis @ DrupalDevDays 2010
 created: 1273659038
 ---

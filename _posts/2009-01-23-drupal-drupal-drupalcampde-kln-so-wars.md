@@ -9,7 +9,7 @@ tags:
 - Community
 nid: 704
 permalink: "/blogs/floh/2009/01/23/drupal-drupal-drupalcampde-koeln-so-wars.html"
-layout: blog
+layout: post
 title: Drupal, Drupal, DrupalCampDE Köln - so wars
 created: 1232733294
 ---

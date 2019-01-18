@@ -7,7 +7,7 @@ tags:
 - howto
 nid: 513
 permalink: "/blog/2008/04/25/blockkommentare-mit-vim-im-visuell-block-mode.html"
-layout: blog
+layout: post
 title: Blockkommentare mit Vim im Visuell Block Mode
 created: 1209121167
 ---

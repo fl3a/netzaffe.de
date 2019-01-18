@@ -7,7 +7,7 @@ tags:
 - CMS
 nid: 295
 permalink: "/blog/2005/09/26/koeln-muelheim-net.html"
-layout: blog
+layout: post
 title: koeln-muelheim.net
 created: 1127758145
 ---

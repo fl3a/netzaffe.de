@@ -9,7 +9,7 @@ tags:
 - drupal-7.x
 nid: 1612
 permalink: "/blog/2012/10/16/hnlichkeiten-in-sql-drupal-db-query-like.html"
-layout: blog
+layout: post
 title: 'Ähnlichkeiten in SQL: Drupal + db_query + LIKE'
 created: 1350412870
 ---

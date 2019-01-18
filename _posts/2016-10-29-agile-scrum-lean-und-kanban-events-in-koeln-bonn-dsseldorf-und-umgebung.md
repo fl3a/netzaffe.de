@@ -7,7 +7,7 @@ tags:
 - Scrum Master
 nid: 1635
 permalink: "/neues-aus-der-scheinwelt-professional-scrum-master-i-psm1.html"
-layout: blog
+layout: post
 title: 'Neues aus der Scheinwelt: Professional Scrum Master I (PSM1)'
 created: 1456837559
 ---

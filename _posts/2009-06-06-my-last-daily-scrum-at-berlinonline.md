@@ -7,7 +7,7 @@ tags:
 - Berlin
 nid: 844
 permalink: "/my-last-daily-scrum-at-berlinonline.html"
-layout: blog
+layout: post
 title: My last Daily Scrum at BerlinOnline
 created: 1244294526
 ---

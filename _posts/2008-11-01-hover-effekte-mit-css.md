@@ -6,7 +6,7 @@ tags:
 - CSS
 nid: 644
 permalink: "/blog/2008/11/01/hover-effekte-mit-css.html"
-layout: blog
+layout: post
 title: Hover-Effekte mit CSS
 created: 1225565724
 ---

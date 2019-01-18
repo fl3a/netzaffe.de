@@ -8,7 +8,7 @@ tags:
 - config
 nid: 727
 permalink: "/blog/2009/04/24/codefolding-fuer-smb-conf-in-vim.html"
-layout: blog
+layout: post
 title: Codefolding für smb.conf in Vim
 created: 1240590329
 ---

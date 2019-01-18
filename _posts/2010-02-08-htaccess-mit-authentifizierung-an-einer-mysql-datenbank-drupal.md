@@ -8,7 +8,7 @@ tags:
 - ".htaccess"
 nid: 989
 permalink: "/blog/2010/02/08/htaccess-mit-authentifizierung-an-einer-mysql-datenbank-drupal.html"
-layout: blog
+layout: post
 title: ".htaccess mit Authentifizierung an einer MySQL Datenbank (Drupal)"
 created: 1265658992
 ---

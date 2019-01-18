@@ -4,7 +4,7 @@ tags:
 - facebook
 nid: 1630
 permalink: "/blog/2014/08/28/facebook-tschoe-mit-oe-mit-oe.html"
-layout: blog
+layout: post
 title: 'Facebook: Tschö mit ö, mit ö'
 created: 1409252660
 ---

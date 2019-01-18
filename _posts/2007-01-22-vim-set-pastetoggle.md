@@ -7,7 +7,7 @@ tags:
 - config
 nid: 587
 permalink: "/blog/2007/01/22/vim-set-pastetoggle.html"
-layout: blog
+layout: post
 title: vim set pastetoggle
 created: 1169454911
 ---

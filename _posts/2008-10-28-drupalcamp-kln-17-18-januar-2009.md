@@ -9,7 +9,7 @@ tags:
 - Drupal
 nid: 641
 permalink: "/blog/2008/10/28/drupalcamp-koeln-17-18-januar-2009.html"
-layout: blog
+layout: post
 title: DrupalCamp Köln, 17.+18. Januar 2009
 created: 1225197813
 ---

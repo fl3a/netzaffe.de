@@ -6,7 +6,7 @@ tags:
 - apache2
 nid: 1632
 permalink: "/drupal-und-apache-2-4-x-unter-debian-testing-jessie"
-layout: blog
+layout: post
 title: Drupal und Apache 2.4.x unter Debian Testing/Jessie
 created: 1413807662
 ---

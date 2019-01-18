@@ -8,7 +8,7 @@ tags:
 - Alzenau
 nid: 583
 permalink: "/montainbike-eldorado-hahnenkamm.html"
-layout: blog
+layout: post
 title: Montainbike-Eldorado Hahnenkamm
 created: 1214719380
 ---

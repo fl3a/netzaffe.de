@@ -7,7 +7,7 @@ tags:
 - Bass
 nid: 589
 permalink: "/blog/2008/10/01/basskonferenz.html"
-layout: blog
+layout: post
 title: Basskonferenz
 created: 1222859340
 ---

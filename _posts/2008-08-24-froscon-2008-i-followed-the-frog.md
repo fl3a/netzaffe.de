@@ -7,7 +7,7 @@ tags:
 - Drupal
 nid: 542
 permalink: "/blog/2008/08/24/froscon-2008-i-followed-the-frog.html"
-layout: blog
+layout: post
 title: FrOSCon 2008 - i followed the frog
 created: 1219577488
 ---

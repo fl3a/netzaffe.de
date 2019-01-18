@@ -10,7 +10,7 @@ tags:
 - config
 nid: 1591
 permalink: "/multisite-features-unter-drupal-7-x.html"
-layout: blog
+layout: post
 title: Multisite-Features unter Drupal 7.x
 created: 1324637559
 ---

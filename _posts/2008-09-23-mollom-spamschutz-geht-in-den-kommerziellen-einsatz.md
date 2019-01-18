@@ -5,7 +5,7 @@ tags:
 - Drupal
 nid: 584
 permalink: "/blog/2008/09/23/mollom-spamschutz-geht-in-den-kommerziellen-einsatz.html"
-layout: blog
+layout: post
 title: Mollom Spamschutz geht in den kommerziellen Einsatz
 created: 1222124208
 ---

@@ -10,7 +10,7 @@ tags:
 - "#!/bin/bash"
 nid: 691
 permalink: "/arrays-in-der-bash.html"
-layout: blog
+layout: post
 title: Arrays in der Bash
 created: 1229244988
 ---

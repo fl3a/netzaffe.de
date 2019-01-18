@@ -6,7 +6,7 @@ tags:
 - Agile
 nid: 1645
 permalink: "/scrum-starter-kit"
-layout: blog
+layout: post
 title: Scrum Starter Kit
 created: 1520099535
 ---

@@ -4,7 +4,7 @@ tags:
 - Berlin
 nid: 848
 permalink: "/lars-du-arsch.html"
-layout: blog
+layout: post
 title: Lars - du Arsch
 created: 1246707194
 ---

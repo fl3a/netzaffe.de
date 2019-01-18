@@ -8,7 +8,7 @@ tags:
 - gpg
 nid: 642
 permalink: "/blogs/floh/2008/11/28/des-netzaffens-neue-schluessel-subkeys-mit-gpg.html"
-layout: blog
+layout: post
 title: Des Netzaffens neue Schlüssel - Subkeys mit gpg
 created: 1225274920
 ---

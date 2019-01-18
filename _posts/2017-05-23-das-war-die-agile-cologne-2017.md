@@ -11,7 +11,7 @@ tags:
 - Agile
 nid: 1644
 permalink: "/das-war-die-agile-cologne-2017.html"
-layout: blog
+layout: post
 title: Das war die Agile Cologne 2017
 created: 1495529504
 ---

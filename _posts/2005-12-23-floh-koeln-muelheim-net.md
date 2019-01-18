@@ -5,7 +5,7 @@ tags:
 - Domstadt
 nid: 338
 permalink: "/blog/2005/12/23/floh-koeln-muelheim-net.html"
-layout: blog
+layout: post
 title: floh.koeln-muelheim.net
 created: 1135326697
 ---

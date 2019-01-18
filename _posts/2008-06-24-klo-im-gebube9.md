@@ -8,7 +8,7 @@ tags:
 - Gebäude 9
 nid: 560
 permalink: "/klo-im-gebaeube9.html"
-layout: blog
+layout: post
 title: Klo im Gebäube9
 created: 1214261771
 ---

@@ -6,7 +6,7 @@ tags:
 - Design Studio
 nid: 332
 permalink: "/design-studio-punk-deluxe.html"
-layout: blog
+layout: post
 title: Design Studio Punk Deluxe
 created: 1219078554
 ---

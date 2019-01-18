@@ -14,7 +14,7 @@ tags:
 - Scrumtisch Köln
 nid: 1642
 permalink: "/agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html"
-layout: blog
+layout: post
 title: Agile, Scrum, Lean und Kanban Events in Köln, Bonn, Düsseldorf und Umgebung
 created: 1477757270
 ---

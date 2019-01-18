@@ -7,7 +7,7 @@ tags:
 - FPÖ
 nid: 601
 permalink: "/blogs/floh/2008/10/13/oestereichischer-rechtspopulist-ueberholt-falco.html"
-layout: blog
+layout: post
 title: Östereichischer Rechtspopulist überholt Falco
 created: 1223925334
 ---

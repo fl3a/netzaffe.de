@@ -8,7 +8,7 @@ tags:
 - Community
 nid: 703
 permalink: "/blog/2009/01/16/drupalcampde-today-is-the-day-es-ist-und-bleibt-spannend.html"
-layout: blog
+layout: post
 title: "#drupalcampde - today is the day - es ist und bleibt spannend..."
 created: 1232094137
 ---

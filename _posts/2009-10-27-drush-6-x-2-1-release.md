@@ -8,7 +8,7 @@ tags:
 - "#!/bin/bash"
 nid: 971
 permalink: "/blog/2009/10/27/drush-6-x-2-1-release.html"
-layout: blog
+layout: post
 title: drush 6.x-2.1 Release
 created: 1256636889
 ---

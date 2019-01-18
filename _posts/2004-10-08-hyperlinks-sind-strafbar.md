@@ -7,7 +7,7 @@ tags:
 - CCC
 nid: 7
 permalink: "/blog/2004/10/08/hyperlinks-sind-strafbar.html"
-layout: blog
+layout: post
 title: Hyperlinks sind strafbar?
 created: 1097200966
 ---

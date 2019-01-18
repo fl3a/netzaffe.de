@@ -5,7 +5,7 @@ tags:
 - FrOSCon
 nid: 1611
 permalink: "/froscon-2012-social-event-die-grillschlange.html"
-layout: blog
+layout: post
 title: 'Froscon 2012 - Social Event: Die Grillschlange'
 created: 1348311257
 ---

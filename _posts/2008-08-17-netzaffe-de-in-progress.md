@@ -7,7 +7,7 @@ tags:
 - drupal-4.6.x
 nid: 336
 permalink: "/blog/2008/08/17/netzaffe-de-in-progress.html"
-layout: blog
+layout: post
 title: netzaffe.de in progress
 created: 1218966253
 ---

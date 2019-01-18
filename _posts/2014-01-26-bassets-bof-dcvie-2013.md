@@ -8,7 +8,7 @@ tags:
 - dcvie
 nid: 1621
 permalink: "/bassets-bof-dcvie-2013.html"
-layout: blog
+layout: post
 title: Bassets BoF, DCVIE 2013
 created: 1390736753
 ---

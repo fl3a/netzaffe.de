@@ -11,7 +11,7 @@ tags:
 - "<?php ?>"
 nid: 1640
 permalink: "/php-codesniffer-und-php-mess-detector-mit-syntastic-in-vim-integrieren"
-layout: blog
+layout: post
 title: PHP_CodeSniffer und PHP Mess Detector mit Syntastic in Vim integrieren
 created: 1457865294
 ---

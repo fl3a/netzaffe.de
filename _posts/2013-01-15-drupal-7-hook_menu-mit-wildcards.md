@@ -7,7 +7,7 @@ tags:
 - Entwicklung
 nid: 1617
 permalink: "/drupal-7-hook-menu-mit-wildcards.html"
-layout: blog
+layout: post
 title: 'Drupal 7: hook_menu mit Wildcards'
 created: 1358245041
 ---

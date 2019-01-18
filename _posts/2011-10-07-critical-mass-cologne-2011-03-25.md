@@ -6,7 +6,7 @@ tags:
 - Critical Mass
 nid: 1022
 permalink: "/critical-mass-cologne-2011-03-25.html"
-layout: blog
+layout: post
 title: Critical Mass Cologne 2011-03-25
 created: 1318001425
 ---

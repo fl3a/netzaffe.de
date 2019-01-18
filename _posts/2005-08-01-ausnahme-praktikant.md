@@ -7,7 +7,7 @@ tags:
 - CMS
 nid: 545
 permalink: "/blog/2005/08/01/ausnahme-praktikant.html"
-layout: blog
+layout: post
 title: Ausnahme-Praktikant
 created: 1122890055
 ---

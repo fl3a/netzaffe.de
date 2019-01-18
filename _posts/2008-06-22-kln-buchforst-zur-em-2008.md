@@ -6,7 +6,7 @@ tags:
 - Buchforst
 nid: 559
 permalink: "/koeln-buchforst-zur-em-2008.html"
-layout: blog
+layout: post
 title: Köln-Buchforst zur EM 2008
 created: 1214088970
 ---

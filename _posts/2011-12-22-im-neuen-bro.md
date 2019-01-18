@@ -3,7 +3,7 @@ tags:
 - müllem
 nid: 1607
 permalink: "/im-neuen-buero.html"
-layout: blog
+layout: post
 title: Im neuen Büro
 created: 1324585239
 ---

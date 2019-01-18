@@ -8,7 +8,7 @@ tags:
 - Drupal
 nid: 708
 permalink: "/blog/2009/02/20/drush-mm-adminrole-workaround-und-tabs-in-firefox.html"
-layout: blog
+layout: post
 title: Drush_mm-Adminrole Workaround und Tabs in Firefox
 created: 1235154310
 ---

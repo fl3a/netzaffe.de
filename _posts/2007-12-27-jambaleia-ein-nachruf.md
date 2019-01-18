@@ -8,7 +8,7 @@ tags:
 - Kneipe
 nid: 588
 permalink: "/jambaleia-ein-nachruf.html"
-layout: blog
+layout: post
 title: Jambaleia - ein Nachruf
 created: 1198758808
 ---

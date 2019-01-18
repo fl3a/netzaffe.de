@@ -6,7 +6,7 @@ tags:
 - Drupal
 nid: 656
 permalink: "/blog/2008/11/08/eben-in-drupal-de-auf-freenode-net.html"
-layout: blog
+layout: post
 title: 'Eben in #drupal.de auf freenode.net'
 created: 1226166356
 ---

@@ -171,6 +171,16 @@ Im meiner Anpassung habe ich das `.downcase` entfernet und das Mapping findet im
 
 ### Nacharbeiten
 
+Die Inhalte vom Typ *blog* ins  *post Layout* umwandeln:
+
+
+```
+for file in `grep 'layout: blog' *| cut -d ':' -f1`
+do
+  sed -i -e s/layout:\ blog/layout:\ post/ $file
+done
+```
+
 #### Footnotes
 
 #### Code

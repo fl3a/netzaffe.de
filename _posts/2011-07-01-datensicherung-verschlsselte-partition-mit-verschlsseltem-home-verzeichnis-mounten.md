@@ -11,7 +11,7 @@ tags:
 - Knoppix
 nid: 1009
 permalink: "/blog/2011/07/01/datensicherung-verschluesselte-partition-mit-verschluesseltem-home-verzeichnis-mounten.html"
-layout: blog
+layout: post
 title: 'Datensicherung: Verschlüsselte Partition mit verschlüsseltem Home-Verzeichnis
   mounten'
 created: 1309505066

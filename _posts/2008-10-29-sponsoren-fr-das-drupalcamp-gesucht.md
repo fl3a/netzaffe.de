@@ -7,7 +7,7 @@ tags:
 - Drupal
 nid: 643
 permalink: "/blogs/floh/2008/10/29/sponsoren-fuer-das-drupalcamp-gesucht.html"
-layout: blog
+layout: post
 title: Sponsoren für das Drupalcamp gesucht!
 created: 1225266871
 ---

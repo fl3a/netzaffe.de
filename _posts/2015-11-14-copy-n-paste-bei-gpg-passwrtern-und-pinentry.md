@@ -4,7 +4,7 @@ tags:
 - gpg
 nid: 1639
 permalink: "/copy-n-paste-bei-gpg-passwoertern-und-pinentry"
-layout: blog
+layout: post
 title: Copy 'n' Paste bei GPG Passwörtern und Pinentry
 created: 1447521112
 ---

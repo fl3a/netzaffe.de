@@ -7,7 +7,7 @@ tags:
 - "#!/bin/bash"
 nid: 1609
 permalink: "/blog/2012/07/10/drupal-distro-build-skript.html"
-layout: blog
+layout: post
 title: Drupal-Distro-Build-Skript
 created: 1341939334
 ---

@@ -7,7 +7,7 @@ tags:
 - "#!/bin/bash"
 nid: 1618
 permalink: "/autocompletition-fuer-drush-aktivieren"
-layout: blog
+layout: post
 title: Autocompletition für Drush aktivieren
 created: 1366536302
 ---

@@ -7,7 +7,7 @@ tags:
 - "/dev/null"
 nid: 561
 permalink: "/barmer-viertel-gaststaette-zur-post.html"
-layout: blog
+layout: post
 title: Barmer Viertel - Gaststätte zur Post
 created: 1197155125
 ---

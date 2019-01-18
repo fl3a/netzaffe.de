@@ -6,7 +6,7 @@ tags:
 - müllem
 nid: 694
 permalink: "/blog/2009/01/05/4-advent-man-muss-sich-auch-was-goennen-koennen.html"
-layout: blog
+layout: post
 title: 4. Advent - Man muss sich auch was gönnen können
 created: 1231158677
 ---

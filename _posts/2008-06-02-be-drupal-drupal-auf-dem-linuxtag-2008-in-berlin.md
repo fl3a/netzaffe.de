@@ -12,7 +12,7 @@ tags:
 - Berlin
 nid: 543
 permalink: "/blog/2008/06/02/be-drupal-drupal-auf-dem-linuxtag-2008-in-berlin.html"
-layout: blog
+layout: post
 title: be drupal - Drupal auf dem Linuxtag 2008 in Berlin
 created: 1212409911
 ---

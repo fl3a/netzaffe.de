@@ -10,7 +10,7 @@ tags:
 - Deployment
 nid: 1077
 permalink: "/blog/2011/10/05/features-session-drupalcity-de-2011.html"
-layout: blog
+layout: post
 title: features+ Session @ drupalcity.de 2011
 created: 1317820072
 ---

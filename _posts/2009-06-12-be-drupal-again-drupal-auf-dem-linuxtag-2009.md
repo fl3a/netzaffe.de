@@ -10,7 +10,7 @@ tags:
 - Berlin
 nid: 846
 permalink: "/blog/2009/06/12/be-drupal-again-drupal-auf-dem-linuxtag-2009.html"
-layout: blog
+layout: post
 title: Be Drupal again! - Drupal auf dem Linuxtag 2009
 created: 1244757850
 ---

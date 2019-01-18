@@ -5,7 +5,7 @@ tags:
 - BLAST
 nid: 568
 permalink: "/taxi-bei-blast.html"
-layout: blog
+layout: post
 title: Taxi bei BLAST
 created: 1200853349
 ---

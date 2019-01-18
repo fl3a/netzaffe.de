@@ -7,7 +7,7 @@ tags:
 - Internet
 nid: 598
 permalink: "/blogs/floh/2008/10/11/linus-thorvals-geht-unter-die-blogger.html"
-layout: blog
+layout: post
 title: Linus Thorvalds geht unter die Blogger
 created: 1223754862
 ---

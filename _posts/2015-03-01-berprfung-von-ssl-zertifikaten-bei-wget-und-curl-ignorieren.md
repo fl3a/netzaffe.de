@@ -6,7 +6,7 @@ tags:
 - curl
 nid: 1636
 permalink: "/ueberpruefung-von-ssl-zertifikaten-bei-wget-und-curl-ignorieren"
-layout: blog
+layout: post
 title: Überprüfung von SSL Zertifikaten bei wget und curl ignorieren
 created: 1425213970
 ---

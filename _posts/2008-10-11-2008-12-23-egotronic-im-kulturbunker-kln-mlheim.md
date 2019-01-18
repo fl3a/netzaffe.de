@@ -8,7 +8,7 @@ tags:
 - autoscooter
 nid: 597
 permalink: "/blogs/floh/2008/10/11/2008-12-23-egotronic-im-kulturbunker-koeln-muelheim.html"
-layout: blog
+layout: post
 title: '2008-12-23: Egotronic im Kulturbunker Köln-Mülheim!'
 created: 1223746601
 ---

@@ -6,7 +6,7 @@ tags:
 - Internet
 nid: 335
 permalink: "/blog/2007/12/17/netzaffe-de-was-born.html"
-layout: blog
+layout: post
 title: netzaffe.de was born
 created: 1197922252
 ---

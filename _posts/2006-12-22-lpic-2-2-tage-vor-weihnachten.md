@@ -6,7 +6,7 @@ tags:
 - Linux
 nid: 340
 permalink: "/blog/2006/12/22/lpic-2-2-tage-vor-weihnachten.html"
-layout: blog
+layout: post
 title: LPIC 2 - 2 Tage vor Weihnachten
 created: 1166812247
 ---

@@ -6,7 +6,7 @@ tags:
 - Linux
 nid: 1000
 permalink: "/blog/2010/12/11/arbeit-sparen-mit-cluster-ssh.html"
-layout: blog
+layout: post
 title: Arbeit sparen mit Cluster SSH
 created: 1292019984
 ---

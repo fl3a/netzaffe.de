@@ -4,7 +4,7 @@ tags:
 - Berlin
 nid: 759
 permalink: "/die-anderen.html"
-layout: blog
+layout: post
 title: Die Anderen
 created: 1240748877
 ---

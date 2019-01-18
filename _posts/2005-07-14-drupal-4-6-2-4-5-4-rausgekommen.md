@@ -5,7 +5,7 @@ tags:
 - CMS
 nid: 251
 permalink: "/blog/2005/07/14/drupal-4-6-2-4-5-4-rausgekommen.html"
-layout: blog
+layout: post
 title: Drupal 4.6.2 / 4.5.4 rausgekommen
 created: 1121358551
 ---

@@ -10,7 +10,7 @@ tags:
 - drupal-6.x
 nid: 976
 permalink: "/blog/2010/02/20/datepicker-und-drupals-fapi-forms-api.html"
-layout: blog
+layout: post
 title: Datepicker und Drupal's FAPI (Forms API)
 created: 1266665917
 ---

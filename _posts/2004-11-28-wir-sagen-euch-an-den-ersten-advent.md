@@ -5,7 +5,7 @@ tags:
 - Advent
 nid: 9
 permalink: "/blog/2004/11/28/wir-sagen-euch-an-den-ersten-advent.html"
-layout: blog
+layout: post
 title: Wir sagen euch an, den ersten Advent...
 created: 1101657519
 ---

@@ -8,7 +8,7 @@ tags:
 - Berlin
 nid: 1010
 permalink: "/blog/2011/07/08/dub-themenabend-deployment-features.html"
-layout: blog
+layout: post
 title: 'DUB, Themenabend Deployment: features+'
 created: 1310130075
 ---

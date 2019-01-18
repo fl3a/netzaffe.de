@@ -11,7 +11,7 @@ tags:
 - "#!/bin/bash"
 nid: 762
 permalink: "/blog/2009/05/12/drush-drupalmediacamp-praesentation.html"
-layout: blog
+layout: post
 title: Drush - DrupalMediaCamp Präsentation
 created: 1242111888
 ---

@@ -6,7 +6,7 @@ tags:
 - Berlin
 nid: 699
 permalink: "/blog/2009/01/07/schneemaenner-bauen-in-berlin.html"
-layout: blog
+layout: post
 title: Schneemänner bauen in Berlin
 created: 1231350510
 ---
