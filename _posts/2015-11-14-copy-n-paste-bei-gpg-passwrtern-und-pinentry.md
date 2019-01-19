@@ -15,45 +15,42 @@ Tippen und mühselig und kann einige Anläufen dauern, und  Pinentry (QT4) kann 
 <!--break-->
 
 Bearbeitet eure gpg-agent.conf...
-<code>
+```
 vi ~/.gnupg/gpg-agent.conf
-</code>
+```
 
 ...und fügt die folgenden Zeilen hinzu, so wechselt ihr das Programm, welches Pinentry zuständig ist.
-<code>
+
+```
 # Keyboard control
 no-grab
 
 # PIN entry program
 pinentry-program /usr/bin/pinentry-curses
-</code>
+```
 
 Abschiessen, neustarten um die Änderung an der Config des GPG-Agenten wirksam zu machen: 
-<code>
+```
 killall gpg-agent
 gpg-agent --daemon
-</code>
+```
 
 Bearbeiten der gewünschten Schlüsselkennung, die Kennung findet ihr mit gpg --list-secret-keys raus:
-<code>
+```
 gpg --edit-key C36EE292
-</code>
+```
 Ändern der Passphrase
-<code>
+```
 gpg> passwd
-</code>
+```
 
 Anschließend wird man 1 x nach dem aktuellem Passwort gefragt, wenn dies erfolgreich war, 2 x nach dem neuem Passwort.
 Anschließend wird der Vorgang gespeichert.
-<code>
+```
 gpg> save
 
 Jetzt noch einmal alles durchtreten und das euer frei gewähltes Passwort sollte greifen.
-<code>
+```
 killall gpg-agent
 gpg-agent --daemon
-</code>
-
-
-
-
+```
