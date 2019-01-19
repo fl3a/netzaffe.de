@@ -18,6 +18,7 @@ im virtuellen Leben fast 25 Tage meines reellen Lebens verprasst indem ich ausge
 die ich mit meinen 414 "Freunden" geteilt habe. Untergegangen sein und die Statistik anheben würden wohl Kommentare, Chats bzw. Nachrichten, 
 App-Nutzungen und die wahrscheinlich nicht gerade geringe Zeit die ich, als Alles noch so neu war mit Mafia Wars[^mafia-wars] verballert habe. 
 Abzüglich aber wahrscheinlich marginal in Summe, die Posts, die von Twitter nach Facebook gelangten, also ein verschwindend geringer Gewinn :D.
+<!--break-->
 
 **You have wasted**
 
