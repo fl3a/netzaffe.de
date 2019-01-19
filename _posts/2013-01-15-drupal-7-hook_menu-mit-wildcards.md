@@ -14,7 +14,9 @@ created: 1358245041
 In Zeile 6, registriere ich hier einen Menü-Pfad mit einer sog. <em>Wildcard</em>, also einem Platzhalter.
 
 Das bedeutet in diesem Fall, dass während der Pfad-Anteil <em>example/</em> fix ist, dass der zweite Pfad-Anteil <em>%node_type_nid</em>, wie hoffentlich schon durch seine Benennung deutlich wird, Node-ID's (nids) von Node-Typ example enthalten soll.
-<code type="php" start="1">
+
+```
+<?php
 /**
  * Implements hook_menu().
  */
@@ -29,7 +31,7 @@ function example_menu() {
   );
   return $items;
 }
-</code>
+```
 <ul>
  <li>404 bei Aufruf von <em>example/123</em>?</li>
  <li>Wie bekomme ich es hin, dass der Pfad nur in Verbindung von Node-ID's vom Typ example valide ist?</li>
@@ -42,7 +44,9 @@ Registered paths may also contain special "auto-loader" wildcard components in t
 </blockquote>
 
 Hier die <em>special auto-loader Funktion</em>, benannt nach dem Namen der Wildcard als Prefix, <em>node_type_example_nid</em> + <em>_load</em>.
-<code type="php">
+
+```
+<?php
 function node_type_example_nid_load($nid) {
   $node = node_load($nid);
   if ($node) {
@@ -64,6 +68,6 @@ function node_type_example_nid_load($nid) {
     return FALSE;
   }
 }
-</code>
+```
 
 

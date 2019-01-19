@@ -5,22 +5,23 @@ tags:
 - Internet
 - CSS
 nid: 644
-permalink: "/blog/2008/11/01/hover-effekte-mit-css.html"
 layout: post
 title: Hover-Effekte mit CSS
 created: 1225565724
 ---
 Hover-Effekt ohne HTML-Event-Handler und JavaScript.<br />
 Das HTML Snippet:
-<code type="html4strict">
+
+```
 <div class="email-hover">
   <a href="/contact">
     <img src="/assets/imgs/floh-at-netzaffe-punkt-de.gif" alt="floh-at-netzaffe-punkt-de" height="12" width="114"><
    </a>
 </div>
-</code>
+```
 Das CSS-Snippet:
-<code type="css" linenumber="true">
+
+```
 div.email-hover a{
   background: url(img/floh-at-netzaffe-punkt-de-hover.gif);
   background-repeat: no-repeat;
@@ -46,7 +47,7 @@ div.email-hover a:hover {/* IE FIX */
   width: 114px;
   margin-right:0; /* IE Fix */
 }
-</code>
+```
 Und so siehts aus:
 <br />
 <div class="email-hover">  <a href="/contact"><img src="/assets/imgs/floh-at-netzaffe-punkt-de.gif" alt="floh-at-netzaffe-punkt-de" height="12" width="114" /></a></div>

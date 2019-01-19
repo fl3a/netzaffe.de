@@ -15,7 +15,15 @@ created: 1350412870
 ---
 <p>Den Fallstrick und die Suche möchte ich euch ersparen...</p>
 <blockquote>db_like is the way to go</blockquote>
-<p><code type="php">$result = db_query( 'SELECT * FROM person WHERE name LIKE :pattern', array(':pattern' =&gt; db_like($prefix) . '%') ); </code> <!--break--></p>
+
+```
+<?php
+$result = db_query( 
+  'SELECT * FROM person WHERE name LIKE :pattern', 
+   array(':pattern' => db_like($prefix) . '%') 
+); 
+```
+<!--break-->
 <ul>
 	<li><a href="http://api.drupal.org/api/drupal/includes%21database%21database.inc/function/db_query/7#comment-33348">db_like is the way to go</a></li>
 	<li><a href="http://api.drupal.org/api/drupal/includes%21database%21database.inc/function/db_like/7">7 database.inc db_like($string)</a></li>

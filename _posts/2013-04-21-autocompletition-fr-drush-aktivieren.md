@@ -23,51 +23,51 @@ durch "tabben" (dem ein- oder zweimaligen Drücken der Tabulator Taste) in der S
 
 Tab-Vervollständigung von globalen Drush-Optionen:
 
-<code>
+```
 florian@box:/var/www/example.com/drupal$ drush @git --<tab><tab>
-</code>
+```
 
-<code>
+```
 --alias-path           --backend  
 --backup-location      --cache-class-<bin> 
 --cache-default-class  --choice 
 --command-specific     --complete-debug 
 --config               --confirm-rollback 
 [...]
-</code>
+```
 
-Tab-Vervollständigung von Drush-Befehlen, die mit <code>sql-</code> beginnen:
+Tab-Vervollständigung von Drush-Befehlen, die mit ```sql-``` beginnen:
 
-<code>
+```
 florian@box:/var/www/example.com/drupal$ drush @git sql-<tab><tab>
 sql-cli   sql-conf   sql-connect    sql-create sql-drop
 sql-dump  sql-query  sql-sanitize   sql-sync
-</code>
+```
 
-Vervollständigung der Optionen, die mit dem Befehl <code>sql-dump</code> nutzbar sind:
-<code>
+Vervollständigung der Optionen, die mit dem Befehl ```sql-dump``` nutzbar sind:
+```
 florian@box:/var/www/example.com/drupal$ drush @git sql-dump --<tab><tab>
 --create-db    --data-only   --gzip    --result-file   --structure-tables-key   
 --tables-list   --database   --db-url  --ordered-dump  --skip-tables-key        
 --tables-key 
-</code>
+```
 <!--break-->
 <h2>Einrichtung</h2>
 
-In der ersten ebene des Drush Verzeichnisses befindet sich die Datei <code>drush.complete.sh</code>,
+In der ersten ebene des Drush Verzeichnisses befindet sich die Datei ```drush.complete.sh```,
 diese muss in meinem Fall von meiner benutzten <em>Shell</em>, der <em>Bash</em> ausgewertet werden.
 
-Dazu inkludieren wir global, also für alle User verwendbar unter Debian oder Ubuntu diese Datei im Verzeichnis <code>/etc/bash_completion.d</code> durch einen symbolischen Link:
+Dazu inkludieren wir global, also für alle User verwendbar unter Debian oder Ubuntu diese Datei im Verzeichnis ```/etc/bash_completion.d``` durch einen symbolischen Link:
 
-<code>
+```
 cd /etc/bash_completion.d
 sudo ln -s /path/to/drush/drush.complete.sh
-</code>
+```
 
 Um die Wirkung zu testen muss ein neue Shell gestartet werden damit die Konfigurations-Dateien und -Verzeichnisse erneut augewertet werden:
-<code>
+```
 bash --login
-</code>
+```
 
 Auf noch effizienteres Arbeiten mit Drush!
 

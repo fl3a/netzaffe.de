@@ -11,7 +11,7 @@ title: Schneemänner bauen in Berlin
 created: 1231350510
 ---
 <p>...direkt nachdem ich in B&auml;rlin angekommen bin...<br />
-<img width="500" height="375" alt="Schneemann Berlin, Gomez und ich" src="/assets/imgs/schneemann-berlin-und-gomez." /></p>
+<img alt="Schneemann Berlin, Gomez und ich" src="/assets/imgs/schneemann-berlin-und-gomez.jpg" /></p>
 <p>...haben wir einen Schneemann gebaut.</p>
 <!--break-->
 <p>&nbsp;</p>

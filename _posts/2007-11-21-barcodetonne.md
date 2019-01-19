@@ -6,7 +6,6 @@ tags:
 - Kunst
 - Köln
 nid: 567
-permalink: "/barcodetonne.html"
 layout: post
 title: Barcodetonne
 created: 1195600947

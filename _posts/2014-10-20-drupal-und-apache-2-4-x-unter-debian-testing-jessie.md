@@ -19,11 +19,13 @@ Das bringt einige Implikationen mit sich...<!--break-->
 <h2>Dateinamenerweiterung .conf</h2>
 Apache 2.4 besteht jetzt auf die <strong>Dateiendung</strong> (englisch filename extension) <strong>.conf</strong>.
 
-Ohne Dateiendung .conf verweigert <em>a2ensite</em> den Dienst und quittiert mit <code>
-ERROR: Site example.com does not exist!</code>
+Ohne Dateiendung .conf verweigert <em>a2ensite</em> den Dienst und quittiert mit 
+
+> ERROR: Site example.com does not exist!
+
 und selbst bei einem selbst erstellten Symlink in <em>/etc/apache2/site-enabled</em> wird die Datei nicht geladen.
 
-<code>
+```
 /etc/apache2/
 |-- apache2.conf
 |       `--  ports.conf
@@ -34,15 +36,16 @@ und selbst bei einem selbst erstellten Symlink in <em>/etc/apache2/site-enabled<
 |       `-- *.conf
 |-- sites-enabled
 |       `-- *.conf
-</code>
+```
 
 <h2>Neue Direktiven in den Vhosts</h2>
-in Apache v.2.4.x ist jetzt das neue Modul <em>mod_authz_core<fn>http://httpd.apache.org/docs/current/mod/mod_authz_core.html</fn> für die Autorisierung zuständig.  Das in v.2.2 <code>Allow from all</code>
-ist equivalent zu <code>Require all granted</code>
+in Apache v.2.4.x ist jetzt das neue Modul [*mod_authz_core*](http://httpd.apache.org/docs/current/mod/mod_authz_core.html) für die Autorisierung zuständig.  Das in v.2.2 `Allow from all`
+ist equivalent zu `Require all granted`
 in Apache v. 2.4.x. 
 
-Ohne die Umstellung auf die neue Direktive bekommen wir <code>Forbidden. You don't have permission to access /</code>, das vorhandene <code>AllowOverride All</code> welche für die Auswertung von Drupals <code>.htaccess</code> und somit auch die sog. <em>Clean-URL's</em> zuständig ist brauchen wir natürlich weiterhin.
-<code type="apache">
+Ohne die Umstellung auf die neue Direktive bekommen wir `Forbidden. You don't have permission to access /`, das vorhandene `AllowOverride All` welche für die Auswertung von Drupals ```.htaccess``` und somit auch die sog. <em>Clean-URL's</em> zuständig ist brauchen wir natürlich weiterhin.
+
+```
 <VirtualHost *:80>
   ServerAdmin info@example.com
   DocumentRoot "/multi/drupal/example.com/drupal"
@@ -56,8 +59,8 @@ Ohne die Umstellung auf die neue Direktive bekommen wir <code>Forbidden. You don
           Require all granted
   </Directory>
 </VirtualHost>
-</code>
+```
 
-Siehe auch <em>Upgrading to 2.4 from 2.2</em><fn>http://httpd.apache.org/docs/trunk/upgrading.html</fn>.
+Siehe auch [*Upgrading to 2.4 from 2.2*](http://httpd.apache.org/docs/trunk/upgrading.html).
 
 
