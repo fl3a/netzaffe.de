@@ -10,7 +10,7 @@ layout: post
 title: Arbeit sparen mit Cluster SSH
 created: 1292019984
 ---
-<img alt="Clusterssh mit 4 xterms" src="/sites/netzaffe.de/files/cssh-4-xterms.png" width="510px">
+<img alt="Clusterssh mit 4 xterms" src="/assets/imgs/cssh-4-xterms.png" >
 
 Nachdem sich bei einem Rechnerverbund mal wieder Updates angehäuft haben, stand bis jetzt normalerweise immer die folgende Prozedur an:
 

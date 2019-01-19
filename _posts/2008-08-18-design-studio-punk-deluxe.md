@@ -1,4 +1,5 @@
 ---
+title: Design Studio Punk Deluxe
 tags:
 - "/dev/null"
 - trash
@@ -7,8 +8,7 @@ tags:
 nid: 332
 permalink: "/design-studio-punk-deluxe.html"
 layout: post
-title: Design Studio Punk Deluxe
 created: 1219078554
 ---
-<img width=510px" src="/sites/netzaffe.de/files/images/dsc00216_0.jpg" alt="Design Studio Punk Deluxe" />
+<img src="/assets/imgs/dsc00216_0.jpg" alt="Design Studio Punk Deluxe" />
 <p>LENA Design Studio Punk Deluxe, 1,99&euro;..</p>

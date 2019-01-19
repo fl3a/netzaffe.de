@@ -12,7 +12,7 @@ layout: book
 title: Git, Gitosis, Gitweb (the Debian way)
 created: 1268493988
 ---
-<img src="http://netzaffe.de/sites/netzaffe.de/files/git-logo.png" align="left" vspace="5" hspace="20" alt="Git Logo" /><p>Installation und Konfiguration von Git, 
+<img src="http://netzaffe.de/assets/imgs/git-logo.png" align="left" vspace="5" hspace="20" alt="Git Logo" /><p>Installation und Konfiguration von Git, 
 Gitosis 
 und Gitweb unter Debian 5 (Lenny).</p>
 

@@ -28,7 +28,7 @@ or
  <li>"YAFS: Yet another Features session"</li>
  <li>"A VCS called FTP"... [<a href="http://twitter.com/#!/cstottmeister/status/115366308543070208">1</a>] [<a href="http://twitter.com/#!/_mickor/status/115367328358727680">2</a>]</li>
 </ul>
-<img src="/sites/netzaffe.de/files/images/2011-drupalcity-berlin-fl3a-features-plus-presentation.preview.jpg" alt="features+ Session #dcb11" />
+<img src="/assets/imgs/2011-drupalcity-berlin-fl3a-features-plus-presentation." alt="features+ Session #dcb11" />
 <small>Foto: <a href="http://www.sense-design.de">&copy; Sven Culley,  sense-design.de</a></small>
 <!--break-->
 <br />

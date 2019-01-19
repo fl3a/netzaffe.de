@@ -16,7 +16,7 @@ layout: book
 title: GnuPG (GPG) Micro Howto
 created: 1227672981
 ---
-<img src="/sites/netzaffe.de/files/gpg.png" align="left" vspace="10" hspace="20" alt="GnuPG Logo" />Installation, Konfiguration und Nutzung von GnuPG unter Linux und Windows auf der Kommandozeile.
+<img src="/assets/imgs/gpg.png" align="left" vspace="10" hspace="20" alt="GnuPG Logo" />Installation, Konfiguration und Nutzung von GnuPG unter Linux und Windows auf der Kommandozeile.
 <br /><br />
 Verwendet wurde Debian Etch<br />
 mit gpg 1.4.6<br />

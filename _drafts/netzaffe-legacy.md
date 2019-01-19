@@ -156,6 +156,8 @@ Im meiner Anpassung habe ich das `.downcase` entfernet und das Mapping findet im
 
 #### Redirects 
 
+Jekyll generiert per dafault Dateien mit Forwarding von der alten (Drupal) URL zur 
+
 > In den meisten Fällen ist es allerdings vorteilhafter, eine „echte“ Weiterleitung mit HTTP-Status-Codes zu benutzen. 
 > Dies ist allerdings nur mit serverseitigen Techniken möglich, siehe etwa das Apache-Modul mod_alias. [^]
 
@@ -178,10 +180,13 @@ Die Inhalte vom Typ *blog* ins  *post Layout* umwandeln:
 for file in `grep 'layout: blog' *| cut -d ':' -f1`
 do
   sed -i -e s/layout:\ blog/layout:\ post/ $file
+  sed -i -e 's/sites\/netzaffe\.de\/files/assets\/imgs/g' $file
+  sed -i -e 's/width="510px"//g' $file
 done
 ```
 
 #### Footnotes
+
 
 #### Code
 
@@ -192,6 +197,8 @@ done
 `^M`
 
 -> dos2unix
+
+#### Kommentare
 
 * * *
 

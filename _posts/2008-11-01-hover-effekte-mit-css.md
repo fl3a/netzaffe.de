@@ -15,7 +15,7 @@ Das HTML Snippet:
 <code type="html4strict">
 <div class="email-hover">
   <a href="/contact">
-    <img src="/sites/netzaffe.de/files/floh-at-netzaffe-punkt-de.gif" alt="floh-at-netzaffe-punkt-de" height="12" width="114"><
+    <img src="/assets/imgs/floh-at-netzaffe-punkt-de.gif" alt="floh-at-netzaffe-punkt-de" height="12" width="114"><
    </a>
 </div>
 </code>
@@ -49,6 +49,6 @@ div.email-hover a:hover {/* IE FIX */
 </code>
 Und so siehts aus:
 <br />
-<div class="email-hover">  <a href="/contact"><img src="/sites/netzaffe.de/files/floh-at-netzaffe-punkt-de.gif" alt="floh-at-netzaffe-punkt-de" height="12" width="114" /></a></div>
+<div class="email-hover">  <a href="/contact"><img src="/assets/imgs/floh-at-netzaffe-punkt-de.gif" alt="floh-at-netzaffe-punkt-de" height="12" width="114" /></a></div>
 <br />
 <!--break-->

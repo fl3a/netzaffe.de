@@ -11,7 +11,7 @@ layout: post
 title: My last Daily Scrum at BerlinOnline
 created: 1244294526
 ---
-<img src="/sites/netzaffe.de/files/images/DSC00091.JPG" alt="My last daily scrum at BerlinOnline" width="510px" />
+<img src="/assets/imgs/DSC00091.JPG" alt="My last daily scrum at BerlinOnline"  />
 <small>Foto: &copy; Olf Dziadek</small><br />
 <p>Mein letztes <a href="http://de.wikipedia.org/wiki/Scrum#Daily_Scrum">Daily Scrum</a> bei <a href="http://berlinonline.de">BerlinOnline</a></p><!--break-->
 <p>v.l.n.r: <a href="https://www.xing.com/profile/Jan_Albers5">Jan (Product Owner </a>, Chicken), Meinereiner (Pig/Team), <a href="http://twitter.com/andymob">Andreas</a> (Pig/Team) und Jens

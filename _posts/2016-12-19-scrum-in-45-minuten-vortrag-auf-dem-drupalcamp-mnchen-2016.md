@@ -14,7 +14,7 @@ layout: post
 title: Scrum in 45 Minuten - Vortrag auf dem Drupalcamp München 2016
 created: 1482169913
 ---
-<img width="510px" src="/sites/netzaffe.de/files/eine-einfuehrung-in-scrum-roger-pfaff-florian-latzel-drupalcamp-munic-2016-khe.jpg" alt="Folie Scrum-Rolle Development Team, Roger Pfaff und Florian Latzel präsentieren Eine Einführung in Scrum" />
+<img  src="/assets/imgs/eine-einfuehrung-in-scrum-roger-pfaff-florian-latzel-drupalcamp-munic-2016-khe.jpg" alt="Folie Scrum-Rolle Development Team, Roger Pfaff und Florian Latzel präsentieren Eine Einführung in Scrum" />
 <small>Scrum Rolle Development Team, CC BY-NC 3.0 DE Katja Heitmann<fn>https://twitter.com/diekatja/status/805088880705802240</fn></small>
 <a href="http://twitter.com/rogerpfaff">Roger</a> und Ich haben auf dem DrupalCamp München 2016<fn>http://dcmuc16.drupalcamp.de</fn> eine Session über das agile Rahmenwerk Scrum gehalten,&nbsp;hier die Beschreibung&nbsp;der eingereichten Session<fn>http://dcmuc16.drupalcamp.de/sessions/eine-einfuhrung-scrum</fn>:
 <blockquote>

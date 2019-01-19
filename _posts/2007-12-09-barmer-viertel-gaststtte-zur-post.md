@@ -11,7 +11,7 @@ layout: post
 title: Barmer Viertel - Gaststätte zur Post
 created: 1197155125
 ---
-<img src="/sites/netzaffe.de/files/images/dsc00115.jpg" width="510px" alt="Barmer Viertel - Gaststätte zur Post" />
+<img src="/assets/imgs/dsc00115.jpg"  alt="Barmer Viertel - Gaststätte zur Post" />
 <p>Gaststätte zur Post kurz nach der Räumung.</p>
 <a href="http://www.report-k.de:80/content/view/7089/79/">http://www.report-k.de:80/content/view/7089/79/</a>, Aktualisiert 30.11.2007:
 <blockquote>

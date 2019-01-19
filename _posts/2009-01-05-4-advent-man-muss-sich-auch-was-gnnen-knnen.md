@@ -12,8 +12,8 @@ created: 1231158677
 ---
 <strong>Drupal B&uuml;cher</strong>
 <p>Nach dem obigen Motto kamen ein paar Tage vor Weihnachten&nbsp; endlich&nbsp; meine&nbsp; Drupal-B&uuml;cher,&nbsp; ganz oben die Drupal-Bibel um das neue Evangelium in unseren Gefilden zu verbreiten...</p>
-<p><img width="500" height="307" alt="Drupal Books" src="/sites/netzaffe.de/files/drupal-xmas.jpg" /></p><!--break-->
+<p><img width="500" height="307" alt="Drupal Books" src="/assets/imgs/drupal-xmas.jpg" /></p><!--break-->
 <strong>Audiolith XMAS Bash | Santa Rave</strong>
 <p>Einen Tag vor Weihnachten noch das letzte Highlight mitnehmen - den Santa Rave.</p>
-<img width="500" height="794" alt="Santa Rave" src="https://netzaffe.de/sites/netzaffe.de/files/flyer_produkt_xmas_final.jpg" />
+<img width="500" height="794" alt="Santa Rave" src="https://netzaffe.de/assets/imgs/flyer_produkt_xmas_final.jpg" />
 <small>(c) Audiolith</small><!--break-->

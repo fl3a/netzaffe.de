@@ -28,6 +28,7 @@ Auch dieses Jahr war <a href="http://drupal.org">Drupal</a> in Form der <a href=
 <img src="/assets/imgs/linuxtag09/3654868321_d3e401127f.jpg" alt="Linuxtag: Aufbau Drupal User Group Berlin Stand" /><br />
 <small>Foto von <a href="http://luckow.org">Stephan Luckow</a>, <a href="http://creativecommons.org/licenses/by/2.0/deed.de">CC-by</a> </small><br />
 
+<!--break-->
 <img src="/assets/imgs/linuxtag09/3655667820_16e8f79d16.jpg" alt="Hissen der Fahne (Drupalstand Linuxtag)" /><br />
 <small>Foto von <a href="http://twitter.com/luckow">Stephan Luckow</a>, <a href="http://creativecommons.org/licenses/by/2.0/deed.de">CC-by</a> </small><br />
 
@@ -38,7 +39,6 @@ Social Event: An Tag 2. gab es dann die Party am Drupalstand.
 <small>Foto von <a href="http://irata.ch">Valentin Vago</a>, <a href="http://creativecommons.org/licenses/by/2.0/deed.de">CC-by</a>  </small><br />
 
 Was ein paar Ballons alles ausmachen können...<br />
-<!--break-->
 
 **Cheers Acquia!**
 

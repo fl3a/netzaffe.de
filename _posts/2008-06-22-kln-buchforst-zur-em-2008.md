@@ -10,5 +10,5 @@ layout: post
 title: Köln-Buchforst zur EM 2008
 created: 1214088970
 ---
-<img src="/sites/netzaffe.de/files/images/dsc00191_0.jpg" width="510px" alt="Köln-Buchforst zur EM 2008" />
+<img src="/assets/imgs/dsc00191_0.jpg"  alt="Köln-Buchforst zur EM 2008" />
 <p>Ohne Worte</p>

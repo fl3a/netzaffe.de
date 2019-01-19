@@ -15,12 +15,12 @@ layout: post
 title: Das war die Agile Cologne 2017
 created: 1495529504
 ---
-<p><img src="/sites/netzaffe.de/files/agilecologne17/agile-cologne-logo-220x81.jpeg" style="float:left;padding-right: 10px;" alt="Agile Cologne Logo"  />Wie 180 weitere "Agile Begeisterte" zog es auch Boris und mich am 24. März 2017 – selbstverständlich mit blauen Reinblau-T-Shirts ausgestattet –&nbsp;wieder zur Agile Cologne<fn>https://agilecologne.de/</fn>. Die Veranstaltung fand dieses Mal im GS1 Knowledge Center in Köln statt und konnte im Vergleich zum Vorjahr an Teilnehmern zulegen.</p>
+<p><img src="/assets/imgs/agilecologne17/agile-cologne-logo-220x81.jpeg" style="float:left;padding-right: 10px;" alt="Agile Cologne Logo"  />Wie 180 weitere "Agile Begeisterte" zog es auch Boris und mich am 24. März 2017 – selbstverständlich mit blauen Reinblau-T-Shirts ausgestattet –&nbsp;wieder zur Agile Cologne<fn>https://agilecologne.de/</fn>. Die Veranstaltung fand dieses Mal im GS1 Knowledge Center in Köln statt und konnte im Vergleich zum Vorjahr an Teilnehmern zulegen.</p>
 
 <p>Auch dieses Jahr gab es ein qualitativ hochwertiges Potpourri an Themen, die im Open Space<fn value="2">https://de.wikipedia.org/wiki/Open_Space</fn> entstanden: von Agilen Prozessen wie Scrum, Kanban, über Sessions zu speziellen Scrum-Rollen – Product Owner, Scrum Master – oder Sessions über Retrospektiven bis hin zu einer handvoll Sessions zu Agilen Spielen (Ubongo Flow Game, Ballpoint Game).</p><!--break-->
 
 <p>Aufgrund der Vielfalt und teilweise neun parallelen Sessions sind Boris und ich uns in keiner Session begegnet.</p>
-<img width="510px" alt="Open Space Sessionplan, Agile Cologne 2017" data-align="right" data-caption="Open Space Sessionplan,&amp;nbsp;© Holger Lehmann,&amp;nbsp;https://twitter.com/hollipolli2904/status/845221419768315907" data-entity-type="file" src="/sites/netzaffe.de/files/agilecologne17/open-space-agile-cologne-2017_0.jpg" /><br />
+<img  alt="Open Space Sessionplan, Agile Cologne 2017" data-align="right" data-caption="Open Space Sessionplan,&amp;nbsp;© Holger Lehmann,&amp;nbsp;https://twitter.com/hollipolli2904/status/845221419768315907" data-entity-type="file" src="/assets/imgs/agilecologne17/open-space-agile-cologne-2017_0.jpg" /><br />
 <small>Open Space Sessionplan, © Holger Lehmann, Quelle Twitter<fn>https://twitter.com/hollipolli2904/status/845221419768315907</fn></small>
 
 <p>Hier unsere Highlights der diesjährigen Agile Cologne. <!--break--></p>
@@ -40,7 +40,7 @@ created: 1495529504
 <p>Harald berichte über seiner Erfahrung mit einem Projekt Review bzw. einer Post Mortem Analyse mittels einer Retrospektive. Ein wichtiger Faktor war, dass das Team nach diesem Projekt weiterhin zusammengearbeitet hat.</p>
 
 <p>Das Projekt Review dauerte 2,5 Stunden und orientierte sich an fünf Phasen der Retrospektive, Harald nutzte die sog. Starfish Retrospektive. In Phase 4, in der entschieden wird, was zu tun ist, ließ das Team seine Learnings in die Team Charta bzw. ihr Manifest einfließen.</p>
-<img width="510px" alt="Project End Retrospective Flipchart, Agile Cologne 2017" data-caption="Project End Retrospective Flipchart, Agile Cologne 2017" data-entity-type="file"  src="/sites/netzaffe.de/files/agilecologne17/project-end-retrospective-agile-cologne-2017.jpg" />
+<img  alt="Project End Retrospective Flipchart, Agile Cologne 2017" data-caption="Project End Retrospective Flipchart, Agile Cologne 2017" data-entity-type="file"  src="/assets/imgs/agilecologne17/project-end-retrospective-agile-cologne-2017.jpg" />
 <p>&nbsp;</p>
 
 <h2>Visual Facilitating</h2>
@@ -71,10 +71,10 @@ created: 1495529504
 <h2>The ME in all the WE</h2>
 
 <p>The ME in all the WE mit Falk. Falk hat sich ein Spiel ausgedacht, welche als teambildende Maßnahme, wie für das Kennenlernen genutzt werden kann. Wir, die Teilnehmenden waren quasi die Probanden.</p>
-<img width="510px" alt="The ME in ALL the WE, Agile Cologne 2017 von Rainer Eschen" data-caption="The ME in ALL the WE, Agile Cologne 2017, © Rainer Eschen, https://twitter.com/bluescrum/status/845292676467580929" data-entity-type="file"  src="/sites/netzaffe.de/files/agilecologne17/the-me-in-all-the-we-agile-cologne-2017_0.jpg" /><br />
+<img  alt="The ME in ALL the WE, Agile Cologne 2017 von Rainer Eschen" data-caption="The ME in ALL the WE, Agile Cologne 2017, © Rainer Eschen, https://twitter.com/bluescrum/status/845292676467580929" data-entity-type="file"  src="/assets/imgs/agilecologne17/the-me-in-all-the-we-agile-cologne-2017_0.jpg" /><br />
 <small>"The ME in ALL the WE, Agile Cologne 2017, © Rainer Eschen, Quelle Twitter <fn>https://twitter.com/bluescrum/status/845292676467580929</fn></small>
 <p>Jeder aus dem Team suchte sich aus einer größeren Menge von Karten mit z.T. gegenteiligen Wertepaaren, wie z.B. Driving the… Car vs. Bike, Starwars vs. Startrek oder Ski vs. Snowboard zwei Karten aus. Dann haben wir die Auswahl auf auf zehn reduziert, alleine die Auswahl der Karten war ein sehr kommunikativer Vorgang.</p>
-<img width="510px" alt="The ME in ALL the WE, ausgebreitete Karten auf dem Boden, Agile Cologne 2017" data-caption="The ME in ALL the WE, ausgebreitete Karten auf dem Boden, Agile Cologne 2017" title="" data-entity-type="file" src="/sites/netzaffe.de/files/agilecologne17/the-me-in-all-the-we-agile-cologne-2017-2.jpg" />
+<img  alt="The ME in ALL the WE, ausgebreitete Karten auf dem Boden, Agile Cologne 2017" data-caption="The ME in ALL the WE, ausgebreitete Karten auf dem Boden, Agile Cologne 2017" title="" data-entity-type="file" src="/assets/imgs/agilecologne17/the-me-in-all-the-we-agile-cologne-2017-2.jpg" />
 <p>Anschließend übertrug jedes Teammitglied seinen Standpunkt auf sein Blatt mit einem Teamradar mit entsprechend zehn Punkten.</p>
 
 <h2>Umgang mit Fehlern — Erleuchtung vs. Scheitern</h2>

@@ -20,11 +20,11 @@ Dank Andreas Diesner gibt es das Plugin auch für Linux!
 
 Nach den folgenden 3 Befehle ist das Garmin Communicator-Plug-In <strong>unter Ubuntu</strong> einsatzbereit:
 
-<code start="1">
+```
 sudo add-apt-repository ppa:andreas-diesner/garminplugin
 sudo apt-get update
 sudo apt-get install garminplugin 
-</code>
+```
 
 <strong>Für Debian</strong> gibt es seit November 2012 ein offizielles Paket in Sid, rpm sowie arch sind ebenfalls verfügbar.
 

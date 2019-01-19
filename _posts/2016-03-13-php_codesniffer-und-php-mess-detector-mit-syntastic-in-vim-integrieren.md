@@ -15,10 +15,10 @@ layout: post
 title: PHP_CodeSniffer und PHP Mess Detector mit Syntastic in Vim integrieren
 created: 1457865294
 ---
-<a href="/sites/netzaffe.de/files/bad-code-php-vim-syntastic.png" rel="lightshow" class="lightbox-processed" title="Abbildung 1, Vim mit Editor Tab und location list.">
-<img src="/sites/netzaffe.de/files/bad-code-php-vim-syntastic.png" width=510px" alt="VIM mit Syntastic for PHP  and Drupal development"/>
-</a>
-<small>Abbildung 1, Vim mit Editor Tab und location list.</small>
+<figure role="group">
+  <img src="/assets/imgs/bad-code-php-vim-syntastic.png" alt="VIM mit Syntastic for PHP  and Drupal development"/>
+  <figcaption>Abbildung 1, Vim mit Editor Tab und location list.</figcaption>
+</figure>
 Bei der Statischen Code Analyse<fn>https://de.wikipedia.org/wiki/Statische_Code-Analyse</fn> (englisch linting), welche den den White-Box-Test-Verfahren zugeordnet ist wird der Quellcode einer Software auf seine Beschaffenheit überprüft. 
 Hierzu gehört z.B. neben dem eigentlichen Linting, in PHP  mit z.B. <code>php -l</code> oder dem Tool <em>phplint</em> die Überprüfung von Coding-Standards<fn>https://de.wikipedia.org/wiki/Programmierstil</fn> oder das Erkennen von potenziellen Problemem bzw. suboptimalen Code wie z.B. ungenutzen Variablen, Properties oder Funktionen, zu hoher Komplexität (z.B. in Zusammenhang mit Wartbarkeit) und die Erkennung möglicher Fehler.  
 

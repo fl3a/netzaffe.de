@@ -11,7 +11,7 @@ layout: post
 title: FrOSCon 2007 - Drupal Subconference
 created: 1188215147
 ---
-<img src="/sites/netzaffe.de/files/drupal-subconference-froscon.png" alt="FrOSCon 2007 Drupal Subconference" />
+<img src="/assets/imgs/drupal-subconference-froscon.png" alt="FrOSCon 2007 Drupal Subconference" />
 <p>Am letzten Wochenende fand die 2te FrOSCon(Free and Open Source Software Conference) in der  Fachhochschule Bonn-Rhein-Sieg, St. Augustin statt.</p>
 <p>Drupal hatte eine eigene-Subkonferenz. </p>
 <p>Unterhaltsam war das Mittagessen mit Robert, Jam und Hagen Graf,  hier entstand auch <a href="https://flic.kr/p/2SS46d">das Bild in Hagens-flickr-Stream</a>, die Backen voll mit Kartoffelsalat in der Mensa der FH.</p>

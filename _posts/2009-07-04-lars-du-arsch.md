@@ -8,5 +8,5 @@ layout: post
 title: Lars - du Arsch
 created: 1246707194
 ---
-<img src="/sites/netzaffe.de/files/images/lars-du-arsch_0.jpg" alt="Lars - du Arsch" width="510px" />
+<img src="/assets/imgs/lars-du-arsch_0.jpg" alt="Lars - du Arsch"  />
 <p>Grünberger Strasse, Berlin</p>

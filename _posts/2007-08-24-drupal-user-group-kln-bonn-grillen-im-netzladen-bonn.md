@@ -12,7 +12,7 @@ title: Drupal User Group Köln/Bonn - Grillen im Netzladen Bonn
 created: 1187960743
 ---
 <figure role="group">
-<img src="/sites/netzaffe.de/files/drupal-user-group-koeln-bonn-2007.jpg" alt="Drupal User Group Köln/Bonn - Grillen im Netzladen Bonn" width="510px" />
+<img src="/assets/imgs/drupal-user-group-koeln-bonn-2007.jpg" alt="Drupal User Group Köln/Bonn - Grillen im Netzladen Bonn"  />
 <figcaption>Robert Douglass (CC BY-SA 2.0), Quelle: <a href="https://www.flickr.com/photos/robertdouglass/albums/72157601504277207</a>">https://www.flickr.com/photos/robertdouglass/albums/72157601504277207</a></figcaption>
 </figure>
 

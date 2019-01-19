@@ -26,15 +26,15 @@ Von dort aus trennten sich die Wege um einzuchecken, sich kurz frischzumachen un
 </p>
 Und Floh hatte wie verspochen einen Kasten Augustiner Edelstoff im Gepäck.
 <p>
-<img src="/sites/netzaffe.de/files/dcvie/SirFiChi-und-fl3a-im-hotel-tag0.jpeg" alt="Lecker" /><br />
+<img src="/assets/imgs/dcvie/SirFiChi-und-fl3a-im-hotel-tag0.jpeg" alt="Lecker" /><br />
 <small>Foto: Florian Klare, &copy;</small><br />
 </p> 
 <h2>Social Event</h2>
 Social Event, Tag 1 im <a href="http://www.downunder.at/">Down Under</a>
-<img src="/sites/netzaffe.de/files/dcvie/thomas-renner-gig-im-down-under-wien.jpeg" alt="Gig im Down Under, Tag1" /><br />
+<img src="/assets/imgs/dcvie/thomas-renner-gig-im-down-under-wien.jpeg" alt="Gig im Down Under, Tag1" /><br />
 <small>Foto: Florian Klare, &copy;</small><br />
 Austrian All-Star-Band Yargo featuring Theme-Master <a href="http://www.designpraxis.at/">Markus Hörl</a> and <a href="http://groove.at/">Thomas Renner</a>.
-<img src="/sites/netzaffe.de/files/dcvie/down-under-wien.jpeg" alt="Down Under, Wien" /><br />
+<img src="/assets/imgs/dcvie/down-under-wien.jpeg" alt="Down Under, Wien" /><br />
 <small>Foto: Florian Klare, &copy;</small><br />
 <img src="http://farm3.static.flickr.com/2725/4141555629_37441ff89f.jpg" alt="DCVIE Afterlunch" /><br />
 <small>Foto: Josef Dabernig, by-nc-sa</small><br />
@@ -42,18 +42,18 @@ DCVIE Afterlunch im <a href="http://www.salmbraeu.com/">Salm Bräu</a>.
 
 <h2>Rückfahrt</h2>
 Daniel hat morgens programmiert und seinen ursprünglichen Zug verpasst, so gab es eine kleine Drupal-Nachhilfe...
-<img src="/sites/netzaffe.de/files/dcvie/nachhilfe-von-dereine-im-zug-tag3.jpeg" alt="Nachhilfe von dereine, 1" /><br />
+<img src="/assets/imgs/dcvie/nachhilfe-von-dereine-im-zug-tag3.jpeg" alt="Nachhilfe von dereine, 1" /><br />
 <small>Foto: Florian Klare, &copy;</small><br />
-<img src="/sites/netzaffe.de/files/dcvie/nachhilfe-von-dereine-im-zug-tag3-2.jpeg" alt="Nachhilfe von dereine, 2" /><br />
+<img src="/assets/imgs/dcvie/nachhilfe-von-dereine-im-zug-tag3-2.jpeg" alt="Nachhilfe von dereine, 2" /><br />
 <small>Foto: Florian Klare, &copy;</small><br />
 Leider konnte ich Daniel zum Ausgleich nicht bei seiner Physik-Hausarbeit helfen :D<br />
-<img src="/sites/netzaffe.de/files/dcvie/sirfichi-im-zug-tag3.jpeg" alt="Floh auf der Rückfahrt im Zug" /><br />
+<img src="/assets/imgs/dcvie/sirfichi-im-zug-tag3.jpeg" alt="Floh auf der Rückfahrt im Zug" /><br />
 <small>Foto: Florian Klare, &copy;</small><br />
 <h2>Fazit</h2>
 Barierefreiheit 2.0: das Thema Barrierefreiheit wurde von den Wienern sehr ernst genommen. 
 Es waren annähernd bei jeder Session mehrere Übersetzer für Gebärdensprache anwesend.
 <p>Die Venue, die technische Universität in Wien hatte natürlich einen sehr akademischer Charakter 
-<img src="/sites/netzaffe.de/files/dcvie/tu-wien-besetzt.jpeg" alt="TU Wien besetzt" /><br />
+<img src="/assets/imgs/dcvie/tu-wien-besetzt.jpeg" alt="TU Wien besetzt" /><br />
 <small>Foto: Florian Klare, &copy;</small><br />
 und die Hörsäle waren groß genug für jede Session,<br />was allerdings fehlte war ein Rückzugsort für das "Communitiy Plumbing".<p>
 <p>Wie auf jeder solcher Veranstaltungen gabs es hochkarätige <a href="http://drupalcamp.at/sessions/the-schedule">Sessions</a> und leider liefen diese oft parallel,<br />

@@ -25,7 +25,7 @@ Die eingereichten Ergebnisse können unter <a href="http://drupalcamp.de/2009/co
 </p>
 <p>
 Die Un-Konferenz findet in den Räumen der <a href="http://www.gfu.net/">GFU</a> statt.<br />
-<img src="http://netzaffe.de/sites/netzaffe.de/files/gfu_02.jpg" alt="GFU" />
+<img src="http://netzaffe.de/assets/imgs/gfu_02.jpg" alt="GFU" />
 </p>
 <p>
 Das offizielle Tag zum Bloggen für das Event ist übrigens
