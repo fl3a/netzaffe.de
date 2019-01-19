@@ -31,7 +31,8 @@ In PHPDoc wird die folgende Notation verwendet, diese wird so auch in Drupals Co
 
 ...welche in Doxygen leider weder mit Typ noch mit dem zusätzlichen Kommentar angezeigt wird. 
 
-<img alt="PHP Member Data Documenation within Doxygen, PHPDoc Notation" src="/assets/images/doxygen-var-phpdoc-notation.png" width="510px"> <!--break--> 
+<img alt="PHP Member Data Documenation within Doxygen, PHPDoc Notation" src="/assets/imgs/doxygen-var-phpdoc-notation.png" />
+<!--break--> 
 
 Um das gewünschte Ergebnis in Doxygen zu erzielen, **muss hinter dem Typ noch redundanterweise der Name der Variablen**[^7] notiert werden...
 

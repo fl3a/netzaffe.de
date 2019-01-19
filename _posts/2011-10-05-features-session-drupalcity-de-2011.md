@@ -9,11 +9,15 @@ tags:
 - Drupal
 - Deployment
 nid: 1077
-permalink: "/blog/2011/10/05/features-session-drupalcity-de-2011.html"
 layout: post
 title: features+ Session @ drupalcity.de 2011
 created: 1317820072
+image: /assets/imgs/2011-drupalcity-berlin-fl3a-features-plus-presentation.jpg 
 ---
+<figure role="group">
+  <img src="/assets/imgs/2011-drupalcity-berlin-fl3a-features-plus-presentation.jpg" alt="features+ Session #dcb11" />
+  <figcaption>Foto: <a href="http://www.sense-design.de">&copy; Sven Culley,  sense-design.de</a></figcaption>
+</figure>
 Repeatition of my session <a href="/blog/2011/07/08/dub-themenabend-deployment-features.html">features+ during DUB´s "Drupal-Deployment theme night"</a> @ this years Drupalcamp, <a href="http://drupalcity.de/session/features">drupalcity.de</a>, 2011-09-18, this time in english.
 <p>This session was intended as an introduction and a motivation to use Features
 module for deployment and re-usable patterns.</p>
@@ -28,8 +32,6 @@ or
  <li>"YAFS: Yet another Features session"</li>
  <li>"A VCS called FTP"... [<a href="http://twitter.com/#!/cstottmeister/status/115366308543070208">1</a>] [<a href="http://twitter.com/#!/_mickor/status/115367328358727680">2</a>]</li>
 </ul>
-<img src="/assets/imgs/2011-drupalcity-berlin-fl3a-features-plus-presentation." alt="features+ Session #dcb11" />
-<small>Foto: <a href="http://www.sense-design.de">&copy; Sven Culley,  sense-design.de</a></small>
 <!--break-->
 <br />
 What this session covers:
