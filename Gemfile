@@ -31,6 +31,12 @@ group :jekyll_plugins do
   # jekyll-toc - Table of Contents
   # https://github.com/toshimaru/jekyll-toc
   gem 'jekyll-toc'
+   
+  # Creating tag pages with Jekyll and Siteleaf:
+  # https://www.siteleaf.com/blog/tag-pages-in-jekyll-and-siteleaf/
+  # -> https://github.com/pattex/jekyll-tagging
+  gem 'jekyll-tagging'
+
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
