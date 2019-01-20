@@ -6,7 +6,7 @@ tags:
 - howto
 - Git
 - Drupal
-layout: book 
+layout: post
 permalink: /git-gitosis-gitweb-the-debian-way.html
 image: /assets/imgs/1024px-Git-logo-2007.svg.png
 toc: true
