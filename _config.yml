@@ -48,6 +48,14 @@ plugins:
   - jekyll-seo-tag
   - jekyll/tagging
 
+# Tagging
+# https://www.siteleaf.com/blog/tag-pages-in-jekyll-and-siteleaf/
+# https://github.com/pattex/jekyll-tagging
+tag_page_layout: tag_page
+tag_page_dir: tags
+tag_page_data:
+  sitemap: false  
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
