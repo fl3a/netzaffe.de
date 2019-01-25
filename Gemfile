@@ -31,6 +31,9 @@ group :jekyll_plugins do
   # jekyll-toc - Table of Contents
   # https://github.com/toshimaru/jekyll-toc
   gem 'jekyll-toc'
+
+  # https://jekyllrb.com/docs/pagination/
+  gem 'jekyll-paginate-v2'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
