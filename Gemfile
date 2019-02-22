@@ -32,6 +32,7 @@ group :jekyll_plugins do
   # https://github.com/toshimaru/jekyll-toc
   gem 'jekyll-toc'
 
+  # Pagination
   # https://jekyllrb.com/docs/pagination/
   gem 'jekyll-paginate-v2'
 end
