@@ -50,6 +50,7 @@ plugins:
 
 # Pagination Settings
 # https://github.com/sverrirs/jekyll-paginate-v2
+# https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
 pagination:
   enabled: true
   per_page: 10 
