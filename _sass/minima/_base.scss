@@ -89,6 +89,16 @@ li {
   }
 }
 
+/* Pagination */
+ul.pager { 
+  text-align: center; list-style: none; 
+  li {
+    display: inline;
+    border: 1px solid $grey-color-light; 
+    padding: 10px; 
+    margin: 5px;
+  }
+}
 
 
 /**
