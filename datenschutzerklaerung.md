@@ -1,6 +1,5 @@
 ---
 title: Datenschutzerklärung
-permalink: /datenschutzerlklaerung
 layout: page
 ---
 
