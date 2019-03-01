@@ -35,6 +35,10 @@ group :jekyll_plugins do
   # Pagination
   # https://jekyllrb.com/docs/pagination/
   gem 'jekyll-paginate-v2'
+
+  # Tagging
+  # https://github.com/pattex/jekyll-tagging
+  gem 'jekyll-tagging'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
