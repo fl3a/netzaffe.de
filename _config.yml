@@ -47,6 +47,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-paginate-v2
+  - jekyll/tagging
 
 # Pagination Settings
 # https://github.com/sverrirs/jekyll-paginate-v2
@@ -58,6 +59,15 @@ pagination:
   limit: 0
   sort_field: 'date'
   sort_reverse: true  
+
+# Tagging settings
+# https://github.com/pattex/jekyll-tagging
+# https://www.siteleaf.com/blog/tag-pages-in-jekyll-and-siteleaf/
+tag_page_layout: tag
+tag_page_dir: tags
+tag_page_data:
+  sitemap: false
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
