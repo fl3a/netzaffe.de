@@ -68,10 +68,13 @@ autopages:
     enabled    : false
   tags:
     enabled    : true
+    slugify:
+      mode: latin
+      cased: true
     layouts:
       - "tag.html"
-    title      : ":tag" # :tag is replaced by the tag name
-    permalink  : "/tag/:tag"
+    title      : ":tag" 
+    permalink  : "/tags/:tag"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
