@@ -1,0 +1,10 @@
+ • <strong<i class="tags" aria-hidden="true"></i> Tags: </strong>
+<span itemprop="keywords">
+  {% for tag in page.tags %}
+  <a href="/tags/{{ tag | slugify: "latin" }}" class="page-taxonomy-item" rel="tag">{{ tag }}</a>
+  {% endfor %}
+</span>
+
+
+
+
