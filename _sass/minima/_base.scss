@@ -133,6 +133,22 @@ a {
       text-decoration: underline;
     }
   }
+
+/**
+ * Tags
+ */
+//  Why not? 
+//  .page-taxonomy-item {
+//    border: 1px solid;
+//    padding: 3px;
+//    margin: 1px;
+//  }
+}
+
+.post-meta  a.page-taxonomy-item {
+  border: 1px solid;
+  padding: 3px;
+  margin: 1px;
 }
 
 
