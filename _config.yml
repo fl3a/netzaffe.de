@@ -69,10 +69,10 @@ autopages:
   tags:
     enabled    : true
     slugify:
-      mode: latin
+      mode:  latin
       cased: true
     layouts:
-      - "tag.html"
+      - "home.html"
     title      : ":tag" 
     permalink  : "/tags/:tag"
 
