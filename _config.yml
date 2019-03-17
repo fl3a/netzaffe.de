@@ -37,6 +37,7 @@ defaults:
 # Drupal like teaser
 show_excerpts : true
 excerpt_separator   : "<!--break-->"
+read_more : "Weiterlesen"
 
 # Build settings
 markdown: kramdown
