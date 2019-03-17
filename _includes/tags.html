@@ -1,5 +1,10 @@
+{% if page.tags %} 
+  {% assign tags = page.tags %}
+{% elsif post.tags %}
+  {% assign tags = post.tags %}
+{% endif %}
 <ul class="tags">
-  {% for tag in page.tags %}
+  {% for tag in tags %}
     <li>
       <a href="/tags/{{ tag | slugify: "latin" }}" class="tag">{{ tag }}</a>
     </li>
