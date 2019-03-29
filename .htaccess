@@ -1,14 +1,20 @@
-Redirect 301 /blog/2009/07/04/drupallinuxtag09-open-source-drupal-linux-und-ballons.html /2009/07/04/drupallinuxtag09-open-source-drupal-linux-und-ballons.html
-Redirect 301 /blog/2014/08/28/facebook-tschoe-mit-oe-mit-oe.html 2014/08/28/facebook-tschoe-mit-oe-mit-oe
-Redirect 301 /blog/2011/10/05/features-session-drupalcity-de-2011.html /2011/10/05/features-session-drupalcity-de-2011.html
+AuthType Basic
+AuthName "Safe Playground"
+AuthUserFile /var/www/virtual/fl3a/.htuser
+Require valid-user
 
-Redirect 301 /book/export/html/978 /git-gitosis-gitweb-the-debian-way.html
+
+#Redirect 301 /blog/2009/07/04/drupallinuxtag09-open-source-drupal-linux-und-ballons.html /2009/07/04/drupallinuxtag09-open-source-drupal-linux-und-ballons.html
+#Redirect 301 /blog/2014/08/28/facebook-tschoe-mit-oe-mit-oe.html 2014/08/28/facebook-tschoe-mit-oe-mit-oe
+#Redirect 301 /blog/2011/10/05/features-session-drupalcity-de-2011.html /2011/10/05/features-session-drupalcity-de-2011.html
+
+#Redirect 301 /book/export/html/978 /git-gitosis-gitweb-the-debian-way.html
 # Weiterleitung von /git-gitosis-gitweb-the-debian-way/* 
 
-Redirect 301 /book/export/html/667 /gnupg-micro-howto.html
+#Redirect 301 /book/export/html/667 /gnupg-micro-howto.html
 # Weiterleitung von /gnupg-micro-howto/*
 
-Redirect 301 /book/export/html/520 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+#Redirect 301 /book/export/html/520 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 # Weiterleitung von /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/* 
 
 
