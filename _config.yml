@@ -50,7 +50,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll/tagging
 
-# Pagination Settings
+# Pagination Settings (jekyll-paginate-v2)
 # https://github.com/sverrirs/jekyll-paginate-v2
 # https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
 pagination:
@@ -61,7 +61,7 @@ pagination:
   sort_field: 'date'
   sort_reverse: true  
 
-# Plugin: Auto Pages (jekyll-paginate-v2)
+# Plugin: Auto Pages, used for tags (jekyll-paginate-v2)
 autopages:
   enabled      : true
   categories:
@@ -77,6 +77,10 @@ autopages:
       - "home.html"
     title      : ":tag" 
     permalink  : "/tags/:tag"
+
+# Atom feeds for tags (jekyll-tagging)
+# https://github.com/pattex/jekyll-tagging
+# tag_feed_layout: tag_feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
