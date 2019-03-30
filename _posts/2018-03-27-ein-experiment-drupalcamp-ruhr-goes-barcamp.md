@@ -9,7 +9,7 @@ tags:
 - Essen
 - Drupalcamp
 nid: 1648
-permalink: "/ein-experiment-drupalcamp-goes-barcamp"
+permalink: /ein-experiment-drupalcamp-goes-barcamp
 layout: post 
 created: 1522137428
 ---
