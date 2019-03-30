@@ -8,7 +8,7 @@ tags:
 - snippet
 layout: post
 toc: true
-permalink: /jekyll-deployment-auf-uberspace-via-post-receive-hook/
+permalink: /jekyll-deployment-auf-uberspace-via-bare-repo-und-post-receive-hook/
 ---
 Deployment einer [Jekyll-Site](/tags/jekyll) auf [Uberspace](https://uberspace.de) via *Git Bare Repository*[^1] und *post-receive Hook*[^2].
 
