@@ -1,7 +1,8 @@
 ---
-title: Jekyll Deployment auf Uberspace via post-receive Hook
+title: Jekyll Deployment auf Uberspace via Bare Repo und post-receive Hook
 tags: 
 - Jekyll
+- howto
 - "#!/bin/bash"
 - uberspace
 - git
@@ -12,14 +13,13 @@ permalink: /jekyll-deployment-auf-uberspace-via-bare-repo-und-post-receive-hook/
 ---
 Deployment einer [Jekyll-Site](/tags/jekyll) auf [Uberspace](https://uberspace.de) via *Git Bare Repository*[^2] und *post-receive Hook*[^1].
 
-Zeilstellung ist, dass ein `git push` auf das *uberspace Remote Repository*[^3] das weiter unten beschriebene Skript triggert,
-welches aus unserem Jekyll Repository mit all seinen Änderungen eine Website generiert 
-und dann der Welt auf unserem *Uberspace Webserver*[^4] verfügbar macht.
-
+Zielstellung ist, dass ein `git push` auf das *uberspace Remote Repository*[^3] das weiter unten beschriebene Skript triggert,
+welches aus deinem Jekyll Repository mit all seinen Änderungen (wie z.B. Markdown, Config-,  Layout- und  Include-Änderungen und Gemfile[^4]) 
+eine Website generiert und dann der Welt auf dem *Webserver*[^5] deiner Uberspace 6 Umgebung verfügbar macht.<!--break-->
 
 ## Vorbereitungen auf uberspace
 
-Wir starten nach erfolgreichem SSH-Login in unserem Home-Verzeichnis und legen Ordner für unser Repos und tmp an,
+Wir starten nach erfolgreichem SSH-Login auf unserem Uberspace-Host in unserem Home-Verzeichnis und legen Ordner für unser Repos und tmp an,
 ```
 mkdir -p repos/tmp
 ```
@@ -51,7 +51,7 @@ cd hooks
 ```
 
 Dann fügen das [Skript](https://gist.github.com/fl3a/032fadb155a75adac03c85cf204051f6) als *post-receive Hook*[^1] hinzu, 
-hier passiert später die ganze Magie.<!--break-->
+hier passiert später die ganze Magie.
 
 ```
 curl -O post-receive https://gist.githubusercontent.com/fl3a/032fadb155a75adac03c85cf204051f6/raw/b49e91fd1158faca3e73274fc5e84a2115d4863b/uberspace-jekyll.sh
@@ -64,7 +64,11 @@ chmod +x post-receive
 
 ## Das post-receive Skript
 
-[uberspace-jekyll-deployment.sh](https://gist.github.com/fl3a/032fadb155a75adac03c85cf204051f6) Gist.
+Wenn komplette Prozess der Übertragung (Push) abgeschlossen ist, greift der sogenannte *post-receive Hook*[^1] 
+und führt das gleichnamige Skript (sofern vorhanden) aus.
+
+Das [uberspace-jekyll-deployment.sh](https://gist.github.com/fl3a/032fadb155a75adac03c85cf204051f6) Skript 
+welches wir als *post-receive Hook*[^1] nutzen findest du auch als Gist auf github.
 
 ```
 #!/bin/bash
@@ -111,22 +115,22 @@ Im Skript sind nur 3 Variablen anzupassen (sofern alles wie oben beschrieben umg
 
 ### Beschreibung des Skipts 
 
-Die anderen Variablen werden aus den oben angepassten und/oder Umgebungsvariablen[^5] zusammengesetzt.
+Die anderen Variablen werden aus den oben angepassten und/oder Umgebungsvariablen[^6] zusammengesetzt.
 
 * `git_repo`, Pfad, wo die Bare-Repo[^2] liegt, 
 es fließt die Umgebungsvariable[^5] *HOME* und die Variable *site* mit ein.
 * `tmp`, hier wird unser Bare-Repo[^2] temporär *hin-ge-clon-ed*, 
 um als Quelle für die Generierung des statischen HTML für die Site zu dienen.
-Es fließen die Umgebungsvariablei[^5] *HOME* und die Variable *site* mit ein.
+Es fließen die Umgebungsvariablei[^6] *HOME* und die Variable *site* mit ein.
 * `www`, das Verzeichnis, das letztendlich vom Webserver ausgeliefert wird. 
-Es fließen die Umgebungsvariable[^5] *USER* sowie *site_prefix* und *site* ein.
+Es fließen die Umgebungsvariable[^6]] *USER* sowie *site_prefix* und *site* ein.
 
 Das *Do the magic*
 
 1. Überprüfung ob der übertragene- (pushed) und Build-Branch übereinstimmen, ansonsten Abruch.
 2. Klonen des Bare-Repos[^2] nach *tmp*
 2. Verzeichniswechsel nach *tmp*
-3. Installation der im Gemfile spezifizierten Abhängigkeiten via `bundle install`
+3. Installation der im Gemfile spezifizierten Abhängigkeiten via `bundle install`[^4]
 4. Generierung der HTML von *tmp* nach *www* via `jekyll build` 
 5. Löschen von *tmp*
 6. Beendigung des Skripts
@@ -167,6 +171,8 @@ und das Skript hat noch etwas Liebe erfahren.
 
 [^3]: [Git Grundlagen - Mit externen Repositorys arbeiten](https://git-scm.com/book/de/v1/Git-Grundlagen-Mit-externen-Repositorys-arbeite), [man git-remote](https://git-scm.com/docs/git-remote)
 
-[^4]: [Uberspace Wiki: Webserver](https://wiki.uberspace.de/webserver)
+[^4]: [Gems, Gemfiles and the Bundler](https://learn.cloudcannon.com/jekyll/gemfiles-and-the-bundler/)
 
-[^5]: [Linux/UNIX Umgebungsvariablen](https://linuxwiki.de/UmgebungsVariable)
+[^5]: [Uberspace Wiki: Webserver](https://wiki.uberspace.de/webserver)
+
+[^6]: [Linux/UNIX Umgebungsvariablen](https://linuxwiki.de/UmgebungsVariable)
