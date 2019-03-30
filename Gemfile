@@ -34,7 +34,7 @@ group :jekyll_plugins do
 
   # Pagination
   # https://jekyllrb.com/docs/pagination/
-  gem 'jekyll-paginate-v2'
+  gem 'jekyll-paginate-v2', '2.0.0'
 
   # Tagging
   # https://github.com/pattex/jekyll-tagging

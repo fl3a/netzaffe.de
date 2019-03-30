@@ -6,7 +6,7 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <h2 class="post-list-heading">{{ page.list_title | default: page.autopage.display_name | default: "Posts" }}</h2>
     <ul class="post-list">
       {%- for post in paginator.posts -%}
       <li>
@@ -17,8 +17,16 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
+        {%- if post.tags.size > 0 -%}
+          {%- include tags.html -%}
+        {%- endif -%}  
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
+          <p>
+            <a class="read-more" href="{{ post.url | relative_url }}">
+              {{ site.read_more }}
+            </a>
+          </p>
         {%- endif -%}
       </li>
       {%- endfor -%}
