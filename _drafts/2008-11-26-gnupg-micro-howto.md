@@ -317,7 +317,7 @@ gpg --import <Datei>
 
 #### Public-Key auf Keyserver veröffentlichen
 
-Damit unser öffentlicher Schlüssel jedem zur Verfügung stehen kann, exportieren wir ihn auf den Schlüsselserver.
+Damit unser öffentlicher Schlüssel jedem zur Verfügung stehen kann, exportieren wir ihn auf den Schlüsselserver[^4].
 ```
 gpg --send-key 269B69D1
 ```
@@ -373,7 +373,7 @@ Mac OS, die Integration in Mail-Clients, Datei Browser oder Ähnliches.
 
 - Enigmail - GnuPG Integration für Mozilla Applikationen wie z.B. Thunderbird
 - gpg4win - EMail-Sicherheit mit GnuPG für Windows, u.a. Outlook- oder Explorer Integration
-- signing-party - Diverse nützliche OpenPGP für Tools< für Keysigning-Partys[^4]
+- signing-party - Diverse nützliche OpenPGP für Tools für Keysigning-Partys[^5]
 - GPG Suite (GPG Tools) für die Nutzung Mac OS, wie z.B. Einbindung in Apple Mail
 
 ## Weiterführendes zu GnuPG & Fußnoten
@@ -385,7 +385,6 @@ Mac OS, die Integration in Mail-Clients, Datei Browser oder Ähnliches.
 - GnuPG in der Debian-Referenz
 - GnuPG auf ubuntuusers.de
 
-[^4]: [Keysigning-Party](https://de.wikipedia.org/wiki/Keysigning-Party)
 - Das GnuPG Keysigning-Party HOWTO von V. Alex Brennen
 - GPG und Vim
 - GPG-Agent und SSH Keys nutzen
@@ -398,3 +397,5 @@ Mac OS, die Integration in Mail-Clients, Datei Browser oder Ähnliches.
 [^1]: [Public-Key Verschlüsselungsverfahren](https://de.wikipedia.org/wiki/Public-Key-Verschl%C3%BCsselungsverfahren)
 [^2]: [Öffentlicher Schlüssel](https://de.wikipedia.org/wiki/%C3%96ffentlicher_Schl%C3%BCssel))
 [^3]: [Privater Schlüssel](https://de.wikipedia.org/wiki/Geheimer_Schl%C3%BCssel)
+[^4]: [Schlüsselserver](https://de.wikipedia.org/wiki/Schl%C3%BCsselserver)
+[^5]: [Keysigning-Party](https://de.wikipedia.org/wiki/Keysigning-Party)
