@@ -248,6 +248,45 @@ git push
 
 ## Neues Repository hinzufügen
 
+Jetzt können wir mit unserem frischgebackenem Admin-User *florian@demine* neue Repositories anlegen.
+
+Als florian@demine auf der lokalen Workstation:
+
+gitosis-admin.git auschecken
+```
+git clone gitosis@birgit:gitosis-admin.git
+```
+
+Da sich florian@demine bis jetzt noch nicht verbunden hat, muss dem ersten Verbindungsversuch über SSH mit yes zugestimmt werden:
+Initialized empty Git repository in /home/florian/gitosis-admin/.git/
+The authenticity of host 'birgit (88.198.7.214)' can't be established.
+RSA key fingerprint is b4:c0:e6:e9:7c:fa:6b:a4:b1:d0:d2:4c:b5:b7:11:d1.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'birgit,88.198.7.214' (RSA) to the list of known hosts.
+
+Wechsel in das soeben geklonte Repository:
+```
+cd gitosis-admin/
+```
+
+Die folgende Sektion, hier examplarisch die Gruppe developers, 
+die auf hongomat unter writable Schreibzugriff haben soll der Datei gitosis.conf hinzufügen:
+```
+[group developers]
+writable = hongomat
+members = florian@demine
+```
+
+...wieder ein commit:
+```
+git commit -a -m 'Added group "developers" with member "florian@demine" and write access to "hongomat"'
+```
+
+...und wieder ein push:
+```
+git push
+```
+
 ## Neues Repository anlegen
 
 ## Konfiguraton von gitweb
