@@ -378,20 +378,18 @@ Mac OS, die Integration in Mail-Clients, Datei Browser oder Ähnliches.
 
 ## Weiterführendes zu GnuPG & Fußnoten
 
-- GNU Privacy Guard - Wikipedia
-- Das GNU-Handbuch zum Schutze der Privatsphäre
-- Deutsches GPG Mini Howto auf gnupg.org
-- GPG Schlüsselverwaltung für apt-get(Secure APT)
-- GnuPG in der Debian-Referenz
-- GnuPG auf ubuntuusers.de
-
-- Das GnuPG Keysigning-Party HOWTO von V. Alex Brennen
-- GPG und Vim
-- GPG-Agent und SSH Keys nutzen
-- PGP-Keyserver mit Webfrontend
-- RFC2440: OpenPGP Message Format
-- RFC2015: MIME Security With Pretty Good Privacy
-- Die c't-Krypto-Kampagne
+- [GNU Privacy Guard - Wikipedia](http://de.wikipedia.org/wiki/GNU_Privacy_Guard)
+- [Das GNU-Handbuch zum Schutze der Privatsphäre](https://www.gnupg.org/gph/de/manual/book1.html)
+- [Deutsches GPG Mini Howto auf gnupg.org](https://www.gnupg.org/howtos/de/GPGMiniHowto.html#toc1)
+- [GPG Schlüsselverwaltung für apt-get(Secure APT)](https://linux.spiney.org/gpg_schlusselverwaltung_fur_apt_get)
+- [GnuPG in der Debian-Referenz](https://www.debian.org/doc/manuals/debian-reference/ch10.de.html#_data_security_infrastructure)
+- [GnuPG auf ubuntuusers.de](wiki.ubuntuusers.de/GnuPG)
+- [Das GnuPG Keysigning-Party HOWTO von V. Alex Brennen](https://rhonda.deb.at/projects/gpg-party/gpg-party.de.html)
+- [GPG und Vim](https://wiki.debianforum.de/Vim_mit_gnupg)
+- [PGP-Keyserver mit Webfrontend](https://pgp.mit.edu/)
+- [RFC2440: OpenPGP Message Format](https://www.ietf.org/rfc/rfc2440.txt)
+- [RFC2015: MIME Security With Pretty Good Privacy(PGP)](https://www.ietf.org/rfc/rfc2015.txt)
+- [Die c't-Krypto-Kampagne - Abhörsichere E-Mail mit PGP](https://www.heise.de/security/dienste/Krypto-Kampagne-2111.html)
 - [Einfach erklärt: E-Mail-Verschlüsselung mit PGP](https://www.heise.de/ct/artikel/Einfach-erklaert-E-Mail-Verschluesselung-mit-PGP-4006652.html)
 
 [^1]: [Public-Key Verschlüsselungsverfahren](https://de.wikipedia.org/wiki/Public-Key-Verschl%C3%BCsselungsverfahren)
