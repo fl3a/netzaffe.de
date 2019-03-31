@@ -33,7 +33,7 @@ Getestet wurden:
 
 ## Konzept und Terminologie
 
-GnuPG verwendet das sog. Public-Key-Verschlüsselungsverfahren1, dass heißt, das es 2 Arten von Schlüssel gibt, Öffentliche- (Public Keys)2 und Private Schlüssel (private Keys)3. Jeder Schlüssel hat sein dazugehöriges Gegenstück, allgemein als Schlüsselpaar bezeichnet.
+GnuPG verwendet das sog. Public-Key-Verschlüsselungsverfahren[^1], dass heißt, das es 2 Arten von Schlüssel gibt, Öffentliche- (Public Keys)[^2] und Private Schlüssel (private Keys)[^3]. Jeder Schlüssel hat sein dazugehöriges Gegenstück, allgemein als Schlüsselpaar bezeichnet.
 
 Der öffentlicher Schlüssel wird wird zum Verschlüsseln und zur Überprüfung von Signaturen genutzt und muss deinem Kommunikationspartner zur Verfügung stehen damit er diese Aktionen ausführen kann und wird i.d.R. über z.B. sog. Keyserver öffentlich verbreitet.
 
@@ -41,18 +41,15 @@ Der private Schlüssel wird hingegen zum Signieren und Entschlüsseln genutzt un
 
 Die Schlüssel werden über Schlüsselbünde verwaltet, auch hier wieder die Unterscheidung:
 
-    einen für die Öffentlichen, ~/.gnupg/pubring.gpg, eigenen Keys und die deiner Kommunikationspartner
-    und den für die Privaten, ~/.gnupg/secring.gpg
+- einen für die Öffentlichen, *~/.gnupg/pubring.gpg*, eigenen Keys und die deiner Kommunikationspartner
+- und den für die Privaten, *~/.gnupg/secring.gpg*
 
-    1. https://de.wikipedia.org/wiki/Public-Key-Verschl%C3%BCsselungsverfahren
-    2. https://de.wikipedia.org/wiki/%C3%96ffentlicher_Schl%C3%BCssel
-    3. https://de.wikipedia.org/wiki/Geheimer_Schl%C3%BCssel
 <!--break-->
 
 ## Erstellung eines GnuPG Schlüsselpaares
 
 Zur Erstellung eines GnuPG Schlüsselpaares ist der folgende Befehl ist unter der Benutzer-ID des Hauptbenutzers auszuführen. 
-Andernfalls muss der Ort durch --homedir /home/foobar/.gnupg angeglichen werden.
+Andernfalls muss der Ort durch *--homedir /home/foobar/.gnupg* angeglichen werden.
 ```
 gpg --gen-key
 ```
@@ -397,3 +394,7 @@ Mac OS, die Integration in Mail-Clients, Datei Browser oder Ähnliches.
 - RFC2015: MIME Security With Pretty Good Privacy
 - Die c't-Krypto-Kampagne
 - [Einfach erklärt: E-Mail-Verschlüsselung mit PGP](https://www.heise.de/ct/artikel/Einfach-erklaert-E-Mail-Verschluesselung-mit-PGP-4006652.html)
+
+[^1]: [Public-Key Verschlüsselungsverfahren](https://de.wikipedia.org/wiki/Public-Key-Verschl%C3%BCsselungsverfahren)
+[^2]: [Öffentlicher Schlüssel](https://de.wikipedia.org/wiki/%C3%96ffentlicher_Schl%C3%BCssel))
+[^3]: [Privater Schlüssel](https://de.wikipedia.org/wiki/Geheimer_Schl%C3%BCssel)
