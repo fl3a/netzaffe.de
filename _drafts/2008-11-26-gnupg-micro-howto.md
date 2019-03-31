@@ -371,10 +371,10 @@ gpg --send-keys 269B69D1
 Diverse nützliche Software für die Nutzung von GnuPG unter Windows, 
 Mac OS, die Integration in Mail-Clients, Datei Browser oder Ähnliches.
 
-- Enigmail - GnuPG Integration für Mozilla Applikationen wie z.B. Thunderbird
-- gpg4win - EMail-Sicherheit mit GnuPG für Windows, u.a. Outlook- oder Explorer Integration
-- signing-party - Diverse nützliche OpenPGP für Tools für Keysigning-Partys[^5]
-- GPG Suite (GPG Tools) für die Nutzung Mac OS, wie z.B. Einbindung in Apple Mail
+- [Enigmail - GnuPG Integration für Mozilla Applikationen wie z.B. Thunderbird](https://www.enigmail.net/index.php/en/)
+- [gpg4win - EMail-Sicherheit mit GnuPG für Windows, u.a. Outlook- oder Explorer Integration](https://www.gpg4win.org/index-de.html)
+- [GPG Suite (GPG Tools) für die Nutzung Mac OS, wie z.B. Einbindung in Apple Mail](https://gpgtools.org/)
+- [signing-party - Diverse nützliche OpenPGP für Tools für Keysigning-Partys](https://packages.debian.org/search?keywords=signing-party)[^5]
 
 ## Weiterführendes zu GnuPG & Fußnoten
 
