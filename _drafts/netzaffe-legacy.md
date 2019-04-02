@@ -200,6 +200,13 @@ done
 
 #### Kommentare
 
+#### Permalinks
+
+
+
+```
+sed '/^permalink:\ "\/blog.*"$/d' 2018-03-31-certified-scrum-professional-csp.md
+```
 * * *
 
 
