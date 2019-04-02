@@ -4,7 +4,6 @@ tags:
 - Drupal
 - CMS
 nid: 8
-permalink: "/blog/2005/03/11/drupal-4-6-0-release-kandidat.html"
 layout: post
 title: Drupal 4.6.0 Release Kandidat
 created: 1110562016

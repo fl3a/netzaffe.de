@@ -5,7 +5,6 @@ tags:
 - Linux
 - Gut zu wissen
 nid: 1633
-permalink: "/blog/2014/11/26/svn-ueber-ssh-unter-linux-username-bei-svn-checkout-angeben.html"
 layout: post
 title: 'svn+ssh unter Linux: Username bei svn checkout angeben'
 created: 1416991937

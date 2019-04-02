@@ -9,7 +9,6 @@ tags:
 - Dries
 - Advent
 nid: 693
-permalink: "/blog/2008/12/14/dries-kommt-aufs-drupalcamp.html"
 layout: post
 title: Dries kommt aufs DrupalCamp!
 created: 1229263450

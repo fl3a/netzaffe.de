@@ -5,7 +5,6 @@ tags:
 - Internet
 - Datenintegrität
 nid: 843
-permalink: "/blog/2009/05/19/du-bist-terrorist.html"
 layout: post
 title: Du bist Terrorist
 created: 1242731373

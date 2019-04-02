@@ -7,7 +7,6 @@ tags:
 - Scrum Master
 - Zertifikat
 nid: 1649
-permalink: "/blog/2018/03/31/certified-scrum-professional-csp.html"
 layout: post 
 created: 1522507534
 ---

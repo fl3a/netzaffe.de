@@ -5,7 +5,6 @@ tags:
 - Internet
 - GEZ
 nid: 595
-permalink: "/blog/2008/10/08/keine-gez-gebuehr-bei-privater-pc-nutzung.html"
 layout: post
 title: Keine GEZ Gebühr bei privater PC-Nutzung
 created: 1223421078

@@ -10,7 +10,6 @@ tags:
 - Drupal
 - dcvie
 nid: 974
-permalink: "/blog/2009/12/08/drush-und-multisite-drush-multi-dcvie-2009.html"
 layout: post
 title: 'Drush und Multisite: drush_multi @ dcvie 2009'
 created: 1260285392

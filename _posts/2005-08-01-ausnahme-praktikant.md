@@ -6,7 +6,6 @@ tags:
 - Drupal
 - CMS
 nid: 545
-permalink: "/blog/2005/08/01/ausnahme-praktikant.html"
 layout: post
 title: Ausnahme-Praktikant
 created: 1122890055

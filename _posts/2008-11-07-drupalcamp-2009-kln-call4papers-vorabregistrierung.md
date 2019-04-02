@@ -6,7 +6,6 @@ tags:
 - Drupalcamp
 - Drupal
 nid: 646
-permalink: "/blog/2008/11/07/drupalcamp-2009-koeln-call4papers-vorabregistrierung.html"
 layout: post
 title: 'DrupalCamp 2009 Köln: Call4Papers + Vorabregistrierung'
 created: 1226054817

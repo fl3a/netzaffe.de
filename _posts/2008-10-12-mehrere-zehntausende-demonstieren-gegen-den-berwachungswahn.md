@@ -5,7 +5,6 @@ tags:
 - Internet
 - Demo
 nid: 600
-permalink: "/blog/2008/10/12/mehrere-zehntausende-demonstieren-gegen-den-ueberwachungswahn.html"
 layout: post
 title: Mehrere Zehntausende demonstieren gegen den Überwachungswahn
 created: 1223808202

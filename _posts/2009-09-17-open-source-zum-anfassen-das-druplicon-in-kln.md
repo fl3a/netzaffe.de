@@ -6,7 +6,6 @@ tags:
 - Open Source
 - Drupal User Group Köln/Bonn
 nid: 969
-permalink: "/blog/2009/09/17/open-source-zum-anfassen-das-druplicon-in-koeln.html"
 layout: post
 title: Open Source zum anfassen - Das Druplicon in Köln
 created: 1253192368

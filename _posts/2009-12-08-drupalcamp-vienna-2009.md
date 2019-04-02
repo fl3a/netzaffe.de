@@ -8,7 +8,6 @@ tags:
 - Drupal
 - dcvie
 nid: 973
-permalink: "/blog/2009/12/08/drupalcamp-vienna-2009.html"
 layout: post
 title: DrupalCamp Vienna 2009
 created: 1260256987

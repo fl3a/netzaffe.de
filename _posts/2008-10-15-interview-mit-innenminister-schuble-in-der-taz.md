@@ -5,7 +5,6 @@ tags:
 - Stasi 2.0
 - Internet
 nid: 602
-permalink: "/blog/2008/10/15/interview-mit-innenminister-schaeuble-in-der-taz.html"
 layout: post
 title: Interview mit Innenminister Schäuble in der TAZ
 created: 1224099448

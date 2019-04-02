@@ -3,7 +3,6 @@ tags:
 - Security
 - Drupal
 nid: 603
-permalink: "/blog/2008/10/23/drupal-core-oktober-security-update-die-zweite.html"
 layout: post
 title: 'Drupal Core: Oktober Security-Update die Zweite'
 created: 1224743563

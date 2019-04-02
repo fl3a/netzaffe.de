@@ -5,7 +5,6 @@ tags:
 - Drupalcamp
 - Drupal
 nid: 657
-permalink: "/blog/2008/11/08/am-11-11-um-1111-startet-die-offizielle-registrierung.html"
 layout: post
 title: Am 11.11. um 11:11 startet die offizielle Registrierung
 created: 1226165952

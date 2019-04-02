@@ -6,7 +6,6 @@ tags:
 - nützlich
 - Linux
 nid: 1000
-permalink: "/blog/2010/12/11/arbeit-sparen-mit-cluster-ssh.html"
 layout: post
 created: 1292019984
 ---

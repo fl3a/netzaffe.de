@@ -5,7 +5,6 @@ tags:
 - Drupal-Sites
 - Drupal
 nid: 517
-permalink: "/blog/2008/09/27/web2nulliger-projektleiter-sven-plaggemeier-ueber-den-launch-von-beta-koeln-de.html"
 layout: post
 title: 'web2nulliger: Projektleiter Sven Plaggemeier über den Launch von beta.koeln.de'
 created: 1222546292

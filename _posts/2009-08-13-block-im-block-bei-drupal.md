@@ -5,7 +5,6 @@ tags:
 - "<?php ?>"
 - drupal-6.x
 nid: 858
-permalink: "/blog/2009/08/13/block-im-block-bei-drupal.html"
 layout: post
 title: Block im Block bei Drupal
 created: 1250156083

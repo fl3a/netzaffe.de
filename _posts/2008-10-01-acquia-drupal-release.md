@@ -4,7 +4,6 @@ tags:
 - Drupal
 - CMS
 nid: 585
-permalink: "/blog/2008/10/01/acquia-drupal-release.html"
 layout: post
 title: Acquia Drupal Release
 created: 1222815503

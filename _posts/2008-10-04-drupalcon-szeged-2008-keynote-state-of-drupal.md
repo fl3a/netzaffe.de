@@ -5,7 +5,6 @@ tags:
 - Drupal
 - CMS
 nid: 586
-permalink: "/blog/2008/10/04/drupalcon-szeged-2008-keynote-state-of-drupal.html"
 layout: post
 title: DrupalCon Szeged 2008 keynote - State of Drupal
 created: 1223144296

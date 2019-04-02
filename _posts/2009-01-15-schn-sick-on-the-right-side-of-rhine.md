@@ -4,7 +4,6 @@ tags:
 - müllem
 - Köln
 nid: 701
-permalink: "/blog/2009/01/15/schoen-sick-on-the-right-side-of-rhine.html"
 layout: post
 title: Schön Sick - On the right side of rhine
 created: 1232006667

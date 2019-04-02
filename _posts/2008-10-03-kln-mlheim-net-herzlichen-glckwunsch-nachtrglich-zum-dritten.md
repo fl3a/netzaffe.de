@@ -8,7 +8,6 @@ tags:
 - Drupal-Sites
 - Drupal
 nid: 548
-permalink: "/blog/2008/10/03/koeln-muelheim-net-herzlichen-glueckwunsch-nachtraeglich-zum-dritten.html"
 layout: post
 title: Köln-Mülheim.NET - Herzlichen Glückwunsch nachträglich zum dritten
 created: 1223064751

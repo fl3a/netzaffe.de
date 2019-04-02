@@ -7,7 +7,6 @@ tags:
 - Arrays
 - "#!/bin/bash"
 nid: 709
-permalink: "/blog/2009/02/24/bash-v-4-bringt-assoziative-arrays.html"
 layout: post
 title: BASH v. 4 bringt assoziative Arrays
 created: 1235494749

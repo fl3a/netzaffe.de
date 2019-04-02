@@ -7,7 +7,6 @@ tags:
 - apache2
 - ".htaccess"
 nid: 989
-permalink: "/blog/2010/02/08/htaccess-mit-authentifizierung-an-einer-mysql-datenbank-drupal.html"
 layout: post
 title: ".htaccess mit Authentifizierung an einer MySQL Datenbank (Drupal)"
 created: 1265658992

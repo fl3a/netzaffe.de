@@ -6,7 +6,6 @@ tags:
 - Bonn
 - Bier
 nid: 544
-permalink: "/blog/2007/08/24/drupal-user-group-koeln-bonn-grillen-im-netzladen-bonn.html"
 layout: post
 title: Drupal User Group Köln/Bonn - Grillen im Netzladen Bonn
 created: 1187960743

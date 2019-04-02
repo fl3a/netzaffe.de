@@ -6,7 +6,6 @@ tags:
 - FrOSCon
 - Drupal
 nid: 541
-permalink: "/blog/2007/08/27/froscon-2007-drupal-subconference.html"
 layout: post
 title: FrOSCon 2007 - Drupal Subconference
 created: 1188215147

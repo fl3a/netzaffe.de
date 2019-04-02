@@ -6,7 +6,6 @@ tags:
 - Geocaching
 - Draussen
 nid: 1616
-permalink: "/blog/2013/01/14/geocaching-und-garmin-communicator-plugin-unter-ubuntu-linux.html"
 layout: post
 title: Geocaching und Garmin Communicator Plugin unter Ubuntu Linux
 created: 1358167016
