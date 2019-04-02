@@ -11,7 +11,7 @@ tags:
 nid: 1648
 layout: post 
 created: 1522137428
-permalink: /ein-experiment-drupalcamp-goes-barcamp
+permalink: /ein-experiment-drupalcamp-goes-barcamp/
 image: /assets/imgs/dcruhr18/haben-alle-das-session-board-fotografiert-tag2-rokr-dcruhr18.jpg
 ---
 <figure role="group">
