@@ -11,14 +11,13 @@ tags:
 - Community
 - Berlin
 nid: 543
-permalink: "/blog/2008/06/02/be-drupal-drupal-auf-dem-linuxtag-2008-in-berlin.html"
 layout: post
 title: be drupal - Drupal auf dem Linuxtag 2008 in Berlin
 created: 1212409911
 ---
 <figure role="group">
 <img src="/assets/imgs/drupal-linuxtag-2008_1.jpg" alt="be drupal - Drupal auf dem Linuxtag 2008 in Berlin"  />
-<figcaption>Ramiro Gomez (yaph) (CC BY-NC-SA 2.0), Quelle: <a href="https://www.flickr.com/search/?sort=date-taken-desc&safe_search=1&tags=drupallinuxtag2008&user_id=8471827%40N06&view_all=1">flickr</a></figcaption>
+<figcaption>Standleben mit Dag Wieers, Ramiro Gomez (yaph) (CC BY-NC-SA 2.0), Quelle: <a href="https://www.flickr.com/search/?sort=date-taken-desc&safe_search=1&tags=drupallinuxtag2008&user_id=8471827%40N06&view_all=1">flickr</a></figcaption>
 </figure>
 <p>Drupal auf dem Open Source Event 2008 in Berlin...</p>
 <!--break-->
