@@ -22,9 +22,9 @@ $result = db_query(
    array(':pattern' => db_like($prefix) . '%') 
 ); 
 ```
-<!--break-->
 <ul>
 	<li><a href="http://api.drupal.org/api/drupal/includes%21database%21database.inc/function/db_query/7#comment-33348">db_like is the way to go</a></li>
 	<li><a href="http://api.drupal.org/api/drupal/includes%21database%21database.inc/function/db_like/7">7 database.inc db_like($string)</a></li>
 	<li><a href="http://de.wikibooks.org/wiki/Einf%C3%BChrung_in_SQL:_WHERE-Klausel_im_Detail#LIKE_.E2.80.93_.C3.84hnlichkeiten_.281.29">SQL LIKE – Ähnlichkeiten</a></li>
 </ul>
+<!--break-->
