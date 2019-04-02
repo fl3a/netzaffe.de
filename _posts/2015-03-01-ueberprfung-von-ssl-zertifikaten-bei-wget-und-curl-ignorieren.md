@@ -6,7 +6,7 @@ tags:
 - Gut zu wissen
 - curl
 nid: 1636
-permalink: "/ueberpruefung-von-ssl-zertifikaten-bei-wget-und-curl-ignorieren"
+permalink: "/ueberpruefung-von-ssl-zertifikaten-bei-wget-und-curl-ignorieren.html"
 layout: post
 created: 1425213970
 ---
