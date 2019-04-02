@@ -77,6 +77,20 @@ autopages:
     title      : ":tag" 
     permalink  : "/tags/:tag"
 
+# jekyll-seo-tag 
+# https://github.com/jekyll/jekyll-seo-tag
+lang: "de_DE"
+social:
+  name: Ben Balter
+  links:
+    - https://twitter.com/fl3a
+    - http://de.linkedin.com/in/florianlatzel/en
+    - https://github.com/fl3a
+    - http://soundcloud.com/florian-latzel
+    - http://drupal.org/u/fl3a
+    - http://de.slideshare.net/fl3a
+    - http://www.xing.com/profile/Florian_Latzel
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
