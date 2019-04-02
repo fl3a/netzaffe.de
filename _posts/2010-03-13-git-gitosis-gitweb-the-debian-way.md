@@ -1,8 +1,9 @@
 ---
+last_modified_at: 2019-04-02 12:23
+date: 2010-03-13 17:26
 tags:
 - Debian
 - Security
-- Repositories
 - howto
 - Git
 - Drupal
@@ -10,7 +11,6 @@ layout: post
 permalink: /git-gitosis-gitweb-the-debian-way.html
 image: /assets/imgs/1024px-Git-logo-2007.svg.png
 toc: true
-nid: 978
 title: Git, Gitosis, Gitweb (the Debian way)
 ---
 <figure role="group">
@@ -18,7 +18,7 @@ title: Git, Gitosis, Gitweb (the Debian way)
   <figcaption>Git-Logo, Git, CC BY 3.0</figcaption>
 </figure>
 
-Installation und Konfiguration von Git, Gitosis und Gitweb unter Debian 5 (Lenny).
+Howto: Installation und Konfiguration von Git, Gitosis und Gitweb unter Debian (getestet mit Debian 5/Lenny).
 
   - [Git](http://git-scm.com/) ist ein DVCS, welches 2005 von Linus
     Thorvalds  
@@ -32,10 +32,9 @@ Installation und Konfiguration von Git, Gitosis und Gitweb unter Debian 5 (Lenny
 
 Das folgende Setup erstreckt sich über 3 Rechner:
 
-1.  *birgit*, das zentrale Repository welches über gitosis verwaltet
-    wird und die Gitweb Weboberfläche bereitstellt
-2.  *nora*, der Server auf dem entwickelt wird
-3.  *demine*, eine lokale Workstation
+1. *birgit*, das zentrale Repository welches über gitosis verwaltet wird und die Gitweb Weboberfläche bereitstellt
+2. *demine*, eine lokale Entwicklungsumgebung
+3. *sandy*, noch ein lokale Entwicklungsumgebung
 
 Warum man seinen Code versionieren sollte, müsste eigentlich jedem
 Entwickler klar sein, [dass Drupal in Zukunft auf Git setzen wird](http://groups.drupal.org/node/48818#comment-133893), dürfte wohl
@@ -55,7 +54,7 @@ Branch-Ebene vergeben kann...
 ## Installation und Einrichtung von Gitosis
 
 Installation von git, gitosis und gitweb über aptitude als Benutzer
-*root* auf *birgit*:
+*root* auf *birgit*, unserem späteren Git-Server:
 
 ```
 aptitude install git-core gitosis gitweb
@@ -64,20 +63,20 @@ aptitude install git-core gitosis gitweb
 Bei der Installation von *gitosis* wird unter Debian der Systembenutzer
 *gitosis* mit */srv/gitosis* als Heimatverzeichnis angelegt.
 
-Auf *nora* ein SSH-Schlüsselpaar für den Benutzer *florian* erstellen:
+Auf *demine* ein SSH-Schlüsselpaar für den Benutzer Florian erstellen:
 
 ```
 ssh-keygen -t rsa
 ```
 
 Öffentlichen Schlüssel auf den Server *birgit*, der später als zentrales
-Repository fungieren soll kopieren:
+Repository bzw. Git-Server fungieren soll kopieren:
 
 ```
 scp .ssh/id_rsa.pub birgit:/tmp
 ```
 
-Auf *birgit* Gitosis mit dem eben kopiertem Public-Key initialisieren:
+Den Gitosis-Dienst auf birgit mit dem eben kopiertem Public-Key initialisieren:
 
 ```
 sudo -H -u gitosis gitosis-init < /tmp/id_rsa.pub
@@ -102,7 +101,7 @@ Verzeichnisse entstanden:
     *projects.list* enthält, die in den nächsten Schritten pro Zeile
     durch Leerzeichen getrennt Repository und Eigentümer enthalten wird.
 
-Als Benutzer *florian* auf *nora* das Repository
+Als Benutzer *florian* auf *demine* das Repository jetzt ge-clone-ed werden:
 
 ```
 git clone gitosis@birgit:gitosis-admin.git
@@ -115,16 +114,12 @@ folgenden Inhalt:
   - Das Verzeichnis *keydir*, welches die öffentichen Schlüssel zur
     Authentifizierung an gitosis enthält.  
     Durch die Initialisierung von gitosis ist in *keydir* bereits der
-    öffentiche Schlüssel
-    *[florian@nora.pub](mailto:florian@nora.pub "florian@nora.pub")*
-    vorhanden.
+    öffentiche Schlüssel *florian@demine.pub* vorhanden.
 
 ### SSH Port und GIT URLS
 
-**Achtung!**
-
-Falls auf dem Server, auf dem Gitosis und somit in unserm Fall auch SSH läuft
-ein Non Default Port verwendet wird, also nicht Port 22,
+**Achtung!** Falls auf dem Server, auf dem Gitosis und somit in unserm Fall auch SSH läuft
+einen Non Default Port verwendet wird, also nicht Port 22,
 so ändert sich die in den folgenden Schritten die Git-URL.
 
 In unserem Fall wird
@@ -149,28 +144,28 @@ Mehr zu **Git URLS** findet sich in der Manpage zu `git-clone`.
 
 ## Der Gruppe gitosis-admin einen neuen Benutzer hinzufügen
 
-Damit der neue Benutzer, hier florian@demine später selbständig weitere Repositories anlegen kann
-muss er Mitglied in der Gruppe *gitosis-admin* werden.
+Damit der neue Benutzer, hier sandra@sandy später selbständig weitere Repositories anlegen kann
+muss sie Mitglied in der Gruppe *gitosis-admin* werden.
 
-Auf nora als Benutzer florian, die Datei gitosis.conf im bereits geklonten gitosis-admin Resopitory bearbeiten, 
-um in der members Direktive von `[group gitosis-admin]` den Benutzer `florian@demine` hinzufügen:
+Auf Rechner demine als Benutzer Florian, die Datei *gitosis.conf* im bereits geklonten gitosis-admin Resopitory bearbeiten, 
+um in der members Direktive von `[group gitosis-admin]` den Benutzer `sandra@sandy` hinzufügen:
 
 ```
 [group gitosis-admin]
 writable = gitosis-admin
-members = florian@nora florian@demine
+members = florian@demine sandra@sandy
 ```
 
 Anschließend, ein Commit mit aussagekräftiger Commit-Message (`-m`)...
 
 ```
-git commit -a -m 'Added "florian@demine" to group gitosis-admin.'
+git commit -a -m "Added 'sandran@sandy' to group gitosis-admin."
 ```
 
-Output
+Output:
 
 ```
-Created commit 819f0f0: Added "florian@demine" to group gitosis-admin
+Created commit 819f0f0: Added 'sandra@sandy' to group gitosis-admin.
  1 files changed, 1 insertions(+), 1 deletions(-)
 ```
 
@@ -194,9 +189,10 @@ To gitosis@birgit:gitosis-admin.git
 
 ## SSH-Public-Key für neuen Benutzer hinzufügen
 
-Zuerst muss wieder für den jew. Benutzer ein SSH-Key angelegt werden, falls noch kein Key da ist, damit sich der Benutzer über diesen Key am gitiosis Konto anmelden kann.
+Zuerst muss wieder für den jew. Benutzer ein SSH-Key angelegt werden, 
+damit sich der Benutzer über diesen Key an Gitiosis anmelden kann.
 
-Als florian auf demine:
+Als Benutzer Sandra auf sandy:
 
 ```
 ssh-keygen -t rsa
@@ -213,31 +209,25 @@ Hier muss ggf. nach der öffentliche SSH-Schlüssel in ein für OpenSSH verstän
 ssh-keygen -i -f is_rsa.pub > id_rsa2.pub
 ```
 
-Anschießend den Teil mit dem öffentlichen Schlüssel per nach /tmp/ auf nora kopieren und gleichzeitig nach Schema *user@host.pub* umbenennen:
+Benutzer Sandra lässt Florian den ihren öffentlichen SSH-Schlüssel *id_rsa2.pub* für die weiteren Schrite zukommen z.B. via Mail.
+
+Weiter im Kontext mit Florian auf demine, der den Key nach dem Schema a *user@host.pub* umbenennt 
+und nach keydir verschiebt (**Achtung: Der Key muss die Dateiendung .pub haben!**)
 
 ```
-scp ~/.ssh/id_rsa2.pub nora:/tmp/florian@demine.pub
+mv /tmp/id_rsa2.pub gitolite-admin/keydir/sandra\@sandy.pub
 ```
 
-Weiter im Kontext mit florian auf nora um florian@demine.pub in der Verzeichnis keydir zu kopieren:
-
-**Achtung: Der Key muss die Dateiendung .pub haben!**
+Die Datei sandra@sandy.pub in das das *keydir* Verzeichnis des *gitosis-admin Repositories* aufnehmen:
 
 ```
-scp ~/.ssh/id_rsa2.pub nora:/tmp/florian@demine.pub
-cp /tmp/florian\@demine.pub keydir/
-```
-
-Die Datei florian@demine.pub in das gitosis-admin Repository aufnehmen:
-
-```
-git add keydir/florian\@demine.pub
+git add keydir/sandra\@sandy.pub
 ```
 
 Und wieder ein commit...
 
 ```
-git commit -m 'Added Key "florian@demine.pub"'
+git commit -m "Added Key 'sandra@sandy.pub'."
 ```
 
 ...und wieder ein push, damit die Änderungen auf birgit auch wirksam werden.
@@ -248,38 +238,40 @@ git push
 
 ## Neues Repository hinzufügen
 
-Jetzt können wir mit unserem frischgebackenem Admin-User *florian@demine* neue Repositories anlegen.
+Jetzt können wir mit unserem frischgebackenem Admin-User *sandra@sandy* neue Repositories anlegen.
 
-Als florian@demine auf der lokalen Workstation:
+Als Sandra auf sandy, ihrer lokalen Workstation:
 
-gitosis-admin.git auschecken
+gitosis-admin.git auschecken:
 ```
 git clone gitosis@birgit:gitosis-admin.git
 ```
 
-Da sich florian@demine bis jetzt noch nicht verbunden hat, muss dem ersten Verbindungsversuch über SSH mit yes zugestimmt werden:
-Initialized empty Git repository in /home/florian/gitosis-admin/.git/
+Da sich Sandra bis jetzt noch nicht mit brigit verbunden hat, muss dem ersten Verbindungsversuch über SSH mit yes zugestimmt werden:
+```
+Initialized empty Git repository in /home/sandra/gitosis-admin/.git/
 The authenticity of host 'birgit (88.198.7.214)' can't be established.
 RSA key fingerprint is b4:c0:e6:e9:7c:fa:6b:a4:b1:d0:d2:4c:b5:b7:11:d1.
 Are you sure you want to continue connecting (yes/no)? yes
 Warning: Permanently added 'birgit,88.198.7.214' (RSA) to the list of known hosts.
+```
 
 Wechsel in das soeben geklonte Repository:
 ```
 cd gitosis-admin/
 ```
 
-Die folgende Sektion, hier examplarisch die Gruppe developers, 
-die auf hongomat unter writable Schreibzugriff haben soll der Datei gitosis.conf hinzufügen:
+Die folgende Sektion, hier examplarisch die Gruppe developers,
+die auf das Repo *hongomat* via `writable` Schreibzugriff haben soll, der Datei *gitosis.conf* hinzufügen.
 ```
 [group developers]
 writable = hongomat
-members = florian@demine
+members = florian@demine sandra@sandy
 ```
 
 ...wieder ein commit:
 ```
-git commit -a -m 'Added group "developers" with member "florian@demine" and write access to "hongomat"'
+git commit -a -m "Added group "developers" with members 'florian@demine' and 'sandra@sandy' and write access to 'hongomat'."
 ```
 
 ...und wieder ein push:
@@ -289,8 +281,9 @@ git push
 
 ## Neues Repository anlegen
 
-Jetzt kann als florian@demine ein neues Repository, hier "hongomat"
-angelegt werden:
+Jetzt kann als sandra@sandy ein neues Repository, hier *hongomat* angelegt werden:
+
+Mit `git init` wird das Repository initialisiert, es ist ein initialer Commit nötig.
 ```
 mkdir hongomat
 cd hongomat
@@ -301,18 +294,16 @@ git add foo bar
 git commit -m 'Initial commit'
 ```
 
-Mit git init wird das Repository initialisiert,
-es ist ein initialer Commit nötig.
-```
-git remote add origin gitosis@birgit:hongomat.git
-git push origin master:refs/heads/master
-```
 
-Bei dem git remote add Statement wird mit birgit:hongomat.git das Remote Repository bestimmt.
+Bei dem `git remote add` Statement wird mit birgit:hongomat.git das Remote Repository bestimmt.
 
 Siehe SSH Port und GIT URLS bei Abweichung vom SSH-Standard-Port (22).
 
 Der push Befehl schiebt alles in unser zentrales Repository auf brigit.
+```
+git remote add origin gitosis@birgit:hongomat.git
+git push origin master:refs/heads/master
+```
 
 ## Konfiguraton von gitweb
 
@@ -416,7 +407,7 @@ falls man sich die m-Option beim git commit weglässt.  `export EDITOR='vim'`.
 - [Git Status im BASH Prompt](http://www.andrewvos.com/2011/07/25/showing-git-status-in-your-bash-prompt)
 - [Farbige Prompterstrings](https://wiki.archlinux.org/index.php/Color_Bash_Prompt)
 
-##  Weiterführendes zu Git
+##  Weiterführende Links zu Git
 
 **Git**
 
