@@ -14,5 +14,5 @@ created: 1231350510
 <p>...haben wir einen Schneemann gebaut.</p>
 <!--break-->
 <p>&nbsp;</p>
-<p><img width="375" height="500" src="/assets/imgs/schneemann-berlin." alt="" /></p>
+<p><img src="/assets/imgs/schneemann-berlin.jpg" alt="Schneemann Berlin 2009" /></p>
 <p>Bei so viel Schnee k&ouml;nnte man glauben, da&szlig; es Klimakatastrophe und Erderw&auml;rmung nicht gibt...</p>
