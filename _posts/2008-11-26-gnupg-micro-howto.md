@@ -12,7 +12,7 @@ tags:
 - Sicherheit 
 - Verschlüsselung 
 layout: post
-permalink: /gnupg-micro-howto
+permalink: /gnupg-micro-howto.html
 title: GnuPG (GPG) Micro Howto
 ---
 <figure role="group">

@@ -5,7 +5,6 @@ tags:
 - Anfänger
 - Agile
 nid: 1645
-permalink: "/scrum-starter-kit"
 layout: post
 title: Scrum Starter Kit
 created: 1520099535

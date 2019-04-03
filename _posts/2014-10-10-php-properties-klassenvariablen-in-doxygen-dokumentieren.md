@@ -11,8 +11,7 @@ tags:
 - "<?php ?>"
 - Entwicklung
 nid: '1631'
-redirect_from: /node/1631
-permalink: /php-properties-klassenvariablen-doxygen-dokumentieren
+image: /assets/imgs/doxygen-var-doxygen-notation.png
 title: PHP Properties/Klassenvariablen in Doxygen dokumentieren
 created: 1412931876
 ---
@@ -46,9 +45,9 @@ protected $commandLineOptions;
 
 Tada, Typ und der optionale Kommentar werden angezeigt.
 
-<img alt="PHP Member Data Documenation within Doxygen, Doxygen Notation, redundanter Variablenname" src="/assets/images/doxygen-var-doxygen-notation.png" width="510px">
+<img alt="PHP Member Data Documenation within Doxygen, Doxygen Notation, redundanter Variablenname" src="/assets/imgs/doxygen-var-doxygen-notation.png" />
 
-Interessant ist vielleich auch noch _Documenting PHP with Doxygen: The Pros and Cons_.
+Interessant ist vielleich auch noch _Documenting PHP with Doxygen: The Pros and Cons_[^8].
 
 * * *
 
@@ -58,5 +57,6 @@ Interessant ist vielleich auch noch _Documenting PHP with Doxygen: The Pros and 
 [^4]: [PHPDoc @var Tag](http://phpdoc.org/docs/latest/references/phpdoc/tags/var.html)
 [^5]: [Doxygen \var (variable declaration)](http://www.doxygen.nl/manual/commands.html#cmdvar)
 [^6]: [Drupals Coding-Standard](https://www.drupal.org/coding-standards/docs#var)
+[^7]: [Documenting PHP with Doxygen: The Pros and Cons](http://technosophos.com/2012/02/01/documenting-php-doxygen-pros-and-cons.html)
 [^7]: [stackoverflow: How to set member type in Doxygen for PHP code?](http://stackoverflow.com/questions/9125754/how-to-set-member-type-in-doxygen-for-php-code)
 [^8]: [Documenting PHP with Doxygen: The Pros and Cons](http://technosophos.com/2012/02/01/documenting-php-doxygen-pros-and-cons.html)

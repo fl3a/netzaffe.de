@@ -10,7 +10,6 @@ tags:
 - composer
 - "<?php ?>"
 nid: 1634
-permalink: "/pear-phpunit-composer-und-drupal"
 layout: post
 title: pear.phpunit.de, Composer und Drupal
 created: 1425132102
