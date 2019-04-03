@@ -2,7 +2,6 @@
 tags:
 - Verschlüsselung
 - ubuntu
-- Resue
 - Live-CD
 - Linux
 - Datensicherung
@@ -30,12 +29,11 @@ Nach einer Woche <acronym title="Home Office Nerd Deluxe">HOND</acronym> am Lapt
 <!--break-->
 <strong>Auflistung der Partitionen</strong>
 
-<code>
+```
 sudo fdisk -l
-</code>
+```
 
-<small>Ausgabe fdisk -l</small>
-<code>
+```
 Disk /dev/sda: 500.1 GB, 500107862016 bytes
 255 heads, 63 sectors/track, 60801 cylinders
 Units = cylinders of 16065 * 512 = 8225280 bytes
@@ -47,110 +45,105 @@ Disk identifier: 0x000d86fc
 /dev/sda1   *           1          32      248832   83  Linux
 /dev/sda2              32       60802   488135681    5  Extended
 /dev/sda5              32       60802   488135680   83  Linux
-</code>
+```
+<small>Ausgabe fdisk -l</small>
 
 Wie oben zu sehen:
 <ul>
  <li>/boot liegt auf /dev/sda1 , siehe Bootflag *</li>
  <li>Eine erweiterte Partition auf sda2</li>
- <li>/root auf /dev/sda5</a>
+ <li>/root auf /dev/sda5</li>
 </ul>
 
-<strong>Optional: Tools für die Ver- und Entschlüsselung installieren</strong>
+Optional: Tools für die Ver- und Entschlüsselung installieren:
+Bei Kubuntu (11.04) CD nicht nötig, bei <a href="http://www.knopper.net/">Knoppix</a> (6.4.3 ADRIANE) hingegen schon.
 
-Bei Kubuntu (11.04) CD nicht nötig, 
-bei <a href="http://www.knopper.net/">Knoppix</a> (6.4.3 ADRIANE) hingegen schon.
-
-<code>
+```
 sudo apt-get update
 sudo apt-get install cryptsetup
-</code>
+```
 
 
-<strong>"Öffnen" der verschlüsseten Root-Partition</strong>
+"Öffnen" der verschlüsseten Root-Partition
 
-<code>
+```
 sudo cryptsetup luksOpen /dev/sda5 sda
-</code>
+```
 
 Gefolgt von der Eingabe des Passworts.
 
-<code>
+```
 Enter passphrase for /dev/sda5:
-</code>
+```
 
-.../dev/sda5 ist jetzt auf /dev/mapper/sda5 "gemappt",
-ok jetzt "mounten"?!
+.../dev/sda5 ist jetzt auf /dev/mapper/sda5 "gemappt", ok jetzt "mounten"?!
 
-<strong>Der 1. Versuch /dev/mapper/sda5 zu mounten...</strong>
-<strong>mount: unknown filesystem type 'LVM2_member'</strong> 
+Der 1. Versuch /dev/mapper/sda5 zu mounten... `mount: unknown filesystem type 'LVM2_member'` 
 
 
-<code>
+```
 sudo mkdir /mnt/sda5
 sudo mount /dev/mapper/sda5 /mnt/sda5
-</code>
+```
 
 
 ...scheitert an dieser Fehlermeldung:
 
 
-<code>
+```
 mount: unbekannter Dateisystemtyp „LVM2_member“
-</code>
+```
 
 
-<strong>Installation von lvm2, dem Linux Logical Volume Manager</strong>
+Installation von lvm2, dem Linux Logical Volume Manager
 
 
-<code>
+```
 sudo apt-get install lvm2
-</code>
+```
 
-<strong>Informationen über die Logical Volumes abfragen</strong>
+Informationen über die Logical Volumes abfragen
 
 
-<code>
+```
 sudo lvs
-</code>
+```
 
-
-
-<small>Ausgabe sudo lvs</small>
-<code>
+```
   LV     VG      Attr   LSize   Origin Snap%  Move Log Copy%  Convert
   root   box     -wi--- 456.11g
   swap_1 box     -wi---   9.37g
-</code>
+```
+<small>Ausgabe sudo lvs</small>
 
 
-<strong>Aktivierung der Logical Volumes</strong>
+Aktivierung der Logical Volumes
 
 
-<code>
+```
 sudo vgchange -ay  box
-</code>
+```
 
 
 
-<small>Ausgabe sudo vgchange -ay  box</small>
-<code>
+```
   2 logical volume(s) in volume group "box" now active
-</code>
+```
+<small>Ausgabe sudo vgchange -ay  box</small>
 
 
-<strong>Der 2. Versuch /dev/mapper/sda5 zu mounten...</strong>
+Der 2. Versuch /dev/mapper/sda5 zu mounten...
 
 
-<code>
+```
 sudo mount /dev/box/root /mnt/sda5
-</code>
+```
 
 
-<strong>Vorbereitung für Chroot-Umgebung</strong>
+Vorbereitung für Chroot-Umgebung
 
 
-<code>
+```
 D=/mnt/sda5
 sudo mount -o bind /dev $D/dev
 sudo mount -o bind /sys $D/sys
@@ -161,64 +154,57 @@ sudo mkdir /mnt/usb_device
 sudo mount /dev/sdb1 /mnt/usb_device
 sudo mkdir  /dev/sdb1 /mnt/usb_device/bak20110630
 sudo mount --rbind  /mnt/usb_device/bak20110630 $D/data/
-</code>
+```
 
-<strong>Wechseln in die Chroot-Umgebung</strong>
+Wechseln in die Chroot-Umgebung
 
 
-<code>
+```
 sudo chroot $D
-</code>
+```
 
-<strong>Benutzer wechseln</strong>
+Benutzer wechseln, hier wechseln wir zu dem Benutzer, mit dem wir für gewöhnlich arbeiten.
 
-
-Hier wechseln wir zu dem Benutzer, mit dem wir für gewöhnlich arbeiten.
-
-<code>
+```
 su - florian
-</code>
+```
 
-
-
-<small>Ausgabe su - florian</small>
-<code>
+```
 keyctl_search: Required key not available
 Perhaps try the interactive 'ecryptfs-mount-private'
 To run a command as administrator (user "root"), use "sudo <command>".
 See "man sudo_root" for details.
-</code>
+```
+<small>Ausgabe su - florian</small>
 
 
-(Da wir uns wir uns durch das '-' im obigen Befehl eine "Login-Shell" erhalten ist ein <code>cd</code> und eine Auswertung der "Profile-Dateien nicht mehr nötig.)
+(Da wir uns wir uns durch das '-' im obigen Befehl eine "Login-Shell" erhalten ist ein ```cd``` und eine Auswertung der "Profile-Dateien nicht mehr nötig.)
 
-<strong>Entschlüsseln des Home-Verzeichnisses</strong>
-<code>
+Entschlüsseln des Home-Verzeichnisses
+```
 ecryptfs-mount-private
-</code>
+```
 
-
-
-<small>Ausgabe ecryptfs-mount-private nach Eingabe des Passworts</small>
-<code>
+```
 Enter your login passphrase:
 Inserted auth tok with sig [XXXXXXXXXXXXXXXXX] into the user session keyring
 
 INFO: Your private directory has been mounted.
 INFO: To see this change in your current shell:
   cd /home/florian
-</code>
+```
+<small>Ausgabe ecryptfs-mount-private nach Eingabe des Passworts</small>
 
 
-<strong>Daten auf die externe Festplatte kopieren</strong>
+Daten auf die externe Festplatte kopieren
 
 
-<code>
+```
 sudo cp -avr /home/florian /data
-</code>
+```
 
 <strong>Quellen</strong>
 
 
-http://debianforum.de/forum/viewtopic.php?f=29&t=129722#p831828
-http://www.cyberciti.biz/faq/ubuntu-mounting-your-encrypted-home-from-livecd/
+- [http://debianforum.de/forum/viewtopic.php?f=29&t=129722#p831828](http://debianforum.de/forum/viewtopic.php?f=29&t=129722#p831828)
+- [http://www.cyberciti.biz/faq/ubuntu-mounting-your-encrypted-home-from-livecd/](http://www.cyberciti.biz/faq/ubuntu-mounting-your-encrypted-home-from-livecd/)
