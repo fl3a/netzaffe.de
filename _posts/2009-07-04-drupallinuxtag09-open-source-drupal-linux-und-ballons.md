@@ -3,11 +3,10 @@ tags:
 - Typo3
 - Social Event
 - Open Source
+- Bier
 - Messe
 - Linuxtag
 - Linux
-- Freie Software
-- Frei wie Bier
 - Drupal User Group Berlin
 - Drupal
 - Community

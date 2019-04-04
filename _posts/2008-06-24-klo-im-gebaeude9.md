@@ -1,7 +1,6 @@
 ---
 tags:
 - "/dev/null"
-- trash
 - schääl sick
 - müllem
 - Köln

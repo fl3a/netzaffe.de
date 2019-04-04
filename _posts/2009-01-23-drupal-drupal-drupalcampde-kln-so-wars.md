@@ -3,7 +3,6 @@ title: Drupal, Drupal, DrupalCampDE Köln - so wars
 tags:
 - Social Event
 - Open Source
-- Frei wie Bier
 - Drupalcamp
 - Drupal User Group Köln/Bonn
 - Drupal

@@ -2,11 +2,9 @@
 tags:
 - Verschlüsselung
 - ubuntu
-- Live-CD
 - Linux
 - Datensicherung
 - snippet
-- Rescue
 - Knoppix
 nid: 1009
 layout: post

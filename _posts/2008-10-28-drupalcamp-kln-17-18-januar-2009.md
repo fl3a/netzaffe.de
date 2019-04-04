@@ -3,7 +3,6 @@ tags:
 - Social Event
 - Open Source
 - Köln
-- Frei wie Bier
 - Drupalcamp
 - Drupal User Group Köln/Bonn
 - Drupal

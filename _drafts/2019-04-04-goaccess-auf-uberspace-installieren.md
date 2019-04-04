@@ -24,6 +24,7 @@ https://wiki.uberspace.de/system:toast  toast - packageless package manager for 
 ```
 toast arm gettext
 ```
+```
 autoreconf -fiv
 ./configure --enable-geoip --enable-utf8 --prefix=/home/fl3a
 make

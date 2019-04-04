@@ -2,7 +2,6 @@
 tags:
 - Köln
 - Fahrrad
-- Critical Mass Cologne 2011-03-25
 - Critical Mass
 nid: 1022
 permalink: "/critical-mass-cologne-2011-03-25.html"

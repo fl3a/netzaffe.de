@@ -2,8 +2,6 @@
 tags:
 - Open Source
 - Wien
-- Freie Software
-- Frei wie Bier
 - Drupalcamp
 - Drupal
 - dcvie

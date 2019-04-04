@@ -1,6 +1,5 @@
 ---
 tags:
-- St. Augustin
 - Open Source
 - Linux
 - FrOSCon

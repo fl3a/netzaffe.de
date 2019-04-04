@@ -5,7 +5,6 @@ tags:
 - Messe
 - Linuxtag
 - Linux
-- Frei wie Bier
 - Drupal User Group Berlin
 - Drupal
 - Community

@@ -3,7 +3,6 @@ tags:
 - Spessart
 - Hahnenkamm
 - Fahrrad
-- Bike
 - Bayern
 - Alzenau
 nid: 583

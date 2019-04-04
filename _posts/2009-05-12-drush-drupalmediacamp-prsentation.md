@@ -6,7 +6,6 @@ tags:
 - Drupalcamp
 - php-cli
 - Drupal
-- Aarau
 - "<?php ?>"
 - "#!/bin/bash"
 nid: 762

@@ -7,7 +7,6 @@ tags:
 - Open Source
 - MySQL
 - irssi
-- Freie Software
 - eclipse
 - Drupal
 - doxygen

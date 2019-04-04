@@ -4,7 +4,6 @@ tags:
 - Musik
 - Köln
 - elektronisch
-- Bass
 nid: 589
 layout: post
 title: Basskonferenz

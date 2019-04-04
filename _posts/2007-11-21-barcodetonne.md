@@ -1,8 +1,8 @@
 ---
 tags:
-- trash
 - schääl sick
 - müllem
+- /dev/null
 - Kunst
 - Köln
 nid: 567

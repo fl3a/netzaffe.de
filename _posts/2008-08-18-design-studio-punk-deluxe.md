@@ -2,9 +2,7 @@
 title: Design Studio Punk Deluxe
 tags:
 - "/dev/null"
-- trash
 - Punk
-- Design Studio
 nid: 332
 permalink: "/design-studio-punk-deluxe.html"
 layout: post
