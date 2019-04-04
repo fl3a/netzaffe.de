@@ -1,11 +1,31 @@
-AuthType Basic
-AuthName "Safe Playground"
-AuthUserFile /var/www/virtual/fl3a/.htuser
-Require valid-user
-
 #
 # Redirects
 #
+
+# BEGIN Rules
+
+# To redirect all users to access the site WITHOUT the 'www.' prefix,
+# (http://www.example.com/... will be redirected to http://example.com/...)
+RewriteCond %{HTTP_HOST} ^www\.netzaffe\.de$ [NC]
+RewriteRule ^(.*)$ https://netzaffe.de/$1 [L,R=301]
+
+# Redirect to HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Redirect urls starting with /blog/ (Drupal imported) to jekylls standard url schema,
+# eg.: /blog/2009/07/04/drupallinuxtag09-open-source-drupal-linux-und-ballons.html
+# -> /2009/07/04/drupallinuxtag09-open-source-drupal-linux-und-ballons.html
+RedirectMatch 301 ^/blog/(.*).html$ /$1.html
+
+# Redirect tag urls ending with .html
+# /tags/scrum.html -> /tags/scrum/
+# RedirectMatch 301 ^/tags/(.*).html$ /tags/$1/
+
+# Redirect Drupal all legacy tag urls to tag page
+# RedirectMatch 301 ^/taxonomy/term/(.*) /tag
+
+# END Rules
 
 # Book pages
 
@@ -21,16 +41,3 @@ Redirect 301 /php-properties-klassenvariablen-doxygen-dokumentieren /2014/10/10/
 Redirect 301 /ein-experiment-drupalcamp-goes-barcamp /2018/03/27/ein-experiment-drupalcamp-ruhr-goes-barcamp.html 
 Redirect 301 /scrum-starter-kit /2018/03/03/scrum-starter-kit.html
 Redirect 301 /ueberpruefung-von-ssl-zertifikaten-bei-wget-und-curl-ignorieren /2015/03/01/ueberprfung-von-ssl-zertifikaten-bei-wget-und-curl-ignorieren.html
-
-
-# Redirect urls starting with /blog/ (Drupal imported) to jekylls standard url schema,
-# eg.: /blog/2009/07/04/drupallinuxtag09-open-source-drupal-linux-und-ballons.html
-# -> /2009/07/04/drupallinuxtag09-open-source-drupal-linux-und-ballons.html
-RedirectMatch 301 ^/blog/(.*).html$ /$1.html
-
-# Redirect tag urls ending with .html
-# /tags/scrum.html -> /tags/scrum/
-# RedirectMatch 301 ^/tags/(.*).html$ /tags/$1/
-
-# Redirect Drupal all legacy tag urls to tag page
-# RedirectMatch 301 ^/taxonomy/term/(.*) /tag
