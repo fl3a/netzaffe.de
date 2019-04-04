@@ -8,6 +8,7 @@ last_modified_at: 2019-04-04
 ---
 ## Über mich
 
+### Vorstellung in kurz & knapp
 <figure role="group">
   <img src="/assets/imgs/florian-latzel-reinblau-teamtreffen-2017-05-19-rkr.jpg" alt="Florian Latzel, Reinblau Teamtreffen, Mai 2017" />
   <figcaption>Florian Latzel, Reinblau Teamtreffen, Mai 2017, &copy; Ronald Krentz</figcaption>
@@ -15,14 +16,12 @@ last_modified_at: 2019-04-04
 
 Hallo, ich heiße Florian Latzel.
 
-Eine Vorstellung in kurz und knapp:
-
 - Jahrgang 1978, in Köln geboren
 - lebt und arbeitet im schönen [Köln-Mülheim](/tags/muellem/index.html)
 - macht was mit Menschen, die was mit Computern machen
 - Staatl. gepr. Informatiker FR Softwaretechnologie mit ein paar [Zertifikaten](/tags/zertifikat/index.html)
 - seit 2006 freiberuflicher IT-Berater, seit 2018 [Scrum Master](/tags/scrum-master/index.html) bei REWE digital
-- mag Rheinblick, [Reinblau](/tags/reinblau/index.html), gute Ideen, [Fahrräder](/tags/fahrrad/index.html), Sport und ist gerne draußen
+- mag Rheinblick, [Reinblau](/tags/reinblau/index.html), gute Ideen, [Fahrräder](/tags/fahrrad/index.html) und ist gerne [draußen](/tags/draussen/index.html).
 - glaubt an [Open Source](/tags/open-source/index.html) und Karma und [Agile Softwareentwicklung](/tags/agile/index.html)
 
 Hier hier erfährst Du vielleicht noch mehr über mich.
