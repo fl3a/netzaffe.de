@@ -13,7 +13,7 @@ In der letzten Version des Scrum Guides[^scrum-guide] aus dem November 2017 wurd
 das Kapitel des *Daily Scrums* stark überarbeitet, 
 um die eigentliche Ziel dieses Scrum Ereignisses besser herauszustellen.
 
-Spätestens seit dem ist klar, die Gestaltung das Daily Scrum obliegt dem Team.
+Spätestens seitdem ist klar, die Gestaltung das Daily Scrum obliegt dem Team.
 
 > Die Struktur des Ereignisses wird vom Entwicklungsteam festgelegt und kann auf unterschiedliche Weise durchgeführt werden, 
 > sofern die Erreichung des Sprint-Ziels im Fokus steht.
@@ -36,20 +36,23 @@ wie mein aktuelles Development Team diese für ihr *Standup Meeting* nutzt.
 
 **Andere Daily Questions für das Standup Meeting**
 
+Die folgende Fragen für unser Daily kleben auf PostIts direkt neben dem Kanban Board:
+
 - Board aktuell und bepunktet? 
-  Spätestens zu diesen Zeitpunt aktualisiert das Team das Kanban Board. 
+  Spätestens zu diesen Zeitpunkt aktualisiert das Team das Kanban Board.
+  Es findet Austausch über getane Arbeit statt. 
   Tasks, welche sich einen neuen Tag in der DOING-Spalte bekommen einen Punkt, 
   Tasks in der Review Spalte bekommen ein Kreuz verpasst. 
-  So haben wir einen schönen Indikator für Durchlaufzeit und Dauer im jeweiligem Prozeßschritt.
+  So haben wir einen auch noch schönen Indikator für Durchlaufzeit und Dauer im jeweiligem Prozeßschritt.
 - Appointments? 
-  Welche Termine stehen heute an, wer ist zur welcher Zeit wo.
+  Welche Termine stehen heute an. Es wird geklärt, wer (mit wem) hingeht und wer wo zur welcher Zeit ist.
 - Pairing rotation? 
   Das besagte Team arbeitet fast ausschließlich im Pairprogramming. 
   Hier rotiert das das Pair und ggf. auch die Aufgabe.
 - Anything to show?
   Adhoc Reviews für Product Owner.
 - Planned Absence?
-  Geplante Urlaubstage oder absehbares später kommen wegen Terminen wie Handwerker, Lieferung oder Arzt.
+  Geplante Urlaubstage oder private Termine, wie Arzt, Handwerker oder eine Lieferung.
 - News from the Guilds?
   Wenn ein Entwickler bei einer Gilde war, soll er dem restlichen Team berichten was dort passierte.
 - Cycle Time Sheet aktuell?
@@ -57,11 +60,20 @@ wie mein aktuelles Development Team diese für ihr *Standup Meeting* nutzt.
   Dieses Sheet generiert daraus diverse Metriken wie z.B. *Kumulatives Flussdiagramm*, *Durchsatz*. 
 - Jira aktuell?
   Mein Team arbeitet mit einem analogen Kanban Board, 
-  dass heisst, wie beim Cycle Time Sheet sorgt das Team dafür das Statuswechsel sowie
+  dass heisst, wie beim Cycle Time Sheet sorgt das Team dafür, dass Statuswechsel sowie
   Start- und Enddatum umgehend nach Jira übertragen werden, damit die Daten dort korrekt sind.
 
-https://medium.com/@MichaKutz/daily-stand-up-questions-beyond-the-three-f4786b796d91
+Da die Fragen sehr spefifisch für mein Team sind, was auch sehr stark mit unserer Arbeitsweise 
+und den entsprechenden Verhaltensmustern zusammenhängt, 
+kann (und wird) dies auch in Retrospektiven hinterfragt werden. 
+So kann es passieren, dass Fragen dazukommen und andere dafür wegfallen 
+weil sich Rahmenbedigungen und entsprechende Verhaltensweisen ändern.
+
+Danke an mein ehemaliges Team-Mitglied Micha Kutz, 
+der Ansatz mit den Fragen und dein Artikel[^q-micha] haben mich sehr inspiriert!
 
 * * *
 [^scrum-guide]: [Scrum Guide](https://scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-German.pdf), Seite 22, Änderungen im Scrum Guide 2017 im Vergleich zur Version von 2016, Punkt 5.
-[^nov17-change]: [Scrum Guide](https://scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-German.pdf), Seite 14, Sprint Retrospektive.
+[^nov17-change]: [Scrum Guide](https://scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-German.pdf), Seite 14, Sprint Retrospektive
+[^q-micha]: [Michael Kutz: Daily Stand-Up Questions - Beyond the three](https://medium.com/@MichaKutz/daily-stand-up-questions-beyond-the-three-f4786b796d91)
+.
