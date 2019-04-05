@@ -19,11 +19,14 @@ RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 RedirectMatch 301 ^/blog/(.*).html$ /$1.html
 
 # Redirect tag urls ending with .html
-# /tags/scrum.html -> /tags/scrum/
-# RedirectMatch 301 ^/tags/(.*).html$ /tags/$1/
+# /tags/scrum.html -> /tags/scrum/index.html
+# RedirectMatch 301 ^/tags/(.*)$ /tags/$1/index.html
+Redirect 301 /tags/agile.html /tags/agile/index.html
+Redirect 301 /tags/drupal.html /tags/drupal/index.html
+Redirect 301 /tags/scrum.html /tags/scrum/index.html
 
 # Redirect Drupal all legacy tag urls to tag page
-# RedirectMatch 301 ^/taxonomy/term/(.*) /tag
+RedirectMatch 301 ^/taxonomy/term/(.*) /themen.html
 
 # END Rules
 
@@ -41,3 +44,7 @@ Redirect 301 /php-properties-klassenvariablen-doxygen-dokumentieren /2014/10/10/
 Redirect 301 /ein-experiment-drupalcamp-goes-barcamp /2018/03/27/ein-experiment-drupalcamp-ruhr-goes-barcamp.html 
 Redirect 301 /scrum-starter-kit /2018/03/03/scrum-starter-kit.html
 Redirect 301 /ueberpruefung-von-ssl-zertifikaten-bei-wget-und-curl-ignorieren /2015/03/01/ueberprfung-von-ssl-zertifikaten-bei-wget-und-curl-ignorieren.html
+Redirect 301 /pear-phpunit-composer-und-drupal /2015/02/28/pear-phpunit-de-composer-und-drupal.html
+Redirect 301 /blog http://netzaffe.de 
+Redirect 301 /blog?page=1 http://netzaffe.de/
+Redirect 301 /node?page=1 http://netzaffe.de/
