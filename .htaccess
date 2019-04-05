@@ -20,10 +20,7 @@ RedirectMatch 301 ^/blog/(.*).html$ /$1.html
 
 # Redirect tag urls ending with .html
 # /tags/scrum.html -> /tags/scrum/index.html
-# RedirectMatch 301 ^/tags/(.*)$ /tags/$1/index.html
-Redirect 301 /tags/agile.html /tags/agile/index.html
-Redirect 301 /tags/drupal.html /tags/drupal/index.html
-Redirect 301 /tags/scrum.html /tags/scrum/index.html
+RedirectMatch 301 ^/tags/([^/]+)\.html$ /tags/$1/index.html
 
 # Redirect Drupal all legacy tag urls to tag page
 RedirectMatch 301 ^/taxonomy/term/(.*) /themen.html
