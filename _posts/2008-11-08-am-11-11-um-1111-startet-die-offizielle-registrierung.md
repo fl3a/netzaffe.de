@@ -1,7 +1,6 @@
 ---
 tags:
 - Köln
-- DrupalCamp-DE-2009-1
 - Drupalcamp
 - Drupal
 nid: 657

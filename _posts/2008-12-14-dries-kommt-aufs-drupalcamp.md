@@ -2,7 +2,6 @@
 tags:
 - Weihnachten
 - Logo
-- DrupalCamp-DE-2009-1
 - Drupalcamp
 - Drupal-Sites
 - Drupal

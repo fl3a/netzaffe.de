@@ -2,7 +2,6 @@
 tags:
 - irc
 - Internet
-- DrupalCamp-DE-2009-1
 - Drupal
 nid: 656
 layout: post

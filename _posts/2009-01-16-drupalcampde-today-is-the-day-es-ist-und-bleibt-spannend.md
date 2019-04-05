@@ -2,7 +2,6 @@
 tags:
 - Social Event
 - irc
-- DrupalCamp-DE-2009-1
 - Drupalcamp
 - Drupal
 - Community
