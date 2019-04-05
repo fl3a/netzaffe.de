@@ -1,4 +1,5 @@
 ---
+title: Agile, Scrum, Lean und Kanban Events in Köln, Bonn, Düsseldorf und Umgebung
 tags:
 - Scrum
 - Meetup
@@ -12,9 +13,8 @@ tags:
 - Scrumtisch Köln
 nid: 1642
 permalink: "/agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html"
-layout: post
-title: Agile, Scrum, Lean und Kanban Events in Köln, Bonn, Düsseldorf und Umgebung
 created: 1477757270
+last_modified_at: 2019-04-05
 ---
 Was für regelmäßigen Meetups zu Agile Themen wie Scrum, KANBAN,&nbsp;eXtreme Programming und Lean gibt in Köln und Umgebung? 
 Welche (Un)Konferenzen finden in NRW statt? 
@@ -43,6 +43,7 @@ Für manche Treffen ist eine Anmeldung über xing oder meetup Vorraussetzung, da
 - [Agile at Scale - Köln Meetup](https://www.meetup.com/de-DE/Agile-at-Scale-Koln-Meetup/)
 - [Köln Liberating Structures Meetup](https://www.meetup.com/de-DE/Koln-Liberating-Structures-Meetup/), 
   Meetup zum Ausprobieren und Erfahrungsaustausch der Liberating Structures Toolbox und Strings 
+- [Köln Teal](https://www.meetup.com/de-DE/Koln-Teal-Reinventing-Organizations-Meetup/) Reinventing Organizations - Meetup 
 - [Agile Ale](https://www.kernpunkt.de/agile-networking-event), 
   präsentiert kernpunkt's Reise der agilen Unternehmenstransformation, 
   Jeden dritten Mittwoch oder Donnerstag im Monat 
