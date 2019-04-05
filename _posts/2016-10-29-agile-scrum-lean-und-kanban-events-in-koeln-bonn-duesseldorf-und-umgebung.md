@@ -14,6 +14,7 @@ tags:
 nid: 1642
 permalink: "/agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html"
 created: 1477757270
+layout: post
 last_modified_at: 2019-04-05
 ---
 Was für regelmäßigen Meetups zu Agile Themen wie Scrum, KANBAN,&nbsp;eXtreme Programming und Lean gibt in Köln und Umgebung? 
