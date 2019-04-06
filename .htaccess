@@ -30,8 +30,14 @@ RedirectMatch 301 ^/taxonomy/term/(.*) /themen.html
 # Book pages
 
 Redirect 301 /book/export/html/667 /gnupg-micro-howto.html
+RedirectMatch 301 /gnupg-micro-howto/(.*) /gnupg-micro-howto.html
+
 Redirect 301 /book/export/html/978 /git-gitosis-gitweb-the-debian-way.html
+RedirectMatch 301 /git-gitosis-gitweb-the-debian-way/(.*) /git-gitosis-gitweb-the-debian-way.html
+
 Redirect 301 /book/export/html/520 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+RedirectMatch 301 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/(.*) /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
+
 
 # misc
 
@@ -45,3 +51,5 @@ Redirect 301 /pear-phpunit-composer-und-drupal /2015/02/28/pear-phpunit-de-compo
 Redirect 301 /blog http://netzaffe.de 
 Redirect 301 /blog?page=1 http://netzaffe.de/
 Redirect 301 /node?page=1 http://netzaffe.de/
+Redirect /blog/2014/11/26/svn-ueber-ssh-unter-linux-username-bei-svn-checkout-angeben.html /2014/11/26/svnssh-unter-linux-username-bei-svn-checkout-angeben.html
+Redirect 301 /rss.xml /feed.xml
