@@ -15,7 +15,7 @@ nid: 1642
 permalink: "/agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html"
 created: 1477757270
 layout: post
-last_modified_at: 2019-04-05
+last_modified_at: 2019-04-07
 ---
 Was für regelmäßigen Meetups zu Agile Themen wie Scrum, KANBAN,&nbsp;eXtreme Programming und Lean gibt in Köln und Umgebung? 
 Welche (Un)Konferenzen finden in NRW statt? 
@@ -71,6 +71,7 @@ Infos und Anmeldung die Website von Prowareness oder [xing](https://www.xing.com
 - [Lean DUS](https://leandus.de) wird von der sipgate GmbH veranstaltet Agenda, Talks + Anmeldung über die Lean DUS Website
 - [Scrum Deutschland](), eine von Prowareness organisierte, jährlich stattfindende Konferenz
 - [Lean Coffee Düsseldorf](https://www.xing.com/communities/groups/lean-coffee-90f0-1066150)
+- [Düsseldorf Liberating Structures](https://www.meetup.com/de-DE/meetup-group-JUAeEreA/)
 
 **Solingen**
 
@@ -87,7 +88,8 @@ Infos und Anmeldung die Website von Prowareness oder [xing](https://www.xing.com
   findet jeden dritten Donnerstag im Monat statt in wechselnden Locations statt, Anmeldung über Meetup
 - [Scrumtisch Essen](https://www.xing.com/communities/groups/agile-punkt-ruhr-1cbe-1071167),
 jeden vierten Donnerstag im Monat, Anmeldung über xing
-- [agile.ruhr](http://agile.ruhr), die (Un)Konferenz im zu Agile, Lean und Arbeit auf Augenhöhe im Ruhrgebiet
+- [agile.ruhr](http://agile.ruhr), die zweitägige (Un)Konferenz im zu Agile, Lean und Arbeit auf Augenhöhe im Ruhrgebiet, seit 2018 gibts auch noch den agile-ruhr Day
+- [Liberating Structures RUHR](https://www.meetup.com/de-DE/Liberating-Structures-in-RUHR/)
 
 **Kennst Du noch mehr regelmäßige Agile Events?**
 
