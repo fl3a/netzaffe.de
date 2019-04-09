@@ -15,12 +15,12 @@ nid: 1642
 permalink: "/agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html"
 created: 1477757270
 layout: post
-last_modified_at: 2019-04-07
+last_modified_at: 2019-04-09
 ---
 Was für regelmäßigen Meetups zu Agile Themen wie Scrum, KANBAN,&nbsp;eXtreme Programming und Lean gibt in Köln und Umgebung? 
 Welche (Un)Konferenzen finden in NRW statt? 
 Wo kann ich mich über Agiles Projektmanagement austauschen oder einfach nur Gleichgesinnte treffen 
-und wo ist die nächste [Selbsthilfegruppe der Anonymen Agilisten](https://twitter.com/fl3a/status/733018819170578432)?
+und wo ist die nächste Selbsthilfegruppe der Anonymen Agilisten[^anon-agile]?
 
 Ich habe mal eine Liste von Scrumtischen, Agile- und KANBAN- und Artverwandten-Meetups in der Region zusammengetragen,
 hier findest Du Termine, wo die Agile Community in Köln, Bonn, Düsseldorf, Aachen und dem Ruhrgebiet zusammenkommt.
@@ -34,8 +34,9 @@ Für manche Treffen ist eine Anmeldung über xing oder meetup Vorraussetzung, da
   mehr auf [leancoffee.cologne](http://leancoffee.cologne/)
 - [Limited <acronym title="Work in progress">WIP</acronym> Society Cologne (Kanban)](http://lwscologne.wordpress.com/), 
   jeden zweiten Mittwoch im Monat, Infos und Anmeldung über die [xing Gruppe](https://www.xing.com/communities/groups/limited-wip-society-cologne-f66d-1045957/events)
-- [Agile Cologne](http://www.agilecologne.de/), die (Un)Konferenz in Köln, findet in der Regel 2x im Jahr statt, einmal als eintägiges Event (agilecologne) und als zweitägiges Event = agilecologne XXL
-- [CoRe, Coach Reflection Day](https://www.coachreflectionday.org/), Bundesweite Veranstaltungsreihe, findet seit 2017 auch in Köln statt
+- [Agile Cologne](http://www.agilecologne.de/), die jährlich stattfindende (Un)Konferenz in Köln
+- [CoRe, Coach Reflection Day](https://www.coachreflectionday.org/), 
+  Bundesweite Veranstaltungsreihe, findet seit 2017 auch in Köln statt<!--break-->
 - [Agile Intervision](https://agile-intervision.de/), kollegiale Fallberatung für Scrum Master und Agile Coaches,
   weiteres über die [accsv-cgn Mailingliste](https://www.freelists.org/list/accsv-cgn) 
   und auf [xing](https://www.xing.com/communities/groups/agile-intervision-90f0-1105436)
@@ -51,9 +52,7 @@ Für manche Treffen ist eine Anmeldung über xing oder meetup Vorraussetzung, da
 - [Spielend begreifen - get it through games](https://www.xing.com/communities/groups/spielend-begreifen-get-it-through-games-90f0-1106969), 
   Spiele mit Mehrwert, alles was Verstehen fördert, 
   egal ob Simulationen/Planspiele, Teamspiele oder Ice-Breaker für Teams und Organisationen 
-
-<!--break-->
-
+- [Cologne Enterprise Changemaker](https://www.meetup.com/de-DE/Cologne-Enterprise-Changemaker/)  
 
 **Bonn**
 
@@ -98,10 +97,7 @@ Kennst Du noch weitere regelmäßig stattfindende Veranstaltungen?
 
 Lass es mich bitte durch einen Kommentar oder eine Mail wissen, ich aktualisiere dann gerne die Liste!
 
-**Ankündigungen 2017, save the date!**
+Du kannst natürlich auch gerne einen *Pull Request* auf diese Seite stellen!
 
-- Die [agile.ruhr 2017](http://agile.ruhr/camp/2017/index.html) findet unter dem Titel "Arbeit neu denken" 
-am Wochenende 22./23. April 2017 im UNPERFEKTHAUS in Essen statt
-- Die Agile Cologne 2017 findet am Freitag, 24.03.2017 statt
-- [XP 2017](https://www.xp2017.org/), die älteste Agile Konferenz findet dieses Jahr am 22.-26.05.2017 in Köln statt
-
+* * *
+[^anon-agile]: [https://twitter.com/fl3a/status/733018819170578432](https://twitter.com/fl3a/status/733018819170578432)
