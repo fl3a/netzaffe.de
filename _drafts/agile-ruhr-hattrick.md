@@ -1,5 +1,5 @@
 ---
-title: 'agile.ruhr: Hattrick'
+title: 'agile.ruhr: Hattrick!'
 layout: post
 tags:
 - Agile
@@ -99,4 +99,7 @@ https://twitter.com/diekatja/status/1114874976585306112
 
 https://twitter.com/ccvormann/status/1114896125583069185
 
+https://www.liberatingstructures.de/liberating-structures-menue/impromptu-networking/
+https://www.liberatingstructures.de/liberating-structures-menue/1-2-4-all/
 
+Tabelle?
