@@ -9,9 +9,17 @@ tags:
 - Kanban
 toc: true
 ---
-180 an Sa, 140 am So
-Reinbalu 3 x Sponsor
-<!--break-->
+Am Wochenende vom 06. und 07. April 2019 fand die diesjährige agile.ruhr, 
+der Termin zu Agile, Lean und Arbeit auf Augenhöhe im Ruhrgebiet statt.
+
+Der gut gut besuchte Event brachte 180 am Samstag und 140 am Sonntag zusammen,
+ich war auch mit dabei und zwar das dritte mal, das bedeutet ein Hattrick!
+
+Reinblau war auch das dritte mal als Sponsor dabei, auch ein Hattrick!
+
+Nicht nur wegen dem "Alle guten Dinge sind drei" Ding ein kleiner Bericht 
+über ein, in meinen Augen durchaus gelungenes agile.ruhr Camp 2019.<!--break-->
+
 ## Tag 1
 
 ### Holacracy
