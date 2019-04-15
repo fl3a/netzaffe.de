@@ -179,6 +179,11 @@ der häufig für gemeinützige und nachhaltige Projekte verwendet wird.
 
 **Der Pinakarri Moment**
 
+<figure role="group">
+  <img alt="" src />
+  <figcaption></figcaption>
+</figure>
+
 > Oft wird mit einem Pinakarri - Moment gearbeitet, 
 > bei dem ausgelöst durch ein Gruppenmitglied ein bis zwei Minuten Ruhezeit gehalten werden, 
 > um die letzte Aussage oder einen Streitpunkt setzen zu lassen. 
@@ -190,42 +195,76 @@ der häufig für gemeinützige und nachhaltige Projekte verwendet wird.
 
 **Charismatische Kommunikation**
 
+Als Partnerübung:
 
+1. Überlege dir ein persönlich wichtiges Thema oder Projekt
+2. Begeistere Deinen Partner davon
+4. nimm Dir einen Moment Zeit, mache die Schritte der Charismtischen Kommunikation.
+Nun lasse das Projekt, das durch Dich in die Welt kommen will, duch Dich sprechen
 
-https://twitter.com/ccvormann/status/1114875394161819650
-
-https://twitter.com/diekatja/status/1114874976585306112
-
+* Der Partner: 100% Zuhören, 100% Beobachter(Stimme, Haltung, Werte, Wirkung)
+* Rollenwechsel + Reflexion
 
 ## Danke!!!
 
-* Danke an alle Teilnehmer
-* Danke an alle Teilgeber meiner Session
-* Danke an Daniel
-* Danke an Berthold, Jörg und Markus
+Danke an alle Teilgebern der diesjährigen agile.ruhr, ohne euch gäbe es den Event gar nicht,
+Danke Sessions, Impulse, Austausch, Diskussionen und Diskurse!
+
+Danke an Daniel Bär für die Mitfahrgelegenheit. Das waren >3 Stunden mit angeregten Unterhaltungen,
+Danke, gute Zeit, schön dich mal besser Kennengelernt zu haben, 
+obwohl eigenlich genug Verbindungen (Job, Scrumtische, Stadt, Stadtteil, ...) da waren!
+Danke auch für das nette Foto von mir in Aktion und die Erlaubnis zur freien Nutzung!
+
+Last but not least: Danke an Berthold, Jörg und Markus für den Rahmen, den wir zwar gefüllt haben
+aber ohne den es das alles gar nicht möglich gewesen wäre!
 
 ## Feedback
 
-Hier mein Feedback, das ich gerne noch ausweite bzw. präzisiere 
-und auch noch Ideen zur Verbesserung einstreue.
+Hier nochmal mein Feedbacki[^feedback], das etwas präzisiere und auch noch Ideen zur Verbesserung einstreue.
 
 > Nehme viel Energie und Impulse mit
 
 ...ich glaube, dazu muss ich nichts sagen, oder?!
+
+Ich war noch am Montag total gepushed.
 
 > Vorstellungsrunde 
 > - zu lang 
 > - danach Tief
 > - fehlende Energie
 > - FOMO -> Zeit 1 Session
-[^impromptu]
-[^1234]
+
+Ich fand die Vorstellungsrunde ala Barcamp Tradition für 180 Meschen lange 
+und vor allem zu langatmig. Abgesehen davon, dass jeder was sagt, kann ich der Methode
+nicht viel zuerkennen. 
+Die ersten Hashtags, Namen und Geschichter habe ich nicht 5-10 Personen wieder vergessen, 
+für ein Kennenlernen oder Energetisieren IMHO nicht geignet.  
+
+Bei Danach konnte ich bei mir ein Tief wahrnehmen, auf die Anliegen (aka Session Vorstellungen) 
+konnte ich mich danach kaum noch konzentrieren.
+
+Ich finde das Outcome für die Inverstition an Zeit und Energie zu schade und denke,
+dass man ggf. sagar eine (Achtung FOMO) Session mehr stattdessen untergebracht bekommt. 
+
+Ich glaube, fest daran, dass es eine Handvoll Methoden gibt, um die IMHO die wichtigsten Punkte 
+erreichen
+* Jeder redet mindestens einmal
+* Energetisieren
+* Mit anderen in Austausch kommen
+
+Hierbei fallen mir direkt *Impromptu-Networking*[^impromptu] oder z.B. *1-2-3-4 Alle*[^1234] aus dem Liberating Structures ein,
+aber da gibt es bestimmt noch mehr, auch außerhalb des LS.
+
+Name, Twitter-Account, Hashtags, ggf. Foto könnte man in eiiner Tabelle sammeln...
+
 > Open space komplett erklären
 
-Foto von der Feeback Wand: https://twitter.com/ccvormann/status/1114896125583069185
+Ich glaube, dass das Mantraartige Wiederholen der OpenSpace-Regeln, Phänonmene und des einen Gesetztes
+hilft dabei, dieses Format zu verstehen und mit leben füllen zu können, 
+gerade für Neue,die bei ihren BarCamp oder OpenSpace sind.
+Ich finde das gehört dazu.
+Ich denke, dies dient gut als Leitplanke für eine Veranstaltung, die eben auf diesen Struktur aufsetzt.
 
-
-Tabelle?
 * * *
 [^holacracy1]: [Holokratie - Wikipedia](https://de.wikipedia.org/wiki/Holokratie)
 [^holacracy2]: [Holacracy: Die Hierarchie der Kreise](https://www.zukunftsinstitut.de/artikel/holacracy-die-hierarchie-der-kreise/)
@@ -246,3 +285,5 @@ Tabelle?
 [^dragon-bsc]: [Die Vision vom beständigen Gärtnern, B.Sc Anne Wiedemann, Umsetzbarkeit der Projekt-Gestaltungs-Methodik Dragon Dreaming in den urbanen Gemeinschaftsgärten, S.20, 3.2.3, Die Prinzipien des Dragon Dreaming](https://ufer-projekte.de/wp-content/uploads/2015/03/DragonDreaming_BA_AnneWiedemann.pdf)
 [^impromptu]: [LS: Imprumptu Networking](https://www.liberatingstructures.de/liberating-structures-menue/impromptu-networking/)
 [^1234]: [LS: 1-2-3-4 Alle](https://www.liberatingstructures.de/liberating-structures-menue/1-2-4-all/)
+[^feedback]: [Foto von der Feeback Wand](https://twitter.com/ccvormann/status/1114896125583069185)
+
