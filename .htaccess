@@ -53,7 +53,9 @@ Redirect 301 /blog?page=1 http://netzaffe.de/
 Redirect 301 /node?page=1 http://netzaffe.de/
 Redirect /blog/2014/11/26/svn-ueber-ssh-unter-linux-username-bei-svn-checkout-angeben.html /2014/11/26/svnssh-unter-linux-username-bei-svn-checkout-angeben.html
 Redirect 301 /rss.xml /feed.xml
-Redirect /autocompletition-fuer-drush-aktivieren /2013/04/21/autocompletition-fuer-drush-aktivieren.html
+Redirect 301 /autocompletition-fuer-drush-aktivieren /2013/04/21/autocompletition-fuer-drush-aktivieren.html
+Redirect 301 /2019/04/05/daily-scrum-daily-questions.html /2019/04/05/daily-scrum-fragen.html
+
 # Temporär, Artikel in _draft
 Redirect 301 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html /tags/drupal/index.html
 Redirect 301 /2010/12/11/arbeit-sparen-mit-cluster-ssh.html /2010/12/10/arbeit-sparen-mit-cluster-ssh.html
