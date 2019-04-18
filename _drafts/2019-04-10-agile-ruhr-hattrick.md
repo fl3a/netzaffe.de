@@ -129,11 +129,11 @@ Nach eine späten Frühstück (oder sehr frühen Mittagsessen) habe ich habe auf
 und mich mit Thimm von NEW WORK SOLUTIONS GmbH über meine Personal Maps Session am Vortag unterhalten.
 
 <figure role="group">
-  <img alt="" src />
-  <figcaption></figcaption>
+  <img alt="" src="/assets/imgs/agile-ruhr-19/thimm-spitzer-florian-latzel-personal-maps-interview-agile-ruhr-19-nws.png" />
+  <figcaption>Thimm Spitzer und Florian Latzel zu Personal Maps, &copy; NEW WORK SOLUTIONS GmbH, Mario A. Brückner</figcaption>
 </figure>
 
-Hier den dazugehörigen Blogpost[^nwsblog] und das Video[^nwsvid].
+Hier der dazugehörigen Blogpost[^nwsblog] und das [Video auf Youtube](https://www.youtube.com/watch?v=n0DS7hRQChk).
 
 ### Wurzeln der Agilität
 
@@ -224,9 +224,7 @@ Hier nochmal mein Feedbacki[^feedback], das etwas präzisiere und auch noch Idee
 
 > Nehme viel Energie und Impulse mit
 
-...ich glaube, dazu muss ich nichts sagen, oder?!
-
-Ich war noch am Montag total gepushed.
+...ich glaube, dazu muss ich nichts sagen, oder?! Ich war noch am Montag total gepushed.
 
 > Vorstellungsrunde 
 > - zu lang 
@@ -234,36 +232,38 @@ Ich war noch am Montag total gepushed.
 > - fehlende Energie
 > - FOMO -> Zeit 1 Session
 
-Ich fand die Vorstellungsrunde ala Barcamp Tradition für 180 Meschen lange 
-und vor allem zu langatmig. Abgesehen davon, dass jeder was sagt, kann ich der Methode
-nicht viel zuerkennen. 
-Die ersten Hashtags, Namen und Geschichter habe ich nicht 5-10 Personen wieder vergessen, 
-für ein Kennenlernen oder Energetisieren IMHO nicht geignet.  
+Ich fand die Vorstellungsrunde *ala Barcamp Tradition* für 180 Menschen viel zu lang 
+und zu langatmig. Abgesehen davon, dass jeder was sagt, kann ich der Methode
+nicht viel zuerkennen. Die ersten Hashtags, Namen und Geschichter sind nach 5-10 Personen wieder vergessen, 
+für ein Kennenlernen IMHO nicht geignet.  
 
-Bei Danach konnte ich bei mir ein Tief wahrnehmen, auf die Anliegen (aka Session Vorstellungen) 
-konnte ich mich danach kaum noch konzentrieren.
+Bei mir konnte ich danach ein Tief wahrnehmen, auf die Anliegen (aka Session Vorstellungen) 
+konnte ich mich dann kaum noch konzentrieren.
 
-Ich finde das Outcome für die Inverstition an Zeit und Energie zu schade und denke,
-dass man ggf. sagar eine (Achtung FOMO) Session mehr stattdessen untergebracht bekommt. 
+Ich finde das Outcome für solch ein Inverstition an Zeit und Energie stehen in keinen Verhältnis und ich denke,
+dass man stattdessen eine (Achtung FOMO) Session mehr untergebracht bekommt. 
 
-Ich glaube, fest daran, dass es eine Handvoll Methoden gibt, um die IMHO die wichtigsten Punkte 
-erreichen
+Ich denke, dass es eine Menge geeigneterer Methoden gibt, um bei solch einer Veranstaltung in den Tag zu starten.
+Die die wichtigsten Punkte um dies zu erreichen sind: 
 * Jeder redet mindestens einmal
-* Energetisieren
 * Mit anderen in Austausch kommen
+* Energetisieren
 
-Hierbei fallen mir direkt *Impromptu-Networking*[^impromptu] oder z.B. *1-2-3-4 Alle*[^1234] aus dem Liberating Structures ein,
-aber da gibt es bestimmt noch mehr, auch außerhalb des LS.
+Hierbei fallen mir z.B. *Impromptu-Networking*[^impromptu] oder z.B. *1-2-3-4 Alle*[^1234] aus den Liberating Structures ein,
+aber da gibt es bestimmt noch mehr, auch außerhalb der LS.
 
 Name, Twitter-Account, Hashtags, ggf. Foto könnte man in eiiner Tabelle sammeln...
 
 > Open space komplett erklären
 
-Ich glaube, dass das Mantraartige Wiederholen der OpenSpace-Regeln, Phänonmene und des einen Gesetztes
-hilft dabei, dieses Format zu verstehen und mit leben füllen zu können, 
-gerade für Neue,die bei ihren BarCamp oder OpenSpace sind.
-Ich finde das gehört dazu.
+Ich glaube, dass das Mantraartige Wiederholen der OpenSpace-Regeln, Phänonmene und das des einen Gesetztes
+dabei hilft, dieses Format wirklich zu verstehen um es dann mit Leben füllen zu können.
+
+Gerade für Teilnehmern, die das erste Mal bei einem BarCamp oder OpenSpace sind, halte ich diese Einführung für besonders wichtig
+und ich sehe dies bestätigt, wenn beim Feedback die nicht vorhandene Pause auftaucht.
+
 Ich denke, dies dient gut als Leitplanke für eine Veranstaltung, die eben auf diesen Struktur aufsetzt.
+Ich würde mir eine Open Space Facilitierung wünschen!
 
 * * *
 [^holacracy1]: [Holokratie - Wikipedia](https://de.wikipedia.org/wiki/Holokratie)
