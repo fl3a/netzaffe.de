@@ -1,5 +1,5 @@
 ---
-title: "Das Daily Scrum und Fragen"
+title: "Das Daily Scrum und die Fragen"
 tags:
 - Scrum
 - Daily Scrum
