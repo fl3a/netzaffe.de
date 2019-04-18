@@ -1,5 +1,5 @@
 ---
-title: "Daily Scrum und Daily Questions"
+title: "Das Daily Scrum und Fragen"
 tags:
 - Scrum
 - Daily Scrum
@@ -23,7 +23,7 @@ Spätestens seitdem ist klar, die Gestaltung das Daily Scrum obliegt dem Team.
 
 **Die klassischen 3 Daily Scrum Fragen**
 
-Die klassischen 3 werden im Scrum Guide als Beispiel verwendet 
+*Die klassischen 3* werden im Scrum Guide als Beispiel verwendet 
 und sind ganz klar auch als solches zu verstehen. Die Fragen lauten wie folgt 
 und sind in Hinblick auf das sogenannte *Sprint-Goal* zu betrachten:
 
@@ -31,8 +31,8 @@ und sind in Hinblick auf das sogenannte *Sprint-Goal* zu betrachten:
 - Was werde ich heute tun? 
 - Was hat mich behindert?
 
-In diesem Artikel gebe ich dir ein paar Beispiele von anderen hilfreichen *Daily Questions* und 
-wie mein aktuelles Development Team diese als roten Faden für ihr *Standup Meeting* nutzt.
+In diesem Artikel gebe ich dir ein paar Beispiele von anderen hilfreichen Fragen für das Daily-Scrum  
+und wie mein aktuelles Development Team diese *Daily Questions* als roten Faden für ihr *Standup Meeting* nutzt.
 <!--break-->
 
 **Andere Daily Questions für das Standup Meeting**
@@ -73,7 +73,6 @@ weil sich Rahmenbedigungen und entsprechende Verhaltensweisen ändern.
 
 Danke an mein ehemaliges Team-Mitglied Micha Kutz, 
 der Ansatz mit den Fragen und dein Artikel[^q-micha] haben mich sehr inspiriert!
-
 * * *
 [^nov17-change]: [Scrum Guide](https://scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-German.pdf), Seite 22, Änderungen im Scrum Guide 2017 im Vergleich zur Version von 2016, Punkt 5.
 [^daily-scrum]: [Scrum Guide](https://scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-German.pdf), Seite 12, Daily Scrum
