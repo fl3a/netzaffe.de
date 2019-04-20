@@ -138,11 +138,11 @@ Hier der dazugehörigen Blogpost[^nwsblog] und das [Video auf Youtube](https://w
 ### Wurzeln der Agilität
 
 Eine Zeitreise mit Özgür Ergel zu dem, was wir heute als *Agilität* kennen.
-Das ganze bekam den Untertitel *Homo Homini Giraffe, Der produzierende Mensch als soziales Wesen*.
+Das ganze bekam den Untertitel *Homo Homini Giraffe, Der produzierende Mensch ist ein Sozialwesen*.
 
 <figure role="group">
-  <img alt="" src />
-  <figcaption></figcaption>
+  <img alt="Die Wurzeln der Agilit mit Özgür" src="/assets/imgs/agile-ruhr-19/wurzel-der-agilitaet-oezguer-ergel-agile-ruhr-19-2.jpg" />
+  <figcaption>Die Wurzel der Agilität, eine Zeitreise Özgür Ergel</figcaption>
 </figure>
 
 Ein paar Stationen mit Einfluss auf die Agilität, die für mich weniger obvious waren:
@@ -154,8 +154,14 @@ Ein paar Stationen mit Einfluss auf die Agilität, die für mich weniger obvious
 
 ### Der Product Owner in den Scrum Events
 
-Tim und Oli haben ein interessantes Format genutzt in dem sie die folgeden Punkte 
+Tim und Oli haben ein interessantes Format genutzt in dem sie die folgenden Punkte 
 Punkte duch die Schwarminteligenz der Teilnehmer für alle Scrum Events befüllen ließen[^po1]:
+
+<figure role="group">
+  <img alt=">Tim Klein und Oli Winter, Der Product Owner in den Scrum Events, agile.ruhr 19" 
+  src="/assets/imgs/agile-ruhr-19/product-owner-scrum-events-tim-oli-agile-ruhr-19.jpg" />
+  <figcaption>Tim Klein und Oli Winter, Der Product Owner in den Scrum Events, agile.ruhr 19</figcaption>
+</figure>  
 
 * Lead
 * Häufigkeit und Dauer
@@ -169,8 +175,6 @@ Schönes Format!
 > @produktwerkCGN und @oliwin halten die PO-Fahne hoch 
 > und bieten wieder spannende Sessions an.  #AgileRuhr19[^po2]
 
-https://twitter.com/produktwerkCGN/status/1114899819905126401
-
 ### Dragon Dreaming
 
 Thomas Baliktzki-Schulze zu Dragon Dreaming[^dragon] [^dragon-issu], Pinakari 
@@ -180,8 +184,8 @@ der häufig für gemeinützige und nachhaltige Projekte verwendet wird.
 **Der Pinakarri Moment**
 
 <figure role="group">
-  <img alt="" src />
-  <figcaption></figcaption>
+  <img alt="Flipchart: Dragon Dreaming, der kleine Pinakarri Moment" src="/assets/imgs/agile-ruhr-19/dragon-dreaming-kleiner-pinakarri-moment-agile-ruhr-19.jpg" />
+  <figcaption>"Flipchart: Dragon Dreaming, der kleine Pinakarri Moment</figcaption>
 </figure>
 
 > Oft wird mit einem Pinakarri - Moment gearbeitet, 
@@ -220,7 +224,8 @@ aber ohne den es das alles gar nicht möglich gewesen wäre!
 
 ## Feedback
 
-Hier nochmal mein Feedbacki[^feedback], das etwas präzisiere und auch noch Ideen zur Verbesserung einstreue.
+Hier nochmal mein Feedbacki[^feedback], das ich hier etwas präzisiere möchte 
+und direkt Ideen zur Verbesserung mit einstreue.
 
 > Nehme viel Energie und Impulse mit
 
@@ -233,8 +238,8 @@ Hier nochmal mein Feedbacki[^feedback], das etwas präzisiere und auch noch Idee
 > - FOMO -> Zeit 1 Session
 
 Ich fand die Vorstellungsrunde *ala Barcamp Tradition* für 180 Menschen viel zu lang 
-und zu langatmig. Abgesehen davon, dass jeder was sagt, kann ich der Methode
-nicht viel zuerkennen. Die ersten Hashtags, Namen und Geschichter sind nach 5-10 Personen wieder vergessen, 
+und vor allem viel zu langatmig. Abgesehen davon, dass jeder was sagt, kann ich der Methode
+nicht viel zuerkennen. Die ersten Hashtags, Namen und Geschichter habe ich nach 5-10 Personen wieder vergessen, 
 für ein Kennenlernen IMHO nicht geignet.  
 
 Bei mir konnte ich danach ein Tief wahrnehmen, auf die Anliegen (aka Session Vorstellungen) 
