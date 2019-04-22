@@ -11,18 +11,24 @@ tags:
 - Personal Maps
 - just me
 toc: true
+image: /assets/imgs/agile-ruhr-19/open-space-anliegen-vorstellen-agile-ruhr-19.jpg
 ---
+<figure role="group">
+  <img alt="Vorstellung der Sessions, Open Space, agile.ruhr 19" src="/assets/imgs/agile-ruhr-19/open-space-anliegen-vorstellen-agile-ruhr-19.jpg" />
+  <figcaption>Vorstellung der Sessions, Open Space, agile.ruhr 19</figcaption>
+</figure>
 Am Wochenende vom 06. und 07. April 2019 fand die diesjährige agile.ruhr, 
 das Zusammenkommen zu Agile, Lean und Arbeit auf Augenhöhe im Ruhrgebiet statt.
 
-Das gut gut besuchte Event brachte 180 am Samstag und 140 am Sonntag zusammen,
+Das gut besuchte Event brachte 180 am Samstag und 140 am Sonntag zusammen,
 ich war an beiden Tagen mit dabei und zwar das dritte mal in Folge, das bedeutet ein Hattrick!
 
 Reinblau war auch das dritte mal in Folge als Sponsor mit dabei, auch ein Hattrick!
 
 Nicht nur wegen dem *"Alle guten Dinge sind drei"* Ding 
 und weil es sich ein wenig wie ein Familientreffen angefühlt hat,
-ein kleiner Bericht über ein, in meinen Augen durchaus gelungenes agile.ruhr Camp 2019.<!--break-->
+ein kleiner Bericht über ein, in meinen Augen durchaus gelungenes agile.ruhr Camp 2019
+mit vielen tollen Sessions und Augenblicken.<!--break-->
 
 ## Tag 1
 
@@ -72,7 +78,7 @@ für das Feedback und die Impulse, ich habe sehr viele Anregungen von euch mitge
 
 ### New Work meets Agilität
 
-Lisa startete mit mit der Frage[^newwork1]: 
+Lisa von flowedoo startete mit mit der Frage[^newwork1]: 
 
 > Kann agiles Arbeiten ein Mittel sein, 
 > um eine Kultur der Arbeit zu erschaffen, 
@@ -133,7 +139,8 @@ und mich mit Thimm von NEW WORK SOLUTIONS GmbH über meine Personal Maps Session
   <figcaption>Thimm Spitzer und Florian Latzel zu Personal Maps, &copy; NEW WORK SOLUTIONS GmbH, Mario A. Brückner</figcaption>
 </figure>
 
-Hier der dazugehörigen Blogpost[^nwsblog] und das [Video auf Youtube](https://www.youtube.com/watch?v=n0DS7hRQChk).
+Hier [der dazugehörigen Blogpost](https://agile-innovation-coach.com/agile-ruhr-camp-2019-im-gespraech-mit-einem-der-hauptorganisatoren-und-verschiedenen-teilnehmern-ueber-ihre-gefundenen-lerndiamanten-agileruhr19-agilizer/) 
+und das [Video auf Youtube](https://www.youtube.com/watch?v=n0DS7hRQChk)(Mama, ich bin im Fernsehen).
 
 ### Wurzeln der Agilität
 
@@ -237,7 +244,7 @@ und direkt Ideen zur Verbesserung mit einstreue.
 > - fehlende Energie
 > - FOMO -> Zeit 1 Session
 
-Ich fand die Vorstellungsrunde *ala Barcamp Tradition* für 180 Menschen viel zu lang 
+Ich fand die Vorstellungsrunde *ala 3 Hashtags* für 180 Menschen zu lang 
 und vor allem viel zu langatmig. Abgesehen davon, dass jeder was sagt, kann ich der Methode
 nicht viel zuerkennen. Die ersten Hashtags, Namen und Geschichter habe ich nach 5-10 Personen wieder vergessen, 
 für ein Kennenlernen IMHO nicht geignet.  
@@ -255,9 +262,9 @@ Die die wichtigsten Punkte um dies zu erreichen sind:
 * Energetisieren
 
 Hierbei fallen mir z.B. *Impromptu-Networking*[^impromptu] oder z.B. *1-2-3-4 Alle*[^1234] aus den Liberating Structures ein,
-aber da gibt es bestimmt noch mehr, auch außerhalb der LS.
+aber da gibt es bestimmt noch mehr Methoden, auch außerhalb der LS.
 
-Name, Twitter-Account, Hashtags, ggf. Foto könnte man in eiiner Tabelle sammeln...
+Name, Twitter-Account, Hashtags, ggf. Foto könnte man in einer Tabelle sammeln...
 
 > Open space komplett erklären
 
