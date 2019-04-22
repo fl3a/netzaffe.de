@@ -20,10 +20,10 @@ image: /assets/imgs/agile-ruhr-19/open-space-anliegen-vorstellen-agile-ruhr-19.j
 Am Wochenende vom 06. und 07. April 2019 fand die diesjährige agile.ruhr, 
 das Zusammenkommen zu Agile, Lean und Arbeit auf Augenhöhe im Ruhrgebiet statt.
 
-Das gut besuchte Event brachte 180 am Samstag und 140 am Sonntag zusammen,
-ich war an beiden Tagen mit dabei und zwar das dritte mal in Folge, das bedeutet ein Hattrick!
+Das gut besuchte Event brachte 180 Menschen am Samstag und 140 am Sonntag zusammen,
+ich war an beiden Tagen mit dabei und zwar das dritte Mal in Folge, das bedeutet ein Hattrick!
 
-Reinblau war auch das dritte mal in Folge als Sponsor mit dabei, auch ein Hattrick!
+Reinblau war auch das dritte Mal in Folge als Sponsor mit dabei, auch ein Hattrick!
 
 Nicht nur wegen dem *"Alle guten Dinge sind drei"* Ding 
 und weil es sich ein wenig wie ein Familientreffen angefühlt hat,
@@ -35,19 +35,19 @@ mit vielen tollen Sessions und Augenblicken.<!--break-->
 ### Holacracy
 
 Nils Tißen eröffnete mit einem kleine Impuls zur Holacracy
-(ein Betriebssystem für Organisationen bzw. Struktur für Selbstorganisierte Teams)[^holacracy1] Praxis bei *Me & Company*.
+(ein Betriebssystem für Organisationen bzw. Struktur für selbstorganisierte Teams)[^holacracy1] Praxis bei *Me & Company*.
 Die Firma verwendet seit 2015 Holacracy[^holacracy2] und nennt seine angepasste Variante MeCracy.
 
 Noch während des Impulvortrags folgte ich dem *Gesetz der zwei Füße*...
 
 ### Agile Lernumgebungen gestalten
 
-Anna-Lena Paignigiannes berichtete über ihre Erfahrungen als Lehrerin in der Erwachsenbildung 
+Anna-Lena Paignigiannes berichtete über ihre Erfahrungen als Lehrerin in der Erwachsenenbildung 
 mit Kanban und agilen Methoden in die Schule[^edu].
 
 ### Personal Maps 
 
-Im zweiten Sessionslot habe ich eine Einsteiger Session zu Personal Maps gegeben, 
+Im zweiten Sessionslot habe ich eine Einsteigersession zu Personal Maps gegeben, 
 Personal Maps -- Warum, Was und wie?:
 
 <figure role="group">
@@ -56,11 +56,11 @@ Personal Maps -- Warum, Was und wie?:
 </figure>
 
 In dieser Session habe ich von der Essenz einer Handvoll Personal Maps Worksshops, 
-die ich selbst facilitiert habe berichtet und meine Erfahrung 
+die ich selbst facilitiert habe, berichtet und meine Erfahrung 
 mit diesem Tool aus dem Management 3.0 Werkzeugkasten geteilt.
 
 Eigentlich habe ich einen kleinen Praxisteil vorgesehen[^malzeug],
-der Weg ging dann aufgrund des Momentum aber in Richtigung Fragerunde und lebhafte Diskussion.
+der Weg ging dann aufgrund des Momentum aber in Richtung Fragerunde und lebhafte Diskussion.
 
 An dieser Stelle einen riesengroßen Dank an alle Teilgeber dieser Session,
 für das Feedback und die Impulse, ich habe sehr viele Anregungen von euch mitgenommen!
@@ -106,7 +106,7 @@ und Sexuelle Orientierung
 
 ### #playhard
 
-Als letzte Sesion des ersten Tags, \#playhard mit Stefan Doll, der ein paar Spiele im Gepäck hatte:
+Als letzte Session des ersten Tags, \#playhard mit Stefan Doll, der ein paar Spiele im Gepäck hatte:
 * Ubongo Flow Game
 * Lucky Lachs
 * Draw Toast[^playhard]
@@ -123,7 +123,7 @@ da es sehr viel Energie freisetzt:
 
 ## Tag 2
 
-An Tag zwei gabe es positiverweise viele Themen, die in meine Augen recht Entwicklungslastig waren.
+An Tag zwei gabe es positiverweise viele Themen, die in meinen Augen recht entwicklungslastig waren.
 
 ### Technische Schulden & Bugs
 
@@ -131,7 +131,7 @@ So startete auch ich meinen Tag mit einer Diskussion über *Technische Schulden 
 
 ### Interview
 
-Nach eine späten Frühstück (oder sehr frühen Mittagsessen) habe ich habe auf der Dachterasse vom Unperfekthaus die Sonne genossen 
+Nach einem späten Frühstück (oder sehr frühen Mittagsessen) habe ich auf der Dachterasse vom Unperfekthaus die Sonne genossen 
 und mich mit Thimm von NEW WORK SOLUTIONS GmbH über meine Personal Maps Session am Vortag unterhalten.
 
 <figure role="group">
@@ -152,17 +152,17 @@ Das ganze bekam den Untertitel *Homo Homini Giraffe, Der produzierende Mensch is
   <figcaption>Die Wurzel der Agilität, eine Zeitreise Özgür Ergel</figcaption>
 </figure>
 
-Ein paar Stationen mit Einfluss auf die Agilität, die für mich weniger obvious waren:
+Ein paar Stationen mit Einfluss auf die Agilität, die für mich weniger offensichtlich waren:
 * 1848, Das Kommunistische Manifest
 * 1950, Peter Drucker (Menschenbild, Selbstorganisation, Wissensarbeiter)
 * 1960, Niklas Luhmann (Soziokybernetik, Systemtheorie)
 * 1981, HTTP (Internet weltweit)
-* 1996, Endeckung der Spiegelneuronen
+* 1996, Entdeckung der Spiegelneuronen
 
 ### Der Product Owner in den Scrum Events
 
 Tim und Oli haben ein interessantes Format genutzt in dem sie die folgenden Punkte 
-Punkte duch die Schwarminteligenz der Teilnehmer für alle Scrum Events befüllen ließen[^po1]:
+durch die Schwarminteligenz der Teilnehmer für alle Scrum Events befüllen ließen[^po1]:
 
 <figure role="group">
   <img alt=">Tim Klein und Oli Winter, Der Product Owner in den Scrum Events, agile.ruhr 19" 
@@ -174,7 +174,7 @@ Punkte duch die Schwarminteligenz der Teilnehmer für alle Scrum Events befülle
 * Häufigkeit und Dauer
 * Teilnehmer
 * Input für Event
-* Fragen, die beantwortet werden sollte
+* Fragen, die beantwortet werden sollten
 * Output des Events
 
 Schönes Format!
@@ -208,21 +208,21 @@ der häufig für gemeinützige und nachhaltige Projekte verwendet wird.
 
 Als Partnerübung:
 
-1. Überlege dir ein persönlich wichtiges Thema oder Projekt
-2. Begeistere Deinen Partner davon
-4. nimm Dir einen Moment Zeit, mache die Schritte der Charismtischen Kommunikation.
-Nun lasse das Projekt, das durch Dich in die Welt kommen will, duch Dich sprechen
+1. Überlege dir ein persönlich wichtiges Thema oder Projekt.
+2. Begeistere Deinen Partner davon.
+4. Nimm Dir einen Moment Zeit, mache die Schritte der Charismatischen Kommunikation.
+Nun lasse das Projekt, das durch Dich in die Welt kommen will, duch Dich sprechen.
 
 * Der Partner: 100% Zuhören, 100% Beobachter(Stimme, Haltung, Werte, Wirkung)
 * Rollenwechsel + Reflexion
 
 ## Danke!!!
 
-Danke an alle Teilgebern der diesjährigen agile.ruhr, ohne euch gäbe es den Event gar nicht,
+Danke an allen Teilgebern der diesjährigen agile.ruhr, ohne euch gäbe es diesen Event gar nicht,
 Danke Sessions, Impulse, Austausch, Diskussionen und Diskurse!
 
 Danke an Daniel Bär für die Mitfahrgelegenheit. Das waren >3 Stunden mit angeregten Unterhaltungen,
-Danke, gute Zeit, schön dich mal besser Kennengelernt zu haben, 
+danke für die gute Zeit, schön dich mal besser kennengelernt zu haben, 
 obwohl eigenlich genug Verbindungen (Job, Scrumtische, Stadt, Stadtteil, ...) da waren!
 Danke auch für das nette Foto von mir in Aktion und die Erlaubnis zur freien Nutzung!
 
@@ -231,8 +231,8 @@ aber ohne den es das alles gar nicht möglich gewesen wäre!
 
 ## Feedback
 
-Hier nochmal mein Feedbacki[^feedback], das ich hier etwas präzisiere möchte 
-und direkt Ideen zur Verbesserung mit einstreue.
+Hier nochmal mein Feedback[^feedback], das ich hier etwas präzisieren 
+und direkt Ideen zur Verbesserung mit einstreuen möchte.
 
 > Nehme viel Energie und Impulse mit
 
@@ -252,13 +252,13 @@ für ein Kennenlernen IMHO nicht geignet.
 Bei mir konnte ich danach ein Tief wahrnehmen, auf die Anliegen (aka Session Vorstellungen) 
 konnte ich mich dann kaum noch konzentrieren.
 
-Ich finde das Outcome für solch ein Inverstition an Zeit und Energie stehen in keinen Verhältnis und ich denke,
-dass man stattdessen eine (Achtung FOMO) Session mehr untergebracht bekommt. 
+Ich finde das Outcome für solch eine Investition an Zeit und Energie stehen in keinen Verhältnis.
+Ich denke, dass man stattdessen eine (Achtung FOMO) Session mehr untergebracht bekommen könnte. 
 
-Ich denke, dass es eine Menge geeigneterer Methoden gibt, um bei solch einer Veranstaltung in den Tag zu starten.
-Die die wichtigsten Punkte um dies zu erreichen sind: 
+Meiner Meinung nach gibt es eine Menge geeignetere Methoden, um bei solch einer Veranstaltung in den Tag zu starten.
+Die wichtigsten Punkte um dies zu erreichen sind: 
 * Jeder redet mindestens einmal
-* Mit anderen in Austausch kommen
+* Mit Anderen in Austausch kommen
 * Energetisieren
 
 Hierbei fallen mir z.B. *Impromptu-Networking*[^impromptu] oder z.B. *1-2-3-4 Alle*[^1234] aus den Liberating Structures ein,
@@ -266,15 +266,15 @@ aber da gibt es bestimmt noch mehr Methoden, auch außerhalb der LS.
 
 Name, Twitter-Account, Hashtags, ggf. Foto könnte man in einer Tabelle sammeln...
 
-> Open space komplett erklären
+> Open Space komplett erklären
 
-Ich glaube, dass das Mantraartige Wiederholen der OpenSpace-Regeln, Phänonmene und das des einen Gesetztes
+Ich glaube, dass das mantraartige Wiederholen der Open Space-Regeln, Phänomene und des einen Gesetzes
 dabei hilft, dieses Format wirklich zu verstehen um es dann mit Leben füllen zu können.
 
-Gerade für Teilnehmern, die das erste Mal bei einem BarCamp oder OpenSpace sind, halte ich diese Einführung für besonders wichtig
+Gerade für Teilnehmer, die das erste Mal bei einem BarCamp oder Open Space sind, halte ich diese Einführung für besonders wichtig
 und ich sehe dies bestätigt, wenn beim Feedback die nicht vorhandene Pause auftaucht.
 
-Ich denke, dies dient gut als Leitplanke für eine Veranstaltung, die eben auf diesen Struktur aufsetzt.
+Ich denke, dies dient gut als Leitplanke für eine Veranstaltung, die eben auf dieser Struktur aufsetzt.
 Ich würde mir eine Open Space Facilitierung wünschen!
 
 * * *
