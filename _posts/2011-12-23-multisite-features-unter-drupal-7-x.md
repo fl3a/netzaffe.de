@@ -23,7 +23,9 @@ created: 1324637559
 <p>unter Verwendung, der in Drupal-7 neu eingeführten Multisite-Features in der Datei <strong>sites.php</strong>, <strong>Drush-Aliases</strong> und einer speziellen <strong>settings.php</strong>.</p>
 <strong>sites.php -- Verzeichnis Aliase in Drupal 7.x</strong>
 <p>Die in Drupal 7.x neu eingeführte Datei <code>sites.php</code> stellt erstmalig Verzeichnis-Aliase für Drupal-Multisites zur Verfügung. So ist es jetzt möglich mit verschiedenen Domains bzw. VirtualHosts ein bestimmtes Verzeichnis innerhalb von sites anzusprechen, ohne über z.B. Symbolische Links zu gehen, was in vorgigen Drupal-Versionen zur Folge haben konnte, daß Datei- oder Modulpfade beim "umbiegen" von der Dev-Site example.mydomain.de auf die Live-Site example.com divergent sind.</p>
-<code type="php"> 
+
+``` 
+<?php
 // sites/sites.php 
 
 // (LOCAL) DEV SITE 
@@ -35,11 +37,11 @@ $sites['stage.example.com'] = 'example.com';
 
 // LIVE SITE 
 $sites['example.com'] = 'example.com'; 
-</code> 
-
-<code> 
+``` 
+``` 
 @see /path/to/drupal7/sites/example.sites.php 
-</code> <!--break--> 
+``` 
+<!--break--> 
 <strong>settings.php für DEV, STAGE und LIVE</strong>
 <p>Im folgenden Ausschnitt der <code>settings.php</code> werden für</p>
 <ul>
@@ -47,8 +49,15 @@ $sites['example.com'] = 'example.com';
 	<li>STAGE SITE</li>
 	<li>LIVE SITE</li>
 </ul>
-<p>unterschiedliche Datenbanken und Vorbelegungen von Variablen definiert. Die verschiedenen Umgebungen sind von einem Switch auf <code>$_SERVER['HTTP_HOST']</code> eingeschlossen, und es werden über den Host-Header des aktuellen Requests die entsprechenden Einstellungen genommen. Die Verwendung des Contributed-Modules "Environment Indicator" weist optisch zusätzlich darauf hin, auf welcher Umgebung man sich gerade befindet, hierzu hat mich besonders Dirk Rüdigers Artikel zu Drush site-alias motiviert(s.u.). 
-<code type="php"> 
+unterschiedliche Datenbanken und Vorbelegungen von Variablen definiert. 
+Die verschiedenen Umgebungen sind von einem Switch auf `$_SERVER['HTTP_HOST']` eingeschlossen, 
+und es werden über den Host-Header des aktuellen Requests die entsprechenden Einstellungen genommen. 
+Die Verwendung des Contributed-Modules "Environment Indicator" weist optisch zusätzlich darauf hin, 
+auf welcher Umgebung man sich gerade befindet, hierzu hat mich besonders Dirk Rüdigers Artikel zu Drush site-alias motiviert(s.u.). 
+
+
+``` 
+<?php
 // sites/default/settings.php
 switch ($_SERVER['HTTP_HOST']) {
   case 'stage.example.com':
@@ -116,9 +125,10 @@ switch ($_SERVER['HTTP_HOST']) {
       ),
     );
 }
-</code>
-<code>
+```
+```
 @see /path/to/drupal7/sites/default/default.settings.php</code></p>
+```
 <strong>Drush-Aliases</strong>
 <p>In drush V. 3. wurden Site-Aliase eingeführt, dies ermöglicht, ähnlich wie bei Aliasen auf der Shell eine kurze Schreibweise für eine längere Befehlangabe. Um explizit eine Drupal-Site und deren spezifische Einstellungen in einer Drupal-Multisite-Umgebung anzusprechen, sind die Angabe der Drupal-Wurzel (<code>--root=/path/to/drupal</code>) und der Name der Site bzw. dem Namen des Verzeichnisse in dem die jeweilige Site liegt (<code>--uri=example.com</code>) nötig. Durch das folgende Snippet lassen sich die Instanzen über die Aliase</p>
 <ul>
@@ -127,8 +137,11 @@ switch ($_SERVER['HTTP_HOST']) {
 	<li>@stage2</li>
 	<li>@live</li>
 </ul>
-<p>ansprechen und die Optionen <code>--uri=example.com</code> bzw. der kurzen Schreibweise <code>-l example.com</code> werden <code>$_SERVER['HTTP_HOST']</code> durch drush gesetzt. 
-<code type="php"> 
+ansprechen und die Optionen 
+`--uri=example.com` bzw. der kurzen Schreibweise `-l example.com` werden `$_SERVER['HTTP_HOST']`durch drush gesetzt. 
+
+```
+<?php
 // /etc/drush/aliases.drushrc.php
 $aliases['dev'] = array(
   'uri' => 'example.localhost',
@@ -149,13 +162,14 @@ $aliases['live'] = array(
   'uri' => 'example.com',
   'root' => '/multi/drupal/7.x',
 );
-</code>
+```
+
 Analog zum Host-Header des aktuellen Requests einer Web-Anfrage
 wird in der obigen settings.php nun hierüber verzweigt.
-<code>
+
+```
 @see /path/to/drush/examples/example.aliases.drushrc.php
-</code>
-</p>
+```
 <strong>Weiterführendes</strong>
 <ul>
 	<li><a href="http://mearra.com/blogs/sampo-turve/drupal-7-sites-php">Drupal 7 and sites.php</a></li>
