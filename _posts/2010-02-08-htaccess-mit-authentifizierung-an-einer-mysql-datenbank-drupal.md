@@ -18,7 +18,7 @@ Installation des benötigten Apache Moduls: `aptitude install libapache2-mod-aut
 Aktivierung des authmysql-Moduls: `a2enmod auth_mysql`
 <!--break-->
 Dieses Snippet in die jeweilige Apache-VirtualHost-Datei einfügen
-<code>
+```
 <Directory /var/www/git>
   AuthName "Authentication required"
   AuthType Basic
@@ -38,11 +38,11 @@ Dieses Snippet in die jeweilige Apache-VirtualHost-Datei einfügen
   Auth_MySQL_Username_Field name
   Auth_MySQL_Password_Field pass
 </Directory>
-</code>
+```
 
 Was in unserm VirtualHost so aussieht:
 
-<code>
+```
 <VirtualHost *>
   ServerName birgit.example.com
   ServerAdmin webmaster@example.com
@@ -73,7 +73,7 @@ Was in unserm VirtualHost so aussieht:
     Auth_MySQL_Password_Field pass
   </Directory>
 </VirtualHost>
-</code>
+```
 
 Aktivieren der site: `a2ensite birgit.example.com` 
 
