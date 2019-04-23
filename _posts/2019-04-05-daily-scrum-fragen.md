@@ -8,7 +8,7 @@ tags:
 - Agile
 - Team
 layout: post
-last_modified_at: 2019-04-18
+last_modified_at: 2019-04-23
 ---
 In der letzten Version des Scrum Guides[^nov17-change] aus dem November 2017 wurde unter anderem 
 das Kapitel des *Daily Scrums* stark überarbeitet, 
@@ -56,10 +56,11 @@ Die folgende Fragen für unser Daily kleben auf PostIts direkt neben dem Kanban 
 - Planned Absence?
   Geplante Urlaubstage oder private Termine, wie Arzt, Handwerker oder eine Lieferung.
 - News from the Guilds?
-  Wenn ein Entwickler bei einer Gilde war, soll er die Informationen mit dem restlichen Team berichten teilen.
+  Wenn ein Entwickler bei einer Gilde war, soll er die Informationen mit dem restlichen Team teilen.
 - Cycle Time Sheet aktuell?
   Da wir seit geraumer Zeit im Kanban Modus arbeiten, erfassen wir Start- und Enddatum.
   Dieses Sheet generiert daraus diverse Metriken wie z.B. *Kumulatives Flussdiagramm*, *Durchsatz*. 
+  Die Frage nach der Aktualität ist implizit auch die nach Wer die Zeiten im Sheet einpflegt
 - Jira aktuell?
   Mein Team arbeitet mit einem analogen Kanban Board, 
   dass heisst, wie beim Cycle Time Sheet sorgt das Team dafür, dass Statuswechsel sowie
