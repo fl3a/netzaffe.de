@@ -96,7 +96,7 @@ Irgendwie bin ich dann nach einer Pause in einer angeregten Runde über
 
 Hier kam auch der Impuls zu Pinakarri[^dragon-bsc], dazu aber unten mehr...
 
-### Wie kann Agilität/New Work Diverität fördern
+### Wie kann Agilität/New Work Diverität fördern?
 
 Gabi von genderworks[^genderworks] lud zur Diskussion *Wie kann Agilität/New Work Diverität fördern kann* ein.
 
@@ -262,8 +262,8 @@ Die wichtigsten Punkte um dies zu erreichen sind:
 * Mit Anderen in Austausch kommen
 * Energetisieren
 
-Hierbei fallen mir z.B. *Impromptu-Networking*[^impromptu] oder z.B. *1-2-3-4 Alle*[^1234] aus den Liberating Structures ein,
-aber da gibt es bestimmt noch mehr Methoden, auch außerhalb der LS.
+Hierbei fallen mir z.B. *Impromptu-Networking*[^impromptu] oder z.B. *1-2-3-4 Alle*[^1234] aus den *Liberating Structures*[^ls] ein,
+aber da gibt es bestimmt noch mehr Methoden, auch außerhalb der LS[^ls].
 
 Name, Twitter-Account, Hashtags, ggf. Foto könnte man in einer Tabelle sammeln...
 
@@ -295,7 +295,8 @@ Ich würde mir eine Open Space Facilitierung wünschen!
 [^dragon]: [Dragon Dreaming Homepage](http://www.dragondreaming.org/de/)
 [^dragon-issu]: [Dragon Dreaming Projekt-Management, issu Präsentation](https://issuu.com/fureinebesserewelt/docs/dragon_dreaming_fuer_eine_bessere_w)
 [^dragon-bsc]: [Die Vision vom beständigen Gärtnern, B.Sc Anne Wiedemann, Umsetzbarkeit der Projekt-Gestaltungs-Methodik Dragon Dreaming in den urbanen Gemeinschaftsgärten, S.20, 3.2.3, Die Prinzipien des Dragon Dreaming](https://ufer-projekte.de/wp-content/uploads/2015/03/DragonDreaming_BA_AnneWiedemann.pdf)
+[^feedback]: [Foto von der Feeback Wand](https://twitter.com/ccvormann/status/1114896125583069185)
 [^impromptu]: [LS: Imprumptu Networking](https://www.liberatingstructures.de/liberating-structures-menue/impromptu-networking/)
 [^1234]: [LS: 1-2-3-4 Alle](https://www.liberatingstructures.de/liberating-structures-menue/1-2-4-all/)
-[^feedback]: [Foto von der Feeback Wand](https://twitter.com/ccvormann/status/1114896125583069185)
-
+[^ls]: [Liberating Structures, Innovation durch echte Zusammenarbeit](https://www.liberatingstructures.de/)
+*[FOMO]: Fear Of Missing Out
