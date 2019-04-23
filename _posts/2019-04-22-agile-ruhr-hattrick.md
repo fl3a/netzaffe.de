@@ -12,6 +12,7 @@ tags:
 - just me
 toc: true
 image: /assets/imgs/agile-ruhr-19/open-space-anliegen-vorstellen-agile-ruhr-19.jpg
+last_modified_at: 2019-04-23
 ---
 <figure role="group">
   <img alt="Vorstellung der Sessions, Open Space, agile.ruhr 19" src="/assets/imgs/agile-ruhr-19/open-space-anliegen-vorstellen-agile-ruhr-19.jpg" />
@@ -109,7 +110,7 @@ und Sexuelle Orientierung
 Als letzte Session des ersten Tags, \#playhard mit Stefan Doll, der ein paar Spiele im Gepäck hatte:
 * Ubongo Flow Game
 * Lucky Lachs
-* Draw Toast[^playhard]
+* Draw Toast
 * Moving Motivator
 
 Hier ein paar Eindrücke von Lucky Lachs, einem Spiel, das sich gut für den Einsatz nach der Mittagspause eignet,
@@ -149,7 +150,7 @@ Das ganze bekam den Untertitel *Homo Homini Giraffe, Der produzierende Mensch is
 
 <figure role="group">
   <img alt="Die Wurzeln der Agilit mit Özgür" src="/assets/imgs/agile-ruhr-19/wurzel-der-agilitaet-oezguer-ergel-agile-ruhr-19-2.jpg" />
-  <figcaption>Die Wurzel der Agilität, eine Zeitreise Özgür Ergel</figcaption>
+  <figcaption>Die Wurzel der Agilität, eine Zeitreise mit Özgür Ergel</figcaption>
 </figure>
 
 Ein paar Stationen mit Einfluss auf die Agilität, die für mich weniger offensichtlich waren:
@@ -219,7 +220,7 @@ Nun lasse das Projekt, das durch Dich in die Welt kommen will, duch Dich spreche
 ## Danke!!!
 
 Danke an allen Teilgebern der diesjährigen agile.ruhr, ohne euch gäbe es diesen Event gar nicht,
-Danke Sessions, Impulse, Austausch, Diskussionen und Diskurse!
+Danke für Sessions, Impulse, Austausch, Diskussionen und Diskurse!
 
 Danke an Daniel Bär für die Mitfahrgelegenheit. Das waren >3 Stunden mit angeregten Unterhaltungen,
 danke für die gute Zeit, schön dich mal besser kennengelernt zu haben, 
@@ -289,7 +290,6 @@ Ich würde mir eine Open Space Facilitierung wünschen!
 [^newwork2]: [Was ist New Work?](https://newworkblog.de/new-work/)
 [^newwork3]: [Die kürzest mögliche Zusammenfassung der Neuen Arbeiti von Frithjof Bergmann](http://newwork.global/deutsch/)
 [^genderworks]: [Dr. Gabriele Schambach, Genderworks](https://genderworks.de/)
-[^playhard]: [\#agileruhr19 \#unperfekthaus Lucky Lachs in Action. Danke an die Teilnehmer meiner Session @agileruhr @Kru666](https://twitter.com/GenuineAgile/status/1114571062564544517)
 [^po1]: [Ergebnisse der PO in den Scrum Events Session](https://twitter.com/produktwerkCGN/status/1114899819905126401)
 [^po2]: [Die PO Fahne hochhalten](https://twitter.com/danielbaer/status/1114812531028176896)
 [^dragon]: [Dragon Dreaming Homepage](http://www.dragondreaming.org/de/)
