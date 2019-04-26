@@ -17,12 +17,21 @@ image: /assets/imgs/goaccess-ncurces-console-screenshot.png
   <figcaption>Screenshot: GoAccess auf der Konsole</figcaption>
 </figure>
 https://goaccess.io/ MIT Lizenz Analyse Logfile https://github.com/allinurl/goaccess
-i
+
+* Log Fomate: Apache, Nginx, Amazon S3
+* Ausgabe: Konsole, HTML, JSON, CSV
+
 ## Installation
 ```
 mkdir ~/repos
+```
+```
 cd ~/repos
- git clone https://github.com/allinurl/goaccess.git
+```
+```
+git clone https://github.com/allinurl/goaccess.git
+```
+```
 cd goaccess/
 ```
 ```
@@ -30,7 +39,11 @@ autoreconf -fiv
 ```
 ```
 ./configure --enable-geoip --enable-utf8 --prefix=/home/fl3a
+```
+```
 make
+```
+```
 make install
 ```
 
@@ -68,16 +81,28 @@ log-file /home/fl3a/logs/access_log
 ### Beispiele
 
 ```
-goaccess -a -p ~/etc/goaccess.conf 
+goaccess -p ~/etc/goaccess/goaccess.conf ~/logs/access_log 
 ```
+
+```
+grep '^.*-\ - \[22/Apr/2019' ~/logs/access_log | goaccess  -p ~/etc/goaccess/goaccess.conf
+```
+```
+zcat ~/logs/access_log.*.gz | goaccess --log-format COMBINED 
+```
+
 ### Hotkeys
 
-Hier noch ein paar Hotkeys für die Bedienung der Ncurses Oberfläche von GoAccess,
-also auf der Kommandozeile.
+Hier noch ein paar gebräuckliche Hotkeys für die Bedienung der von GoAccess auf der Konsole:
 
-* kpkpk
-* jojoj
-* fefw
+* `TAB`, die Sektionen anwählen (nach unten)
+* `SHIFT` + `TAB`, die Sektionen anwählen (nach oben)
+* `ENTER`, das angwählte Sektion öffen
+* `1-9`, wählt die Sektion mit der Nummer direkt an, z.B. `4` für die *404er HTTP Status Codes*
+* `j`, in Sektion nach unten scrollen
+* `k`, in Sektion nach oben scrollen
+* `h`, öffnet die Hilfe
+* `q`, schließt das aktive Element, z.B. Hilfe, Sektion oder GoAceccess selbst
 
 * * *
 
