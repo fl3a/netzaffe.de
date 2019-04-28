@@ -1,0 +1,153 @@
+---
+title: GoAccess auf Uberspace
+tags:
+- Linux
+- uberspace
+- howto
+- Open Source
+- apache2
+- Logs
+- Analytics
+layout: post
+toc: true
+image: /assets/imgs/goaccess-ncurces-console-screenshot.png
+---
+<figure>
+  <img src="/assets/imgs/goaccess-ncurces-console-screenshot.png" alt="" />
+  <figcaption>Screenshot: GoAccess auf der Konsole</figcaption>
+</figure>
+https://goaccess.io/ MIT Lizenz Analyse Logfile https://github.com/allinurl/goaccess
+
+* Log Fomate: Apache, Nginx, Amazon S3
+* Ausgabe: Konsole, HTML, JSON, CSV
+
+## Installation
+```
+mkdir ~/repos
+```
+```
+cd ~/repos
+```
+
+Wir besorgen uns den Quelltext von GoAccess via Git.
+```
+git clone https://github.com/allinurl/goaccess.git
+```
+```
+cd goaccess/
+```
+```
+autoreconf -fiv
+```
+Es folgt der *Dreisatz*: 
+```
+./configure --enable-geoip --enable-utf8 --prefix=$HOME
+```
+```
+make
+```
+```
+make install
+```
+
+### Update von gettext
+
+Wenn `autoreconf -fiv` mit z.B. folgender Meldung abricht,
+dann ist das benötigte *gettext* auf dem System zu alt,
+wie das bei mir auf einer Uberspace 6 Instanz der Fall war:
+
+```
+autoreconf: Entering directory `.'
+autoreconf: running: autopoint --force
+autopoint: *** The AM_GNU_GETTEXT_VERSION declaration in your configure.ac  
+file requires the infrastructure from gettext-0.18 but this version
+is older. Please upgrade to gettext-0.18 or newer.
+autopoint: *** Stop.
+autoreconf: autopoint failed with exit status: 1
+```
+
+Kein Problem, das lässt sich lösen mit toast[^toast1] [^toast2] lösen:
+```
+toast arm gettext
+```
+Jetzt könnt ihr euch einen Kaffee holen, das dauert ein wenig...
+
+Nachdem toast durchgelaufen ist, wiederholen wir `autoreconf -fiv` 
+und machen mit dem *Dreisatz*(s.o.) weiter. 
+
+## Konfiguration
+
+Die Config von GoAccess liegt durch die `--prefix=$HOME` Option von *configure*
+unter `etc/goaccess/goaccess.conf` in deinem Home-Verezeichnis.
+
+```
+vi ~/etc/goaccess/goaccess.conf
+```
+
+Es gibt nur eine Einstellung, die für GoAccess wirklich zwingend ist 
+und zwar die des Aufbaus des *Access-Logs*[^logs]
+```
+log-format COMBINED
+```
+
+Dann möchten wir noch, dass uns GoAccess, die Suchbegriff, mit denen Besucher 
+über Google und Co auf unsere Seiten kommen auswertet.
+
+Dies ist via Default mit `ignore-panel KEYPHRASES` dektiviert, 
+wir suchen die Stelle und kommentieren die Zeile mit einer `#` am Zeilenanfang aus:
+```
+#ignore-panel KEYPHRASES
+```
+
+gleiches wiederholen wir für die Referrer.
+```
+#ignore-panel REFERRERS
+```
+
+## Nutzung
+
+### Beispiele
+
+Einfache Ausführung mit Config und *Standard-Logfile*:
+```
+goaccess -p ~/etc/goaccess/goaccess.conf ~/logs/access_log 
+```
+
+Hier ein paar Beispiele, die auf ganz praktisch fand:
+
+Wir wollen uns nur die Logs von einem bestimmtem Tag anzeigen lassen, z.B. den 22. April 2019 
+und *pipen* die Ausgabe von `grep` nach GoAccess:
+```
+grep '^.*-\ - \[22/Apr/2019' ~/logs/access_log | goaccess  -p ~/etc/goaccess/goaccess.conf
+```
+
+Die via *Gzip* komprierten Logs von ca. vier Wochen, die Ausgabe von `zcat` an GoAccess durchreichen,
+diesmal ohne Config stattdessen mit Log-Fomat via Option:
+```
+zcat ~/logs/access_log.*.gz | goaccess --log-format COMBINED 
+```
+
+Ausgabe in eine Datei via `-o` Option, hier der Export in eine Webseite, entscheidend ist der Suffix der Datei.
+```
+goaccess -o export.html -a -d -p ~/etc/goaccess/goaccess.conf ~/logs/access_log 
+```
+Durch das Argument hinter `-o`, sind auch noch Exporte via Dateiendung `.csv` und `.json` möglich.
+
+### Hotkeys
+
+Hier noch ein paar gebräuchliche Hotkeys für die Bedienung der von GoAccess auf der Konsole:
+
+* `TAB`, die Sektionen anwählen (nach unten)
+* `SHIFT` + `TAB`, die Sektionen anwählen (nach oben)
+* `ENTER`, das angwählte Sektion öffen
+* `1-9`, wählt die Sektion mit der Nummer direkt an, z.B. `4` für die *404er HTTP Status Codes*
+* `j`, in Sektion nach unten scrollen
+* `k`, in Sektion nach oben scrollen
+* `h`, öffnet die Hilfe
+* `q`, schließt das aktive Element, z.B. Hilfe, Sektion oder GoAceccess selbst
+
+* * *
+
+[^toast1]: [toast - packageless package manager for Unix systems and non-root users](https://wiki.uberspace.de/system:toast) 
+[^toast2]: [toast homepage]([http://www.toastball.net/toast/)
+[^logs]: [Webserver Logs, access_log](https://wiki.uberspace.de/webserver:logs#access_log)
