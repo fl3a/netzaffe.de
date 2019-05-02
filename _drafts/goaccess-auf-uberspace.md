@@ -16,10 +16,18 @@ image: /assets/imgs/goaccess-ncurces-console-screenshot.png
   <img src="/assets/imgs/goaccess-ncurces-console-screenshot.png" alt="" />
   <figcaption>Screenshot: GoAccess auf der Konsole</figcaption>
 </figure>
-https://goaccess.io/ MIT Lizenz Analyse Logfile https://github.com/allinurl/goaccess
+Nach einer längeren Suche nach einem *Apache Log Viewer* für die Konsole
+bin ich auf [GoAccess](https://goaccess.io/) gestoßen.
 
-* Log Fomate: Apache, Nginx, Amazon S3
-* Ausgabe: Konsole, HTML, JSON, CSV
+[GoAccess](https://github.com/allinurl/goaccess) ist eine schlanke, 
+unter FLOSS (MIT Lizenz) Web Analytics-Software, die die Zugriffsdateien des Webservers, 
+die sog. Access-Logs auswertet. Die Anwendung kann z.B. mit Apache-, Nginx, Amazon-S3-Logs umgehen,
+läuft mit einer sogar recht ansprechenden Nucurse-Oberfläche[^ncurses] auf der Konsole
+und kann zudem noch Exporte nach JSON, CSV und HTML, was bedeutet, 
+dass die GoAccess vergleichbar mit Matomo oder Google-Analytics über den Browser bedienbar ist.
+
+Hier beschreibar ich die Installation von GoAccess auf Uberspace und gebe dir 
+neben der Nutzung auf der Shell auch noch ein paar nette Tipps und Beispiele an die Hand.
 
 ## Installation
 ```
@@ -53,8 +61,8 @@ make install
 ### Update von gettext
 
 Wenn `autoreconf -fiv` mit z.B. folgender Meldung abricht,
-dann ist das benötigte *gettext* auf dem System zu alt,
-wie das bei mir auf einer Uberspace 6 Instanz der Fall war:
+dann ist das benötigte *gettext* auf dem System zu alt.
+Das war bei mir auf einer Uberspace 6 Instanz der Fall.
 
 ```
 autoreconf: Entering directory `.'
@@ -147,7 +155,8 @@ Hier noch ein paar gebräuchliche Hotkeys für die Bedienung der von GoAccess au
 * `q`, schließt das aktive Element, z.B. Hilfe, Sektion oder GoAceccess selbst
 
 * * *
-
+[^ncurses]: [Ncurses](http://expample.com)
 [^toast1]: [toast - packageless package manager for Unix systems and non-root users](https://wiki.uberspace.de/system:toast) 
 [^toast2]: [toast homepage]([http://www.toastball.net/toast/)
 [^logs]: [Webserver Logs, access_log](https://wiki.uberspace.de/webserver:logs#access_log)
+*[FLOSS]: Free/Libre Open Source Software
