@@ -13,21 +13,28 @@ toc: true
 image: /assets/imgs/goaccess-ncurces-console-screenshot.png
 ---
 <figure>
-  <img src="/assets/imgs/goaccess-ncurces-console-screenshot.png" alt="" />
-  <figcaption>Screenshot: GoAccess auf der Konsole</figcaption>
+  <img src="/assets/imgs/goaccess-ncurces-console-screenshot.png" 
+  alt="Screenshot: GoAccess Web-Analytics auf der Konsole" />
+  <figcaption>Screenshot: GoAccess Web-Analytics auf der Konsole</figcaption>
 </figure>
-Nach einer längeren Suche nach einem *Apache Log Viewer* für die Konsole
+Nach einer längeren Suche nach einem *Apache Log Viewer*, der auf der Konsole läuft
+und *404er/Not found* aussagekräftig darstellen kann, 
 bin ich auf [GoAccess](https://goaccess.io/) gestoßen.
 
 [GoAccess](https://github.com/allinurl/goaccess) ist eine schlanke, 
-unter FLOSS (MIT Lizenz) Web Analytics-Software, die die Zugriffsdateien des Webservers, 
-die sog. Access-Logs auswertet. Die Anwendung kann z.B. mit Apache-, Nginx, Amazon-S3-Logs umgehen,
+FLOSS (MIT Lizenz) Web Analytics-Software, die die Zugriffsdateien des Webservers, 
+die sog. Access-Logs auswertet. Die Anwendung kann mit z.B. Apache-, Nginx-, Google Cloud Storage-, 
+oder Amazon-S3-Logs umgehen,
 läuft mit einer sogar recht ansprechenden Nucurse-Oberfläche[^ncurses] auf der Konsole
 und kann zudem noch Exporte nach JSON, CSV und HTML, was bedeutet, 
-dass die GoAccess vergleichbar mit Matomo oder Google-Analytics über den Browser bedienbar ist.
+dass die GoAccess auch wie Matomo(ehemals Piwik) oder Google-Analytics auch über den Browser bedienbar ist.
 
-Hier beschreibar ich die Installation von GoAccess auf Uberspace und gebe dir 
-neben der Nutzung auf der Shell auch noch ein paar nette Tipps und Beispiele an die Hand.
+Hier beschreibe ich die Installation von GoAccess auf Uberspace und gebe dir 
+neben der Nutzung auf der Shell auch noch ein paar nette Tipps und Beispiele an die Hand.<!--break-->
+
+Es sei noch angemerkt, dass GoAccess auch Ausgaben in Realtime erzeugen kann,
+dieses Feature ist allerdings für die Anwendung auf Uberspace irrelvant, da 
+die Access-Logs dort nicht live geschrieben werden[^logs].
 
 ## Installation
 ```
@@ -129,7 +136,7 @@ und *pipen* die Ausgabe von `grep` nach GoAccess:
 grep '^.*-\ - \[22/Apr/2019' ~/logs/access_log | goaccess  -p ~/etc/goaccess/goaccess.conf
 ```
 
-Die via *Gzip* komprierten Logs von ca. vier Wochen, die Ausgabe von `zcat` an GoAccess durchreichen,
+Die via *Gzip* komprierten Logs von ca. vier Wochen via `zcat` an GoAccess durchreichen,
 diesmal ohne Config stattdessen mit Log-Fomat via Option:
 ```
 zcat ~/logs/access_log.*.gz | goaccess --log-format COMBINED 
@@ -139,24 +146,28 @@ Ausgabe in eine Datei via `-o` Option, hier der Export in eine Webseite, entsche
 ```
 goaccess -o export.html -a -d -p ~/etc/goaccess/goaccess.conf ~/logs/access_log 
 ```
-Durch das Argument hinter `-o`, sind auch noch Exporte via Dateiendung `.csv` und `.json` möglich.
+Durch das Argument hinter `-o`, sind auch noch Exporte via Dateiendung `.csv` und `.json`
+in die entsprechenden Formate möglich.
 
 ### Hotkeys
 
 Hier noch ein paar gebräuchliche Hotkeys für die Bedienung der von GoAccess auf der Konsole:
 
-* `TAB`, die Sektionen anwählen (nach unten)
-* `SHIFT` + `TAB`, die Sektionen anwählen (nach oben)
-* `ENTER`, das angwählte Sektion öffen
-* `1-9`, wählt die Sektion mit der Nummer direkt an, z.B. `4` für die *404er HTTP Status Codes*
-* `j`, in Sektion nach unten scrollen
-* `k`, in Sektion nach oben scrollen
+* `TAB`, die Panels anwählen (nach unten)
+* `SHIFT` + `TAB`, die Panels anwählen (nach oben)
+* `ENTER`, das angwählte Panel öffen
+* `1-9`, wählt das Panel mit der Nummer direkt an, z.B. `4` für die *404er HTTP Status Codes*
+* `j`, in Panel nach unten scrollen
+* `k`, in Panel nach oben scrollen
 * `h`, öffnet die Hilfe
-* `q`, schließt das aktive Element, z.B. Hilfe, Sektion oder GoAceccess selbst
+* `q`, schließt das aktive Element, z.B. Hilfe, Panel oder letztendlich GoAceccess selbst
+
+Noch mehr Beispiele findest du via `goaccess --help` oder in der Manpage[^man]. 
 
 * * *
-[^ncurses]: [Ncurses](http://expample.com)
+[^ncurses]: [Ncurses](https://de.wikipedia.org/wiki/Ncurses)
 [^toast1]: [toast - packageless package manager for Unix systems and non-root users](https://wiki.uberspace.de/system:toast) 
 [^toast2]: [toast homepage]([http://www.toastball.net/toast/)
 [^logs]: [Webserver Logs, access_log](https://wiki.uberspace.de/webserver:logs#access_log)
+[^man]: [GoAccess Manual Page](https://goaccess.io/man)
 *[FLOSS]: Free/Libre Open Source Software
