@@ -11,6 +11,7 @@ tags:
 layout: post
 toc: true
 image: /assets/imgs/goaccess-ncurces-console-screenshot.png
+last_modified_at: 2019-05-03
 ---
 <figure>
   <img src="/assets/imgs/goaccess-ncurces-console-screenshot.png" 
@@ -29,11 +30,16 @@ läuft mit einer sogar recht ansprechenden Nucurse-Oberfläche[^ncurses] auf der
 und kann zudem noch Exporte nach JSON, CSV und HTML, was bedeutet, 
 dass die GoAccess auch wie Matomo(ehemals Piwik) oder Google-Analytics auch über den Browser bedienbar ist.
 
-Hier beschreibe ich die Installation von GoAccess auf Uberspace und gebe dir 
-neben der Nutzung auf der Shell auch noch ein paar nette Tipps und Beispiele an die Hand.<!--break-->
+Hier beschreibe ich die Installation von GoAccess auf Uberspace 6, 
+bei U7 ist GoAccess per Default mit an Board(und alle so yeah)[^ureact]. 
+Zudem gebe dir neben der Konfiguration von GoAccess auch Einblick in die Nutzung auf der Shell,
+ein paar nette Tipps und nützliche Beispiele mit an die Hand.
+
+Der Großteil dieses Artikels, auch die Installation sollte so generisch sein, 
+dass man ihn recht einfach auf andere Systeme übertragen lassen kann.<!--break-->
 
 Es sei noch angemerkt, dass GoAccess auch Ausgaben in Realtime erzeugen kann,
-dieses Feature ist allerdings für die Anwendung auf Uberspace irrelvant, da 
+dieses Feature ist allerdings für die Anwendung auf Uberspace 6 irrelvant, da 
 die Access-Logs dort nicht live geschrieben werden[^logs].
 
 ## Installation
@@ -166,6 +172,7 @@ Noch mehr Beispiele findest du via `goaccess --help` oder in der Manpage[^man].
 
 * * *
 [^ncurses]: [Ncurses](https://de.wikipedia.org/wiki/Ncurses)
+[^ureact]: [https://twitter.com/ubernauten/status/1124018556922888196](https://twitter.com/ubernauten/status/1124018556922888196)
 [^toast1]: [toast - packageless package manager for Unix systems and non-root users](https://wiki.uberspace.de/system:toast) 
 [^toast2]: [toast homepage]([http://www.toastball.net/toast/)
 [^logs]: [Webserver Logs, access_log](https://wiki.uberspace.de/webserver:logs#access_log)
