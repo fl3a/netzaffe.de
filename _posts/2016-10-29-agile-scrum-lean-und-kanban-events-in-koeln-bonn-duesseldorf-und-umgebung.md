@@ -17,17 +17,19 @@ created: 1477757270
 layout: post
 last_modified_at: 2019-04-09
 ---
-Was für regelmäßigen Meetups zu Agile Themen wie Scrum, KANBAN,&nbsp;eXtreme Programming und Lean gibt in Köln und Umgebung? 
+Was für regelmäßigen Meetups zu Agile Themen wie Scrum, KANBAN, eXtreme Programming, Lean 
+und Arbeit auf Augenhöhe gibt in Köln und Umgebung? 
 Welche (Un)Konferenzen finden in NRW statt? 
 Wo kann ich mich über Agiles Projektmanagement austauschen oder einfach nur Gleichgesinnte treffen 
 und wo ist die nächste Selbsthilfegruppe der Anonymen Agilisten[^anon-agile]?
 
-Ich habe mal eine Liste von Scrumtischen, Agile- und KANBAN- und Artverwandten-Meetups in der Region zusammengetragen,
-hier findest Du Termine, wo die Agile Community in Köln, Bonn, Düsseldorf, Aachen und dem Ruhrgebiet zusammenkommt.
+Ich habe mal eine Liste von Scrumtischen, Agile- und KANBAN- und Artverwandten-Meetups 
+und Konferenzen in der Region zusammengetragen.
+Hier findest Du Termine, wo die Agile Community in Köln, Bonn, Düsseldorf, Aachen und dem Ruhrgebiet zusammenkommt.
 
 Für manche Treffen ist eine Anmeldung über xing oder meetup Vorraussetzung, dass heisst ein Benutzerkonto dort ist obligatorisch.
 
-**Köln**
+**Agile Community Köln**
 
 - [Scrumtisch Köln](https://www.xing.com/net/scrumtischkoeln), jeden dritten Mittwoch im Monat, Anmeldung über xing
 - [Lean Coffee Cologne](http://leancoffee.cologne), wöchendlich, unter anderem auch für Gründer und Product Owner, 
@@ -53,15 +55,17 @@ Für manche Treffen ist eine Anmeldung über xing oder meetup Vorraussetzung, da
   Spiele mit Mehrwert, alles was Verstehen fördert, 
   egal ob Simulationen/Planspiele, Teamspiele oder Ice-Breaker für Teams und Organisationen 
 - [Cologne Enterprise Changemaker](https://www.meetup.com/de-DE/Cologne-Enterprise-Changemaker/)  
+- [Product People](http://productpeople.net/), seit 2017 stattfindende (Un-)Konferenz für Product Owner, 
+  Produkt‑Manager und Business‑Analysten
 
-**Bonn**
+**Agile Community Bonn**
 
 - [Bonn Agile Meetup](https://www.meetup.com/de-DE/Bonn-Agile/), am ersten Dienstag des Monats in wechselden Locations, Anmeldung über meetup
 - [Bonner Scrumtisch](https://www.xing.com/communities/groups/scrumtisch-bonn-380f-1077974), am zweiten Dienstag des Monats in wechselnden Locations, 
 Anmeldung über xing
 - [Lean Coffee Bonn](https://www.xing.com/communities/groups/lean-coffee-90f0-1066150)
 
-**Düsselorf**
+**Agile Community Düsselorf**
 
 - [Agiler Stammtisch Düsseldorf aka Lean Altbier](https://www.meetup.com/de-DE/Agiler-Stammtisch-Duesseldorf/),
   findet jeden ersten Donnerstag im Monat in der Brauerei "Zum Schlüssel" statt. Mehr Informationen und Anmeldung über Meetup
@@ -72,16 +76,16 @@ Infos und Anmeldung die Website von Prowareness oder [xing](https://www.xing.com
 - [Lean Coffee Düsseldorf](https://www.xing.com/communities/groups/lean-coffee-90f0-1066150)
 - [Düsseldorf Liberating Structures](https://www.meetup.com/de-DE/meetup-group-JUAeEreA/)
 
-**Solingen**
+**Agile Community Solingen**
 
 - [Agiler Stammtisch Solingen](https://www.meetup.com/de-DE/Agiler-Stammtisch-Duesseldorf/), bei der codecentric AG
 
-**Aachen**
+**Agile Community Aachen**
 
 - [Scrumtisch Aachen](http://www.scrumtisch-aachen.de/), findet monatlich in wechselnden Locations statt, 
   Anmeldung über [xing](https://www.xing.com/communities/groups/scrumtisch-aachen-f66d-1002514)
 
-**Ruhrgebiet**
+**Agile Community Ruhrgebiet**
 
 - [Agile Stammtisch Ruhr in Dortmund aka Lean Pils](http://www.meetup.com/de-DE/Agiler-Stammtisch-Ruhr/) 
   findet jeden dritten Donnerstag im Monat statt in wechselnden Locations statt, Anmeldung über Meetup
