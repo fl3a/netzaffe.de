@@ -11,7 +11,7 @@ tags:
 layout: post
 toc: true
 image: /assets/imgs/goaccess-ncurces-console-screenshot.png
-last_modified_at: 2019-05-03
+last_modified_at: 2019-05-10
 ---
 <figure>
   <img src="/assets/imgs/goaccess-ncurces-console-screenshot.png" 
@@ -36,7 +36,7 @@ Zudem gebe dir neben der Konfiguration von GoAccess auch Einblick in die Nutzung
 ein paar nette Tipps und nützliche Beispiele mit an die Hand.
 
 Der Großteil dieses Artikels, auch die Installation sollte so generisch sein, 
-dass man ihn recht einfach auf andere Systeme übertragen lassen kann.<!--break-->
+dass man ihn recht einfach auf andere Systeme übertragen kann.<!--break-->
 
 Es sei noch angemerkt, dass GoAccess auch Ausgaben in Realtime erzeugen kann,
 dieses Feature ist allerdings für die Anwendung auf Uberspace 6 irrelvant, da 
