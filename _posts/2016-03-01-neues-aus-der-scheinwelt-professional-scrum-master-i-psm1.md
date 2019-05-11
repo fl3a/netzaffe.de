@@ -10,6 +10,7 @@ nid: 1635
 permalink: "/neues-aus-der-scheinwelt-professional-scrum-master-i-psm1.html"
 layout: post
 created: 1456837559
+last_modified_at: 2019-05-11
 ---
 <figure role="group">
   <img alt="Professional Scrum Master 1, PSM I" src="/assets/imgs/PSMI.png" style="float: left;">
@@ -28,7 +29,7 @@ Die PSM1-Prüfungsfragen waren in 4 Sektionen bzw. Themenbereiche unterteilt gew
 
 Nun darf ich mich Scrum Master nennen, den offiziellen Badge (links) hier einbinden und habe ein Zertifikat mehr in meiner Sammlung.<!--break-->
 
-<h2>Was gibt es überhaupt an Scrum Zertifizierungen?</h2>
+## Was gibt es überhaupt an Scrum Zertifizierungen?
 
 Neben den unterschiedlichen Rollen, für die es in der Regel jeweils eigene Zertifizierungen gibt, gibt es diverse Anbieter von Scrum-Schulungen und -Zertifizierungen[^scrum-certs1] [^scrum-certs2], die bekanntesten und erwähnenswertesten Anbieter im Deutschsprachigem Raum sind:
 	
@@ -41,7 +42,7 @@ Anmerkung: In 2011 hat die PMI&nbsp;den ACP kuzform für Agile Certified Practit
 Der ACP ist nicht auf das Framework Scrum und die Rolle des Scrum-Masters beschränkt, 
 sondern beschäftigt sich mit agilen Methoden wie auch Kanban[^acp-buch] im allgemeinen und wird z.T. mit "klassischem Projektmanagement" kombiniert.
 
-<h2>Vorbereitung auf den PSM1</h2>
+## Vorbereitung auf den PSM1
 
 Im Vorfeld dazu habe ich ein 2 tägiges Scrum Master Training von Prowareness[^pro-sm] in Düsseldorf mit den Trainern Ron Eringa und Oliver Mann besucht,
 welcher in Zusammenarbeit &nbsp;mit Scrum.org stattfindet aber&nbsp;widerrum keine Vorraussetzung für das PSM1-Zertifikat ist.
@@ -52,7 +53,7 @@ allerdings ist es hilfreich, diese aufgrund der Englischsprachigen Prüfung dies
 Ein mehrfaches Durchlaufen des Scrum Open Assessments[^assessment] macht Sinn, hier werden aus eine großen Pool 30 Fragen ausgewählt, 
 die innerhalb 30 Minuten beantwortet werden müssen, was in etwas 50% an Zeit (1h) und Fragen (80) der realen Prüfung entspricht.
 
-Zusätzlich kann ich die folgenden Bücher wärmstens empfehlen, die auch bei mir im Regal steheni,
+Zusätzlich kann ich die folgenden Bücher wärmstens empfehlen, die auch bei mir im Regal stehen,
 obwohl unter anderem die Terminlogie vom Scrum-Guide abweichen werden, 
 z.B. Backlog Grooming vs. Backlog Refinement oder User Story vs. Product Backlog Item, 
 welcher bei der Scrum.org-Zertififizierung natürlich die Referenz darstellt. 
@@ -64,37 +65,41 @@ obwohl es kein Nachschlagewerk ist sehr hilfreich. Ich habe die Beschreibung vor
 - Agile Techniken für klassisches Projektmanagement - Qualifizierung zum PMI-ACP&nbsp;von Nils Pröpper[^acp-buch]
 - Das Scrum-Prinzip: Agile Organisationen aufbauen und gestalten von Boris Gloger und Jürgen Margetich[^scrum-prinzip]
 
-<h2>Warum das ganze?</h2>
+## Warum das ganze?
 
-Als wir im b.i.b. 2003 im Fach Software-Engeneering, SWE, Vorgehenweisen zur Softwareentwicklung 
-haben wir neben u.a. Wasserfallmodell und Spiralmodell auch Exterme Programming[^xp] kurz XP als Vertreter der agilen Entwicklung behandelt.
+Als wir im b.i.b. 2003 im Fach Software-Engeneering, Vorgehenweisen zur Softwareentwicklung durchgenommen haben,
+haben wir neben u.a. Wasserfallmodell und Spiralmodell auch Extreme Programming[^xp] (kurz XP) 
+als Vertreter der agilen Entwicklung behandelt.
 Natürlich wurden die verschiedenen Modelle verglichen und die Sympatie unter uns Komilitonen war ganz klar,
 aufgrund seiner Bestandteile (Werte, Prinzipien und Praktiken) bei dem Vertreter der agilen und iterativen Entwicklung, 
 da es &nbsp;alleine schon in der Theorie Transparent, Respektvoll, Nachhaltig und Menschlich anfühlte. 
 Wen verwundet es dann, wenn man die Urväter von XP, Kent Beck und Ward Cunningham als Unterzeichner des Agilen Manifests wiederfindet.
 
-Von der Theorie in die gelebte Utopie bzw. Praxis: in 2009 habe ich bei BerlinOnline [berliner.de](https://www.drupal.org/node/622158) 
-als Teil des Entwicklerteams in einem Scrum-Projekts mitwirken dürfen, 
-hier fanden sich Praktiken einige Praktiken wie Standup Meeting (Daily Scrum), Buzzword Sustainable Pace[^s-pace] keine Überstunden (
-ja, wirklich, das war sogar vertraglich festgehalten!) 
-und das Planning-Game (Planungspoker) wieder. 
-Das ganze fühlte sich auch in der Praxis sehr gut an und man kann berliner.de wohl als Erfolgreiches Drupal-Projekt bezeichnen 
+Von der Theorie in die Praxis: 
+2009 habe ich bei BerlinOnline [berliner.de](https://www.drupal.org/node/622158) 
+als Teil des Entwicklerteams in einem Scrum-Projekts mitwirken dürfen. 
+In dem Projekt fanden sich Praktiken einige Praktiken wie [Standup Meeting (Daily Scrum)](/tags/daily-scrum/), 
+das Buzzword Sustainable Pace[^s-pace] (U.a. keine Überstunden. Ja, wirklich, das war sogar vertraglich festgehalten.) 
+und das Planning-Game (Planungspoker) wieder.  
+Das ganze fühlte sich auch in der Praxis nicht nur unglaublich gut an, 
+sondern konnte wohl auch als erfolgreiches Drupal-Projekt bezeichnet werden
 und das nicht nur weil es als [Case-Study auf drupal.org](https://www.drupal.org/node/622158) veröffentlicht wurde. 
 Für diese durchaus positive Erfahrung bin ich jedenfalls wirklich sehr dankbar.
 
-Buzzwordbingo, Allheilmittel, Komplexität: Agil und Scrum sind mittlerweile Mainstream und finden sich mittlerweile in fast jeden Grundvokabular eines &nbsp;Projektverantwortlichen und werden als manchmal Allheiltmittel gehandelt. In der deutschen Übersetzung des Scrum-Guides auf Seite 3, direkt nach der Inhaltsangabe heißt es:
+> well done! RT @fl3a wooohooo! we are on \<front\> of d.o #drupal[^cristw]
 
-<blockquote>
-	<div>Scrum ist:&nbsp;</div>
-	<ul>
-		<li>Leichtgewichtig&nbsp;</li>
-		<li>Einfach zu verstehen&nbsp;</li>
-		<li>Schwierig zu meistern&nbsp;</li>
-	</ul>
-	<div>&nbsp;</div>
-</blockquote>
+Buzzwordbingo, Allheilmittel, Komplexität: Agil und Scrum sind mittlerweile Mainstream, 
+finden sich mittlerweile in fast jeden Grundvokabular eines &nbsp;Projektverantwortlichen 
+und werden als manchmal Allheiltmittel gehandelt. 
+Im Scrum-Guide, direkt nach der Inhaltsangabe heißt es:
 
-Das Scrum zwar leichtgewichtig, einfach zu verstehen aber schwer umzusetzen ist durfte ich auch schon schmerzhaft erfahren. 
+> Scrum is:
+> - Lightweight
+> - Simple to understand
+> - Difficult to master[^sg]
+
+Das Scrum zwar leichtgewichtig, einfach zu verstehen aber schwer umzusetzen ist, durfte ich selbst schon schmerzhaft erfahren. 
+
 Aus diesem Grund habe ich mir so eine Scrum Weiterbildung verordnet (welche ich schon seit 2012 geplant habe), 
 um mich mit dem Thema nochmal mit noch mehr Zeit und Intensität auseinanderzusetzen, der Schein ist natürlich ein netter Zusatz.
 
@@ -116,5 +121,7 @@ um mich mit dem Thema nochmal mit noch mehr Zeit und Intensität auseinanderzuse
 [^pichler]: [Scrum - Agiles Projektmanagement erfolgreich einsetzen von Roman Pichler](https://www.amazon.de/Scrum-Agiles-Projektmanagement-erfolgreich-einsetzen/dp/3898644782/ref=sr_1_1?ie=UTF8&qid=1547896363&sr=8-1&keywords=pichler+scrum)
 [^schwaber]: [Agiles Projekmanagement mit Scrum von Ken Schwaber](https://www.amazon.de/gp/product/386645631X)
 [^scrum-prinzip]: [Das Scrum-Prinzip: Agile Organisationen aufbauen und gestalten Gebundenes von Boris Gloger und Jürgen Margetich](https://www.amazon.de/Das-Scrum-Prinzip-Organisationen-aufbauen-gestalten/dp/3791032895/)
-[^s-pace]: [Sustainable Pace](http://scrum-in-der-praxis.de/glossary/sustainable-pace/)
-
+[^s-pace]: [Sustainable Pace](http://scrum-in-der-praxis.de/glossiary/sustainable-pace/)
+[^xp]: [eXtreme Programming](https://de.wikipedia.org/wiki/Extreme_Programming)
+[^cristw]: [Christian Ziegler am 2009-12-09 auf twitter](https://twitter.com/crizzirc/status/6501404524)
+[^sg]: [The Scrum Guide, Definition of Scrum](https://www.scrumguides.org/scrum-guide.html#definition)
