@@ -11,7 +11,7 @@ tags:
 layout: post
 toc: true
 image: /assets/imgs/goaccess-ncurces-console-screenshot.png
-last_modified_at: 2019-05-10
+last_modified_at: 2019-05-11
 ---
 <figure>
   <img src="/assets/imgs/goaccess-ncurces-console-screenshot.png" 
@@ -30,7 +30,7 @@ läuft mit einer sogar recht ansprechenden Nucurse-Oberfläche[^ncurses] auf der
 und kann zudem noch Exporte nach JSON, CSV und HTML, was bedeutet, 
 dass die GoAccess auch wie Matomo(ehemals Piwik) oder Google-Analytics auch über den Browser bedienbar ist.
 
-Hier beschreibe ich die Installation von GoAccess auf Uberspace 6, 
+Hier beschreibe ich die Installation von GoAccess aus dem Quellcode auf Uberspace 6, 
 bei U7 ist GoAccess per Default mit an Board(und alle so yeah)[^ureact]. 
 Zudem gebe dir neben der Konfiguration von GoAccess auch Einblick in die Nutzung auf der Shell,
 ein paar nette Tipps und nützliche Beispiele mit an die Hand.
@@ -42,7 +42,7 @@ Es sei noch angemerkt, dass GoAccess auch Ausgaben in Realtime erzeugen kann,
 dieses Feature ist allerdings für die Anwendung auf Uberspace 6 irrelvant, da 
 die Access-Logs dort nicht live geschrieben werden[^logs].
 
-## Installation
+## Installation von GoAccess
 ```
 mkdir ~/repos
 ```
@@ -96,7 +96,9 @@ Jetzt könnt ihr euch einen Kaffee holen, das dauert ein wenig...
 Nachdem toast durchgelaufen ist, wiederholen wir `autoreconf -fiv` 
 und machen mit dem *Dreisatz*(s.o.) weiter. 
 
-## Konfiguration
+## Konfiguration von GoAccess
+
+### ~/etc/goaccess/goaccess.conf
 
 Die Config von GoAccess liegt durch die `--prefix=$HOME` Option von *configure*
 unter `etc/goaccess/goaccess.conf` in deinem Home-Verezeichnis.
@@ -125,7 +127,20 @@ gleiches wiederholen wir für die Referrer.
 #ignore-panel REFERRERS
 ```
 
-## Nutzung
+### Anpassung der Variablen MANPATH
+
+Damit der Aufruf von `man goaccess` auch die dazugehörige Manpage und nicht
+
+> Keine Handbuchseite für goaccess 
+
+anzeigt müssen wir die Umgebungsvariable *MANPATH* anpassen.
+
+Dazu fügen wir in *.bash_profile* die folgende Zeile ein:
+```
+export MANPATH="$MANPATH:$HOME/share/man/"
+```
+
+## Nutzung von GoAccess
 
 ### Beispiele
 
