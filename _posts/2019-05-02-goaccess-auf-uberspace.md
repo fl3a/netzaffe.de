@@ -11,7 +11,7 @@ tags:
 layout: post
 toc: true
 image: /assets/imgs/goaccess-ncurces-console-screenshot.png
-last_modified_at: 2019-05-11
+last_modified_at: 2019-05-12
 ---
 <figure>
   <img src="/assets/imgs/goaccess-ncurces-console-screenshot.png" 
@@ -133,7 +133,7 @@ Damit der Aufruf von `man goaccess` auch die dazugehörige Manpage und nicht
 
 > Keine Handbuchseite für goaccess 
 
-anzeigt müssen wir die Umgebungsvariable *MANPATH* anpassen.
+anzeigt wird, müssen wir die Umgebungsvariable *MANPATH* anpassen.
 
 Dazu fügen wir in *.bash_profile* die folgende Zeile ein:
 ```
