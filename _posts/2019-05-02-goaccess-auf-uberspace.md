@@ -11,15 +11,15 @@ tags:
 layout: post
 toc: true
 image: /assets/imgs/goaccess-ncurces-console-screenshot.png
-last_modified_at: 2019-05-12
+last_modified_at: 2019-05-17
 ---
 <figure>
   <img src="/assets/imgs/goaccess-ncurces-console-screenshot.png" 
   alt="Screenshot: GoAccess Web-Analytics auf der Konsole" />
-  <figcaption>Screenshot: GoAccess Web-Analytics auf der Konsole</figcaption>
+  <figcaption>Screenshot: GoAccess Web-Log-Analytics auf der Konsole</figcaption>
 </figure>
-Nach einer längeren Suche nach einem *Apache Log Viewer*, der auf der Konsole läuft
-und *404er/Not found* aussagekräftig darstellen kann, 
+Nach einer längeren Suche nach einem *Apache Log Viewer* bzw. *Web Log Analyzer*, 
+der auf der Konsole läuft und *404er/Not found* aussagekräftig darstellen kann, 
 bin ich auf [GoAccess](https://goaccess.io/) gestoßen.
 
 [GoAccess](https://github.com/allinurl/goaccess) ist eine schlanke, 
