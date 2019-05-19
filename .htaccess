@@ -22,12 +22,15 @@ RedirectMatch 301 ^/blog/(.*).html$ /$1.html
 # /tags/scrum.html -> /tags/scrum/index.html
 RedirectMatch 301 ^/tags/([^/]+)\.html$ /tags/$1/index.html
 
-# Redirect Drupal all legacy tag urls to tag page
-RedirectMatch 301 ^/taxonomy/term/(.*) /themen.html
+# Redirect all Drupal legacy tag urls to tag page
+RedirectMatch 301 ^/taxonomy/term/\d+$ /themen.html
+RedirectMatch 301 ^/taxonomy/term/\d+/\d+$ /themen.html
+# Redirect all Drupal legacy tag feeds to /feed.xml
+RedirectMatch 301 ^/taxonomy/term/(.*)/feed$ /feed.xml
 
 # END Rules
 
-# Book pages
+# BEGIN Book pages
 
 Redirect 301 /book/export/html/667 /gnupg-micro-howto.html
 RedirectMatch 301 /gnupg-micro-howto/(.*) /gnupg-micro-howto.html
@@ -38,8 +41,9 @@ RedirectMatch 301 /git-gitosis-gitweb-the-debian-way/(.*) /git-gitosis-gitweb-th
 Redirect 301 /book/export/html/520 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 RedirectMatch 301 /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4/(.*) /drupal-6-multisiteumgebung-mit-postgresql-unter-debian-4.html
 
+# END Book pages 
 
-# misc
+# BEGIN misc
 
 Redirect 301 /node/1630 /2014/08/28/facebook-tschoe-mit-oe-mit-oe.html 
 Redirect 301 /php-codesniffer-und-php-mess-detector-mit-syntastic-in-vim-integrieren /2016/03/13/php_codesniffer-und-php-mess-detector-mit-syntastic-in-vim-integrieren.html 
@@ -63,3 +67,5 @@ Redirect 301 /2010/12/11/arbeit-sparen-mit-cluster-ssh.html /2010/12/10/arbeit-s
 # Temp: Umlaute
 Redirect 301 /tags/scrumtisch-koeln/index.html /tags/scrumtisch-koln/index.html 
 Redirect 301 /tags/duesseldorf/index.html /tags/dusseldorf/index.html
+
+# END misc
