@@ -1,14 +1,14 @@
-- title: Posts
+- title: Beiträge 
   url: /
-
-- title: Archiv
-  url: archiv.html
 
 - title: Themen
   url: themen.html
 
 - title: Über
-  url: ueber.html
+  url: florian-latzel.html
 
 - title: Kontakt
   url: mailto:florian.latzel@gmail.com?subject=%5Bnetzaffe.de%20Kontakt%5D%20Dein%20Betreff
+
+- title: Archiv
+  url: archiv.html

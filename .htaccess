@@ -68,4 +68,6 @@ Redirect 301 /2010/12/11/arbeit-sparen-mit-cluster-ssh.html /2010/12/10/arbeit-s
 Redirect 301 /tags/scrumtisch-koeln/index.html /tags/scrumtisch-koln/index.html 
 Redirect 301 /tags/duesseldorf/index.html /tags/dusseldorf/index.html
 
+Redirect 301 /ueber.html /florian-latzel.html
+Redirect 301 /florian-fl3a-latzel.html /florian-latzel.html
 # END misc
