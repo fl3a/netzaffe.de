@@ -4,7 +4,7 @@ tags:
 - uberspace
 - howto
 - netzaffe.de
-- linux
+- Linux
 - ssh
 - hosting
 - Drupal
