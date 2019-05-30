@@ -3,7 +3,7 @@ title: Ich bin jetzt Ubernaut
 tags:
 - uberspace
 - howto
-- netzaffe.de
+- netzaffe
 - Linux
 - ssh
 - hosting
