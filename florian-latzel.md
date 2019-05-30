@@ -4,7 +4,7 @@ title: Florian Latzel
 toc: true
 permalink: /florian-latzel
 image: /assets/imgs/florian-latzel-reinblau-teamtreffen-2017-05-19-rkr.jpg
-last_modified_at: 2019-04-04
+last_modified_at: 2019-05-30
 ---
 ## Über mich
 
