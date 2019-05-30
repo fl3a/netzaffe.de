@@ -17,10 +17,11 @@ title: netzaffe.de
 author: "Florian Latzel"
 email: florian.latzel@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Über meine Abenteuer im Taka-VUCA-Land. Notizen, Berichte über dies, das, verschiedene Dinge.
+  Hallo, mein Name ist Florian Latzel. Hier schreibe ich 
+  über meine Abenteuer als Scrum Master und Agile Coach im Taka-VUCA-Land + 
+  Notizen, Berichte über dies, das, verschiedene Dinge.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://netzaffe.de" # the base hostname & protocol for your site, e.g. http://example.com
-
 
 twitter_username: fl3a
 github_username:  fl3a
