@@ -14,6 +14,7 @@ permalink: "/das-war-die-agile-cologne-2017.html"
 layout: post
 title: Das war die Agile Cologne 2017
 created: 1495529504
+last_modified_at: 2019-06-01
 ---
 <p><img src="/assets/imgs/agilecologne17/agile-cologne-logo-220x81.jpeg" style="float:left;padding-right: 10px;" alt="Agile Cologne Logo"  />Wie 180 weitere "Agile Begeisterte" zog es auch Boris und mich am 24. März 2017 – selbstverständlich mit blauen Reinblau-T-Shirts ausgestattet –&nbsp;wieder zur Agile Cologne<fn>https://agilecologne.de/</fn>. Die Veranstaltung fand dieses Mal im GS1 Knowledge Center in Köln statt und konnte im Vergleich zum Vorjahr an Teilnehmern zulegen.</p>
 
@@ -47,14 +48,9 @@ created: 1495529504
 
 <p>Visual Facilitating mit Daniel war eine sehr greifbare Session, die mir sehr viel Spaß gemacht hat. Auf der Agile Cologne XXL im letzten Herbst hat Boris bereits seine "kreative Ader" kennengelernt:</p>
 
-<p>&nbsp;</p>
+> Sketchnoting – ich werde mir wohl bald ein Ohr abschneiden müssen ...
 
-<blockquote class="twitter-tweet" data-lang="de">
-<p dir="ltr" lang="de">Sketchnoting – ich werde mir wohl bald ein Ohr abschneiden müssen … <a href="https://t.co/CIJKxlV1xm">pic.twitter.com/CIJKxlV1xm</a></p>
-— Boris Runte (@bbarunte) <a href="https://twitter.com/bbarunte/status/782918811808833536">3. Oktober 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>&nbsp;</p>
+Boris Runte (@bbarunte) <a href="https://twitter.com/bbarunte/status/782918811808833536">3. Oktober 2016</a>
 
 <p>Zuerst ging es um ein paar grundlegende Prinzipien, z.B.:</p>
 
@@ -81,10 +77,10 @@ created: 1495529504
 
 <p>Getreu dem Motto: Fail early, fail often, fail cheap hat Cynthia eine Session zum Umgang mit Fehlern bzw. Fehlerkultur gehalten.</p>
 
-<blockquote class="twitter-tweet" data-lang="de">
-<p dir="ltr" lang="de">...betrifft die meisten von uns natürlich nicht, war aber gut - Umgang mit Fehlern / Erleuchtung vs. Scheitern von <a href="https://twitter.com/LunaMel801">@LunaMel801</a> <a href="https://twitter.com/hashtag/agilecologne?src=hash">#agilecologne</a> <a href="https://t.co/5AKkzDCwKH">pic.twitter.com/5AKkzDCwKH</a></p>
-— Boris Runte (@bbarunte) <a href="https://twitter.com/bbarunte/status/845328738975932417">24. März 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+> ...betrifft die meisten von uns natürlich nicht, 
+> war aber gut - Umgang mit Fehlern / Erleuchtung vs. Scheitern von @LunaMel801
+
+Boris Runte (@bbarunte) <a href="https://twitter.com/bbarunte/status/845328738975932417">24. März 2017</a>
 
 <h2>Danke und bis zur Agile Cologne XXL im Herbst!</h2>
 
