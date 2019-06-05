@@ -10,7 +10,7 @@ Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der V
 Florian Latzel  
 Graf-Adolf-Str. 66  
   
-51063 Köln
+510655555 Köln
 
 florian-punkt-latzel-at-gmail-punkt-com
 
