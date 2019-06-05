@@ -69,5 +69,12 @@ Redirect 301 /tags/scrumtisch-koeln/index.html /tags/scrumtisch-koln/index.html
 Redirect 301 /tags/duesseldorf/index.html /tags/dusseldorf/index.html
 
 Redirect 301 /ueber.html /florian-latzel.html
+Redirect 301 /florian-latzel /florian-latzel.html
 Redirect 301 /florian-fl3a-latzel.html /florian-latzel.html
+
+Redirect 301 /eine-einfuehrung-scrum-vortrag-auf-dem-drupalcamp-muenchen-2016.html /eine-einfuehrung-scrum-vortrag-auf-dem-drupalcamp-muenchen-2016.html
+Redirect 301 /copy-n-paste-bei-gpg-passwoertern-und-pinentry /2015/11/14/copy-n-paste-bei-gpg-passwoertern-und-pinentry.html
+
+Redirect /2009/02/20/drush-mm-adminrole-workaround-und-tabs-in-firefox.html /2009/02/20/drush_mm-adminrole-workaround-und-tabs-in-firefox.html
+
 # END misc
