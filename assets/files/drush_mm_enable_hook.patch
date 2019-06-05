@@ -1,0 +1,17 @@
+? drush_mm.module.adminrole.patch
+? drush_mm_enable_hook.patch
+Index: drush_mm.module
+===================================================================
+RCS file: /cvs/drupal-contrib/contributions/modules/drush_mm/drush_mm.module,v
+retrieving revision 1.5
+diff -u -p -r1.5 drush_mm.module
+--- drush_mm.module	7 Jan 2009 13:49:37 -0000	1.5
++++ drush_mm.module	21 Feb 2009 23:14:18 -0000
+@@ -147,6 +147,7 @@ function _drush_mm_endis_module( $enable
+           // enable for sure
+           // TODO: this will not solve the 'failed install' scenario
+           module_enable( array($module));
++          module_invoke_all('drush_mm_enable', $module);
+         }
+       }
+     }

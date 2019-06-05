@@ -1,0 +1,14 @@
+--- drush_mm.module	2009-01-07 14:49:37.000000000 +0100
++++ drush_mm.module.mod	2009-02-22 02:15:42.000000000 +0100
+@@ -147,6 +147,11 @@ function _drush_mm_endis_module( $enable
+           // enable for sure
+           // TODO: this will not solve the 'failed install' scenario
+           module_enable( array($module));
++          if (module_exists('adminrole')) { 
++            drush_verbose( t('Found module adminrole'));
++            adminrole_update_perms();
++            drush_verbose( t('Admin Permissions Set'));
++          }  
+         }
+       }
+     }
