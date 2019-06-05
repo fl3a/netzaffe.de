@@ -47,8 +47,10 @@ Anschließend wird man 1 x nach dem aktuellem Passwort gefragt, wenn dies erfolg
 Anschließend wird der Vorgang gespeichert.
 ```
 gpg> save
+```
 
 Jetzt noch einmal alles durchtreten und das euer frei gewähltes Passwort sollte greifen.
+
 ```
 killall gpg-agent
 gpg-agent --daemon
