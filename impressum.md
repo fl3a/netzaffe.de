@@ -57,16 +57,30 @@ Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konk
 Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links
 umgehend entfernen.
 
-**Urheberrecht** 
+**Lizenz der Inhalte**
 
-Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen
-Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der
-Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
-Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.
+Die Inhalte dieser Seite, soweit nicht anders angegeben, sind unter der Creative Commons —
+Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International [(CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.de) lizensiert.
+Du darfst:
+* Teilen — das Material in jedwedem Format oder Medium vervielfältigen und weiterverbreiten
+* Bearbeiten — das Material remixen, verändern und darauf aufbauen und zwar für beliebige Zwecke, sogar kommerziell.
+
+Der Lizenzgeber kann diese Freiheiten nicht widerrufen solange Du dich an die Lizenzbedingungen hältst, diese sind:
+
+* Namensnennung — Du musst angemessene Urheber- und Rechteangaben machen, einen Link zur Lizenz beifügen und angeben, ob Änderungen vorgenommen wurden. Diese Angaben dürfen in jeder angemessenen Art und Weise gemacht werden, allerdings nicht so, dass der Eindruck entsteht, der Lizenzgeber unterstüt gerade dich oder deine Nutzung besonders.
+* Weitergabe unter gleichen Bedingungen — Wenn du das Material remixt, veränderst oder anderweitig direkt darauf aufbaust, darfst du deine Beiträge nur unter derselben Lizenz wie das Original verbreiten.
+
+**Urheberrechte Dritter**
+
 Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter
-beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine
-Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei
-Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
-Quelle:
-https://www.e-recht24.de/impressum-generator.html
-3
+beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet.
+Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis.
+Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
+
+
+Quelle: https://www.e-recht24.de/impressum-generator.html
+
+Vom Betreiber der Website angepasst:
+* Absatz *Urheberrecht* inkl. Berufung auf das dt. Urheberrecht wurde entfernt,
+* *Lizenz der Inhalte* (CC BY-SA 4.0) wurde stattdessen hinzugefügt,
+* Um Zwischenüberschrift *Urheberrechte Dritter* ergänzt.
