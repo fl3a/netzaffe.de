@@ -13,7 +13,7 @@ Graf-Adolf-Str. 66
 **Kontakt**
 
 Telefon: +49 (0) 163 191 77 77  
-E-Mail: florian.latzel@gmail.com
+E-Mail: florian-punkt-latzel-at-gmail-punkt-com
 
 **Umsatzsteuer-ID**
 
