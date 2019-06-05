@@ -4,7 +4,7 @@ title: Florian Latzel
 toc: true
 permalink: /florian-latzel
 image: /assets/imgs/florian-latzel-reinblau-teamtreffen-2017-05-19-rkr.jpg
-last_modified_at: 2019-05-30
+last_modified_at: 2019-06-05
 ---
 ## Über mich
 
@@ -30,7 +30,7 @@ Hier hier erfährst Du vielleicht noch mehr über mich.
 
 Hier findest du mich auch noch:
 
-- [~~facebook~~](/node/1630)
+- [~~facebook~~](/2014/08/28/facebook-tschoe-mit-oe-mit-oe.html)
 - [twitter](http://twitter.com/fl3a)
 - [soundcloud](http://soundcloud.com/florian-latzel/favorites)
 - [drupal.org](http://drupal.org/user/51103)
@@ -56,29 +56,4 @@ Wir sollten dann Dein Anliegen bei einer Tasse Kaffee besprechen.
 
 ## Über diese Seite
 
-Das ist mein privates Blog, manchmal schreibe ich hier was über [Themen](/themen.html).
-
-### Lizenz
-
-Die Inhalte dieser Seite, soweit nicht anders angegeben, sind unter der Creative Commons &mdash;
-Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International 
-[(CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.de) lizensiert.
-
-Du darfst:
-
-- **Teilen** — das Material in jedwedem Format oder Medium vervielfältigen und weiterverbreiten
-- **Bearbeiten** — das Material remixen, verändern und darauf aufbauen 
- und zwar für beliebige Zwecke, sogar kommerziell.
-
-Der Lizenzgeber kann diese Freiheiten nicht widerrufen solange Du dich an die Lizenzbedingungen hälst.
-
-Unter folgenden Bedingungen:
-
-- **Namensnennung** — Du musst angemessene Urheber- und Rechteangaben machen, 
- einen Link zur Lizenz beifügen und angeben, ob Änderungen vorgenommen wurden. 
- Diese Angaben dürfen in jeder angemessenen Art und Weise gemacht werden, 
- allerdings nicht so, dass der Eindruck entsteht, 
- der Lizenzgeber unterstüt gerade dich oder deine Nutzung besonders.
-- **Weitergabe unter gleichen Bedingungen** — Wenn du das Material remixt, 
-  veränderst oder anderweitig direkt darauf aufbaust, 
-  darfst du deine Beiträge nur unter derselben Lizenz wie das Original verbreiten.
+Das ist mein privates Blog, manchmal schreibe ich hier etwas über [Themen](/themen.html).
