@@ -9,13 +9,12 @@ Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der V
 
 **Verantwortlicher**
 
-Florian Latzel
-
-Deutz-Mülheimer-Straße 129.
-
+Florian Latzel  
+Graf-Adolf-Str. 66  
+  
 51063 Köln
 
-floh-at-netzaffe-punkt-de
+florian-punkt-latzel-at-gmail-punkt-com
 
 Link zum Impressum: [http://netzaffe.de/impressum.html](/impressum)
 
@@ -90,19 +89,7 @@ Sie können der künftigen Verarbeitung der Sie betreffenden Daten nach Maßgabe
 
 **Cookies**
 
-Cookie-Information:
-Cookies sind kleine Dateien, die von einer Webseite auf einem Computer gespeichert werden. Sie enthalten zum Beispiel Seiteneinstellungen und Anmeldeinformationen und erleichtern das Surfen im Internet. Sie können die Speicherung von Cookies in Ihrem Browser verhindern, dadurch kann der Funktionsumfang dieser Webseite jedoch eingeschränkt sein. Bei dieser Webseite kommen Cookies an folgenden Stellen zum Einsatz:
-
-1. Cookie (CMS): Diese Webseite basiert auf dem CMS-System Drupal. Dieses System verwendet technisch notwendige Cookies, die unter anderem zur Anzeige der Weboberfläche erforderlich sind.
-2. Cookie (Administration): Wenn eine Anmeldung beim Drupal-System stattfindet (die Software, mit der diese Webseite erstellt wurde), wird ein technisch notwendiger Cookie aktiv. Dieser merkt sich Seiteneinstellungen und Anmeldeinformationen. Dieser Cookie ist nur für die Administration der Webseite relevant.
-3. Cookie (Banner): Das Cookie Banner selbst verwendet einen Cookie. In diesem Fall merkt sich der Cookie, dass sie angeklickt haben mit der Verwendung von Cookies einverstanden zu sein.
-Löschung von Daten
-
-Die von uns verarbeiteten Daten werden nach Maßgabe der Art. 17 und 18 DSGVO gelöscht oder in ihrer Verarbeitung eingeschränkt. Sofern nicht im Rahmen dieser Datenschutzerklärung ausdrücklich angegeben, werden die bei uns gespeicherten Daten gelöscht, sobald sie für ihre Zweckbestimmung nicht mehr erforderlich sind und der Löschung keine gesetzlichen Aufbewahrungspflichten entgegenstehen. Sofern die Daten nicht gelöscht werden, weil sie für andere und gesetzlich zulässige Zwecke erforderlich sind, wird deren Verarbeitung eingeschränkt. D.h. die Daten werden gesperrt und nicht für andere Zwecke verarbeitet. Das gilt z.B. für Daten, die aus handels- oder steuerrechtlichen Gründen aufbewahrt werden müssen.
-
-Nach gesetzlichen Vorgaben in Deutschland, erfolgt die Aufbewahrung insbesondere für 10 Jahre gemäß §§ 147 Abs. 1 AO, 257 Abs. 1 Nr. 1 und 4, Abs. 4 HGB (Bücher, Aufzeichnungen, Lageberichte, Buchungsbelege, Handelsbücher, für Besteuerung relevanter Unterlagen, etc.) und 6 Jahre gemäß § 257 Abs. 1 Nr. 2 und 3, Abs. 4 HGB (Handelsbriefe).
-
-Nach gesetzlichen Vorgaben in Österreich erfolgt die Aufbewahrung insbesondere für 7 J gemäß § 132 Abs. 1 BAO (Buchhaltungsunterlagen, Belege/Rechnungen, Konten, Belege, Geschäftspapiere, Aufstellung der Einnahmen und Ausgaben, etc.), für 22 Jahre im Zusammenhang mit Grundstücken und für 10 Jahre bei Unterlagen im Zusammenhang mit elektronisch erbrachten Leistungen, Telekommunikations-, Rundfunk- und Fernsehleistungen, die an Nichtunternehmer in EU-Mitgliedstaaten erbracht werden und für die der Mini-One-Stop-Shop (MOSS) in Anspruch genommen wird.
+Diese Website verwendet keine Cookies.
 
 **Agenturdienstleistungen**
 
