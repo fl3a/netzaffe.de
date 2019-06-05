@@ -2,6 +2,7 @@
 title: Impressum
 permalink: /impressum
 layout: page
+last_modified_at: 2019-06-05
 ---
 **Angaben gemäß § 5 TMG**
 
