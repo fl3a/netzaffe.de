@@ -18,6 +18,10 @@ created: 1235154310
 Klappt und ich weiss jetzt wofür das eval-Statement gut sein kann.</p>
 <p><strong>Update 21.02.2009 02:38 Patches im Anhang</strong>
 Ein kürzere, elegantere und zukunftsträchtigere Lösung, je ein Patch für drush_mm und adminrole von <a href="http://freeblogger.org/">dereine</a>, Danke! und meine Lösung, welche unabhängig von adminrole ist. <!--break--></p>
+* [admin_role_drush_mm_integration.patch](/assets/files/admin_role_drush_mm_integration.patch)
+* [drush_mm_adminrole.patch](/assets/files/drush_mm_adminrole.patch)
+* [drush_mm_enable_hook.patch](/assets/files/drush_mm_enable_hook.patch)
+
 <strong>Tabs in Firefox</strong>
 <p>Wie kann man in Firefox per Shortcut die Tabs wechseln?</p>
 <p>So einfach, daß ich nicht darauf gekommen bin...</p>
