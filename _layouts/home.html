@@ -4,9 +4,28 @@ layout: default
 <div class="home">
 
   {{ content }}
-
+ 
+  {%- if page.url == "/index.html" and paginator.page == 1 and site.description  -%}
+    <div class="hallo">  
+      <figure role="group">
+        <img src="http://127.0.0.1:4000/assets/imgs/florian_latzel_mod-hg.png" 
+          alt="Florian Latzel, Reinblau Teamtreffen, Mai 2017, Foto © Ronald Krentz" />
+       </figure>
+       <h2>Hallo!</h2>
+       <p>
+        {{ site.description }}
+       </p>
+       <p>
+         <a href="/florian-latzel.html">Hier</a> erfährst Du mehr über mich.
+       </p>
+    </div>
+  {%- endif -%}   
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: page.autopage.display_name | escape | default: "Blog" }}</h2>
+    <h2 class="post-list-heading">{{ page.list_title | default: page.autopage.display_name | escape | default: "Blog" }}
+      <a id="blog" class="anchor" href="#blog" aria-hidden="true">
+        <span class="octicon octicon-link"></span>
+      </a>
+    </h2>
     <ul class="post-list">
       {%- for post in paginator.posts -%}
       <li>
