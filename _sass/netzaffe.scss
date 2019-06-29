@@ -1,3 +1,21 @@
+/* Home */
+div.hallo {
+  text-align: center;
+  h2 {
+    font-size: 28px;
+  }
+  figure {
+    img {
+      display: inline;
+    }
+  }
+}
+
+// twitter icon fix
+svg.twitter {
+  padding-top: 5px;
+}
+
 /* Pagination */
 ul.pager {
   text-align: center;
@@ -44,3 +62,11 @@ ul.tags {
     margin-bottom: 10px;
   }
 }
+
+/* Footer */
+footer {
+  ul.social-media-list {
+    padding-top: 25px; 
+  }
+}
+

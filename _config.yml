@@ -17,18 +17,11 @@ title: netzaffe.de
 author: "Florian Latzel"
 email: florian.latzel@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hallo, mein Name ist Florian Latzel. Hier schreibe ich 
-  über meine Abenteuer als Scrum Master und Agile Coach im Taka-VUCA-Land + 
-  Notizen, Berichte über dies, das, verschiedene Dinge.
+  Mein Name ist Florian Latzel. Hier schreibe ich 
+  über meine Abenteuer als Scrum Master im Taka-VUCA-Land + 
+  Notizen und Berichte über dies, das, verschiedene Dinge.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://netzaffe.de" # the base hostname & protocol for your site, e.g. http://example.com
-
-twitter_username: fl3a
-github_username:  fl3a
-#drupal_username: fl3a
-linkedin_username: florianlatzel
-#xing_username:  Florian_Latzel
-gnupg_keyid: "0x768146cd269b69d1"
 
 defaults:
   -
@@ -82,7 +75,7 @@ autopages:
 # https://github.com/jekyll/jekyll-seo-tag
 lang: "de_DE"
 social:
-  name: Ben Balter
+  name: Florian Latzel
   links:
     - https://twitter.com/fl3a
     - http://de.linkedin.com/in/florianlatzel/en

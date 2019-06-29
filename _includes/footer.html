@@ -6,32 +6,21 @@
     <div class="footer-col-wrapper">
       <div class="footer-col one-half">
       <h2 class="footer-heading">{{ site.title | escape }}</h2>
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
         <ul>
-        {% for item in site.data.footer_links.links %}
+          {% for item in site.data.footer_links.links %}
           <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-        {% endfor %}
+          {% endfor %}
         </ul>
-      </div>
-
-      <div class="footer-col one-half">
-        <p>{{- site.description | escape -}}</p>
       </div>
 
       <div class="social-links">
         {%- include social.html -%}
       </div>
+
+      <div class="footer-col one-half">
+        <p>2004 - {{ "now" | date: "%Y" }} Florian Latzel, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></p>
+      </div>
+
     </div>
 
   </div>
