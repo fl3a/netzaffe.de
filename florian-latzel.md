@@ -17,10 +17,10 @@ last_modified_at: 2019-06-05
 Hallo, ich heiße Florian Latzel.
 
 - Jahrgang 1978, in Köln geboren
-- lebt und arbeitet im wunderschönen [Köln-Mülheim](/tags/muellem/index.html)
-- macht was mit Menschen, die was mit Computern machen
-- Staatl. gepr. Informatiker FR Softwaretechnologie mit ein paar [Zertifikaten](/tags/zertifikat/index.html)
 - seit 2006 freiberuflicher IT-Berater, seit 2018 [Scrum Master](/tags/scrum-master/index.html) bei REWE digital
+- macht was mit Menschen, die was mit Computern machen
+- Staatl. gepr. Informatiker Fachrichtung Softwaretechnologie mit ein paar [Zertifikaten](/tags/zertifikat/index.html)
+- lebt und arbeitet im wunderschönen [Köln-Mülheim](/tags/muellem/index.html)
 - mag Rheinblick, [Reinblau](/tags/reinblau/index.html), gute Ideen, [Fahrräder](/tags/fahrrad/index.html) und ist gerne [draußen](/tags/draussen/index.html).
 - glaubt an [Open Source](/tags/open-source/index.html) und Karma und [Agile Softwareentwicklung](/tags/agile/index.html)
 
