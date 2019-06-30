@@ -1,55 +1,102 @@
 ---
 title: Personal Maps Workshop
-tags: [Tuckman Phasenmodell, Forming, Contact, Kennenlernen, Empathie, Management 3.0, Personal Maps]
+tags: 
+- Tuckman Phasenmodell
+- Forming
+- Kennenlernen, 
+- Empathie
+- Vertrauen
+- Management 3.0
+- Personal Maps
+layout: post
+toc: true
 ---
 Wenn eine Gruppe von Menschen sich zusammenfindet um ein Team zu werden,
 dann befindet es sich lt. Tuckmanns Modell der Teamphasen[^1] in der *Forming Phase*, die im Zeichen des Zusammenkommens (Contact) steht. 
 
-Ein Format um das Team im Kennenlernprozeß zu unterstützen sind Personal Maps[^2] [^3], eine Methode aus dem Management 3.0[^4] [^5].
+Ein großartiges Format um das Team im Kennenlernprozeß zu unterstützen sind Personal Maps[^2] [^3], 
+eine Methode aus dem Management 3.0[^4] [^5].
 <!--break-->
-## Personal Maps
+## Ziel: Aufbau von Empathie und Vertrauen
 
-Ziel ist es Empathie und Nähe zu erzeugen und wird gerade deshalb im Bereich der Remote-Arbeit sehr gerne genutzt.
+Ziel ist es Empathie, Nähe und Vertrauen zu erzeugen und wird gerade deshalb im Bereich der Remote-Arbeit sehr gerne genutzt.
 
 Sie dient dazu zu erfahren was Menschen, mit denen wir auf Arbeit einen Großteil unserer Lebenszeit verbringen 
 neben der Fachlichkeit noch ausmacht.
 
-Ein großer Fokus liegt also auf dem Öffen der eigenen Geschichte und des Privatlebens.
+Ein großer Fokus liegt also auf dem Öffen der eigenen Geschichte, des Privatlebens
+und dem Fallenlassen *der professionellen Maske*.
 
 Wir gehen schneller Emotionale Verbindungen ein, unterstützen den Prozess des Kennenlernens und können Stimmungen besser deuten, 
 wenn wir ggf. auch die Gründe kennen, z.B. bei Magelnde Konzentration aufgrund Schlaflosigkeit weil sein/ihr Kind welches gerade zahnt.
 
 Ein gewünschter Nebeneffekt ist das Personal Maps wunderbare Anknüpfungspunkte liefern, z.B. über interessante Themen oder Gemeinsame Punkte.
 
-## Struktur der Personal Map
+## Struktur einer Personal Map
 
-Die Map hat die folgende Struktur: 
-Den Mittelknoten, mit deinen Namen, davon gehen die folgenden Hauptknoten:
+Personal Maps sind vergeleichbar mit Mindmaps (woher wahrscheinlich auch der Name kommt),
+und dienen dazu, das was **dich*** ausmacht darzustellen.
 
-- Interessen/Hobbies
-  - Hier gerne mehr
-- Familie
-    - z.B. Verheiratet, Kinder, Patchwork-Struktur
-- Ziele
-- Werte
-- Zuhause
-    - z.B. wichtige Stationen, Städte
-- Ausbildung
-    - z.B. Ausbildung, Studium, Abschlüsse, Zertifikate
-- Arbeit
-    - z.B. Stationen, Position und Arbeitsgeber
-- Freunde
+Eine Perssonal Map hat die folgende Struktur:
+
+### Dein Name
+
+Die Personal Map startet mit einem Mittelknoten, mit deinen Namen, wovon die folgenden Hauptknoten abgehen.
+
+Die hier verwendeten Hauptknoten sind Beispiele aus der im Management 3.0,
+die Namen der originalen, englischen Knoten habe ich in Klammern angegeben.
+
+Die Beispiele geben bereits ein sehr gutes Spektrum vor, das was einen Menschen ausmacht zu dazustellen.,
+Natürlich sind Variationen und Ergänzungen, wie _Fun Facts_ oder _Musik_ erlaubt.
+
+#### Interessen/Hobbies (Hobbies)
+
+- Welche Interessen hast Du?
+- Was machst du, wenn du nicht arbeitest?
+- Was machst du regelmäßig?
+- Übst du eine Sportart aus?
+
+#### Familie (Family)
+
+- Bist du verheiratet?
+- Hast Du Kinder, wie alt sind diese?
+- Hast Du Geschwister?
+- Hast deiner Familie eine Patchwork-Struktur? Vielleicht skizzierest du diese?
+
+#### Ziele (Goals)
+
+- Welche Ziele hast Du?
+- Was möchtest Du in naher Zukunft erreichen?
+- Woran arbeitest Du gerade, was auf ein Ziel einzahlt?
+
+#### Werte (Values)
+
+#### Zuhause (Home)
+
+- z.B. wichtige Stationen, Städte
+
+#### Ausbildung (Education)
+
+- z.B. Ausbildung, Studium, Abschlüsse, Zertifikate
+
+#### Arbeit (Work)
+
+- z.B. Stationen, Position und Arbeitsgeber
+
+#### Freunde (Friends)
+
+ich finde die 
 
 Ggf. noch die zusätzlichen Knoten
 - Fun Facts
 
-## Material für den Workshop Analog
+## Material für den Workshop
 
-Wie 
+
 
 ### Analog
 
-- Beschreibbare Fläche, wie Abwischbare Wand oder Whiteboad
+- Beschreibbare Fläche, wie eine Abwischbare Wand oder Whiteboad
     - Boardmarker
 - Flipchartpapier oder anderes Papier
     - Klebeband
@@ -62,15 +109,33 @@ Wie
         - xMind (opensource)
         - Confluence mit Gliffy Plugin
 
-# Ablauf eines Personal Maps Workshops
+## Personal Maps Workshop Agenda
 
 Dauer ca. 1,5 Stunden bei einem Personal Maps Workshop mit 5 Team-Mitgliedern 
 
-- Disclaimer vorweg: "Nur so offen sein, wie ihr es euch traut"
+### JoHaRi Fenster
+
+### Disclaimer 
+
+Disclaimer vorweg: "Nur so offen sein, wie ihr es euch traut"
+
+### Las Vegas Regel
+
+### Lead by example, 
+
 - Vertrauen schaffen, auflockern mit ein Paar Blitzlichtern in Form von ein paar persönlichen Fotos oder Lustigen Situationen
 - Mit gutem Vorbild vorangehen und die eigene, sehr umfangreichen Personal Maps vorstellen
+
+### Erklärung der Personal Map
+
 - die Grundstruktur skizzieren
+
+### Zeichnen
+
 - 30min für das Zeichen der eigenen Personal
+
+### Vorstellen
+
 - 30min für das Vorstellen der eigenen Personal Maps
 
 ## Variationen
