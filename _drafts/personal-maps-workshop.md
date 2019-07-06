@@ -3,7 +3,7 @@ title: Personal Maps Workshop
 tags: 
 - Tuckman Phasenmodell
 - Forming
-- Kennenlernen, 
+- Kennenlernen 
 - Empathie
 - Vertrauen
 - Management 3.0
@@ -12,42 +12,49 @@ layout: post
 toc: true
 ---
 Wenn eine Gruppe von Menschen sich zusammenfindet um ein Team zu werden,
-dann befindet es sich lt. Tuckmanns Modell der Teamphasen[^1] in der *Forming Phase*, die im Zeichen des Zusammenkommens (Contact) steht. 
+dann befindet es sich lt. Tuckmanns Modell der Teamphasen[^1] in der *Forming Phase*, die im Zeichen des Zusammenkommens steht. 
 
 Ein großartiges Format um das Team im Kennenlernprozeß zu unterstützen sind Personal Maps[^2] [^3], 
 eine Methode aus dem Management 3.0[^4] [^5].
 <!--break-->
-## Ziel: Aufbau von Empathie und Vertrauen
+## Ziel des Workshops: Aufbau von Empathie und Vertrauen
 
 Ziel ist es Empathie, Nähe und Vertrauen zu erzeugen und wird gerade deshalb im Bereich der Remote-Arbeit sehr gerne genutzt.
 
 Sie dient dazu zu erfahren was Menschen, mit denen wir auf Arbeit einen Großteil unserer Lebenszeit verbringen 
-neben der Fachlichkeit noch ausmacht.
+neben der Fachlichkeit noch ausmacht. 
 
-Ein großer Fokus liegt also auf dem Öffen der eigenen Geschichte, des Privatlebens
+Ein großer Fokus liegt also auf dem Öffnen der eigenen Geschichte, des Privatlebens
 und dem Fallenlassen *der professionellen Maske*.
 
-Wir gehen schneller Emotionale Verbindungen ein, unterstützen den Prozess des Kennenlernens und können Stimmungen besser deuten, 
-wenn wir ggf. auch die Gründe kennen, z.B. bei Magelnde Konzentration aufgrund Schlaflosigkeit weil sein/ihr Kind welches gerade zahnt.
+Wir gehen so schneller Emotionale Verbindungen ein, unterstützen den Prozess des Kennenlernens,
+öffnen uns selbst mehr
+und können so vielleicht auch Stimmungen unserer Team-Mitglieder besser deuten, wenn wir etwas mehr über Hintergründe wissen.
 
-Ein gewünschter Nebeneffekt ist das Personal Maps wunderbare Anknüpfungspunkte liefern, z.B. über interessante Themen oder Gemeinsame Punkte.
+Ein gewünschter Effekt ist das Personal Maps wunderbare Anknüpfungspunkte liefern, z.B. über Gemeinsamsamkeiten wie Interessen
+oder eben auch markante Punkte, die einen Einstieg in ein Persönliches Gesprächen erleichtern.
+
+Ein Nebeneffekt ist die Selbstreflektion, ihr werdet es vielleicht merken, wenn ihr eure eigene Personal Map malt.
 
 ## Struktur einer Personal Map
 
-Personal Maps sind vergeleichbar mit Mindmaps (woher wahrscheinlich auch der Name kommt),
-und dienen dazu, das was **dich*** ausmacht darzustellen.
+Personal Maps sind vergleichbar mit der Darstellung von Mindmaps 
+und dienen dazu zu eruieren, das was **dich** ausmacht.
 
-Eine Perssonal Map hat die folgende Struktur:
+Eine Personal Map hat die folgende Struktur:
 
-### Dein Name
+### Mittelknoten: Dein Name
 
-Die Personal Map startet mit einem Mittelknoten, mit deinen Namen, wovon die folgenden Hauptknoten abgehen.
+Die Personal Map startet mit einem Mittelknoten, der Person, also mit dir und mit deinen Namen.
+Davon gehen dann die folgenden Hauptknoten ab.
 
 Die hier verwendeten Hauptknoten sind Beispiele aus der im Management 3.0,
-die Namen der originalen, englischen Knoten habe ich in Klammern angegeben.
+die originalen , englischen Knotennamem habe ich in Klammern angegeben.
 
-Die Beispiele geben bereits ein sehr gutes Spektrum vor, das was einen Menschen ausmacht zu dazustellen.,
+Ich finde, die Hauptknoten geben bereits ein sehr gutes Spektrum vor, das was einen Menschen so ausmacht.
 Natürlich sind Variationen und Ergänzungen, wie _Fun Facts_ oder _Musik_ erlaubt.
+
+Hier noch eine paar Fragestellungen, die helfen können die jeweiligen Knoten mit Leben zu versehen.
 
 #### Interessen/Hobbies (Hobbies)
 
@@ -59,6 +66,7 @@ Natürlich sind Variationen und Ergänzungen, wie _Fun Facts_ oder _Musik_ erlau
 #### Familie (Family)
 
 - Bist du verheiratet?
+- Wie heißt dein Partner?
 - Hast Du Kinder, wie alt sind diese?
 - Hast Du Geschwister?
 - Hast deiner Familie eine Patchwork-Struktur? Vielleicht skizzierest du diese?
@@ -71,30 +79,39 @@ Natürlich sind Variationen und Ergänzungen, wie _Fun Facts_ oder _Musik_ erlau
 
 #### Werte (Values)
 
+- Welche Werte sind dir wichtig?
+- Auf welche Werte legst Du besonderen Wert?
+- Welche Werte möchtest Du im Team wiederfinden?
+
 #### Zuhause (Home)
 
-- z.B. wichtige Stationen, Städte
+- Wo bist du aufgewachsen?
+- Was waren wichtige Stationen wie Schule, Studium, Job für dich?
+- Wo fühlst Du zu Zuhause?
 
 #### Ausbildung (Education)
 
-- z.B. Ausbildung, Studium, Abschlüsse, Zertifikate
-
-#### Arbeit (Work)
-
-- z.B. Stationen, Position und Arbeitsgeber
+- Welche Ausbildung hast du gemacht?
+- Was mit welchem Abschluss (oder ohne Abschluss) studiert?
+- Hast Du dich weitergebildet, Zertifikate, Kurse etc gemacht?
 
 #### Freunde (Friends)
 
-ich finde die 
+- Mit welchen Menschen bist du befreundet?
+- Gruppe von Menschen
 
-Ggf. noch die zusätzlichen Knoten
-- Fun Facts
+#### Arbeit (Work)
+
+- Wo und als was hast du vorher gearbeitet?
+- Was waren besonders wichtige Stationen für dich?
 
 ## Material für den Workshop
 
-
+Ich lasse in der Regel die Wahl zwischen analogen und digitalen Mitteln.
 
 ### Analog
+
+Die analogen Materialien, optimal für Co-located Teams.
 
 - Beschreibbare Fläche, wie eine Abwischbare Wand oder Whiteboad
     - Boardmarker
@@ -104,24 +121,40 @@ Ggf. noch die zusätzlichen Knoten
 
 ### Digital
 
+Digitale Materialien und Werkzeuge:
+
 - Rechner
-    - Mapmap Programm deiner Wahl, e.g. 
+    - Mapmap Programm deiner Wahl, z.B:
         - xMind (opensource)
         - Confluence mit Gliffy Plugin
 
 ## Personal Maps Workshop Agenda
 
-Dauer ca. 1,5 Stunden bei einem Personal Maps Workshop mit 5 Team-Mitgliedern 
+Dauer ca. 1,5 bis 2 Stunden bei einem Personal Maps Workshop mit 6 Team-Mitgliedern 
+
+### Tuckmans Teamphasen
+
+In der Regel starte ich mit dem Tuckman Modell der Teamphasen.
+In reisse kurz und knapp alle Phasen an und werde bei der Forming Phase etwas ausführlicher 
+und nehme Bezug darauf warum wir in diesem Workshop sind und wie es auf diese Phase einzahlt.
 
 ### JoHaRi Fenster
 
-### Disclaimer 
+Als zweites Modell verwende ich das Modell des JoHaRi Fensters.
 
-Disclaimer vorweg: "Nur so offen sein, wie ihr es euch traut"
+Anhand dieses Modells lässt sich gut visualisiert erklären, 
+wie Preisgabe von _Mein Geheimnis_ (oder auch _Private Person_) den Raum des freien Handelns vergrößert.
+
+### Apell
+
+Apell vorweg
+
+> Seid so offen wie könnt und wollt!
 
 ### Las Vegas Regel
 
-### Lead by example, 
+
+### Lead by example
 
 - Vertrauen schaffen, auflockern mit ein Paar Blitzlichtern in Form von ein paar persönlichen Fotos oder Lustigen Situationen
 - Mit gutem Vorbild vorangehen und die eigene, sehr umfangreichen Personal Maps vorstellen
