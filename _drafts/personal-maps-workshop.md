@@ -3,23 +3,28 @@ title: Personal Maps Workshop
 tags: 
 - Tuckman Phasenmodell
 - Forming
+- Teambuilding
 - Kennenlernen 
-- Empathie
 - Vertrauen
 - Management 3.0
 - Personal Maps
 layout: post
 toc: true
 ---
-Wenn eine Gruppe von Menschen sich zusammenfindet um ein Team zu werden,
+Wenn eine Gruppe von Menschen sich zusammenfindet um zu einem Team zu werden,
 dann befindet es sich lt. Tuckmanns Modell der Teamphasen[^1] in der *Forming Phase*, die im Zeichen des Zusammenkommens steht. 
 
-Ein großartiges Format um das Team im Kennenlernprozeß zu unterstützen sind Personal Maps[^2] [^3], 
+Ein großartiges Format um das Team im diese Phase und im Kennenlernprozeß zu unterstützen sind Personal Maps[^2] [^3], 
 eine Methode aus dem Management 3.0[^4] [^5].
-<!--break-->
-## Ziel des Workshops: Aufbau von Empathie und Vertrauen
 
-Ziel ist es Empathie, Nähe und Vertrauen zu erzeugen und wird gerade deshalb im Bereich der Remote-Arbeit sehr gerne genutzt.
+In diesem Beitrag gebe ich dir einen roten Faden für einen Personal Maps Workshop,
+rücklickend auf über einer handvoll Workshops, 
+in denen ich dieses Tool bereits für das Teambuilding genutzt habe.
+<!--break-->
+## Ziel des Workshops
+
+Ziel ist es Empathie, Nähe und Vertrauen aufzubauen, 
+deshalb wird dieses Format gerade deshalb im Bereich der Remote-Arbeit auch sehr gerne genutzt.
 
 Sie dient dazu zu erfahren was Menschen, mit denen wir auf Arbeit einen Großteil unserer Lebenszeit verbringen 
 neben der Fachlichkeit noch ausmacht. 
@@ -32,7 +37,7 @@ Wir gehen so schneller Emotionale Verbindungen ein, unterstützen den Prozess de
 und können so vielleicht auch Stimmungen unserer Team-Mitglieder besser deuten, wenn wir etwas mehr über Hintergründe wissen.
 
 Ein gewünschter Effekt ist das Personal Maps wunderbare Anknüpfungspunkte liefern, z.B. über Gemeinsamsamkeiten wie Interessen
-oder eben auch markante Punkte, die einen Einstieg in ein Persönliches Gesprächen erleichtern.
+oder eben auch markante Punkte, die den Einstieg in Persönliche Gespräche erleichtern.
 
 Ein Nebeneffekt ist die Selbstreflektion, ihr werdet es vielleicht merken, wenn ihr eure eigene Personal Map malt.
 
@@ -69,7 +74,7 @@ Hier noch eine paar Fragestellungen, die helfen können die jeweiligen Knoten mi
 - Wie heißt dein Partner?
 - Hast Du Kinder, wie alt sind diese?
 - Hast Du Geschwister?
-- Hast deiner Familie eine Patchwork-Struktur? Vielleicht skizzierest du diese?
+- Hat deine Familie eine Patchwork-Struktur? Vielleicht skizzierest du diese?
 
 #### Ziele (Goals)
 
@@ -98,7 +103,8 @@ Hier noch eine paar Fragestellungen, die helfen können die jeweiligen Knoten mi
 #### Freunde (Friends)
 
 - Mit welchen Menschen bist du befreundet?
-- Gruppe von Menschen
+- Gibt es Menschen, mit denen Dinge regelmäßig unternimmst?
+- Gibt es eine Gruppe von Menschen, mit denen du dich regelmäßig triffst?
 
 #### Arbeit (Work)
 
@@ -109,17 +115,15 @@ Hier noch eine paar Fragestellungen, die helfen können die jeweiligen Knoten mi
 
 Ich lasse in der Regel die Wahl zwischen analogen und digitalen Mitteln.
 
-### Analog
+Ich bevorzuge aber analoge Materialien und nicht den Medienbruch.
 
-Die analogen Materialien, optimal für Co-located Teams.
+Die analogen Materialien:
 
 - Beschreibbare Fläche, wie eine Abwischbare Wand oder Whiteboad
     - Boardmarker
-- Flipchartpapier oder anderes Papier
+- Flipchart- oder anderes -Papier
     - Klebeband
     - Verschiedene Stifte
-
-### Digital
 
 Digitale Materialien und Werkzeuge:
 
@@ -130,7 +134,9 @@ Digitale Materialien und Werkzeuge:
 
 ## Personal Maps Workshop Agenda
 
-Dauer ca. 1,5 bis 2 Stunden bei einem Personal Maps Workshop mit 6 Team-Mitgliedern 
+Dauer ca. 1,5 bis 2 Stunden bei einem Personal Maps Workshop mit 6 Team-Mitgliedern.
+
+Mir ist es besonders wichtig, eine sichere und offen Atmoshäre zu erzeugen.
 
 ### Tuckmans Teamphasen
 
@@ -147,29 +153,40 @@ wie Preisgabe von _Mein Geheimnis_ (oder auch _Private Person_) den Raum des fre
 
 ### Apell
 
-Apell vorweg
+Ich starte ich mit diesen Apell vorweg:
 
 > Seid so offen wie könnt und wollt!
 
 ### Las Vegas Regel
 
+Ich erkläre kurz die *Las Vegas Regel* und lege fest, das diese Regel für den Workshop
+und dessen Ergebnisse gilt.
 
 ### Lead by example
 
-- Vertrauen schaffen, auflockern mit ein Paar Blitzlichtern in Form von ein paar persönlichen Fotos oder Lustigen Situationen
-- Mit gutem Vorbild vorangehen und die eigene, sehr umfangreichen Personal Maps vorstellen
+Ich versuche mit gutem Vorbild vorangehen und schmeisse für einen kurzen Moment
+eine sehr umfangreiche Personal Map, die im Vorfeld mit einem Mindmap-Tool vorbereitet habe.
+
+Falls ich schon einen Beamer habe, dann nutze ich ein paar Blitzlichter 
+in Form von ein paar persönlichen Fotos, die mich in lustigen oder ungwöhnlichen Situationen zeigen.
 
 ### Erklärung der Personal Map
 
-- die Grundstruktur skizzieren
+Auf einem Flipchart habe ich die Grundstruktur (siehe oben) skizziert,
+die ich kurz erkläre.
+
+Dann gehe ich auf die Knoten ein und stelle die Fragen, die helfen sollen das befüllen erleichtern.
 
 ### Zeichnen
 
-- 30min für das Zeichen der eigenen Personal
+30min für das Zeichen der eigenen Personal Maps
 
 ### Vorstellen
 
-- 30min für das Vorstellen der eigenen Personal Maps
+Anschließend werden die Personal Maps vorgestellt.
+
+Lass die Maps durch jemand anderes vorstellen mache klar,
+das Fragen, zum aktuellen Punkt an den Vorgestellten explizit erwüscht sind. 
 
 ## Variationen
 
