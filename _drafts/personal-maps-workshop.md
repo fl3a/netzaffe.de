@@ -14,12 +14,12 @@ toc: true
 Wenn eine Gruppe von Menschen sich zusammenfindet um zu einem Team zu werden,
 dann befindet es sich lt. Tuckmanns Modell der Teamphasen[^1] in der *Forming Phase*, die im Zeichen des Zusammenkommens steht. 
 
-Ein großartiges Format um das Team im diese Phase und im Kennenlernprozeß zu unterstützen sind Personal Maps[^2] [^3], 
+Ein großartiges Format um das Team in dieser Phase und im Kennenlernprozeß zu unterstützen sind Personal Maps[^2] [^3], 
 eine Methode aus dem Management 3.0[^4] [^5].
 
 In diesem Beitrag gebe ich dir einen roten Faden für einen Personal Maps Workshop,
 rücklickend auf über einer handvoll Workshops, 
-in denen ich dieses Tool bereits für das Teambuilding genutzt habe.
+in denen ich dieses Tool bereits für das Teambuilding nutzen konnte.
 <!--break-->
 ## Ziel des Workshops
 
@@ -111,11 +111,10 @@ Hier noch eine paar Fragestellungen, die helfen können die jeweiligen Knoten mi
 - Wo und als was hast du vorher gearbeitet?
 - Was waren besonders wichtige Stationen für dich?
 
-## Material für den Workshop
+## Material
 
-Ich lasse in der Regel die Wahl zwischen analogen und digitalen Mitteln.
-
-Ich bevorzuge aber analoge Materialien und nicht den Medienbruch.
+Ich bevorzuge zwar analoge Materialien und keine Medienbruch,
+aber ich lasse trotzdem die Wahl zwischen analogen und digitalen Mitteln.
 
 Die analogen Materialien:
 
@@ -165,47 +164,33 @@ und dessen Ergebnisse gilt.
 ### Lead by example
 
 Ich versuche mit gutem Vorbild vorangehen und schmeisse für einen kurzen Moment
-eine sehr umfangreiche Personal Map, die im Vorfeld mit einem Mindmap-Tool vorbereitet habe.
+eine sehr umfangreiche Personal Map, 
+die im Vorfeld mit einem Mindmap-Tool vorbereitet habe an die Wand
 
-Falls ich schon einen Beamer habe, dann nutze ich ein paar Blitzlichter 
-in Form von ein paar persönlichen Fotos, die mich in lustigen oder ungwöhnlichen Situationen zeigen.
+Wenn ich schon einen Beamer habe, dann nutze ich ein paar Blitzlichter 
+in Form von ein paar persönlichen Fotos, die mich in lustigen oder ungewöhnlichen Situationen zeigen.
 
 ### Erklärung der Personal Map
 
 Auf einem Flipchart habe ich die Grundstruktur (siehe oben) skizziert,
-die ich kurz erkläre.
-
-Dann gehe ich auf die Knoten ein und stelle die Fragen, die helfen sollen das befüllen erleichtern.
+die ich kurz erkläre, gehe dann auf die Knoten und die exemplarischen Fragen (siehe oben) ein.
 
 ### Zeichnen
 
-30min für das Zeichen der eigenen Personal Maps
+Für das das Zeichen der eigenen Personal Maps sehe ich 30 Minuten vor.
 
 ### Vorstellen
 
-Anschließend werden die Personal Maps vorgestellt.
+Anschließend werden alle Personal Maps vorgestellt.
 
-Lass die Maps durch jemand anderes vorstellen mache klar,
-das Fragen, zum aktuellen Punkt an den Vorgestellten explizit erwüscht sind. 
+Achtung: Lasse die Maps immer durch jemand anderes vorstellen,  mache klar,
+das Fragen, zum aktuellen Punkt an den Vorgestellten explizit erwüscht sind.
 
-## Variationen
-
-- Verbal, z.B. in 1 und 1 bei einen Walk and Talk
-- Die eigene personal Map von einem anderen Team-Mitglied vorstellen lassen 
-
-## Weitere Formate für die Forming Phase
-
-- Schlüsselbund vorstellen
-- Waschzettel
-- FishBowl
-- Persönlichkeits-Tests wie z.B. MBTI[^6]
-
-## Weiterführende Links/Fußnoten
+## Weiterführende Links / Fußnoten
 
 [^1]: [Tuckmanns Modell der Teamphasen](https://teamentwicklung-lab.de/tuckman-phasenmodell)
 [^2]: [Personal Maps](https://management30.com/practice/personal-maps/)
 [^3]: [Personal Maps: Improving team collaboration](https://www.happymelly.com/personal-maps-connecting-teams-improving-team)
 [^4]: [Management 3.0](https://management30.com/)
 [^5]: [Artikel über Management 3.0](http://www.lean-agility.de/2018/11/management-30.html) 
-[^6]: [Myers-Briggs-Typenindikator](https://de.wikipedia.org/wiki/Myers-Briggs-Typenindikator)
 

@@ -64,13 +64,16 @@ um mit Jekyll lokal auf Tuchfühlung zu gehen.
 Jekylls Funktionsweise spiegelt sich in der einfachen Verzeichnisstruktur[^dir] wider:
 ```
 example.com
+├── 404.html
 ├── _config.yml
+├── Gemfile
+├── Gemfile.lock
+├── index.md
 ├── _drafts
 |   ├── ideenfindung.md
 |   └── hier-wird-noch-dran-gefeilt.md
 ├── _posts
 |   └── 2019-04-22-agile-ruhr-hattrick.md
-| 
 └── _site
     ├─ 2019
     |   └── 04
@@ -92,7 +95,9 @@ Im Minimalumfang sind die folgenden Einträge relevent:
 ### Geringe Komplexität
 
 
-### Markdown[^md] [^kramdown]
+### Markdown
+
+Markdown[^md] [^kramdown]
 
 
 ## Geschwindigkeit 

@@ -133,8 +133,8 @@ Die Änderungen hierfür bedinden sich im Master-Branch meines Forks.
 
 #### summary
 
-Ich möchte meinen _Teaser_ nicht in _Front Matter_ stehen haben, dass bläst meiner Meinung nach
-die Metadaten und somit die Markdown-Datei zu sehr auf.
+Ich möchte meinen _Teaser_ nicht in _Front Matter_ stehen haben, denn das bläst meiner Meinung nach
+die Metadaten im _Front Matter_ und somit die Markdown-Datei zu sehr auf.
 
 Jekyll soll wie Drupal auch den Teaser (entspricht _excerpt_ in Jekyll) aus die Body ziehen, 
 hierzu möchte ich weiterhin das _Pseudotag_ `<!--break-->` als Begrenzer nutzen.
@@ -203,7 +203,7 @@ done
 #### Permalinks
 
 
-
+Präfix /blog/
 ```
 sed -i '/^permalink:\ "\/blog\/.*"$/d' _posts/* 
 ```
