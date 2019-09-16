@@ -6,6 +6,8 @@ toc: true
 
 Letztes Wochenende (14. und 15. September) fand das vierte AgiLE Barcamp in Leipzig statt.
 
+Header: https://twitter.com/le_steinert/status/1173256417068879872
+
 
 <!--break-->
 
@@ -29,7 +31,7 @@ Input zum Thema Hanjo
 
 Erfeahrungen RD Außenstandort Ilmenau Andres, Friederike, /me
 
-
+Fotokoll: https://twitter.com/frediontherun/status/1172827350574227456
 
 ## Recruiting
 
@@ -145,6 +147,8 @@ Besonders Gut für mehrere Optionen.
 Beispiel: Zeitpunkt für den Team-Event
 
 > Geile Flippis
+
+## Wrap up & Farewell
 
 # Fazit
 
