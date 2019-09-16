@@ -12,21 +12,21 @@ layout: post
 toc: true
 ---
 Wenn eine Gruppe von Menschen sich zusammenfindet um zu einem Team zu werden,
-dann befindet es sich lt. Tuckmanns Modell der Teamphasen[^1] in der *Forming Phase*, die im Zeichen des Zusammenkommens steht. 
+dann befindet es sich lt. Tuckmanns Modell der Teamphasen[^tuckmann] in der *Forming Phase*, die im Zeichen des Zusammenkommens steht. 
 
-Ein großartiges Format um das Team in dieser Phase und im Kennenlernprozeß zu unterstützen sind Personal Maps[^2] [^3], 
-eine Methode aus dem Management 3.0[^4] [^5].
+Ein großartiges Format um das Team in dieser Phase und im Kennenlernprozeß zu unterstützen sind Personal Maps[^pm1] [^pm2], 
+eine Methode aus dem Management 3.0[^mgnt301] [^mgnt302].
 
-In diesem Beitrag gebe ich dir einen roten Faden für einen Personal Maps Workshop,
+In diesem Beitrag gebe ich dir einen roten Faden für einen **Personal Maps Workshop**,
 rücklickend auf über einer handvoll Workshops, 
-in denen ich dieses Tool bereits für das Teambuilding nutzen konnte.
+in denen ich dieses Tool bereits effektiv für das Teambuilding nutzen konnte.
 <!--break-->
 ## Ziel des Workshops
 
 Ziel ist es Empathie, Nähe und Vertrauen aufzubauen, 
 deshalb wird dieses Format gerade deshalb im Bereich der Remote-Arbeit auch sehr gerne genutzt.
 
-Sie dient dazu zu erfahren was Menschen, mit denen wir auf Arbeit einen Großteil unserer Lebenszeit verbringen 
+Personal Maps helfen zu erfahren was Menschen, mit denen wir auf Arbeit einen Großteil unserer Lebenszeit verbringen 
 neben der Fachlichkeit noch ausmacht. 
 
 Ein großer Fokus liegt also auf dem Öffnen der eigenen Geschichte, des Privatlebens
@@ -34,12 +34,15 @@ und dem Fallenlassen *der professionellen Maske*.
 
 Wir gehen so schneller Emotionale Verbindungen ein, unterstützen den Prozess des Kennenlernens,
 öffnen uns selbst mehr
-und können so vielleicht auch Stimmungen unserer Team-Mitglieder besser deuten, wenn wir etwas mehr über Hintergründe wissen.
+und können so vielleicht auch Stimmungen unserer Team-Mitglieder besser deuten, 
+wenn wir etwas mehr über Hintergründe wissen.
 
-Ein gewünschter Effekt ist das Personal Maps wunderbare Anknüpfungspunkte liefern, z.B. über Gemeinsamsamkeiten wie Interessen
+Ein gewünschter Effekt ist das Personal Maps wunderbare Anknüpfungspunkte liefern, 
+z.B. über Gemeinsamsamkeiten wie Interessen
 oder eben auch markante Punkte, die den Einstieg in Persönliche Gespräche erleichtern.
 
-Ein Nebeneffekt ist die Selbstreflektion, ihr werdet es vielleicht merken, wenn ihr eure eigene Personal Map malt.
+Ein Nebeneffekt ist die Selbstreflektion, 
+ihr werdet es vielleicht merken, wenn ihr eure eigene Personal Map malt.
 
 ## Struktur einer Personal Map
 
@@ -54,12 +57,13 @@ Die Personal Map startet mit einem Mittelknoten, der Person, also mit dir und mi
 Davon gehen dann die folgenden Hauptknoten ab.
 
 Die hier verwendeten Hauptknoten sind Beispiele aus der im Management 3.0,
-die originalen , englischen Knotennamem habe ich in Klammern angegeben.
+die originalen, englischen Knotennamem habe ich in Klammern angegeben.
 
 Ich finde, die Hauptknoten geben bereits ein sehr gutes Spektrum vor, das was einen Menschen so ausmacht.
 Natürlich sind Variationen und Ergänzungen, wie _Fun Facts_ oder _Musik_ erlaubt.
 
-Hier noch eine paar Fragestellungen, die helfen können die jeweiligen Knoten mit Leben zu versehen.
+Hier noch eine paar Fragestellungen, 
+die helfen können die jeweiligen Knoten mit Leben zu versehen.
 
 #### Interessen/Hobbies (Hobbies)
 
@@ -113,10 +117,7 @@ Hier noch eine paar Fragestellungen, die helfen können die jeweiligen Knoten mi
 
 ## Material
 
-Ich bevorzuge zwar analoge Materialien und keine Medienbruch,
-aber ich lasse trotzdem die Wahl zwischen analogen und digitalen Mitteln.
-
-Die analogen Materialien:
+Ich bevorzuge den Workshop mit analogen Materialien durchzuführen:
 
 - Beschreibbare Fläche, wie eine Abwischbare Wand oder Whiteboad
     - Boardmarker
@@ -124,51 +125,57 @@ Die analogen Materialien:
     - Klebeband
     - Verschiedene Stifte
 
-Digitale Materialien und Werkzeuge:
-
-- Rechner
-    - Mapmap Programm deiner Wahl, z.B:
-        - xMind (opensource)
-        - Confluence mit Gliffy Plugin
-
 ## Personal Maps Workshop Agenda
 
 Dauer ca. 1,5 bis 2 Stunden bei einem Personal Maps Workshop mit 6 Team-Mitgliedern.
 
-Mir ist es besonders wichtig, eine sichere und offen Atmoshäre zu erzeugen.
+### Rahmen schaffen
 
-### Tuckmans Teamphasen
+Mir ist es besonders wichtig, einen Rahmen 
+mit einer sicheren und offenen Atmoshäre zu erzeugen.
+
+Die nächsten Punkte zahlen hierauf ein 
+und stellen auch den Sinn und Zweck dieses Workshops dar.
+
+#### Tuckmans Teamphasen
 
 In der Regel starte ich mit dem Tuckman Modell der Teamphasen.
 In reisse kurz und knapp alle Phasen an und werde bei der Forming Phase etwas ausführlicher 
 und nehme Bezug darauf warum wir in diesem Workshop sind und wie es auf diese Phase einzahlt.
 
-### JoHaRi Fenster
+#### JoHaRi Fenster
 
-Als zweites Modell verwende ich das Modell des JoHaRi Fensters.
+Als zweites Modell verwende ich das Modell des JoHaRi Fensters[^johari].
 
-Anhand dieses Modells lässt sich gut visualisiert erklären, 
+Anhand dieses Modells lässt sich sehr gut visualisiert erklären, 
 wie Preisgabe von _Mein Geheimnis_ (oder auch _Private Person_) den Raum des freien Handelns vergrößert.
 
-### Apell
+#### Apell
 
-Ich starte ich mit diesen Apell vorweg:
+Ich starte mit diesen Apell vorweg:
 
 > Seid so offen wie könnt und wollt!
 
-### Las Vegas Regel
+#### Las Vegas Regel
 
-Ich erkläre kurz die *Las Vegas Regel* und lege fest, das diese Regel für den Workshop
-und dessen Ergebnisse gilt.
+Ich erkläre kurz die *Las Vegas Regel* 
 
-### Lead by example
+> Was in Las Vegas passiert,
+> bleibt in Las Vegas.
 
-Ich versuche mit gutem Vorbild vorangehen und schmeisse für einen kurzen Moment
+und lege fest, 
+das diese Regel für den Workshop und dessen Ergebnisse gilt.
+
+#### Lead by example
+
+Ich versuche mit gutem Vorbild und entsprechende Offenheit 
+vorangehen und schmeisse für einen kurzen Moment
 eine sehr umfangreiche Personal Map, 
 die im Vorfeld mit einem Mindmap-Tool vorbereitet habe an die Wand
 
-Wenn ich schon einen Beamer habe, dann nutze ich ein paar Blitzlichter 
-in Form von ein paar persönlichen Fotos, die mich in lustigen oder ungewöhnlichen Situationen zeigen.
+Wenn ich schon einen Beamer nutze, dann schmeisse ich auch noch ein paar Eisbrecher
+in Form von von ein paar persönlichen Fotos, 
+die mich in lustigen oder ungewöhnlichen Situationen zeigen an die Wand.
 
 ### Erklärung der Personal Map
 
@@ -188,9 +195,9 @@ das Fragen, zum aktuellen Punkt an den Vorgestellten explizit erwüscht sind.
 
 ## Weiterführende Links / Fußnoten
 
-[^1]: [Tuckmanns Modell der Teamphasen](https://teamentwicklung-lab.de/tuckman-phasenmodell)
-[^2]: [Personal Maps](https://management30.com/practice/personal-maps/)
-[^3]: [Personal Maps: Improving team collaboration](https://www.happymelly.com/personal-maps-connecting-teams-improving-team)
-[^4]: [Management 3.0](https://management30.com/)
-[^5]: [Artikel über Management 3.0](http://www.lean-agility.de/2018/11/management-30.html) 
-
+[^tuckmann]: [Tuckmanns Modell der Teamphasen](https://teamentwicklung-lab.de/tuckman-phasenmodell)
+[^pm1]: [Personal Maps](https://management30.com/practice/personal-maps/)
+[^pm2]: [Personal Maps: Improving team collaboration](https://www.happymelly.com/personal-maps-connecting-teams-improving-team)
+[^mgnt301]: [Management 3.0 Homepage](https://management30.com/)
+[^mgnt302]: [Artikel über Management 3.0](http://www.lean-agility.de/2018/11/management-30.html) 
+[^johari]: [JoHaRi Fenster]()
