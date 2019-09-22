@@ -24,27 +24,27 @@ Ich hatte schon meine Karte für die diesjährige AgileCologne[^acgn], sogar Ear
 da bin ich über \#agileLE[^agiLE] Barcamp gestolpert.
 
 Mich reizten die zwei Tage statt einem, aber noch viel mehr reizte es mich, 
-mal die Blase der *[Kölner Agile Community](/agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html)* zu verlassen
+mal die Blase der *[Kölner Agile Community](/agile-scrum-lean-kanban-events-koeln-bonn-duesseldorf-umgebung.html)* zu verlassen,
 um mal andere Menschen und Themen in einer *fremden Stadt* zu erleben.
 
-Also habe ich kurzum Leipzig gebucht und Köln storniert um mich mal auf etwas ganz neues einzulassen.
+Also habe ich kurzum Leipzig gebucht und Köln storniert, um mich mal auf etwas ganz Neues einzulassen.
 
-Das ist mein Erfahrungsbericht zur \#agileipzig 2019 und den von mir besuchten Sessions.
+Das ist mein Erfahrungsbericht zur \#agileipzig 2019 und zu den von mir besuchten Sessions.
 <!--break-->
 
 # Tag 1
 
 ## Keynote 1
 
-Nadine Nobile begann Tag 1 mit *New Pay – Alternative Arbeits- und Vergütungsmodelle*
-und setzte Impulse für Diskussionen und lieferte eine erergiereichen Auftakt für die Konferenz.
+Nadine Nobile begann Tag 1 mit *New Pay – Alternative Arbeits- und Vergütungsmodelle*,
+setzte Impulse für Diskussionen und lieferte einen erergiereichen Auftakt für die Konferenz.
 
-## Das Agiles Mindset
+## Das Agile Mindset
 
-Conrad Giller über einen pragmatischen Ansatz für ein philosohisches Thema.
+Conrad Giller über einen pragmatischen Ansatz für ein philosophisches Thema:
 
 > Wir suchen und finden 
-> Gemeinsam
+> gemeinsam
 > immer wieder 
 > die beste Lösung 
 > für alle Beteiligten[^mindset]
@@ -55,9 +55,9 @@ Conrad Giller über einen pragmatischen Ansatz für ein philosohisches Thema.
 
 > Spannender Erfahrungsaustausch über Remote-Teams #agileipzig
 
-Eine Zusammengelegte Session aus *Far Away* und *Remote: Zusammenarbeit zwischen Himmel und Hölle*.
+Eine zusammengelegte Session aus *Far Away* und *Remote: Zusammenarbeit zwischen Himmel und Hölle*.
 
-Hanjo Meinhardt eröffnete das Thema, ungefähr in der Mitte schilderten 
+Hanjo Meinhardt eröffnete das Thema. Ungefähr in der Mitte der Session schilderten 
 meine Kollegen Friederike und Andreas
 ihre Erfahrungen über die Einbindung des REWE digital Außenstandorts Ilmenau.
 
@@ -71,19 +71,19 @@ Hier Das Fotokoll der Remote Session[^remoteFotokoll].
 </figure>
 
 Interaktive Aktivierungsspiele und Energizer mit Philipp Staat.
+Energizer/Warmups, um wieder in Fahrt zu kommen. Die folgenden hat Philipp uns erfahren lassen:
 
-Energizer/Warmups um wieder in Fahrt zu kommen, die folgenden hat Philipp uns erfahren lassen:
 - Line-Up/Stand the Line
 - Schnick Schnack Schnuck Tournament (K.O System)
 - Menschliches Vier gewinnt
-- Das IMHO beste, Den Name des letzten Energizer liefer ich nach, versprochen!
+- Das IMHO beste, den Namen des letzten Energizer liefere ich nach, versprochen!
 
 ## Personal Maps
 
-Ich habe Personal Maps[^personalmaps] aus dem Management 3.0 vorgestell
+Ich habe *Personal Maps[^personalmaps]* aus dem *Management 3.0* vorgestellt
 und über meine Erfahrungen aus einigen durchgeführten *Personal Maps Workshops* gesprochen.
 
-Ich habe versucht sehr viel auf Interaktion und Co-Kreativität zu setzten, 
+Ich habe versucht, sehr viel auf Interaktion und Co-Kreativität zu setzten, 
 so sind weitere Formate für das Teambuilding, insbesondere das Kennenlernen zu Tage gefördert worden.
 Diese findest Du auch im Fotokoll zu meiner Personal Maps Session[^personalmapsFotokoll].
 
@@ -102,7 +102,7 @@ Eine Fishbowl Debatte von und mit Alexander Krause.
 </figure>
 
 Wir ließen Tag 1 mit Pils No. 3 und Red Ale, bestem Craft Beer aus Leipzig
-von [Cliffs Brauwerk](https://www.cliffs-brauwerk-leipzig.de/) ausklingen,
+von [Cliffs Brauwerk](https://www.cliffs-brauwerk-leipzig.de/), ausklingen,
 führten interessante Gespräche und schmiedeten bereits eine gemeinsame 
 Session-Idee[^session-idee] für den nächsten Tag.
 
@@ -118,10 +118,10 @@ Session-Idee[^session-idee] für den nächsten Tag.
 Prof. Dr. Gunter Dueck, Ex IBM CTO eröffnete Tag 2 mit *Wird das Agile doch wieder in Prozessen ertränkt?*.
 
 Eine sehr kurzweilige Keynote, gute Sachverhalte wie z.B. Mc Donaldisierung (Mc Jobber), 
-Hirnwellen, Arousal (Aktivierungsgrad), MBTI Persönlichkeits-Typen, ShuHaRi gepaart einer Menge Humor 
+Hirnwellen, Arousal (Aktivierungsgrad), MBTI Persönlichkeits-Typen, ShuHaRi gepaart mit einer Menge Humor 
 und einem roten Faden bestehend aus Hunden und Katzen.
 
-Eine regelrechte Belastung der Lachmuskulatur, trotz Vermittlung von Inhalt.
+Eine regelrechte Belastung der Lachmuskulatur, neben Vermittlung von Inhalt.
 
 Die Essenz des Agile Manifesto nach Wild Dueck:
 
@@ -143,22 +143,23 @@ was zu einer Reduzierung der Meetingdauer um den Faktor 3 geführt hat.
 
 Welche kleinen, wirksamen Schritte machen wir bei REWE digital neben der agiles Transformation?
 
-Friederike, Andreas und ich gaben konkrete Beispiele von, wir nannten sie metaphrischerweise *Seedbombs*, 
+Friederike, Andreas und ich gaben konkrete Beispiele von, wir nannten sie metaphorischerweise *Seedbombs*, 
 aus dem REWE digital Fundus, wie zum Beispiel *Brownbag Sessions*, *WOL*, *Staffing Board*, *NWOD*, 
 die auch indirekt auf den *großen Stein des Sisyphos*, der Agilen Transformation einzahlen.
-Die Reihenfolge ließen wir abstimmen und sind dann *ge-time-box-ed* durch die Themen mit Rede und Antwort gegangen.
+Die Reihenfolge ließen wir abstimmen und sind dann *ge-time-box-ed* mit Rede und Antwort 
+durch die Themen gegangen.
 
 Hier das Fotokoll und Mitschrift zu unserer Seedbomb Session[^seedbombs].
 
 ## Mission Impossible? Agilisierung von Führungsteams
 
 Ein sehr Interessantes Thema von Jana und Christian mit zwei noch interessanteren Fallbeispielen. 
-Bereits zu Beginn der Gruppenarbeit, merkte ich, dass mir dieses Format gerade nicht zusagt
-und befolgte ich **das Gesetz der Zwei Füße**.
+Bereits zu Beginn der Gruppenarbeit merkte ich, dass mir dieses Format gerade nicht zusagt
+und befolgte *das Gesetz der Zwei Füße*.
 
 ## Flight Level -> Produktboard
 
-Eine Session über die Erfahrung mit der Einführung von Kanban Flight Level 
+Eine Session über die Erfahrung mit der Einführung von *Kanban Flight Level* 
 nach Klaus Leopold[^flightlevel] von Dagmar.
 
 Eine deutliche Verbesserung erzielte in ihrem Beispiel die Einführung eines Level 2 Board (Koordination),
@@ -167,29 +168,29 @@ also die Darstellung der Interaktion der Teams.
 ## Consens vs Consent
 
 Entscheidungsfindung im Team, Hashtag \#killthedotvoting. 
-Eine Session Nicole Röttger und Tal Usche, zu Konsenz, Konsent und konkreten Methoden dahin zu kommen.
+Eine Session Nicole Röttger und Tal Uscher, zu Konsenz, Konsent und konkreten Methoden dahin zu kommen.
 
-Begin mit einem Impuls und kleiner kollektiver Begriffsklärung, danach folgte Aufteilung in zwei Gruppen
+Begin mit einem Impuls und kleiner kollektiver Begriffsklärung, danach folgte Aufteilung in zwei Gruppen,
 um mit konkreten Workshopbeispiele fortzufahren.
 
 **Integrative Decision Making**
 
-Die erste Methode, Integrative Decision Making, aus den *Holacracy Governance Meetings[^holagov]*,
-wurde mit mit dem Beispiel, ihr habt 500€ als Team für einen Event.
+Die erste Methode, *Integrative Decision Making* aus den *Holacracy Governance Meetings[^holagov]*,
+wurde mit dem Beispiel, ihr habt 500€ als Team für einen Event.
 Ich warf als Aktivität Wandern in die Kleingruppe 
 und wir spielten den Prozess mit Hilfe dem Beispiel Wandern einmal durch.
 
 **Systemisches Konsensieren**
 
-Als nächstes nahmen wir *Systemisches Konsensieren[^sk]*, welches sich gut für mehrere Optionen eignet
-und verwendeten als Beispiel die Suche nach eienm geeigneteten Zeitpunkt für den Team-Event.
+Als nächstes nahmen wir *Systemisches Konsensieren[^sk]*, welches sich gut für mehrere Optionen eignet,
+und verwendeten als Beispiel die Suche nach einem geeigneteten Zeitpunkt für den Team-Event.
 
 # Kleiner Werbeblock: AgILE Barcamp am 26.10 in Ilmenau 
 
 An dieser Stelle möchte ich noch Werbung für das [von REWE digital und proagile.de veranstaltete 
 AgILe Barcamp 2019, welches am 26. Oktober 2019 in Ilmenau, Thüringen](
 https://www.eventbrite.de/e/agile-barcamp-2019-powered-by-rewe-digital-und-proagilede-tickets-71353192319) 
-stattfindet machen. 
+stattfindet, machen. 
 
 Tickets und weitere Informationen findest du hier[^AgILE].
 
@@ -197,29 +198,30 @@ Ich würde mich freuen euch dort zu sehen!
 
 # Fazit
 
-Die ursprüngliche Idee ging auf, statt auf meine fünfte AgileCologne zu gehen, 
-habe ich was neues ausprobiert und hatte ich eine tolle Konferenz in Leipzig.
-Es waren aber dann doch ein paar bekannte Gesichter dabei, 
-vielleicht hatten  Ivonne, Dorthe und Lukas die gleiche Ideen?!. 
-Ich habe viele neue Gesichter gesehen und viele interessante Menschen, kenengelernt 
-und tolle Gespräche geführt, wie mit z.B. Stefan, Simon, Frank, Alexander.
+Die ursprüngliche Idee ging auf. Statt auf meine fünfte AgileCologne zu gehen, 
+habe ich was neues ausprobiert und hatte eine tolle Konferenz in Leipzig.
+Es waren aber dann doch ein paar bekannte Gesichter dabei.
+Vielleicht hatten  Ivonne, Dorthe und Lukas die gleiche Idee?!
+Ich habe viele neue Gesichter gesehen und viele interessante Menschen kennenlernen dürfen 
+und habe tolle Gespräche geführt, wie mit z.B. Stefan, Simon, Frank, Alexander.
 
-~~Fremde Stadt~~**Tolle Stadt**, etwas überspitzt um das entsprechende Bild zu erzeugen ;-D.
-Ich habe mich schon in Leipzig verliebt, als ich das erste mal dort war, 
+~~Fremde Stadt~~Tolle Stadt, etwas überspitzt, um das entsprechende Bild zu erzeugen ;-D.
+Ich habe mich schon in Leipzig verliebt, als ich das erste Mal dort war, 
 führe seit einem Jahr eine Fernbeziehung nach Leipzig und würde sagen, 
 ich kenne Leipzig sogar mittlerweile recht gut. 
 Ich habe die Zeit um den Konferenzbesuch entsprechend zu verlängert.
-Jetzt habe ich neben der Leipziger Craft Bier Szene 
+Jetzt habe ich nach der Leipziger Craft Bier Szene 
 auch noch die Agile Community aus und um Leipzig näher kennenlernen dürfen.
 
-Das Friederike und Andreas von REWE digital Ilmenau auch da sein werden habe ich erst nach der Ticket Buchung erfahren.
-Um so mehr habe ich mich gefreut an diesen zwei Tagen viel Zeit mit meinen Kollegen(so in echt) zu verbringen.
+Dass Friederike und Andreas von REWE digital Ilmenau auch da sein werden,
+habe ich erst nach der Ticket Buchung erfahren.
+Um so mehr habe ich mich gefreut, an diesen zwei Tagen viel Zeit mit meinen Kollegen(so in echt) zu verbringen.
 
 Der Rahmen des Barcamps hat mir sehr gut gefallen, angefangen bei der Location, der Alten Spinnerei, 
-die mit ihrem Industrieflair Kreativität versprüht, den Hostern Spinlabs und den seecon Ingineuren 
-mit dem abgefahrenen Northshore Gebilde in der Mitte der Etage. 
+die mit ihrem Industrieflair Kreativität versprüht, den Hostern Spinlabs und den seecon Ingenieuren 
+mit dem abgefahrenen Northshore Gebilde in der Mitte das Raums. 
 Den Keynotes, die für einen energie- und impulsreichen Start gesorgt haben, 
-sowie einer mir neuen, frischen und künstlerichen Art des Graphic Recordings durch Tiziana[^gr] [^grc].
+sowie einer mir neuen, frischen und künstlerischen Art des Graphic Recordings durch Tiziana[^gr] [^grc].
 
 Last but not least: Einen riesengroßen Dank an das Orga Team, die Helfer und Sponsoren
 für die Durchführung und das Möglichmachen!
