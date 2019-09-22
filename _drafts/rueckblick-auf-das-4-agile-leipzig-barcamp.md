@@ -184,11 +184,16 @@ Ich warf als Aktivität Wandern in die Kleingruppe und wir spielten dieses Beisp
 Als nächstes nahmen wir Systemisches Konsensieren[^sk], welches sich gut für mehrere Optionen eignet
 und verwendetem als Beispiel den Zeitpunkt für den Team-Event.
 
+# Kleiner Werbeblock: AgILE Barcamp am 26.10 in Ilmenau 
+
+AgILe Barcamp 2019 - powered by REWE digital und proagile.de, Kostenlos
+
+https://www.eventbrite.de/e/agile-barcamp-2019-powered-by-rewe-digital-und-proagilede-tickets-71353192319
+
 # Fazit
 
 - Keynotes
 - Kollegenzeit
-- werbung Agile Barcamp 26.10 Ilmenau 
 - Graphic Recording, https://twitter.com/frediontherun/status/1173204243928559616, http://graphicrecording.cool/
 - Idee ging auf
   - Interessante Menschen kenengelernt, Stefan, Simon, Frank

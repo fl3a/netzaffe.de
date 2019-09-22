@@ -19,7 +19,7 @@ email: florian.latzel@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Mein Name ist Florian Latzel. Hier schreibe ich 
   über meine Abenteuer als Scrum Master im Taka-VUCA-Land + 
-  Notizen und Berichte über dies, das, verschiedene Dinge.
+  Gedanken, Notizen und Berichte über dies, das, verschiedene Dinge.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://netzaffe.de" # the base hostname & protocol for your site, e.g. http://example.com
 
