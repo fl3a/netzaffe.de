@@ -17,7 +17,8 @@ toc: true
  <figcaption>Welcome to Barcamp #4⭐😘😄, &copy; Thomas Steinert, Quelle <a href="https://twitter.com/le_steinert/status/1173256417068879872">https://twitter.com/le_steinert/status/1173256417068879872</a></figcaption>
 </figure>
 
-Letztes Wochenende (am 14. und 15. September 2019) fand das vierte AgiLE Barcamp[^agiLE] in der Alten Spinnerei Leipzig[^spin] statt.
+Letztes Wochenende (am 14. und 15. September 2019) fand das vierte AgiLE Barcamp[^agiLE] 
+mit 200 Teilnehmern in der Alten Spinnerei Leipzig[^spin] statt.
 
 Ich hatte schon meine Karte für die diesjährige AgileCologne[^acgn], sogar Early Bird, 
 da bin ich über \#agileLE[^agiLE] Barcamp gestolpert.
@@ -84,7 +85,7 @@ und über meine Erfahrungen aus einigen durchgeführten *Personal Maps Workshops
 
 Ich habe versucht sehr viel auf Interaktion und Co-Kreativität zu setzten, 
 so sind weitere Formate für das Teambuilding, insbesondere das Kennenlernen zu Tage gefördert worden.
-Diese findest Du auch im Fotokoll zu meiner Personal Maps Session[^persmaps].
+Diese findest Du auch im Fotokoll zu meiner Personal Maps Session[^personalmapsFotokoll].
 
 ## Sexy Ingnoranz
 
@@ -100,10 +101,9 @@ Eine Fishbowl Debatte von und mit Alexander Krause.
   <figcaption>Team REWE digital beim Social Event, &copy; Friederike Schmidt, Quelle: <a href="https://twitter.com/frediontherun/status/1172920975652003840">https://twitter.com/frediontherun/status/1172920975652003840</a></figcaption>
 </figure>
 
-
 Wir ließen Tag 1 mit Pils No. 3 und Red Ale, bestem Craft Beer aus Leipzig
 von [Cliffs Brauwerk](https://www.cliffs-brauwerk-leipzig.de/) ausklingen,
-führten interessante Gespräche und schmiedeten bereits an einer gemeinsamen 
+führten interessante Gespräche und schmiedeten bereits eine gemeinsame 
 Session-Idee[^session-idee] für den nächsten Tag.
 
 # Tag 2
@@ -119,7 +119,7 @@ Prof. Dr. Gunter Dueck, Ex IBM CTO eröffnete Tag 2 mit *Wird das Agile doch wie
 
 Eine sehr kurzweilige Keynote, gute Sachverhalte wie z.B. Mc Donaldisierung (Mc Jobber), 
 Hirnwellen, Arousal (Aktivierungsgrad), MBTI Persönlichkeits-Typen, ShuHaRi gepaart einer Menge Humor 
-und einem roten Faden von Hunden und Katzen.
+und einem roten Faden bestehend aus Hunden und Katzen.
 
 Eine regelrechte Belastung der Lachmuskulatur, trotz Vermittlung von Inhalt.
 
@@ -140,7 +140,6 @@ was zu einer Reduzierung der Meetingdauer um den Faktor 3 geführt hat.
   <img src="/assets/imgs/agileipzig19/vom-stein-des-sisyphos-und-seedbombs-agileipzig19-friederike-schmidt.jpg" />
   <figcaption>Whiteboard: Vom Stein des Sisyphos und Seedbombs, &copy; Friederike Schmidt, Quelle: <a href="https://twitter.com/frediontherun/status/1173194552309616641/photo/1">https://twitter.com/frediontherun/status/1173194552309616641/photo/1</a></figcaption>
 </figure>
-
 
 Welche kleinen, wirksamen Schritte machen wir bei REWE digital neben der agiles Transformation?
 
@@ -177,30 +176,56 @@ um mit konkreten Workshopbeispiele fortzufahren.
 
 Die erste Methode, Integrative Decision Making, aus den *Holacracy Governance Meetings[^holagov]*,
 wurde mit mit dem Beispiel, ihr habt 500€ als Team für einen Event.
-Ich warf als Aktivität Wandern in die Kleingruppe und wir spielten dieses Beispiel einmal mit Wandern durch.
+Ich warf als Aktivität Wandern in die Kleingruppe 
+und wir spielten den Prozess mit Hilfe dem Beispiel Wandern einmal durch.
 
-**Systemisches Konsensieren**[^sk]
+**Systemisches Konsensieren**
 
-Als nächstes nahmen wir Systemisches Konsensieren[^sk], welches sich gut für mehrere Optionen eignet
-und verwendetem als Beispiel den Zeitpunkt für den Team-Event.
+Als nächstes nahmen wir *Systemisches Konsensieren[^sk]*, welches sich gut für mehrere Optionen eignet
+und verwendeten als Beispiel die Suche nach eienm geeigneteten Zeitpunkt für den Team-Event.
 
 # Kleiner Werbeblock: AgILE Barcamp am 26.10 in Ilmenau 
 
-AgILe Barcamp 2019 - powered by REWE digital und proagile.de, Kostenlos
+An dieser Stelle möchte ich noch Werbung für das [von REWE digital und proagile.de veranstaltete 
+AgILe Barcamp 2019, welches am 26. Oktober 2019 in Ilmenau, Thüringen](
+https://www.eventbrite.de/e/agile-barcamp-2019-powered-by-rewe-digital-und-proagilede-tickets-71353192319) 
+stattfindet machen. 
 
-https://www.eventbrite.de/e/agile-barcamp-2019-powered-by-rewe-digital-und-proagilede-tickets-71353192319
+Tickets und weitere Informationen findest du hier[^AgILE].
+
+Ich würde mich freuen euch dort zu sehen!
 
 # Fazit
 
-- Keynotes
-- Kollegenzeit
-- Graphic Recording, https://twitter.com/frediontherun/status/1173204243928559616, http://graphicrecording.cool/
-- Idee ging auf
-  - Interessante Menschen kenengelernt, Stefan, Simon, Frank
-  - Fremde Stadt- **Geile Stadt**, Community jetzt Agile vorher Leipziger Craft Bier Szene
-- 3 Sessions waren viel
-- Einziger Fehler, acgn Karte (early bird) nicht intern weitergegeben
-- Auch bei Vanessa Giese[^vg] und Saskia Brintrup[^sb], ab in die Feedliste
+Die ursprüngliche Idee ging auf, statt auf meine fünfte AgileCologne zu gehen, 
+habe ich was neues ausprobiert und hatte ich eine tolle Konferenz in Leipzig.
+Es waren aber dann doch ein paar bekannte Gesichter dabei, 
+vielleicht hatten  Ivonne, Dorthe und Lukas die gleiche Ideen?!. 
+Ich habe viele neue Gesichter gesehen und viele interessante Menschen, kenengelernt 
+und tolle Gespräche geführt, wie mit z.B. Stefan, Simon, Frank, Alexander.
+
+~~Fremde Stadt~~**Tolle Stadt**, etwas überspitzt um das entsprechende Bild zu erzeugen ;-D.
+Ich habe mich schon in Leipzig verliebt, als ich das erste mal dort war, 
+führe seit einem Jahr eine Fernbeziehung nach Leipzig und würde sagen, 
+ich kenne Leipzig sogar mittlerweile recht gut. 
+Ich habe die Zeit um den Konferenzbesuch entsprechend zu verlängert.
+Jetzt habe ich neben der Leipziger Craft Bier Szene 
+auch noch die Agile Community aus und um Leipzig näher kennenlernen dürfen.
+
+Das Friederike und Andreas von REWE digital Ilmenau auch da sein werden habe ich erst nach der Ticket Buchung erfahren.
+Um so mehr habe ich mich gefreut an diesen zwei Tagen viel Zeit mit meinen Kollegen(so in echt) zu verbringen.
+
+Der Rahmen des Barcamps hat mir sehr gut gefallen, angefangen bei der Location, der Alten Spinnerei, 
+die mit ihrem Industrieflair Kreativität versprüht, den Hostern Spinlabs und den seecon Ingineuren 
+mit dem abgefahrenen Northshore Gebilde in der Mitte der Etage. 
+Den Keynotes, die für einen energie- und impulsreichen Start gesorgt haben, 
+sowie einer mir neuen, frischen und künstlerichen Art des Graphic Recordings durch Tiziana[^gr] [^grc].
+
+Last but not least: Einen riesengroßen Dank an das Orga Team, die Helfer und Sponsoren
+für die Durchführung und das Möglichmachen!
+
+Andere Rückblicke und Wahrnehmungen findest du auch bei Vanessa Giese[^vg] 
+und Saskia Brintrup[^sb] im Blog, liebe Grüße.
 
 # Fußnoten und Weiterführendes
 
@@ -216,7 +241,7 @@ https://www.eventbrite.de/e/agile-barcamp-2019-powered-by-rewe-digital-und-proag
 [^remoteQuote]: [Twitter: netzente Zitat](https://twitter.com/die_netzente/status/1172819979089141760)
 [^remoteFotokoll]: [Fotokoll zur Remote Session](https://twitter.com/frediontherun/status/1172827350574227456)
 [^personalmaps]: [mngt 3.0, Personal Maps](https://management30.com/practice/personal-maps/)
-[^persmapsFotokoll]: [Fotokoll zur Personal Maps Session](https://twitter.com/tschulze_gruene/status/1172872273444913152)
+[^personalmapsFotokoll]: [Fotokoll zur Personal Maps Session](https://twitter.com/tschulze_gruene/status/1172872273444913152)
 [^session-idee]: [Session Ideen für Tag 2](https://twitter.com/frediontherun/status/1172905971531886592)
 [^wilddueck-gn]: [Graphische Notizen von Aline zu Wild Dueck Keynote](https://twitter.com/EnilaTellis/status/1173150330105860096)
 [^holacracy]: [Wikipedia: holacracy, Holokratie](https://de.wikipedia.org/wiki/Holokratie)
@@ -224,5 +249,8 @@ https://www.eventbrite.de/e/agile-barcamp-2019-powered-by-rewe-digital-und-proag
 [^flightlevel]: [Flight Levels: Die Verbesserungsebenen der Organisation](https://www.leanability.com/de/blog-de/2017/04/flight-levels-die-verbesserungsebenen-der-organisation/)
 [^holagov]: [Wie funktioniert ein Holacracy Governance Meeting?](http://structureprocess.com/de/blog/wie-funktioniert-ein-holacracy-governance-meeting/)
 [^sk]: [Systemisches konsensieren: Mit was haben die wenigsten ein Problem](https://bildungsagenten.org/sk/)
+[^AgILE]: [AgILe Barcamp 2019 - powered by REWE digital und proagile.de](https://www.eventbrite.de/e/agile-barcamp-2019-powered-by-rewe-digital-und-proagilede-tickets-71353192319)
+[^gr]: [Graphic Recording des agiLE Barcamps von Tiziana](https://twitter.com/frediontherun/status/1173204243928559616)
+[^grc]: [graphicrecording.cool](http://graphicrecording.cool/). 
 [^vg]: [Dr. Vanessa Giese: AgiLeipzig: Zwei Tage mit Design Sprints, alternativen Vergütungsmodellen und Agilität im öffentlichen Dienst](https://vanessagiese.de/blog/agileipzig-zwei-tage-mit-google-design-sprints-teammethoden-und-new-pay/)
 [^sb]: [Saskia Brintrup: Rückschau auf das Agile Barcamp 2019 in Leipzig](https://www.digitalperspektiven.de/rueckschau-auf-das-agile-barcamp-2019-in-leipzig/)
