@@ -7,61 +7,70 @@ tags:
 - netzaffe
 layout: post
 toc: true
+image: /assets/imgs/jekyll-logo-light-solid.png
 ---
-tl;dr Ich bin vom Drupal CMS Framework[^drupal] auf Jekyll[^jekyll], 
-einen *Statischen Seiten Generator*(kurz SSG) umgestiegen.
-Das folgende hat mich zum Umstieg bewegt und an Jekyll überzeugt.
- 
+<figure role="group">
+  <img src="/assets/imgs/jekyll-logo-light-solid.png" alt="Jekyll SSG Logo" />
+  <figcaption>Jekyll Logo, CC-BY 4.0</figcaption>
+</figure>
+tl;dr Seit Angfang 2019 läuft mein Blog bereits mit Jekyll [^jekyll], 
+einen *Statischen Seiten Generator*(kurz SSG).
+Dieser Artikel beschreibt, warum ich vom [^drupal] CMS Framework auf Jekyll umgestiegen bin
+und was mich an Jekyll so überzeugt hat.<!--break-->
+
+# Ein Stück Blog Geschichte
+
 Ich betreibe dieses Blog, oder genauer gesagt,
-das Stück Software aus dem dieses Blog hervorgegangen ist seit 15 Jahren.
-Das waren 15 Jahre mit Drupal, gestartet mit der Version 4.5
-(das hier war auch immer meine Spielwiese um z.B. interessante Drupal-Module auzuprobieren).
-2009 habe ich das Update auf Drupal 6 gemacht, seit dem Erscheinen von Drupal 2016, 
-nutze ich mit ein paar Verbiegungen Drupal 6 LTS aus der Community 
+das Stück Software aus dem dieses Blog hervorgegangen ist sei 2004.
+Das waren 15 Jahre mit Drupal, gestartet mit der Version 4.5.
+Diese Installation war auch immer meine Spielwiese um z.B. interessante Drupal-Module auzuprobieren.
+In 2009 habe ich dann das Update auf Drupal 6 gemacht, 
+seit dem Erscheinen von Drupal 2016, 
+nutze ich mit ein paar Verbiegungen[^hacks] Drupal 6 LTS aus der Community 
 (es werden laut Drupal Policy immer nur 2 Versionen unterstützt, 
 ergo zu diesen Zeitpunkt Drupal in der Version 7 und v.8.).
 
-Am Ende ist und bleibt es aber, auch trotz Versorgung mit Sicherheits-Updates 
-ein 10 Jahre altes Stück Software mit einer altertümlichen Anmutung, weit vor der *Ära Mobile*. 
-Zudem gibts es sicherlich auch das ein oder andere Rudiment in der Datenbank,
-verursacht durch diverse Module, die diese Installation in diesen Jahren er- und überlebt hat.
+Trotz der Versorgung mit Sicherheits-Updates und abgesehen von dem ein oder andere Rudiment in der Datenbank,
+verursacht durch diverse Module, die diese Installation in diesen Jahren er- und überlebt hat,
+ist und bleibt es ein 10 Jahre altes Stück Software mit einer recht altertümlichen Anmutung, weit vor der *Ära Mobile*. 
 
-Da ein Update IMHO unabwendbar war, habe ich teils mit dafür gesorgt, 
+Somit war für mich Update unabwendbiar, also habe ich teils mit dafür gesorgt, 
 daß die von mir benötigten Module auch für Drupal 8 zur Verfügung stehen, 
-und habe mit an Module-Portierungen für Drupal 8 gearbeitet, 
-z.B. Footnotes[^fn], GeshiFilter[^geshi] oder Gist Input Filter[^gist].
-Aber unabhängig davon, daß die Migrations-Versuche bei mir nicht auf korrekt durchliefen,
-hat sich für mich Drupal 8 zu groß und sperrig angefühlt. 
-Vielleicht waren es ja auch die massiven Änderungen von Drupal 7 nach 8...
+und habe entsprechend mit an entsprechenden Modul-Portierungen für Drupal 8 mitgearbeitet, 
+z.B. an Footnotes[^fn], GeshiFilter[^geshi] oder dem Gist Input Filter[^gist].
+Aber unabhängig davon, daß die Migrations-Versuche bei mir auf Anhieb nicht korrekt durchliefen,
+hat sich für mich Drupal 8 mittlerweile als zu groß und sperrig für einen simplen Blog angefühlt.
  
-Schon recht lange stand der Jekyll in meinem Backlog (Danke Ben für die Inspiration!), 
-im Winter 2018 bin ich dann mal dazu gekommen, Jekyll zu installieren und bin das Step by Step Tutorial[^sbst]  
-durchgegangen.
+Da war dann noch Jekyll, welches schon recht lange in meinem Backlog stand (Danke Ben von der GzEvD für die Inspiration!).
+Im Winter 2018 bin ich dann mal dazu gekommen, Jekyll zu installieren und bin das Step by Step Tutorial[^sbst]  
+durchzugehen.
 
-Aber was hat mich an Jekyll so begeistert 
-und mich dazu bewegt auf einen SSG zu wechseln?<!--break-->
+Aber was hat mich an Jekyll so begeistert und mich dazu bewegt auf einen SSG zu wechseln?<!--break-->
 
 # Warum Jekyll?
 
 ## Drupal-Importer
 
-Jekyll hat einen Drupal Importer für die Versionen 6 und 7, das ist weniger einr Beweggrund, 
-als eine Grundvorraussetzung, da ich meine *Nodes*, also meine Beiträge natürlich mitnehmen will.
+Jekyll hat einen Drupal Importer für die Versionen 6 und 7, 
+das ist natürlich weniger ein Beweggrund, 
+als eine Grundvorraussetzung, 
+da ich meine *Nodes*, also meine geschriebenen Beiträge natürlich mitnehmen wollte.
 
 ## KISS - Jekyll ist einfach.  
 
 ### Einfacher Start
 
-Sofern *Ruby* und *Ruby Gems* installiert und konfiguriert sind ist nur ein `gem install jekyll bundler`
+Mit bereits installiertem *Ruby* und *Ruby Gems* sind es nur ein `gem install jekyll bundler`
 für die Installation, 
-ein `jekyll new example.com` für das Erstellen einer Site (jekyll)
+ein `jekyll new example.com` für das Erstellen einer Site 
 und ein `bundle exec jekyll serve --drafts` das *Hochfahren* des lokalen Webservers,
 der dann unter *http://127.0.0.1:4000* erreichbar ist notwendig
-um mit Jekyll lokal auf Tuchfühlung zu gehen.
+um mit einem lokalem Jekyll auf Tuchfühlung zu gehen.
 
 ### Einfache Struktur
 
 Jekylls Funktionsweise spiegelt sich in der einfachen Verzeichnisstruktur[^dir] wider:
+
 ```
 example.com
 ├── 404.html
@@ -85,20 +94,21 @@ example.com
 ```
 
 Im Minimalumfang sind die folgenden Einträge relevent:
-- *_config.yml* 
-  Config
+- *_config.yml*   Config
 - *_drafts*
-   
 - *_posts* 
 - *_site*
 
 ### Geringe Komplexität
 
+- Keine DB
+- Keine besonderen Ansprüche an den Webserver
+ - Keine Skriptsprache auf Live-Server
+- Alles in Dateien 
 
 ### Markdown
 
 Markdown[^md] [^kramdown]
-
 
 ## Geschwindigkeit 
 
@@ -111,23 +121,23 @@ kam ich mit meiner handvoll Drupal Sites doch etwas ins Schwitzen.
 
 ## Viele Erweiterungen 
 
+Wg der weiten Verbreitung, die unter an
+
 https://github.com/topics/jekyll-plugin
 
 ## Nerdy Arbeitsweise
 
-
 - Git 
-- 
 
 ## Ein neues Spielzeug
 
 - Liquid Template Engine[^liquid]
 
-## Fußnoten & Weiterführendes
+# Fußnoten & Weiterführendes
 
 [^drupal]: [Drupal CMS](https://drupal.org)
 [^jekyll]: [Jekyll](https://jekyllrb.com)
-[^hacks]: Modifiertes Drush, MydropWizzard Modul und Updates über github statt d.o[^do]
+[^hacks]: Modifiertes Drush in Symbiose mit dem [MydropWizzard Modul](https://www.drupal.org/project/mydropwizard) für Updates über github statt d.o
 [^fn]: [footnotes 8.x port](https://www.drupal.org/sandbox/fl3a/2593257)
 [^sbst]: [Jekyll Step by Step Tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/)
 [^geshi]: [GeSHi Filter for syntax highlighting](https://www.drupal.org/project/geshifilter)
@@ -143,3 +153,5 @@ https://github.com/topics/jekyll-plugin
 *[SSG]: Statischer Seiten Generator
 *[LTS]: Long Term Support
 *[KISS]: Keep It Stupid Simple
+*[GzEvD]: Gesellschaft zur Entwicklung von Dingen mbH
+*[d.o]: drupal.org
