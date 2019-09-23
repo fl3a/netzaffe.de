@@ -9,6 +9,7 @@ tags:
 - Scrum 
 - Kanban
 - Holacracy
+- Draussen
 image: /assets/imgs/agileipzig19/welcome-to-barcamp4-agileipzig19-thomas-steinert.jpg
 toc: true
 ---
@@ -210,7 +211,7 @@ Ich habe mich schon in Leipzig verliebt, als ich das erste Mal dort war,
 führe seit einem Jahr eine Fernbeziehung nach Leipzig und würde sagen, 
 ich kenne Leipzig sogar mittlerweile recht gut. 
 Ich habe die Zeit um den Konferenzbesuch entsprechend zu verlängert.
-Jetzt habe ich nach der Leipziger Craft Bier Szene 
+Jetzt habe ich nach der *Leipziger Craft Bier Szene* 
 auch noch die Agile Community aus und um Leipzig näher kennenlernen dürfen.
 
 Dass Friederike und Andreas von REWE digital Ilmenau auch da sein werden,
