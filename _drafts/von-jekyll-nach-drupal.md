@@ -7,16 +7,16 @@ tags:
 - netzaffe
 layout: post
 toc: true
-image: /assets/imgs/jekyll-logo-light-solid.png
+image: /assets/imgs/jekyll-logo-dark-solid.png
 ---
 <figure role="group">
-  <img src="/assets/imgs/jekyll-logo-light-solid.png" alt="Jekyll SSG Logo" />
+  <img src="/assets/imgs/jekyll-logo-dark-solid.png" alt="Jekyll Logo, dark solid " />
   <figcaption>Jekyll Logo, CC-BY 4.0</figcaption>
 </figure>
 tl;dr Seit Angfang 2019 läuft mein Blog bereits mit Jekyll [^jekyll], 
 einen *Statischen Seiten Generator*(kurz SSG).
-Dieser Artikel beschreibt, warum ich vom [^drupal] CMS Framework auf Jekyll umgestiegen bin
-und was mich an Jekyll so überzeugt hat.<!--break-->
+Dieser Artikel beschreibt, warum ich vom Drupal[^drupal] CMS Framework auf Jekyll umgestiegen bin
+und was mich an Jekyll überzeugt hat.<!--break-->
 
 # Ein Stück Blog Geschichte
 
@@ -34,11 +34,11 @@ Trotz der Versorgung mit Sicherheits-Updates und abgesehen von dem ein oder ande
 verursacht durch diverse Module, die diese Installation in diesen Jahren er- und überlebt hat,
 ist und bleibt es ein 10 Jahre altes Stück Software mit einer recht altertümlichen Anmutung, weit vor der *Ära Mobile*. 
 
-Somit war für mich Update unabwendbiar, also habe ich teils mit dafür gesorgt, 
+Somit war für mich ein Update unabwendbiar, also habe ich teils mit dafür gesorgt, 
 daß die von mir benötigten Module auch für Drupal 8 zur Verfügung stehen, 
 und habe entsprechend mit an entsprechenden Modul-Portierungen für Drupal 8 mitgearbeitet, 
 z.B. an Footnotes[^fn], GeshiFilter[^geshi] oder dem Gist Input Filter[^gist].
-Aber unabhängig davon, daß die Migrations-Versuche bei mir auf Anhieb nicht korrekt durchliefen,
+Aber unabhängig davon, daß die Migrations-Versuche nach Drupal 8 bei mir auf Anhieb nicht korrekt durchliefen,
 hat sich für mich Drupal 8 mittlerweile als zu groß und sperrig für einen simplen Blog angefühlt.
  
 Da war dann noch Jekyll, welches schon recht lange in meinem Backlog stand (Danke Ben von der GzEvD für die Inspiration!).
@@ -64,7 +64,7 @@ Mit bereits installiertem *Ruby* und *Ruby Gems* sind es nur ein `gem install je
 für die Installation, 
 ein `jekyll new example.com` für das Erstellen einer Site 
 und ein `bundle exec jekyll serve --drafts` das *Hochfahren* des lokalen Webservers,
-der dann unter *http://127.0.0.1:4000* erreichbar ist notwendig
+der dann unter *http://127.0.0.1:4000* erreichbar ist notwendig,
 um mit einem lokalem Jekyll auf Tuchfühlung zu gehen.
 
 ### Einfache Struktur
