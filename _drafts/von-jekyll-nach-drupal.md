@@ -214,20 +214,29 @@ die Erstellung von Inhalt konzentrieren.
 
 ## Ein neues Spielzeug
 
+
 - Importer
 - Liquid Template Engine[^liquid]
 - Module, Wege, probieren
+- Erfolge
 
 ## FLOSS
 
-- Selbst unter MIT
-- Keine DB, ergo auch config
+Klar, Jekyll ist mit MIT Lizenz FLOSS.
+Und klar, die Lizenz ist wichtig, 
+aber ich möchte zudem auf noch etwas anderes hinaus:
 
+Dadurch das Konfiguration sowie *Template Logik* in Code festgehalten,
+im Zusammenhang mit der Möglichkeit GitHub Pages mit Jekyll zu betreiben
+und der Verbindung von Netlify (Serverless Cloud Hosting) nach GitHub oder GitLab,
+bedeutet, das es gibt viele öffentlich verfügbare Repositories auf GitHub und Co gibt.
+
+Das spart Frust und man muss das Rad nicht immer wieder neu erfinden.
 
 # Negatives
 
-Geschwindigkeit
-`bundle exec jekyll serve --drafts`
+Etwas Negatives ist die Zeit, die eine Änderung (Inhalt, Theme, etc) braucht, 
+bis diese im Browser sichtbar wird, also Geschwindigkeit.
 
 # To be continued
 
