@@ -12,6 +12,7 @@ tags:
 - Draussen
 image: /assets/imgs/agileipzig19/welcome-to-barcamp4-agileipzig19-thomas-steinert.jpg
 toc: true
+last_modified_at: 2019-10-21
 ---
 <figure>
  <img src="/assets/imgs/agileipzig19/welcome-to-barcamp4-agileipzig19-thomas-steinert.jpg" alt="Stecktafel, Aufschrift: Welcome to Barcamp #4⭐😘😄"/>
@@ -75,9 +76,9 @@ Interaktive Aktivierungsspiele und Energizer mit Philipp Staat.
 Energizer/Warmups, um wieder in Fahrt zu kommen. Die folgenden hat Philipp uns erfahren lassen:
 
 - Line-Up/Stand the Line
-- Schnick Schnack Schnuck Tournament (K.O System)
+- Schnick Schnack Schnuck Tournament (K.O System)[^schnickschnackschnuck]
 - Menschliches Vier gewinnt
-- Das IMHO beste, den Namen des letzten Energizer liefere ich nach, versprochen!
+- Das IMHO beste, Overload[^overload]
 
 ## Personal Maps
 
@@ -243,6 +244,8 @@ und Saskia Brintrup[^sb] im Blog, liebe Grüße.
 [^mindset]: [Graphic Recording zu Agiles Mindset](https://twitter.com/ConradGiller/status/1172846794201546752)
 [^remoteQuote]: [Twitter: netzente Zitat](https://twitter.com/die_netzente/status/1172819979089141760)
 [^remoteFotokoll]: [Fotokoll zur Remote Session](https://twitter.com/frediontherun/status/1172827350574227456)
+[^schnickschnackschnuck]: [Extreme Rock, Paper, Scissors](https://www.icebreakers.ws/large-group/extreme-rock-paper-scissors.html)
+[^overload]: [Das Seminar Spiel für nach der Mittagspause!](https://www.workshop-spiele.de/das-seminar-spiel-nach-der-mittagspause-macht-alle-wach/)
 [^personalmaps]: [mngt 3.0, Personal Maps](https://management30.com/practice/personal-maps/)
 [^personalmapsFotokoll]: [Fotokoll zur Personal Maps Session](https://twitter.com/tschulze_gruene/status/1172872273444913152)
 [^session-idee]: [Session Ideen für Tag 2](https://twitter.com/frediontherun/status/1172905971531886592)
