@@ -52,7 +52,7 @@ Hier hier erfährst Du vielleicht noch mehr über mich.
 
 Das was ich mache, mache ich mit Leidenschaft und aus Überzeugung.
 
-Ich biete die folgenden Tätigkeiten auch freiberuflich neben meiner Anstellung:
+Ich biete die folgenden Tätigkeiten auch freiberuflich neben meiner Anstellung an:
 
 ### Moderation & Facilitierung
 
