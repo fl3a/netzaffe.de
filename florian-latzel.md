@@ -50,9 +50,9 @@ Hier hier erfährst Du vielleicht noch mehr über mich.
 
 ## Beruflich & Privat
 
-Das was ich mache, mache ich mit Leidenschaft.
+Das was ich mache, mache ich mit Leidenschaft und aus Überzeugung.
 
-Ich biete die folgenden Tätigkeiten auch neben meiner Anstellung freiberuflich an:
+Ich biete die folgenden Tätigkeiten auch freiberuflich neben meiner Anstellung:
 
 ### Moderation & Facilitierung
 
