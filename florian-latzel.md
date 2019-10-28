@@ -8,27 +8,26 @@ last_modified_at: 2019-06-05
 ---
 ## Über mich
 
-### Vorstellung in kurz & knapp
 <figure role="group">
   <img src="/assets/imgs/florian-latzel-reinblau-teamtreffen-2017-05-19-rkr.jpg" alt="Florian Latzel, Reinblau Teamtreffen, Mai 2017" />
   <figcaption>Florian Latzel, Reinblau Teamtreffen, Mai 2017, &copy; Ronald Krentz</figcaption>
 </figure>  
 
+### Vorstellung in kurz & knapp
+
 Hallo, ich heiße Florian Latzel.
 
 - Jahrgang 1978, in Köln geboren
-- seit 2006 freiberuflicher IT-Berater, seit 2018 [Scrum Master](/tags/scrum-master/index.html) bei REWE digital
+- seit 2006 freiberuflicher IT-Berater, seit 2018 fest als [Scrum Master](/tags/scrum-master/index.html) bei REWE digital
 - macht was mit Menschen, die was mit Computern machen
-- Staatl. gepr. Informatiker Fachrichtung Softwaretechnologie mit ein paar [Zertifikaten](/tags/zertifikat/index.html)
+- Staatl. gepr. Informatiker Fachrichtung Softwaretechnologie, hat [Zertifikate](/tags/zertifikat/index.html)
 - lebt und arbeitet im wunderschönen [Köln-Mülheim](/tags/muellem/index.html)
 - mag Rheinblick, [Reinblau](/tags/reinblau/index.html), gute Ideen, [Fahrräder](/tags/fahrrad/index.html) und ist gerne [draußen](/tags/draussen/index.html).
-- glaubt an [Open Source](/tags/open-source/index.html) und Karma und [Agile Softwareentwicklung](/tags/agile/index.html)
-
-Hier hier erfährst Du vielleicht noch mehr über mich.
+- glaubt an [Open Source](/tags/open-source/index.html), [Agile Softwareentwicklung](/tags/agile/index.html) und Karma
 
 ### Sonstwo im Interweb
 
-Hier findest du mich auch noch:
+Du findest mich auch noch hier:
 
 - [~~facebook~~](/2014/08/28/facebook-tschoe-mit-oe-mit-oe.html)
 - [twitter](http://twitter.com/fl3a)
@@ -39,21 +38,47 @@ Hier findest du mich auch noch:
 - [slideshare](http://de.slideshare.net/fl3a)
 - [linkedin](https://de.linkedin.com/in/florianlatzel/en)
 
-Sag gerne hallo via EMail, noch lieber via [PGP/GnuPG verschlüsselter EMail](/gnupg-micro-howto.html), 
-[hier](https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x768146CD269B69D1) ist mein [GnuPG-Key](/gnupg-micro-howto.html).
-
-### Beruflich & Privat
-
-Ich versuche Berufliches und Privates so gut es geht zu trennen.
-Bitte hilf mir dabei!
-
-Wenn Du ein Anliegen also beruflicher Natur hast, dann besuche doch bitte [is-loesungen.de](https://is-loesungen.de)
-dort erfährst Du auch etwas mehr über meine Dienstleistungen, Einsatzgebiete, bisherigen Projekte 
-
-Benutze bitte die dortigen Kontaktmöglichkeiten!
-
-Wir sollten dann Dein Anliegen bei einer Tasse Kaffee besprechen.
+Sag gerne hallo via EMail, am liebsten [PGP/GnuPG verschlüsselt](/gnupg-micro-howto.html), 
+[hier](https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x768146CD269B69D1) 
+findest du meinen [öffentlichen GnuPG-Schlüssel](/gnupg-micro-howto.html).
 
 ## Über diese Seite
 
-Das ist mein privates Blog, manchmal schreibe ich hier etwas über [Themen](/themen.html).
+Das ist mein privates Blog, manchmal schreibe ich hier etwas über [dies, das, verschiedene Dinge](/themen.html).
+
+Hier hier erfährst Du vielleicht noch mehr über mich.
+
+## Beruflich & Privat
+
+Das was ich mache, mache ich mit Leidenschaft.
+
+Ich biete die folgenden Tätigkeiten auch weiterhin nebenberuflich an:
+
+### Moderation & Facilitierung
+
+Facilitierung von *Open Spaces* und Retrospektiven, Moderation von Workshops und Großgruppen.\\
+Fördern von Ergebnissen, Partizipativ und Co-Kreativ.
+
+### Workshops 
+
+Agilität, Scrum, *Personal Kanban*, *Iteratives Arbeiten*, *Visual Facilitating*, *Team-Building*.\\
+Begreifbar, fühlbar machen durch Simulationen und Spiele.
+
+### Beratung
+
+Ich stelle meine Erfahrung auch als Berater zur Verfügung.
+
+### ~~Projekte~~
+
+Frag mich bitte **nicht für Projekte** an, das lässt meine Zeit nicht zu\\
+und es wird für dich auch nicht zielführend sein.
+
+Wenn Du ein Anliegen also beruflicher Natur hast, 
+dann kontaktiere mich bitte über <https://is-loesungen.de>,
+dort erfährst Du auch noch etwas mehr über meine Dienstleistungen, 
+Einsatzgebiete, bisherigen Projekte und Kunden.
+
+Ich versuche Berufliches und Privates so gut es geht zu trennen.\\
+Bitte hilf mir dabei!
+
+Wir können dein Anliegen dann gerne bei einer Tasse Kaffee besprechen.
