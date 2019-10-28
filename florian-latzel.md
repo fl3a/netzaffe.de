@@ -24,6 +24,7 @@ Hallo, ich heiße Florian Latzel.
 - lebt und arbeitet im wunderschönen [Köln-Mülheim](/tags/muellem/index.html)
 - mag Rheinblick, [Reinblau](/tags/reinblau/index.html), gute Ideen, Bewegung, [Fahrräder](/tags/fahrrad/index.html) und ist gerne [draußen](/tags/draussen/index.html).
 - glaubt an [Open Source](/tags/open-source/index.html), [Agile Softwareentwicklung](/tags/agile/index.html) und Karma
+- hört nur Elektro und Ramones, ist vielschichtig, wie eine Zwiebel, teils selbstironisch
 
 ### Sonstwo im Interweb
 
