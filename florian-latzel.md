@@ -22,7 +22,7 @@ Hallo, ich heiße Florian Latzel.
 - macht was mit Menschen, die was mit Computern machen
 - Staatl. gepr. Informatiker Fachrichtung Softwaretechnologie, hat [Zertifikate](/tags/zertifikat/index.html)
 - lebt und arbeitet im wunderschönen [Köln-Mülheim](/tags/muellem/index.html)
-- mag Rheinblick, [Reinblau](/tags/reinblau/index.html), gute Ideen, [Fahrräder](/tags/fahrrad/index.html) und ist gerne [draußen](/tags/draussen/index.html).
+- mag Rheinblick, [Reinblau](/tags/reinblau/index.html), gute Ideen, Bewegung, [Fahrräder](/tags/fahrrad/index.html) und ist gerne [draußen](/tags/draussen/index.html).
 - glaubt an [Open Source](/tags/open-source/index.html), [Agile Softwareentwicklung](/tags/agile/index.html) und Karma
 
 ### Sonstwo im Interweb
@@ -52,33 +52,32 @@ Hier hier erfährst Du vielleicht noch mehr über mich.
 
 Das was ich mache, mache ich mit Leidenschaft.
 
-Ich biete die folgenden Tätigkeiten auch weiterhin nebenberuflich an:
+Ich biete die folgenden Tätigkeiten auch neben meiner Anstellung freiberuflich an:
 
 ### Moderation & Facilitierung
 
-Facilitierung von *Open Spaces* und Retrospektiven, Moderation von Workshops und Großgruppen.\\
-Fördern von Ergebnissen, Partizipativ und Co-Kreativ.
+Moderation von individuellen Workshops und Großgruppen.\\
+Facilitierung von *Open Spaces* und Retrospektiven.\\
+Fördern von Gruppenprozessen und Ergebnissen, Partizipativ und Co-Kreativ.
 
 ### Workshops 
 
-Agilität, Scrum, *Personal Kanban*, *Iteratives Arbeiten*, *Visual Facilitating*, *Team-Building*.\\
-Begreifbar, fühlbar machen durch Simulationen und Spiele.
+Durchführung von Workshops zu [Agilität](/tags/agile), *Iterativen Arbeiten* und *New Work* wie z.B. [Scrum](/tags/scrum)
+und Kanban, *Visual Facilitating* und *[Team-Building](/tags/teambuilding)*. Simulationen und Spiele.\\
+Lebendige Workshops. Begreifbar und fühlbar.
 
 ### Beratung
 
-Ich stelle meine Erfahrung auch als Berater zur Verfügung.
+Ich stelle meine Erfahrung als Berater zur Verfügung.
 
 ### ~~Projekte~~
 
 Frag mich bitte **nicht für Projekte** an, das lässt meine Zeit nicht zu\\
-und es wird für dich auch nicht zielführend sein.
+und es ist für dich oder deine Kunden auch nicht zielführend!
 
 Wenn Du ein Anliegen also beruflicher Natur hast, 
-dann kontaktiere mich bitte über <https://is-loesungen.de>,
-dort erfährst Du auch noch etwas mehr über meine Dienstleistungen, 
-Einsatzgebiete, bisherigen Projekte und Kunden.
-
+dann kontaktiere mich bitte über <https://is-loesungen.de>.\\
 Ich versuche Berufliches und Privates so gut es geht zu trennen.\\
 Bitte hilf mir dabei!
 
-Wir können dein Anliegen dann gerne bei einer Tasse Kaffee besprechen.
+Wir können dein Anliegen und Details dann gerne bei einer Tasse Kaffee besprechen!
