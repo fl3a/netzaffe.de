@@ -4,7 +4,7 @@ title: Florian Latzel
 toc: true
 permalink: /florian-latzel
 image: /assets/imgs/florian-latzel-reinblau-teamtreffen-2017-05-19-rkr.jpg
-last_modified_at: 2019-06-05
+last_modified_at: 2019-10-30
 ---
 ## Über mich
 
@@ -53,7 +53,7 @@ Hier hier erfährst Du vielleicht noch mehr über mich.
 
 Das was ich mache, mache ich mit Leidenschaft und aus Überzeugung.
 
-Ich biete die folgenden Tätigkeiten auch freiberuflich neben meiner Anstellung an:
+Ich biete die folgenden Tätigkeiten auch nebenberuflich an:
 
 ### Moderation & Facilitierung
 
@@ -70,6 +70,10 @@ Lebendige Workshops. Begreifbar und fühlbar.
 ### Beratung
 
 Ich stelle meine Erfahrung als Berater zur Verfügung.
+
+### Coaching
+
+Impulse, Anregungen, eröffnen von Perspektiven.
 
 ### ~~Projekte~~
 
