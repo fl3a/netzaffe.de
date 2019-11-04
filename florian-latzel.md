@@ -32,7 +32,7 @@ Du findest mich auch noch hier:
 
 - [~~facebook~~](/2014/08/28/facebook-tschoe-mit-oe-mit-oe.html)
 - [twitter](http://twitter.com/fl3a)
-- [soundcloud](http://soundcloud.com/florian-latzel/favorites)
+- [soundcloud](http://soundcloud.com/fl3a)
 - [drupal.org](http://drupal.org/user/51103)
 - [github](https://github.com/fl3a)
 - [xing](http://www.xing.com/profile/Florian_Latzel)
