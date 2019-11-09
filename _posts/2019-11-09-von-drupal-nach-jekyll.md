@@ -16,7 +16,7 @@ image: /assets/imgs/jekyll-logo-dark-solid.png
 </figure>
 tl;dr Von Drupal[^drupal] nach Jekyll[^jekyll].   
 Seit Anfang 2019 läuft mein Blog bereits mit Jekyll[^jekyll], 
-einen *Statischen Seiten Generator*.
+einen *Statischen Seiten Generator*.  
 Dieser Artikel beschreibt, 
 warum ich nach fast 15 Jahren *Drupal CMS Framework*[^drupal] 
 durch *Jekyll SSG* als zugrundeliegende Technologie ersetzt habe.<!--break-->
