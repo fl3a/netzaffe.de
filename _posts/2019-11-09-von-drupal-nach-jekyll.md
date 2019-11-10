@@ -6,8 +6,10 @@ tags:
 - Open Source
 - SSG
 - netzaffe
+- uberspace
 layout: post
 toc: true
+last_modified_at: 2019-11-10 11:48
 image: /assets/imgs/jekyll-logo-dark-solid.png
 ---
 <figure role="group">
