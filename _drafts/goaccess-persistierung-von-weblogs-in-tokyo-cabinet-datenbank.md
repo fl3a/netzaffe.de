@@ -1,8 +1,7 @@
 ---
 layout: post
-date: "2020-01-08 08:50:05 +0100"
 image:
-toc: false
+toc: true
 tags:
 - Linux
 - uberspace
@@ -12,8 +11,101 @@ tags:
 - Logs
 - Analytics
 - Datenbank 
-title: "GoAccess: Persistierung von WebLogs in Tokyo Cabinet Datenbank"
+title: "GoAccess: Inkrementelle Persistierung von WebLogs in Tokyo Cabinet Datenbank"
 ---
+
+<!--break-->
+## Vorbereitungen
+
+### Anknipsen der AccessLogs auf U7
+
+Wenn du, wie ich auf *Uberspace 7* unterwegs bist, 
+dann musst du die AccessLogs erst aktivieren[^u7logs], 
+da per Default gar keine *Webserver Logs* geschrieben werden.
+Diese müssen erst aktiviert werden. 
+
+Zur Aktivierung der AccessLogs:
+
+```
+uberspace web log access enable
+```
+
+### Zukünftige Heimat der Datenbank
+
+Da GoAccess seine Datenbank per Default nach `/tmp` schreibt, 
+wo a, die Dateien flüchtig sind 
+und b, rein theoretisch von jedem lesbar sind, 
+legen wir in unserm `$HOME` ein Verzeichnis dafür an.
+
+```
+mkdir $HOME/goaccess.db
+```
+
+### Zeitpunkt für die Cronjobs bestimmen
+
+Wann erfolgt die Rotation der Webserver Logfiles?
+
+```
+ls -l logs/webserver/
+
+```
+
+```
+insgesamt 15668
+-rw-r--r--. 1 root root  582507  9. Jan 10:45 access_log
+-rw-r--r--. 1 root root 1839549  9. Jan 03:54 access_log.1
+-rw-r--r--. 1 root root 2194096  8. Jan 03:59 access_log.2
+-rw-r--r--. 1 root root 2115343  7. Jan 03:59 access_log.3
+-rw-r--r--. 1 root root 2161323  6. Jan 03:59 access_log.4
+-rw-r--r--. 1 root root 1999593  5. Jan 03:59 access_log.5
+-rw-r--r--. 1 root root 2332544  4. Jan 03:58 access_log.6
+-rw-r--r--. 1 root root 2744661  3. Jan 03:59 access_log.7
+```
+
+Ein guter Zeitpunkt wäre gegen kurz nach vier um via Cronjob den gestrigen Tag in der Dastenbank zu pesistieren.
+
+## Der Einzeiler zum prozessieren des AccessLogs
+
+Dieser Einzeiler bereitet die das gestrige *AccessLogFile* auf
+und persistiert es in der Datenbank:
+
+
+## Der Einzeiler zum prozessieren des AccessLogs
+
+Dieser Einzeiler bereitet die das gestrige *AccessLogFile* auf
+und persistiert es in der Datenbank:
+
+```
+#!/bin/bash
+goaccess -p $HOME/etc/goaccess/goaccess.conf \
+  --process-and-exit $HOME/logs/webserver/access_log.1 \
+  --keep-db-file --load-from-disk --db-path=$HOME/goaccess.db/ 
+```  
+## Der Einzeiler zur Generierung des HTML-Reports aus der Datenbank
+
+Dieser Einzeiler generiert einen *HTML Report* aus der Datenbank. 
+
+```
+#!/bin/bash
+goaccess -p $HOME/etc/goaccess/goaccess.conf \
+  --load-from-disk --db-path=$HOME/goaccess.db/ --keep-db-files \
+  -a -o ~/html/index.html
+```
+
+### Verwendete Optionen mit Datenbank Bezug
+
+- `--process-and-exit` 
+- `--keep-db-file` 
+- `--load-from-disk`
+- `--db-path=$HOME/goaccess.db/`
+
+
+# Die Cronjobs anlegen
+
+```
+5 4 * * * /home/cleo/bin/goaccessParseYesterdaysLog
+10 4 * * * /home/cleo/bin/goaccess2html
+```
 
 ```  
 checking for tchdbnew in -ltokyocabinet... no
@@ -78,36 +170,9 @@ Your build configuration:
   TLS/SSL        : no
   Bugs           : goaccess@prosoftcorp.com
 ```
+* * * 
 
-```
-ls -l logs/webserver/
-insgesamt 15668
--rw-r--r--. 1 root root  582507  9. Jan 10:45 access_log
--rw-r--r--. 1 root root 1839549  9. Jan 03:54 access_log.1
--rw-r--r--. 1 root root 2194096  8. Jan 03:59 access_log.2
--rw-r--r--. 1 root root 2115343  7. Jan 03:59 access_log.3
--rw-r--r--. 1 root root 2161323  6. Jan 03:59 access_log.4
--rw-r--r--. 1 root root 1999593  5. Jan 03:59 access_log.5
--rw-r--r--. 1 root root 2332544  4. Jan 03:58 access_log.6
--rw-r--r--. 1 root root 2744661  3. Jan 03:59 access_log.7
-```
 
-```
-#!/bin/bash
-goaccess -p $HOME/etc/goaccess/goaccess.conf \
-  --load-from-disk --db-path=$HOME/goaccess.db/ --keep-db-files \
-  -a -o ~/html/index.html
-```
-
-```
-#!/bin/bash
-goaccess -p $HOME/etc/goaccess/goaccess.conf \
-  --process-and-exit $HOME/logs/webserver/access_log.1 \
-  --load-from-disk --db-path=$HOME/goaccess.db/ --keep-db-file
-```  
-
-```
-5 4 * * * /home/cleo/bin/goaccessParseYesterdaysLog
-10 4 * * * /home/cleo/bin/goaccess2html
-```
-
+[^tcb]: [Tokyo Cabinet DBM] (https://fallabs.com/tokyocabinet/)
+[^dbm]: [DBM \(Datenbank\)](https://de.wikipedia.org/wiki/DBM_(Datenbank))
+[^u7logs]: https://manual.uberspace.de/web-logs.html
