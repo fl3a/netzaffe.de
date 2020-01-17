@@ -4,9 +4,10 @@ image:
 toc: true
 tags:
 - London
+- Urlaub
 - draussen
 - Craft Beer
-- Beer
+- Bier
 title: "Beercation in London"
 ---
 
@@ -17,15 +18,15 @@ title: "Beercation in London"
 
 Mauritz Borg[^mauritzInsta] [^mauritzBeerPeople] 
 
-https://www.instagram.com/stories/mauritzborg
-
-http://www.mattthelist.com/2018/08/25/beer-people-1-mauritz-borg/
+> Friends keep friends hydated.
 
 ### Kings Arms
 
 ### The Kernel
 
 ### Cloudwater Taproom
+
+Seb aus dem Ruhrpott
 
 ### The raven
 
@@ -39,6 +40,10 @@ http://www.mattthelist.com/2018/08/25/beer-people-1-mauritz-borg/
 
 ### Beigel bake
 
+https://commons.wikimedia.org/wiki/File:Beigel_Bake,_Brick_Lane_(33936265604).jpg
+https://de.wikipedia.org/wiki/Datei:Beigel_Bake_front.jpg / https://www.flickr.com/photos/alanstanton/5946496488/
+
+
 White beigel, Salted beef, Gurke Senf, Cash only
 
 ### Brewdog Shoreditch
@@ -51,7 +56,9 @@ White beigel, Salted beef, Gurke Senf, Cash only
 
 ### Pembury tavern
 
-### Experiment
+### The Experiment
+
+Pressure Drop x Verdant
 
 ### Boxcar
 
@@ -97,7 +104,12 @@ Moniques erstes Mal Cask Bier zapfen
 
 ### E. Pellicci
 
+https://www.flickr.com/photos/loopzilla/74431314/in/photostream/
+https://www.flickr.com/photos/57868312@N00/48061654042
+
+
 Full English breakfast since 1900 <https://epellicci.co.uk/>
+https://thekraytwins.fandom.com/wiki/E._Pellicci Kray Twins, Legend (2015)
 
 ### National Museum
 
@@ -122,6 +134,7 @@ Full English breakfast since 1900 <https://epellicci.co.uk/>
 
 [^mauritzInsta]: [@mauritzborg](https://www.instagram.com/mauritzborg/)
 [^mauritzBeerPeople]: [mattthelist.com: Beer People #1 | Mauritz Borg](http://www.mattthelist.com/2018/08/25/beer-people-1-mauritz-borg/)
-
-
+[^beigelBake1]: <https://londonist.com/london/food/things-you-probably-didn-t-know-about-beigel-bake>
+[^beigelBake2]: <https://en.wikipedia.org/wiki/Beigel_Bake>
+[^deepa]: <https://www.airbnb.de/rooms/596013?source_impression_id=p3_1579025855_hJCvKwyHxVxyx1mE>
 
