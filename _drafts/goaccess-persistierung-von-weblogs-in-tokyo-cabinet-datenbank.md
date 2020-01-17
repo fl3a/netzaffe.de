@@ -3,6 +3,7 @@ layout: post
 image:
 toc: true
 tags:
+- GoAccess
 - Linux
 - uberspace
 - howto
@@ -99,12 +100,21 @@ goaccess -p $HOME/etc/goaccess/goaccess.conf \
 - `--load-from-disk`
 - `--db-path=$HOME/goaccess.db/`
 
+#### Tokyo Cabinet Options in goaccess.conf
+
+```
+keep-db-files true
+load-from-disk false
+db-path /tmp/
+```
+
+
 
 # Die Cronjobs anlegen
 
 ```
-5 4 * * * /home/cleo/bin/goaccessParseYesterdaysLog
-10 4 * * * /home/cleo/bin/goaccess2html
+5 4 * * * goaccessParseYesterdaysLog
+10 4 * * * goaccess2html
 ```
 
 ```  
